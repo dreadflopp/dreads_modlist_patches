@@ -30,7 +30,7 @@ These patches replaces the STEP patch. It comes with a neat FOMOD installer that
 - You need to use the Unofficial Skyrim Special Edition Patch
 - If you are going to use the Creation Club Survival Mode, you should also use Weapon Armor Clothing Clutter Fixes to avoid inconsistencies
 - Cloaks of Skyrim and Winter is coming should be used together or not at all for the patches to work.
-- Records from the Particle patch is not forwarded since ELE should override it. If you use the particle patch without ELE, this becomes a problem. You will have to forward the records yourself using xEdit.
+- Records from the Particle patch is not forwarded since the plugin is obsolete if you use [ENB Helper](https://www.nexusmods.com/skyrimspecialedition/mods/23174), which you really should if you are using an ENB
 
 The patches are checked against the STEP patch to make sure everything that it patches is patched by these patches too.
 
@@ -186,6 +186,7 @@ Install the WACCF patch. The USSEP-patch isn't needed if you use SMIM, CFTO or R
 #### [Moon and Star](http://www.nexusmods.com/skyrimspecialedition/mods/4301)
 
 ## Gameplay - Skills & Perks
+*To use mods in this section, deactivate Smithing Perks Overhaul from STEP SE: Core.*
 #### [Vokrii - Minimalistic Perks of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/26176)
 
 ## Locations
