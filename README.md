@@ -1,5 +1,3 @@
-# dreads_modlist_patches
-
 # Introduction
 This modlist an addon or build for the [STEP: Core guide for Skyrim Special Edition](https://forum.step-project.com/topic/14603-dreads-step-se-core-addon/).
 
