@@ -55,7 +55,7 @@ ICAIO = Immersive Citizens – AI Overhaul
 >4. Tick the checkbox Build Morphs.
 >5. Click the button Build.
 >6. Click on the spyglass at the field Group filter and choose Choose groups.
->7. Check the following and click ok: CBBE vanilla outfits, Frankly HD, Immersive Armors SSE CBBE.
+>7. Check the following and click ok: CBBE vanilla outfits, Frankly HD, Immersive Armors SSE CBBE, WACCF.
 >8. Click the button Batch build…
 >9. Click build.
 >10. Make sure no physics options are checked. Check all Frankly options. Click ok and close BodySlide. The meshes that has been built are placed in Mod Organizers overwrite folder and can be moved if you choose to.
@@ -135,6 +135,7 @@ Download Improved Closefaced Helmets Patch v1 and choose SkyRealism Shiny in the
 ## Gameplay - General
 #### [Andromeda - Unique Standing Stones of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/14910)
 #### [Apocalypse - Magic of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/1090)
+Install the main file and the Vokrii patch
 #### [UIExtensions](https://www.nexusmods.com/skyrimspecialedition/mods/17561)
 This is needed by Class Overhaul Re-Imagined
 #### [Class Overhaul Re-Imagined (SkyRem - Cori)](https://www.nexusmods.com/skyrimspecialedition/mods/24808)
@@ -264,6 +265,7 @@ The fomod installer will identify which patches you need and select them automat
 #### [Unofficial Moonpath to Elsweyr Patch](http://www.nexusmods.com/skyrimspecialedition/mods/15882)
 #### [Unofficial Skyrim Creation Club Content Patches](http://www.nexusmods.com/skyrimspecialedition/mods/18975)
 Choose the Unofficial Skyrim Survival Patch.
+#### [Weapons Armor Clothing and Clutter Fixes - CBBE Patch](https://www.nexusmods.com/skyrimspecialedition/mods/19176)
 #### [QUASIPC - Qwinn's Unified Automated Self Installing Patch Compendium](http://www.nexusmods.com/skyrimspecialedition/mods/18369)
 Install the Interesting NPCs - CACO patch
 #### [Dread's modlist patches](https://github.com/dreadflopp/dreads_modlist_patches)
