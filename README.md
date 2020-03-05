@@ -177,7 +177,7 @@ Install the WACCF patch. The USSEP-patch isn't needed if you use SMIM, CFTO or R
 #### [Moon and Star](http://www.nexusmods.com/skyrimspecialedition/mods/4301)
 #### [Moonpath to Elsweyr SSE](http://www.nexusmods.com/skyrimspecialedition/mods/4341)
 
-## Gameplay - Skills & Perks
+## Gameplay - Races, Skills, Perks & Magic
 *To use mods in this section, deactivate Smithing Perks Overhaul from STEP SE: Core.*
 #### [Andromeda - Unique Standing Stones of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/14910)
 #### [Apocalypse - Magic of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/1090)
