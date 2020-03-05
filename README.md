@@ -101,15 +101,15 @@ Install main file
 Install the patch for Cloaks of Skyrim only if you are not using Complete Crafting Overhaul Remade.
 
 ## Items - Weapons Armor and Clothing - Cathedral Concept
-*This whole section should be used together or not at all.
-- Disable the following STEP mods:
-- LeanWolf's Better-Shaped Weapons (included in the mod)
-- aMidianBorn Book of Silence
-- aMidianBorn Blades Armor SSE Patch
-- aMidianBorn imperial light and studded
-- aMidianBorn stormcloak officer armour*
+*This whole section should be used together or not at all.*
+- *Disable the following STEP mods:*
+- *LeanWolf's Better-Shaped Weapons (included in the mod)*
+- *aMidianBorn Book of Silence*
+- *aMidianBorn Blades Armor SSE Patch*
+- *aMidianBorn imperial light and studded*
+- *aMidianBorn stormcloak officer armour*
 
-#### Weapons Armor and Clothing - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/20199)
+#### [Weapons Armor and Clothing - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/20199)
 Choose CBBE in the installer if you use CBBE.
 Hide or delete the file _CalienteTools\BodySlide\ShapeData\CBBE Vanilla\Body\Ebony.nif_ since this mesh is causing issues.
 #### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
