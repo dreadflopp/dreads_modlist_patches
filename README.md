@@ -61,8 +61,6 @@ ICAIO = Immersive Citizens – AI Overhaul
 >10. Make sure no physics options are checked. Check all Frankly options. Click ok and close BodySlide. The meshes that has been built are placed in Mod Organizers overwrite folder and can be moved if you choose to.
 
 # The actual mod list
-## Audiovisual – Models & Textures
-#### [Splendor – Dragon Variants SE](http://www.nexusmods.com/skyrimspecialedition/mods/9670)
 ## Character Appearance
 #### [Caliente’s Beautiful Bodies Enhancer -CBBE-](https://www.nexusmods.com/skyrimspecialedition/mods/198)
 *NSFW warning*
@@ -84,6 +82,7 @@ In the installer, choose what you want, for example: high, CBBE slim, medium, li
 #### [Salt and Wind – Rough Hair for KS Hairdos SE](http://www.nexusmods.com/skyrimspecialedition/mods/16582)
 #### [TDN Equipable Horns SE](http://www.nexusmods.com/skyrimspecialedition/mods/9224)
 Skip this mod if you do not intend to use horns for your character.
+
 ## Items – Armor, Clothing, Accessories & Weapons
 #### [Bandolier - Bags and Pouches Classic](http://www.nexusmods.com/skyrimspecialedition/mods/2417)
 #### [Cloaks of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/6369)
@@ -101,7 +100,7 @@ Install main file
 #### [Winter Is Coming SSE - Cloaks](http://www.nexusmods.com/skyrimspecialedition/mods/4933)
 Install the patch for Cloaks of Skyrim only if you are not using Complete Crafting Overhaul Remade.
 
-## Weapons Armor and Clothing - Cathedral Concept
+## Items - Weapons Armor and Clothing - Cathedral Concept
 *This whole section should be used together or not at all.
 - Disable the following STEP mods:
 - LeanWolf's Better-Shaped Weapons (included in the mod)
@@ -110,7 +109,7 @@ Install the patch for Cloaks of Skyrim only if you are not using Complete Crafti
 - aMidianBorn imperial light and studded
 - aMidianBorn stormcloak officer armour*
 
-#### [Weapons Armor and Clothing - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/20199)
+#### Weapons Armor and Clothing - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/20199)
 Choose CBBE in the installer if you use CBBE.
 Hide or delete the file _CalienteTools\BodySlide\ShapeData\CBBE Vanilla\Body\Ebony.nif_ since this mesh is causing issues.
 #### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
@@ -132,42 +131,34 @@ Install the CBBE patch.
 #### [Improved Closedfaced Helmets](https://www.nexusmods.com/skyrim/mods/15927)
 Download Improved Closefaced Helmets Patch v1 and choose SkyRealism Shiny in the installer. Install this as a new mod, making sure to not overwrite or merge it with the mod installed with STEP.
 
-## Gameplay - General
-#### [Andromeda - Unique Standing Stones of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/14910)
-#### [Apocalypse - Magic of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/1090)
-Install the main file and the Vokrii patch
-#### [UIExtensions](https://www.nexusmods.com/skyrimspecialedition/mods/17561)
-This is needed by Class Overhaul Re-Imagined
-#### [Class Overhaul Re-Imagined (SkyRem - Cori)](https://www.nexusmods.com/skyrimspecialedition/mods/24808)
-#### [Experience](http://www.nexusmods.com/skyrimspecialedition/mods/17751)
-#### [Growl - Werebeasts of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/31245)
-#### [Imperious - Races of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/1315)
-#### [Sacrosanct - Vampires of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/3928)
-#### [Thunderchild - Epic Shouts and Immersion](http://www.nexusmods.com/skyrimspecialedition/mods/1460)
-
-## Gameplay - AI & Combat
-#### [Daedric Voices](https://www.nexusmods.com/skyrimspecialedition/mods/32090)
-Install the main file and the Growl patch.
+## Enemies
 #### [Deadly Dragons](http://www.nexusmods.com/skyrimspecialedition/mods/23723)
 Choose Loremonger version with patches for Diverse Dragons, Splender Dragons and Wyrmstooth.
 #### [Diverse Dragons Collection SE](http://www.nexusmods.com/skyrimspecialedition/mods/695)
 #### [OBIS SE - Organized Bandits In Skyrim Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/4145)
 Install main file and OBIS SE Patrols addon.
 #### [Skyrim Revamped - Complete Enemy Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/14598)
+#### [Splendor – Dragon Variants SE](http://www.nexusmods.com/skyrimspecialedition/mods/9670)
+
+## Characters - NPC's, followers and encounters
+#### [Immersive Patrols SE](http://www.nexusmods.com/skyrimspecialedition/mods/718)
+#### [Immersive World Encounters SE](https://www.nexusmods.com/skyrimspecialedition/mods/18330)
+#### [INIGO](http://www.nexusmods.com/skyrimspecialedition/mods/1461)
+#### [Interesting NPCs SE](https://www.nexusmods.com/skyrimspecialedition/mods/29194)
+#### [Interesting NPCs (3DNPC) character Zora Fairchild's voice boosted](http://www.nexusmods.com/skyrimspecialedition/mods/16090)
+
+## Gameplay - AI & Combat
 #### [Ultimate Combat SE](http://www.nexusmods.com/skyrimspecialedition/mods/17196)
 
 ## Gameplay - Immersion & Role-playing
 #### [Campfire - Complete Camping System](http://www.nexusmods.com/skyrimspecialedition/mods/667)
 Hide or delete the file _SKSE/Plugins/PapyrusUtil.dll_. It is outdated and we need to use the newer one from PapyrusUtil SE that is installed with STEP Core.
 #### [Campfire and Frostfall - Unofficial SSE Update](http://www.nexusmods.com/skyrimspecialedition/mods/17925)
-#### [ElSopa - Campfire HD SE](http://www.nexusmods.com/skyrimspecialedition/mods/24511)
 #### [Carriage and Ferry Travel Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/8379)
 Install patches for Immersive Citizens - AI Overhaul and Dawnstar.
-#### [Immersive Patrols SE](http://www.nexusmods.com/skyrimspecialedition/mods/718)
-#### [Immersive World Encounters SE](https://www.nexusmods.com/skyrimspecialedition/mods/18330)
-#### [INIGO](http://www.nexusmods.com/skyrimspecialedition/mods/1461)
-#### [Interesting NPCs SE](https://www.nexusmods.com/skyrimspecialedition/mods/29194)
-#### [Interesting NPCs (3DNPC) character Zora Fairchild's voice boosted](http://www.nexusmods.com/skyrimspecialedition/mods/16090)
+#### [Daedric Voices](https://www.nexusmods.com/skyrimspecialedition/mods/32090)
+Install the main file and the Growl patch.
+#### [ElSopa - Campfire HD SE](http://www.nexusmods.com/skyrimspecialedition/mods/24511)
 #### [Lock Related Loot](http://www.nexusmods.com/skyrimspecialedition/mods/11342)
 #### [Nether's Follower Framework](http://www.nexusmods.com/skyrimspecialedition/mods/18076)
 Choose the following: Followers avoid traps, Interesting NPC support, Relationship Dialogue Overhaul, RDO Comments
@@ -184,10 +175,23 @@ Choose the following: Followers avoid traps, Interesting NPC support, Relationsh
 Install the WACCF patch. The USSEP-patch isn't needed if you use SMIM, CFTO or Realistic Water 2.
 #### [Helgen Reborn](http://www.nexusmods.com/skyrimspecialedition/mods/5673)
 #### [Moon and Star](http://www.nexusmods.com/skyrimspecialedition/mods/4301)
+#### [Moonpath to Elsweyr SSE](http://www.nexusmods.com/skyrimspecialedition/mods/4341)
 
 ## Gameplay - Skills & Perks
 *To use mods in this section, deactivate Smithing Perks Overhaul from STEP SE: Core.*
+#### [Andromeda - Unique Standing Stones of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/14910)
+#### [Apocalypse - Magic of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/1090)
+#### [Class Overhaul Re-Imagined (SkyRem - Cori)](https://www.nexusmods.com/skyrimspecialedition/mods/24808)
+#### [Experience](http://www.nexusmods.com/skyrimspecialedition/mods/17751)
+#### [Growl - Werebeasts of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/31245)
+#### [Imperious - Races of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/1315)
+#### [Sacrosanct - Vampires of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/3928)
+#### [Thunderchild - Epic Shouts and Immersion](http://www.nexusmods.com/skyrimspecialedition/mods/1460)
 #### [Vokrii - Minimalistic Perks of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/26176)
+
+## Interface
+#### [UIExtensions](https://www.nexusmods.com/skyrimspecialedition/mods/17561)
+This is needed by Class Overhaul Re-Imagined
 
 ## Locations
 #### [Bells of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/10495)
@@ -196,7 +200,6 @@ Install the patch for Immersive Citizens - AI overhaul
 #### [Immersive College of Winterhold](http://www.nexusmods.com/skyrimspecialedition/mods/17004)
 Choose desaturated book covers, RLS SSE Patch, Better Dynamic Snow Patch, Skyrim Project Optimization SSE Patch.
 #### [Immersive Dawnguard Dayspring Pass SE](http://www.nexusmods.com/skyrimspecialedition/mods/4126)
-#### [Moonpath to Elsweyr SSE](http://www.nexusmods.com/skyrimspecialedition/mods/4341)
 #### [Solitude Skyway](http://www.nexusmods.com/skyrimspecialedition/mods/8250)
 #### [Windhelm Lighthouse](http://www.nexusmods.com/skyrimspecialedition/mods/8453)
 #### [Wyrmstooth SSE](https://archive.org/details/wyrmstooth1.18SSE)
