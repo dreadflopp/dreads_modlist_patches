@@ -178,17 +178,27 @@ Install the WACCF patch. The USSEP-patch isn't needed if you use SMIM, CFTO or R
 #### [Moon and Star](http://www.nexusmods.com/skyrimspecialedition/mods/4301)
 #### [Moonpath to Elsweyr SSE](http://www.nexusmods.com/skyrimspecialedition/mods/4341)
 
-## Gameplay - Races, Skills, Perks & Magic
-*To use mods in this section, deactivate Smithing Perks Overhaul from STEP SE: Core.*
-#### [Andromeda - Unique Standing Stones of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/14910)
-#### [Apocalypse - Magic of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/1090)
+## Gameplay - Skills, Perks & Magic
+*The mods in this section edits the skill trees and for that reason they are incompatible with other mods that does this. It is possible to make patches and merge skill trees but I prefer to stick to the mod authors vision and not mix skill and perk mods. If you use the mods in this section, deacuninstalltivate Complete Alchemy and Cooking Overhaul and Smithing Perks Overhaul which are the two Skill and perk mods featured in the STEP guide. Users should alson consider uninstalling Weapons Armor Clothing Clutter Fixes since it also edits perks. Some features of WACCF are replaced by Adamant so they should work together but I prefer to simply not use WACCF, which meand that Complete Crafting Overhaul Remade has to be uninstalled to since it depend on WACCF.*
+#### [Adamant - A Perk Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/30191)
+Check the sticked posts in the posts section to find the beta for 2.0
+#### [Aetherius - A Race and Standing Stone Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/26686)
+#### [Mysticism - A Magic Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/27839)
+Install the main file and the Survival patch. Do not install the Audio Overhaul Skyrim patch.
+
+## Gameplay - Races, Classes & Shouts
 #### [Class Overhaul Re-Imagined (SkyRem - Cori)](https://www.nexusmods.com/skyrimspecialedition/mods/24808)
 #### [Experience](http://www.nexusmods.com/skyrimspecialedition/mods/17751)
 #### [Growl - Werebeasts of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/31245)
-#### [Imperious - Races of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/1315)
 #### [Sacrosanct - Vampires of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/3928)
 #### [Thunderchild - Epic Shouts and Immersion](http://www.nexusmods.com/skyrimspecialedition/mods/1460)
-#### [Vokrii - Minimalistic Perks of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/26176)
+
+## Gameplay - Replcaing CACO and CCOR
+*If you have uninstalled Complete Alchemy and Cooking Overhaul or Complete Crafting Overhaul remade, here are some replacement mods.*
+#### [Ars Metallica - Smithing Enhancement](https://www.nexusmods.com/skyrimspecialedition/mods/321)
+Replaces functionallity in CCOR
+#### [Wiseman303's Flora Fixes](https://www.nexusmods.com/skyrim/mods/70656)
+Replaces functionaillity in CACO. Install main file and patches for SMIM and INIGO.
 
 ## Interface
 #### [UIExtensions](https://www.nexusmods.com/skyrimspecialedition/mods/17561)
