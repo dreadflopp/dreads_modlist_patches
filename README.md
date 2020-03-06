@@ -196,9 +196,11 @@ Install the main file and the Survival patch. Do not install the Audio Overhaul 
 ## Gameplay - Replcaing CACO and CCOR
 *If you have uninstalled Complete Alchemy and Cooking Overhaul or Complete Crafting Overhaul remade, here are some replacement mods.*
 #### [Ars Metallica - Smithing Enhancement](https://www.nexusmods.com/skyrimspecialedition/mods/321)
-Replaces functionallity in CCOR
+Replaces functionallity from CCOR
+#### [Ragdoll Paralysis Redux SE](https://www.nexusmods.com/skyrimspecialedition/mods/13575)
+Replaces functionaillity from CACO.
 #### [Wiseman303's Flora Fixes](https://www.nexusmods.com/skyrim/mods/70656)
-Replaces functionaillity in CACO. Install main file and patches for SMIM and INIGO.
+Replaces functionaillity from CACO. Install main file and patches for SMIM and INIGO.
 
 ## Interface
 #### [UIExtensions](https://www.nexusmods.com/skyrimspecialedition/mods/17561)
