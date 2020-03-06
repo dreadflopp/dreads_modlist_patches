@@ -29,9 +29,8 @@ Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-s
 
 These patches replaces the STEP patch. It comes with a neat FOMOD installer that automatically chooses what to install. The patches consists of a huge bunch of esl-flagged plugins. Since they are esl-flagged you do not have to worry about the old plugin limit. Keeping the patches separated in different plugins helps during development when  adding, testing and replacing mods. This also makes both STEP: Core and this mod list mostly modular. There are a few exceptions:
 - You need to use the Unofficial Skyrim Special Edition Patch
-- If you are going to use the Creation Club Survival Mode, you should also use Weapon Armor Clothing Clutter Fixes to avoid inconsistencies
 - Cloaks of Skyrim and Winter is coming should be used together or not at all for the patches to work.
-- Records from the Particle patch is not forwarded since the plugin is obsolete if you use [ENB Helper](https://www.nexusmods.com/skyrimspecialedition/mods/23174), which you really should if you are using an ENB
+- Records from the Particle patch is not forwarded since the plugin is obsolete. ENB users should use [ENB Helper](https://www.nexusmods.com/skyrimspecialedition/mods/23174)
 
 The patches are checked against the STEP patch to make sure everything that it patches is patched by these patches too.
 
@@ -48,7 +47,9 @@ ICAIO = Immersive Citizens – AI Overhaul
 1. Install STEP SE: Core.
 2. Install xEdit https://www.nexusmods.com/skyrimspecialedition/mods/164 and add it as an executable.
 3. Install my mod list and place the mods after the STEP guide, letting my listed mods overwrite the STEP guide and DynDOLOD resources. When you install mods, always install the main file and update files if you are not explicitly told not to.
-4. Run FNIS and check the box for TK Dodge / Ultimate combat if any of those mods are used.
+4. Run LOOT
+5. Run DynDOLOD
+6. Run FNIS and check the box for TK Dodge / Ultimate combat if any of those mods are used.
 5. Build body and armor meshes using BodySlide following these simple instructions:
 >1. Run BodySlide through Mod Organizer
 >2. In the Outfit/Body dropdown menu, choose CBBE NeverNude (this will also prevent NSFW images).
@@ -295,7 +296,5 @@ The fomod installer will automatically select all mods you use. Select the tweak
 
 #### Sort your plugins with LOOT before proceeding
 
-#### [Bashed Patch](https://wiki.step-project.com/STEP:0.1.0b#Creating_a_Bashed_Patch)
-Create a bashed patch following the instructions in the STEP guide. Remember to only use it for leveled lists, just like the STEP guide tells you to.
 #### [Unlimited Bookshelves Patch Generator](http://https://www.nexusmods.com/skyrimspecialedition/mods/19160)
 Follow the instructions on the Nexus page to build an Unlimited Bookshelves patch.
