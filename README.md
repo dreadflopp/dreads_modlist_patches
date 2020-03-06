@@ -288,7 +288,7 @@ The fomod installer will identify which patches you need and select them automat
 Choose the Unofficial Skyrim Survival Patch.
 #### [Weapons Armor Clothing and Clutter Fixes - CBBE Patch](https://www.nexusmods.com/skyrimspecialedition/mods/19176)
 #### [QUASIPC - Qwinn's Unified Automated Self Installing Patch Compendium](http://www.nexusmods.com/skyrimspecialedition/mods/18369)
-Install the Interesting NPCs - CACO patch
+Install the Interesting NPCs - CACO patch, for users of CACO.
 #### [Dread's modlist patches](https://github.com/dreadflopp/dreads_modlist_patches)
 To download, click the button Clone or download and choose download zip.
 The fomod installer will automatically select all mods you use. Select the tweaks you want to use.
