@@ -22,6 +22,7 @@ Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-s
 - Lightweight survival mod, the survival mod from Bethesda Creation Club.
 - Campfire patched to work with the Survival mod
 - Cloaks and backpacks
+- Enhanced Lighting For ENB is replaced by Luminosity that has increased ambient lighting for those that think ELE is too dark.
 - …more
 
 **The STEP guide is in beta and this mod list will remain in beta/WIP for as least as long as STEP is in beta. For now, consider this a work in progress.**
@@ -219,6 +220,10 @@ Choose desaturated book covers, RLS SSE Patch, Better Dynamic Snow Patch, Skyrim
 #### [Telengard](https://www.nexusmods.com/skyrimspecialedition/mods/17423)
 #### [The Fall of Granite Hill](https://www.nexusmods.com/skyrimspecialedition/mods/22512)
 #### [Whistling Mine](https://www.nexusmods.com/skyrimspecialedition/mods/367)
+
+## Audiovisual - Lighting & Weather 
+#### [Luminosity Lighting Overhaul - The Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/16830)
+This mod is similar to *Enhanced Lighting For ENB* that is installed by STEP. Since they edit the same records, uninstall *Enhanced Lighting For ENB*. Luminosity makes the ambient light brighter.
 
 ## Audiovisual - Trees
 *To use the mods in this section, deactivate Enhanced Vanilla Trees from STEP SE: Core.*
