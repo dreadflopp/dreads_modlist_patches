@@ -264,7 +264,7 @@ Choose Bug Fixes, Boat Location Patch, Fast Travel Addon, Unique Region Names Ad
 #### [Immersive College of Winterhold - Not so fast Mage Guild Patch](https://www.nexusmods.com/skyrimspecialedition/mods/18731)
 #### [Interesting NPC's Imperious Patch](http://www.nexusmods.com/skyrimspecialedition/mods/29271)
 #### [Kryptopyr's Patch Hub](http://www.nexusmods.com/skyrimspecialedition/mods/19518)
-The fomod installer will identify which patches you need and select them automatically.
+The fomod installer will identify which patches you need and select them automatically. Do not install the *WACCF - Survival Mode Patch*.
 #### [Moonpath to Elsweyr Sky and Lightning fix](http://www.nexusmods.com/skyrimspecialedition/mods/18683)
 #### [Unofficial Moonpath to Elsweyr Patch](http://www.nexusmods.com/skyrimspecialedition/mods/15882)
 #### [Unofficial Skyrim Creation Club Content Patches](http://www.nexusmods.com/skyrimspecialedition/mods/18975)
