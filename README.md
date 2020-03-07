@@ -3,35 +3,22 @@ This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https
 
 Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-se-core-addon/)  if you have any questions.
 
-This build expands the STEP Core guide in several areas
-Wilderness
-This guide features Skyrim Bigger Trees that makes the trees of Skyrims forrests much larger, which really adds to the immersion.
-
-Armors and weapons
-The guide features new armors and new weapons, both generic and unique, distributed to enemies or placed at different places or given as rewards for quests. The textures of the vanilla weapons and armors will be replaced with shiny textures from *Weapons Armor and Clothing - Cathedral Concept*.
-
-CBBE
-The female body is replaced by the CBBE body to keep a realistic, vanilla-ish look and still making it compatible with popular skin or armor mods.
-
-**With this STEP build you will get :**
-- New weapons and armors
-- Cathedral project’s shiny Weapons and Armors
-- CBBE body and new hairstyles
-- Altered or new skills, races, standing stones, spells and shouts
-- Vampires and Werewolves by EnaiSiaon
-- More challenging combat, but not too hard
+**With this STEP build you will get:**
+- New weapon textures
+- New armors
+- New weapons
+- Realistic female body compatible with popular skin and armor mods
+- New skills and perks
+- Overhauled magic, races, standing stones, werewolves and vampires
 - New bandits, dragons and tougher enemies
-- Interesting NPCs
-- Inigo
-- Slower levelling (50%)
-- New Experience system
+- New NPC's and followers
+- New experience system and slower leveling
 - New class system
 - New lands and quests
 - New or altered towns and villages by Arthmoor
 - Lightweight survival mod, the survival mod from Bethesda Creation Club.
-- Campfire patched to work with the Survival mod
-- Cloaks and backpacks
 - Enhanced Lighting For ENB is replaced by Luminosity that has increased ambient lighting for those that think ELE is too dark.
+- Bigger trees
 - …more
 
 **The STEP guide is in beta and this mod list will remain in beta/WIP for as least as long as STEP is in beta. For now, consider this a work in progress.**
@@ -39,7 +26,9 @@ The female body is replaced by the CBBE body to keep a realistic, vanilla-ish lo
 These patches replaces the STEP patch. It comes with a neat FOMOD installer that automatically chooses what to install. The patches consists of a huge bunch of esl-flagged plugins. Since they are esl-flagged you do not have to worry about the old plugin limit. Keeping the patches separated in different plugins helps during development when  adding, testing and replacing mods. This also makes both STEP: Core and this mod list mostly modular. There are a few exceptions:
 - You need to use the Unofficial Skyrim Special Edition Patch
 - Cloaks of Skyrim and Winter is coming should be used together or not at all for the patches to work.
-- Records from the Particle patch is not forwarded since the plugin is obsolete. ENB users should use [ENB Helper](https://www.nexusmods.com/skyrimspecialedition/mods/23174)
+
+
+Note that records from the Particle patch is not forwarded since the plugin is obsolete. ENB users should use [ENB Helper](https://www.nexusmods.com/skyrimspecialedition/mods/23174)
 
 The patches are checked against the STEP patch to make sure everything that it patches is patched by these patches too.
 
