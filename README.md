@@ -204,8 +204,8 @@ Install the main file and the Survival patch. Do not install the Audio Overhaul 
 Replaces functionallity from CCOR
 #### [Ragdoll Paralysis Redux SE](https://www.nexusmods.com/skyrimspecialedition/mods/13575)
 Replaces functionaillity from CACO.
-#### [Wiseman303's Flora Fixes](https://www.nexusmods.com/skyrim/mods/70656)
-Replaces functionaillity from CACO. Install main file and patches for SMIM and INIGO.
+#### [Wiseman303's Flora Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/28197)
+Replaces functionaillity from CACO. Install main file and patch for SMIM
 
 ## Interface
 #### [UIExtensions](https://www.nexusmods.com/skyrimspecialedition/mods/17561)
