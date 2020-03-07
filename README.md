@@ -1,10 +1,19 @@
 # Introduction
-This modlist an addon or build for the [STEP: Core guide for Skyrim Special Edition](https://forum.step-project.com/topic/14603-dreads-step-se-core-addon/).
+This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/31054). This means that you will have to install STEP: Core for Skyrim Special Edition first before following this guide.
 
 Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-se-core-addon/)  if you have any questions.
 
+This build expands the STEP Core guide in several areas
+Wilderness
+This guide features Skyrim Bigger Trees that makes the trees of Skyrims forrests much larger, which really adds to the immersion.
+
+Armors and weapons
+The guide features new armors and new weapons, both generic and unique, distributed to enemies or placed at different places or given as rewards for quests. The textures of the vanilla weapons and armors will be replaced with shiny textures from *Weapons Armor and Clothing - Cathedral Concept*.
+
+CBBE
+The female body is replaced by the CBBE body to keep a realistic, vanilla-ish look and still making it compatible with popular skin or armor mods.
+
 **With this STEP build you will get :**
-- STEP with larger trees
 - New weapons and armors
 - Cathedral project’s shiny Weapons and Armors
 - CBBE body and new hairstyles
