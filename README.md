@@ -150,6 +150,7 @@ Install main file and OBIS SE Patrols addon.
 #### [Interesting NPCs (3DNPC) character Zora Fairchild's voice boosted](http://www.nexusmods.com/skyrimspecialedition/mods/16090)
 
 ## Gameplay - AI & Combat
+#### [TK Dodge SE](https://www.nexusmods.com/skyrimspecialedition/mods/15309)
 #### [Ultimate Combat SE](http://www.nexusmods.com/skyrimspecialedition/mods/17196)
 
 ## Gameplay - Immersion & Role-playing
