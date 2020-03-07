@@ -90,7 +90,6 @@ Install the main version
 #### [Cloaks of Skyrim Ultra HD SSE](http://www.nexusmods.com/skyrimspecialedition/mods/29258)
 #### [Faction Crossbows SE](http://www.nexusmods.com/skyrimspecialedition/mods/4047)
 #### [Heavy Armory - New Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/6308)
-Users of WACCF should install the True Weapons patch
 #### [Immersive Armors](http://www.nexusmods.com/skyrimspecialedition/mods/3479)
 #### [Immersive Armours - SSE CBBE BodySlide](https://www.nexusmods.com/skyrimspecialedition/mods/22382)
 Install if you use Immersive Armors with CBBE.
@@ -192,6 +191,7 @@ Install the main file and the Survival patch. Do not install the Audio Overhaul 
 ## Gameplay - Races, Classes & Shouts
 #### [Class Overhaul Re-Imagined (SkyRem - Cori)](https://www.nexusmods.com/skyrimspecialedition/mods/24808)
 #### [Experience](http://www.nexusmods.com/skyrimspecialedition/mods/17751)
+Do not activate this mod yet. Waith until you have left the first cell of Alternate Start to avoid getting experience when different mods do their initial setup routines.
 #### [Growl - Werebeasts of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/31245)
 #### [Sacrosanct - Vampires of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/3928)
 #### [Thunderchild - Epic Shouts and Immersion](http://www.nexusmods.com/skyrimspecialedition/mods/1460)
