@@ -91,9 +91,12 @@ Skip this mod if you do not intend to use horns for your character.
 Install the main version
 #### [Cloaks of Skyrim Ultra HD SSE](http://www.nexusmods.com/skyrimspecialedition/mods/29258)
 #### [Faction Crossbows SE](http://www.nexusmods.com/skyrimspecialedition/mods/4047)
+#### [Heavy Armory - New Weapons](https://www.nexusmods.com/skyrim/mods/21120)
+Users of WACCF should install the True Weapons patch
 #### [Immersive Armors](http://www.nexusmods.com/skyrimspecialedition/mods/3479)
 #### [Immersive Armours - SSE CBBE BodySlide](https://www.nexusmods.com/skyrimspecialedition/mods/22382)
 Install if you use Immersive Armors with CBBE.
+#### [Immersive Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/16788)
 #### [Royal Armory - New Artifacts](http://www.nexusmods.com/skyrimspecialedition/mods/6994)
 #### [Ruin's Edge](http://www.nexusmods.com/skyrimspecialedition/mods/12792)
 #### [The Staff Of Sheogorath](http://www.nexusmods.com/skyrimspecialedition/mods/14468)
@@ -150,6 +153,7 @@ Install main file and OBIS SE Patrols addon.
 #### [Interesting NPCs (3DNPC) character Zora Fairchild's voice boosted](http://www.nexusmods.com/skyrimspecialedition/mods/16090)
 
 ## Gameplay - AI & Combat
+#### [TK Dodge SE](https://www.nexusmods.com/skyrimspecialedition/mods/15309)
 #### [Ultimate Combat SE](http://www.nexusmods.com/skyrimspecialedition/mods/17196)
 
 ## Gameplay - Immersion & Role-playing
