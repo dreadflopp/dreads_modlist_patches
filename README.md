@@ -89,7 +89,7 @@ Skip this mod if you do not intend to use horns for your character.
 Install the main version
 #### [Cloaks of Skyrim Ultra HD SSE](http://www.nexusmods.com/skyrimspecialedition/mods/29258)
 #### [Faction Crossbows SE](http://www.nexusmods.com/skyrimspecialedition/mods/4047)
-#### [Heavy Armory - New Weapons](https://www.nexusmods.com/skyrim/mods/21120)
+#### [Heavy Armory - New Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/6308)
 Users of WACCF should install the True Weapons patch
 #### [Immersive Armors](http://www.nexusmods.com/skyrimspecialedition/mods/3479)
 #### [Immersive Armours - SSE CBBE BodySlide](https://www.nexusmods.com/skyrimspecialedition/mods/22382)
