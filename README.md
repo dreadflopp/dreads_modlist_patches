@@ -41,13 +41,13 @@ Note that records from the Particle patch is not forwarded since the plugin is o
 The patches are checked against the STEP patch to make sure everything that it patches is patched by these patches too.
 
 **Acronyms that are used in the guide:**
-CACO = Complete Alchemy & Cooking Overhaul
-USSEP = Unofficial Skyrim Special Edition Patch
-WACCF = Weapons, Armor, Clothing & Clutter Fixes
-CCOR = Complete Crafting Overhaul Remade
-CFTO = Carriage and Ferry Travel Overhaul
-SMIM = Static Mesh Improvement Mod
-ICAIO = Immersive Citizens – AI Overhaul
+CACO = Complete Alchemy & Cooking Overhaul\
+USSEP = Unofficial Skyrim Special Edition Patch\
+WACCF = Weapons, Armor, Clothing & Clutter Fixes\
+CCOR = Complete Crafting Overhaul Remade\
+CFTO = Carriage and Ferry Travel Overhaul\
+SMIM = Static Mesh Improvement Mod\
+ICAIO = Immersive Citizens – AI Overhaul\
 
 
 
@@ -316,6 +316,3 @@ Install the *Interesting NPCs - CACO patch* if you use *Complete Alchemy and Coo
 #### [Dread's modlist patches](https://github.com/dreadflopp/dreads_modlist_patches)
 To download, click the button Clone or download and choose download zip.
 The fomod installer will automatically select all mods you use. Select the tweaks you want to use.
-
-#### Sort your plugins with LOOT before proceeding
-
