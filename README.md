@@ -73,21 +73,22 @@ ICAIO = Immersive Citizens – AI Overhaul
 # The actual mod list
 ## Character Appearance
 #### [Caliente’s Beautiful Bodies Enhancer -CBBE-](https://www.nexusmods.com/skyrimspecialedition/mods/198)
-*NSFW warning*
+*NSFW warning*\
 Install the main file, the update file and the optional file ‘CBBE ESL-flagged .esp’.
 In the main installer, choose:
-Body Shape: Slim
-Underwear options: NeverNude
-Outfit options: Vanilla outfits
-SKEE (RaceMenu): RaceMenu Morphs
+-Body Shape: Slim
+-Underwear options: NeverNude
+-Outfit options: Vanilla outfits
+-SKEE (RaceMenu): RaceMenu Morphs
 #### [BodySlide and Outfit Studio](https://www.nexusmods.com/skyrimspecialedition/mods/201)
 Check the nexus page for the instructions to add this mod as an executable in Mod Organizer (in short, install as a normal mod and right click the executable in MO:s data tab. Choose add as executable).
 #### [CBBE Presets Compendium](https://www.nexusmods.com/skyrimspecialedition/mods/11229)
-*NSFW warning*
+*NSFW warning*\
 Install the main file
 #### [KS Hairdos SSE](http://www.nexusmods.com/skyrimspecialedition/mods/6817)
 #### [Maevan2’s Mature Skin Texture for CBBE – UNP](https://www.nexusmods.com/skyrimspecialedition/mods/26017)
-Use these CBBE-compatible skin textures instead of *Tempered Skin* if you use the CBBE body. If you don’t use these skin you will have to find other CBBE compatible skin textures or not use CBBE.
+*NSFW warning*\
+Use these CBBE-compatible skin textures instead of *Tempered Skin* if you use the CBBE body. If you don’t use this skin texture you will have to find other CBBE compatible skin textures or not use CBBE.
 In the installer, choose what you want, for example: high, CBBE slim, medium, lips, complexions, young, mature.
 #### [Salt and Wind – Rough Hair for KS Hairdos SE](http://www.nexusmods.com/skyrimspecialedition/mods/16582)
 #### [TDN Equipable Horns SE](http://www.nexusmods.com/skyrimspecialedition/mods/9224)
