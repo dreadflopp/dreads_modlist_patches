@@ -76,10 +76,10 @@ ICAIO = Immersive Citizens – AI Overhaul
 *NSFW warning*\
 Install the main file, the update file and the optional file ‘CBBE ESL-flagged .esp’.
 In the main installer, choose:
--Body Shape: Slim
--Underwear options: NeverNude
--Outfit options: Vanilla outfits
--SKEE (RaceMenu): RaceMenu Morphs
+- Body Shape: Slim
+- Underwear options: NeverNude
+- Outfit options: Vanilla outfits
+- SKEE (RaceMenu): RaceMenu Morphs
 #### [BodySlide and Outfit Studio](https://www.nexusmods.com/skyrimspecialedition/mods/201)
 Check the nexus page for the instructions to add this mod as an executable in Mod Organizer (in short, install as a normal mod and right click the executable in MO:s data tab. Choose add as executable).
 #### [CBBE Presets Compendium](https://www.nexusmods.com/skyrimspecialedition/mods/11229)
