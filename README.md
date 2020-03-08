@@ -72,6 +72,7 @@ ICAIO = Immersive Citizens – AI Overhaul
 
 # The actual mod list
 ## Character Appearance
+*This section replaces the vanilla body with the CBBE body. The CBBE body is chosen because of its versatility. Recommended presets makes the body look realistic or vanilla-ish. Using a body replacer is the only way to make sure the female body is compatible both with skin texture replacers and with mods that add new armors to the game.*
 #### [Caliente’s Beautiful Bodies Enhancer -CBBE-](https://www.nexusmods.com/skyrimspecialedition/mods/198)
 *NSFW warning*\
 Install the main file, the update file and the optional file ‘CBBE ESL-flagged .esp’.
@@ -92,7 +93,9 @@ Use these CBBE-compatible skin textures instead of *Tempered Skin* if you use th
 In the installer, choose what you want, for example: high, CBBE slim, medium, lips, complexions, young, mature.
 #### [Salt and Wind – Rough Hair for KS Hairdos SE](http://www.nexusmods.com/skyrimspecialedition/mods/16582)
 #### [TDN Equipable Horns SE](http://www.nexusmods.com/skyrimspecialedition/mods/9224)
-Skip this mod if you do not intend to use horns for your character.
+Yes, some Bosmer have antlers.\
+*It is also common among the Bosmer to wear decorative antlers on their foreheads, although rarely, individuals with real, magically-grown antlers can also be encountered.* [source](https://en.uesp.net/wiki/Lore:Bosmer) \
+Skip this mod if you do not intend to use horns or antlers for your character.
 
 ## Items – Armor, Clothing, Accessories & Weapons
 #### [Bandolier - Bags and Pouches Classic](http://www.nexusmods.com/skyrimspecialedition/mods/2417)
