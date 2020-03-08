@@ -12,7 +12,7 @@ This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https
 **This build is made to be easy to install. When you are done installing STEP Core, you should have enough knowledge to install this build.**
 - No LOOT rules, every conflict is resolved with the patches. Run LOOT and you are done.
 - No bashed patch. Every level list conflict is fixed in the patches.
-- No merging of mod. Every patch is esl-flagged to make sure the plugin limit count is not reached.
+- No merging of mods. Every patch is esl-flagged to make sure the plugin limit count is not reached.
 - Advanced fomod installer for the patches. No need to actively choose patches, the fomod does the work for you.
 
 Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-se-core-addon/)  if you have any questions.
