@@ -1,3 +1,9 @@
+# Where to find the guide
+The Github version (this version) of the guide is the first version to get updates but the Mod Picker version should mirror the Github version. The Github version has extended comments and users should at least read through the Github version of the guide.
+[Github version of the guide](https://github.com/dreadflopp/dreads_modlist_patches/blob/master/README.md)
+[Mod Picker version](https://modpicker.com/skyrimse/mod-lists/7275/details)
+[The guide section on the STEP]()
+
 # Introduction
 This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/31054). This means that you will have to install *STEP: Core for Skyrim Special Edition* first before following this guide. Almost everything in this build is optional, meaning you can use parts of it if that is what you want.
 
@@ -48,8 +54,6 @@ CCOR = Complete Crafting Overhaul Remade\
 CFTO = Carriage and Ferry Travel Overhaul\
 SMIM = Static Mesh Improvement Mod\
 ICAIO = Immersive Citizens – AI Overhaul\
-
-
 
 # Instructions
 1. Install STEP SE: Core but do not install the STEP patch.
