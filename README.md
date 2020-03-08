@@ -1,29 +1,31 @@
 # Introduction
-This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/31054). This means that you will have to install STEP: Core for Skyrim Special Edition first before following this guide.
+This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/31054). This means that you will have to install *STEP: Core for Skyrim Special Edition* first before following this guide. Almost everything in this build is optional, meaning you can use parts of it if that is what you want.
+
+**The mods featured in this build are chosen to be immersive and realistic. Realistic in a fantasy setting means believable. The mods should feel like they expand or enhances vanilla Skyrim, like they could have been there from the beginning**
 
 Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-se-core-addon/)  if you have any questions.
 
-**With this STEP build you will get:**
+**With this modular STEP build you will get**
 - New weapon textures
 - New armors
 - New weapons
 - Realistic female body compatible with popular skin and armor mods
-- New skills and perks
+- Overhauled skills and perks
 - Overhauled magic, races, standing stones, werewolves and vampires
-- New bandits, dragons and tougher enemies
+- New, tougher bandits, dragons and enemies
 - New NPC's and followers
-- New experience system and slower leveling
+- New experience system with slower leveling
 - New class system
 - New lands and quests
-- New or altered towns and villages by Arthmoor
+- New and altered towns and villages
 - Lightweight survival mod, the survival mod from Bethesda Creation Club.
 - Enhanced Lighting For ENB is replaced by Luminosity that has increased ambient lighting for those that think ELE is too dark.
-- Bigger trees
+- Bigger trees for truly immersive forrests
 - …more
 
 **The STEP guide is in beta and this mod list will remain in beta/WIP for as least as long as STEP is in beta. For now, consider this a work in progress.**
 
-These patches replaces the STEP patch. It comes with a neat FOMOD installer that automatically chooses what to install. The patches consists of a huge bunch of esl-flagged plugins. Since they are esl-flagged you do not have to worry about the old plugin limit. Keeping the patches separated in different plugins helps during development when  adding, testing and replacing mods. This also makes both STEP: Core and this mod list mostly modular. There are a few exceptions:
+These patches replaces the STEP patch. It comes with a neat FOMOD installer that automatically chooses what to install. The patches consists of a huge bunch of esl-flagged plugins. Since they are esl-flagged you do not have to worry about the old plugin count limit. Keeping the patches separated in different plugins helps during development when adding, testing and replacing mods. This also makes both STEP: Core and this mod list mostly modular. There are a few exceptions:
 - You need to use the Unofficial Skyrim Special Edition Patch
 - Cloaks of Skyrim and Winter is coming should be used together or not at all for the patches to work.
 
@@ -41,24 +43,26 @@ CFTO = Carriage and Ferry Travel Overhaul
 SMIM = Static Mesh Improvement Mod
 ICAIO = Immersive Citizens – AI Overhaul
 
+
+
 # Instructions
-1. Install STEP SE: Core.
-2. Install xEdit https://www.nexusmods.com/skyrimspecialedition/mods/164 and add it as an executable.
+1. Install STEP SE: Core but do not install the STEP patch.
+2. Install xEdit https://www.nexusmods.com/skyrimspecialedition/mods/164 and add it as an executable in Mod Organizer.
 3. Install my mod list and place the mods after the STEP guide, letting my listed mods overwrite the STEP guide and DynDOLOD resources. When you install mods, always install the main file and update files if you are not explicitly told not to.
-4. Run LOOT
-5. Run DynDOLOD
-6. Run FNIS and check the box for TK Dodge / Ultimate combat if any of those mods are used.
+4. Run LOOT.
+5. Run DynDOLOD following the instructions from the STEP guide,
+6. Run FNIS and check the box for TK Dodge / Ultimate combat if any of those mods are used. Instructions are in the STEP guide.
 5. Build body and armor meshes using BodySlide following these simple instructions:
 >1. Run BodySlide through Mod Organizer
->2. In the Outfit/Body dropdown menu, choose CBBE NeverNude (this will also prevent NSFW images).
->3. In the preset menu, choose what suits you. The preset you choose should end with the words ‘(outfit)’. I recommended the presets Pear (outfit), Natural (outfit), CBBE Slim (outfit), UNP Natural (outfit), Thief (outfit) or Warrior (outfit).
->4. Tick the checkbox Build Morphs.
->5. Click the button Build.
->6. Click on the spyglass at the field Group filter and choose Choose groups.
->7. Check the following and click ok: CBBE vanilla outfits, Frankly HD, Immersive Armors SSE CBBE, WACCF.
->8. Click the button Batch build…
->9. Click build.
->10. Make sure no physics options are checked. Check all Frankly options. Click ok and close BodySlide. The meshes that has been built are placed in Mod Organizers overwrite folder and can be moved if you choose to.
+>2. In the *Outfit/Body* dropdown menu, choose *CBBE NeverNude* (this will also prevent NSFW images).
+>3. In the preset menu, choose what suits you. The preset you choose should end with the word ‘outfit’. I recommended the presets *Pear (outfit), Natural (outfit), CBBE Slim (outfit), UNP Natural (outfit), Thief (outfit)* or *Warrior (outfit)*.
+>4. Tick the checkbox *Build Morphs*.
+>5. Click the button *Build* to build the body.
+>6. Click on the spyglass at the field Group filter and choose *Choose groups*.
+>7. Check the following and click ok: *CBBE vanilla outfits, Frankly HD, Immersive Armors SSE CBBE, WACCF*.
+>8. Click the button *Batch build…*
+>9. Click *build* to build armor meshes.
+>10. Make sure no physics options are checked. Check all Frankly options. Click *ok* and close BodySlide. The meshes that has been built are placed in Mod Organizers overwrite folder and can be moved to a new mod folder if you choose to.
 
 # The actual mod list
 ## Character Appearance
