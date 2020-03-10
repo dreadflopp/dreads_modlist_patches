@@ -46,7 +46,7 @@ Note that records from the Particle patch is not forwarded since the plugin is o
 
 The patches are checked against the STEP patch to make sure everything that it patches is patched by these patches too.
 
-**Acronyms that are used in the guide:**
+**Acronyms that are used in the guide:**\
 CACO = Complete Alchemy & Cooking Overhaul\
 USSEP = Unofficial Skyrim Special Edition Patch\
 WACCF = Weapons, Armor, Clothing & Clutter Fixes\
@@ -208,8 +208,8 @@ Install the WACCF patch. The USSEP-patch isn't needed if you use SMIM, CFTO or R
 ## Gameplay - Skills, Perks & Magic
 *The mods in this section edits the skill trees and for that reason they are incompatible with other mods that does this. It is possible to make patches and merge skill trees but I prefer to stick to the mod authors vision and not mix different skill and perk mods with each other. If you use the mods in this section, uninstall **Complete Alchemy and Cooking Overhaul** and **Smithing Perks Overhaul** which are the two Skill and perk mods featured in the STEP guide. Users should also consider uninstalling Weapons Armor Clothing Clutter Fixes since it also edits perks. Some features of **WACCF** are replaced by **Adamant** so they should work together but I prefer to simply not use **WACCF**, which means that **Complete Crafting Overhaul Remade** has to be uninstalled to since it depends on **WACCF**. In the section following this one you will find mods that replaces functionallity lost when uninstalling **CACO** and **CCOR**.*
 #### [Adamant - A Perk Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/30191)
-Check the sticked post in the posts section to find the beta for 2.0
-#### [Aetherius - A Race and Standing Stone Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/26686)
+#### [Aetherius - A Race Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/26686)
+#### [Mundus - A Standing Stone Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/33411)
 #### [Mysticism - A Magic Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/27839)
 Install the main file and the Survival patch. Do not install the Audio Overhaul Skyrim patch.
 
