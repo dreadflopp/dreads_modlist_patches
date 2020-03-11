@@ -183,6 +183,8 @@ Install patches for Immersive Citizens - AI Overhaul and Dawnstar.
 #### [Daedric Voices](https://www.nexusmods.com/skyrimspecialedition/mods/32090)
 Install the main file and the Growl patch.
 #### [ElSopa - Campfire HD SE](http://www.nexusmods.com/skyrimspecialedition/mods/24511)
+#### [Lenient Survival](https://www.nexusmods.com/skyrimspecialedition/mods/13087)
+For users of Survival Mode only. Do not install the optional file. A plugin to remove carry weight penalty is found the guides patches.
 #### [Lock Related Loot](http://www.nexusmods.com/skyrimspecialedition/mods/11342)
 #### [Nether's Follower Framework](http://www.nexusmods.com/skyrimspecialedition/mods/18076)
 Choose the following: 
@@ -318,5 +320,5 @@ Choose the Unofficial Skyrim Survival Patch.
 #### [QUASIPC - Qwinn's Unified Automated Self Installing Patch Compendium](http://www.nexusmods.com/skyrimspecialedition/mods/18369)
 Install the *Interesting NPCs - CACO patch* if you use *Complete Alchemy and Cooking Overhaul*.
 #### [Dread's modlist patches](https://github.com/dreadflopp/dreads_modlist_patches)
-To download, click the button Clone or download and choose download zip.
+To download, click the button *Clone or download* and choose *download zip*.
 The fomod installer will automatically select all mods you use. Select the tweaks you want to use.
