@@ -155,6 +155,7 @@ Install the CBBE patch.
 Download Improved Closefaced Helmets Patch v1 and choose SkyRealism Shiny in the installer. Install this as a new mod, making sure to not overwrite or merge it with the mod installed with STEP.
 
 ## Enemies
+#### [Arena - An Encounter Zone Overhaul](Arena - An Encounter Zone Overhaul)
 #### [Deadly Dragons](http://www.nexusmods.com/skyrimspecialedition/mods/23723)
 Choose Loremonger version with patches for Diverse Dragons, Splender Dragons and Wyrmstooth.
 #### [Diverse Dragons Collection SE](http://www.nexusmods.com/skyrimspecialedition/mods/695)
