@@ -93,6 +93,9 @@ ICAIO = Immersive Citizens – AI Overhaul\
 6. Install the mod [Unlimited Bookshelves Patch Generator](http://https://www.nexusmods.com/skyrimspecialedition/mods/19160). Follow the instructions on the Nexus page to build an Unlimited Bookshelves patch.
 
 # The mod list
+
+## Resources
+## Foundational Mods
 ## Audiovisual
 ### Audiovisual - Models & Textures
 #### [Weapons Armor and Clothing - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/20199)
