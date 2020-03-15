@@ -1,15 +1,15 @@
 # Where to find the guide
 The Github version (this version) of the guide is the first version to get updates but the Mod Picker version should mirror the Github version. The Github version has extended comments and users should at least read through the Github version of the guide.
 - [Github version of the guide](https://github.com/dreadflopp/dreads_modlist_patches/blob/master/README.md)
-- [Mod Picker version](https://modpicker.com/skyrimse/mod-lists/7275/details)
+- [Mod Picker version]()
 - [The guide section on STEP]()
 
 # Introduction
-This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/31054). This means that you will have to install *STEP: Core for Skyrim Special Edition* first before following this guide. Almost everything in this build is optional, meaning you can use parts of it if that is what you want.
+This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/31054). This means that this guide is based on the STEP Core build. Everything you need is in this guide, you do not have to install anything prior following this guide. Almost everything in this build is optional, meaning you can use parts of it if that is what you want.
 
 **The mods featured in this build are chosen to be immersive and realistic. Realistic in a fantasy setting means believable. The mods should feel like they expand or enhances vanilla Skyrim, like they could have been there from the beginning**
 
-**This build is made to be easy to install. When you are done installing STEP Core, you should have enough knowledge to install this build.**
+**This build is made to be easy to install**
 - No LOOT rules, every conflict is resolved with the patches. Run LOOT and you are done.
 - No bashed patch. Every level list conflict is fixed in the patches.
 - No merging of mods. Every patch is esl-flagged to make sure the plugin limit count is not reached.
@@ -37,17 +37,14 @@ Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-s
 
 **The STEP guide is in beta and this mod list will remain in beta/WIP for as least as long as STEP is in beta. For now, consider this a work in progress.**
 
-These patches replaces the STEP patch. It comes with a neat FOMOD installer that automatically chooses what to install. The patches consists of a huge bunch of esl-flagged plugins. Since they are esl-flagged you do not have to worry about the old plugin count limit. Keeping the patches separated in different plugins helps during development when adding, testing and replacing mods. This also makes both STEP: Core and this mod list mostly modular. There are a few exceptions:
+The patches comes with a neat FOMOD installer that automatically chooses what to install. The patches consists of a huge bunch of esl-flagged plugins. Since they are esl-flagged you do not have to worry about the old plugin count limit. Keeping the patches separated in different plugins helps during development when adding, testing and replacing mods. This also makes this mod list mostly modular. There are a few exceptions:
 - You need to use the Unofficial Skyrim Special Edition Patch
 - Cloaks of Skyrim and Winter is coming should be used together or not at all for the patches to work.
 
 
 Note that records from the Particle patch is not forwarded since the plugin is obsolete. ENB users should use [ENB Helper](https://www.nexusmods.com/skyrimspecialedition/mods/23174)
 
-The patches are checked against the STEP patch to make sure everything that it patches is patched by these patches too.
-
 **Acronyms that are used in the guide:**\
-CACO = Complete Alchemy & Cooking Overhaul\
 USSEP = Unofficial Skyrim Special Edition Patch\
 WACCF = Weapons, Armor, Clothing & Clutter Fixes\
 CCOR = Complete Crafting Overhaul Remade\
@@ -55,7 +52,27 @@ CFTO = Carriage and Ferry Travel Overhaul\
 SMIM = Static Mesh Improvement Mod\
 ICAIO = Immersive Citizens – AI Overhaul\
 
+
+# Game & Tool Installation
+>TODO
+
+# Tool Configuration
+>TODO
+
+# Cleaning Vanilla Master Files 
+>TODO
+
+# DynDOLOD
+>TODO
+
+# Mod Configuration (MCM)
+>TODO
+
+# BethINI Customization 
+>TODO
+
 # Instructions
+>TODO Revise
 1. Install STEP SE: Core but do not install the STEP patch.
 2. Install xEdit https://www.nexusmods.com/skyrimspecialedition/mods/164 and add it as an executable in Mod Organizer.
 3. Install my mod list and place the mods after the STEP guide, letting my listed mods overwrite the STEP guide and DynDOLOD resources. When you install mods, always install the main file and update files if you are not explicitly told not to.
@@ -86,17 +103,16 @@ This mod is installed with STEP. Simply place it here in the load order.
 #### [Frankly HD Dawnguard Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/19663)
 Install the CBBE patch.
 #### [Frankly HD Dragonbone and Dragonscale - Armor and Weapons HQ](https://www.nexusmods.com/skyrimspecialedition/mods/25110)
+Install both main and update file. 
 #### [Frankly HD Imperial Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/20848)
-Install the Pants ans Sleeves patch and the Better-Shaped Weapons patch.
+Install the *Pants and Sleeves* patch and the *Better-Shaped Weapons* patch.
 #### [Frankly HD Masque of Clavicus Vile](https://www.nexusmods.com/skyrimspecialedition/mods/28565)
-This mod is installed with STEP. Simply place it here in the load order.
 #### [Frankly HD Miraak](https://www.nexusmods.com/skyrimspecialedition/mods/19699)
 Install the CBBE patch.
 #### [Frankly HD Nightingale Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/18560)
 Install the CBBE patch and the Better-Shaped Weapons patch.
 #### [Frankly HD Shrouded Armor](https://www.nexusmods.com/skyrimspecialedition/mods/18785)
 #### [Frankly HD Thieves Guild Armors HQ](https://www.nexusmods.com/skyrimspecialedition/mods/19953)
-This mod is installed with STEP. Simply place it here in the load order.
 #### [HQ Tree Bark](http://www.nexusmods.com/skyrimspecialedition/mods/6556)
 Choose the options you prefer. Install the Simply Bigger Trees patch.
 #### [No More Hanging Moss](https://www.nexusmods.com/skyrimspecialedition/mods/16426)
@@ -108,7 +124,6 @@ Install the Realistic Aspen trees version of this mod.
 
 ### Audiovisual - Lighting & Weather 
 #### [Luminosity Lighting Overhaul - The Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/16830)
-This mod is similar to *Enhanced Lighting For ENB* that is installed by STEP. Since they edit the same records they are incompatible. Uninstall *Enhanced Lighting For ENB*. Luminosity makes the ambient light brighter than *Enhanced Lighting For ENB* does. Dark dungeon and interior nerds should stick with *ELE*.
 
 ## Character Appearance
 ### Character Appearance - Body Mods
@@ -131,7 +146,6 @@ Install the main file
 #### [KS Hairdos SSE](http://www.nexusmods.com/skyrimspecialedition/mods/6817)
 #### [Maevan2’s Mature Skin Texture for CBBE – UNP](https://www.nexusmods.com/skyrimspecialedition/mods/26017)
 *NSFW warning*\
-Use these CBBE-compatible skin textures instead of *Tempered Skin* if you use the CBBE body. If you don’t use this skin texture you will have to find other CBBE compatible skin textures or not use CBBE.
 In the installer, choose what you want, for example: high, CBBE slim, medium, lips, complexions, young, mature.
 #### [Salt and Wind – Rough Hair for KS Hairdos SE](http://www.nexusmods.com/skyrimspecialedition/mods/16582)
 #### [TDN Equipable Horns SE](http://www.nexusmods.com/skyrimspecialedition/mods/9224)
@@ -158,11 +172,10 @@ Do not activate this mod yet. Waith until you have left the first cell of Altern
 
 ### Gameplay - Crafting
 #### [Ars Metallica - Smithing Enhancement](https://www.nexusmods.com/skyrimspecialedition/mods/321)
-Replaces functionallity from CCOR.
 
 ### Gameplay - Immersion & Role-playing
 #### [Campfire - Complete Camping System](http://www.nexusmods.com/skyrimspecialedition/mods/667)
-Hide or delete the file _SKSE/Plugins/PapyrusUtil.dll_. It is outdated and we need to use the newer one from PapyrusUtil SE that is installed with STEP Core.
+Hide or delete the file _SKSE/Plugins/PapyrusUtil.dll_. It is outdated and we need to use the newer one from PapyrusUtil SE.
 #### [Campfire and Frostfall - Unofficial SSE Update](http://www.nexusmods.com/skyrimspecialedition/mods/17925)
 #### [Carriage and Ferry Travel Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/8379)
 Install patches for Immersive Citizens - AI Overhaul and Dawnstar.
@@ -314,8 +327,7 @@ Choose
 - Unique Region Names Addon
 #### [Immersive College of Winterhold - Not so fast Mage Guild Patch](https://www.nexusmods.com/skyrimspecialedition/mods/18731)
 #### [Improved Closedfaced Helmets](https://www.nexusmods.com/skyrim/mods/15927)
-Download Improved Closefaced Helmets Patch v1 and choose SkyRealism Shiny in the installer. Install this as a new mod, making sure to not overwrite or merge it with the mod installed with STEP.
-#### [Interesting NPC's Imperious Patch](http://www.nexusmods.com/skyrimspecialedition/mods/29271)
+Download Improved Closefaced Helmets Patch v1 and choose SkyRealism Shiny in the installer. Install this as a new mod, making sure to not overwrite or merge it with the main Closefaced Helmets mod.
 #### [Kryptopyr's Patch Hub](http://www.nexusmods.com/skyrimspecialedition/mods/19518)
 The fomod installer will identify which patches you need and select them automatically. Do not install the *WACCF - Survival Mode Patch*.
 #### [Moonpath to Elsweyr Sky and Lightning fix](http://www.nexusmods.com/skyrimspecialedition/mods/18683)
@@ -323,8 +335,6 @@ The fomod installer will identify which patches you need and select them automat
 #### [Unofficial Skyrim Creation Club Content Patches](http://www.nexusmods.com/skyrimspecialedition/mods/18975)
 Choose the Unofficial Skyrim Survival Patch.
 #### [Weapons Armor Clothing and Clutter Fixes - CBBE Patch](https://www.nexusmods.com/skyrimspecialedition/mods/19176)
-#### [QUASIPC - Qwinn's Unified Automated Self Installing Patch Compendium](http://www.nexusmods.com/skyrimspecialedition/mods/18369)
-Install the *Interesting NPCs - CACO patch* if you use *Complete Alchemy and Cooking Overhaul*.
 #### [Dread's modlist patches](https://github.com/dreadflopp/dreads_modlist_patches)
 To download, click the button *Clone or download* and choose *download zip*.
 The fomod installer will automatically select all mods you use. Select the tweaks you want to use.
