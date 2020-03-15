@@ -104,6 +104,52 @@ ICAIO = Immersive Citizens – AI Overhaul\
 #### [SkyUI](http://www.nexusmods.com/skyrimspecialedition/mods/12604)
 
 ## Foundational Mods
+#### [Unofficial High Definition Audio Project](http://www.nexusmods.com/skyrimspecialedition/mods/18115)
+#### [Unofficial Skyrim Special Edition Patch](http://www.nexusmods.com/skyrimspecialedition/mods/266)
+#### [Skyrim Particle Patch for ENB](https://drive.google.com/open?id=12tL3_kpm_KXlQvQqEnK3zOAl-sm_H3Fw)
+Download and install the Special Edition PARTICLE PATCH ALL-IN-ONE INSTALLATION file. Do not install the plugin, it is not needed.
+#### [Static Mesh Improvement Mod](http://www.nexusmods.com/skyrimspecialedition/mods/659)
+>TODO install instructions
+#### [Cathedral - Plants](http://www.nexusmods.com/skyrimspecialedition/mods/26104)
+#### [Skyrim Realistic Overhaul](http://www.moddb.com/mods/skyrim-realistic-overhaul)
+- Install Part 1-3, choosing to merge the files when asked.
+- Install the update file, choosing to merge as well.
+#### [Majestic Mountains - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/11052)
+Install a main file and a lod file, choose the version you like the most.
+Main installer:
+- Snow Mountain Type: Snow Mountain New version ESL
+- Optionals: Moss Rocks ESL Version
+- Sun Direction (choose one or none): None
+- Compatibility Patches: SMIM
+LOD installer:
+- LOD Resolution: 1024 (2-4GB Vram)
+#### [Landscapes - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/21954)
+In the installer, choose:
+- Full Install, Brown Tundra
+- Blended Roads
+#### [Unofficial Material Fix](http://www.nexusmods.com/skyrimspecialedition/mods/21027)
+
+
+#### []()
+#### []()
+#### []()
+#### []()
+#### []()
+#### []()
+#### []()
+#### []()
+#### []()
+#### []()
+#### []()
+#### []()
+#### []()
+#### []()
+#### []()
+#### []()
+#### []()
+
+
+
 ## Audiovisual
 ### Audiovisual - Models & Textures
 #### [Weapons Armor and Clothing - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/20199)
