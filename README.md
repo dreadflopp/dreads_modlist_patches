@@ -76,7 +76,8 @@ ICAIO = Immersive Citizens – AI Overhaul\
 6. Install the mod [Unlimited Bookshelves Patch Generator](http://https://www.nexusmods.com/skyrimspecialedition/mods/19160). Follow the instructions on the Nexus page to build an Unlimited Bookshelves patch.
 
 # The mod list
-## Audiovisual - Models & Textures
+## Audiovisual
+### Audiovisual - Models & Textures
 #### [Weapons Armor and Clothing - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/20199)
 Choose CBBE in the installer if you use CBBE.
 Hide or delete the file _CalienteTools\BodySlide\ShapeData\CBBE Vanilla\Body\Ebony.nif_ since this mesh is causing issues.
