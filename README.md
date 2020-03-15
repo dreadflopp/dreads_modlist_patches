@@ -95,6 +95,14 @@ ICAIO = Immersive Citizens – AI Overhaul\
 # The mod list
 
 ## Resources
+#### [.NET Script Framework](http://www.nexusmods.com/skyrimspecialedition/mods/21294)
+#### [Address Library for SKSE Plugins](http://www.nexusmods.com/skyrimspecialedition/mods/32444)
+#### [FileAccess Interface for Skyrim SE Scripts - FISSES](http://www.nexusmods.com/skyrimspecialedition/mods/13956)
+#### [PapyrusUtil SE - Modders Scripting Utility Functions](http://www.nexusmods.com/skyrimspecialedition/mods/13048)
+#### [Scaleform Translation++](http://www.nexusmods.com/skyrimspecialedition/mods/22603)
+#### [Skyrim Skill Uncapper](http://www.nexusmods.com/skyrimspecialedition/mods/8889)
+#### [SkyUI](http://www.nexusmods.com/skyrimspecialedition/mods/12604)
+
 ## Foundational Mods
 ## Audiovisual
 ### Audiovisual - Models & Textures
