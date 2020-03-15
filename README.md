@@ -75,10 +75,45 @@ ICAIO = Immersive Citizens – AI Overhaul\
 >10. Make sure no physics options are checked. Check all Frankly options. Click *ok* and close BodySlide. The meshes that has been built are placed in Mod Organizers overwrite folder and can be moved to a new mod folder if you choose to.
 6. Install the mod [Unlimited Bookshelves Patch Generator](http://https://www.nexusmods.com/skyrimspecialedition/mods/19160). Follow the instructions on the Nexus page to build an Unlimited Bookshelves patch.
 
-# The actual mod list
-## Character Appearance
+# The mod list
+## Audiovisual - Models & Textures
+#### [Weapons Armor and Clothing - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/20199)
+Choose CBBE in the installer if you use CBBE.
+Hide or delete the file _CalienteTools\BodySlide\ShapeData\CBBE Vanilla\Body\Ebony.nif_ since this mesh is causing issues.
+#### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
+This mod is installed with STEP. Simply place it here in the load order.
+#### [Frankly HD Dawnguard Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/19663)
+Install the CBBE patch.
+#### [Frankly HD Dragonbone and Dragonscale - Armor and Weapons HQ](https://www.nexusmods.com/skyrimspecialedition/mods/25110)
+#### [Frankly HD Imperial Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/20848)
+Install the Pants ans Sleeves patch and the Better-Shaped Weapons patch.
+#### [Frankly HD Masque of Clavicus Vile](https://www.nexusmods.com/skyrimspecialedition/mods/28565)
+This mod is installed with STEP. Simply place it here in the load order.
+#### [Frankly HD Miraak](https://www.nexusmods.com/skyrimspecialedition/mods/19699)
+Install the CBBE patch.
+#### [Frankly HD Nightingale Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/18560)
+Install the CBBE patch and the Better-Shaped Weapons patch.
+#### [Frankly HD Shrouded Armor](https://www.nexusmods.com/skyrimspecialedition/mods/18785)
+#### [Frankly HD Thieves Guild Armors HQ](https://www.nexusmods.com/skyrimspecialedition/mods/19953)
+This mod is installed with STEP. Simply place it here in the load order.
+#### [HQ Tree Bark](http://www.nexusmods.com/skyrimspecialedition/mods/6556)
+Choose the options you prefer. Install the Simply Bigger Trees patch.
+#### [No More Hanging Moss](https://www.nexusmods.com/skyrimspecialedition/mods/16426)
+Install _Hanging moss removal - partial - the moss around trees -_ mesh edits only. Without this mod you would get floating moss hanging from resized trees.
+#### [Realistic Aspen Trees SE](http://www.nexusmods.com/skyrimspecialedition/mods/4423)
+Choose 2k or 4k. Choose LodGen billboards (doesn't really matter, they will be overwritten by the next mod)
+#### [Simply Bigger Trees SE](http://www.nexusmods.com/skyrimspecialedition/mods/5281)
+Install the Realistic Aspen trees version of this mod.
+
+## Audiovisual - Lighting & Weather 
+#### [Luminosity Lighting Overhaul - The Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/16830)
+This mod is similar to *Enhanced Lighting For ENB* that is installed by STEP. Since they edit the same records they are incompatible. Uninstall *Enhanced Lighting For ENB*. Luminosity makes the ambient light brighter than *Enhanced Lighting For ENB* does. Dark dungeon and interior nerds should stick with *ELE*.
+
+## Audiovisual - Trees
+
+
+## Character Appearance - Body Mods
 *This section replaces the vanilla body with the CBBE body. The CBBE body is chosen because of its versatility. Recommended presets makes the body look realistic or vanilla-ish. Using a body replacer is the only way to make sure the female body is compatible both with skin texture replacers and with mods that add new armors to the game.*\
-**Uninstall 'Vanilla Body with UNP Textures' and 'Tempered Skins for Females' if you want to use the CBBE body.
 #### [Caliente’s Beautiful Bodies Enhancer -CBBE-](https://www.nexusmods.com/skyrimspecialedition/mods/198)
 *NSFW warning*\
 Install the main file, the update file and the optional file ‘CBBE ESL-flagged .esp’.
@@ -92,6 +127,8 @@ Check the nexus page for the instructions to add this mod as an executable in Mo
 #### [CBBE Presets Compendium](https://www.nexusmods.com/skyrimspecialedition/mods/11229)
 *NSFW warning*\
 Install the main file
+
+## Character Appearance - Face Parts
 #### [KS Hairdos SSE](http://www.nexusmods.com/skyrimspecialedition/mods/6817)
 #### [Maevan2’s Mature Skin Texture for CBBE – UNP](https://www.nexusmods.com/skyrimspecialedition/mods/26017)
 *NSFW warning*\
@@ -102,74 +139,6 @@ In the installer, choose what you want, for example: high, CBBE slim, medium, li
 Yes, some Bosmer have antlers.\
 *"It is also common among the Bosmer to wear decorative antlers on their foreheads, although rarely, individuals with real, magically-grown antlers can also be encountered."* [source](https://en.uesp.net/wiki/Lore:Bosmer) \
 Skip this mod if you do not intend to use horns or antlers for your character.
-
-## Items – Armor, Clothing, Accessories & Weapons
-*Remember to use both Cloaks of Skyrim and Winter is coming if you want new cloaks in the game.
-#### [Bandolier - Bags and Pouches Classic](http://www.nexusmods.com/skyrimspecialedition/mods/2417)
-#### [Cloaks of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/6369)
-Install the main version
-#### [Cloaks of Skyrim Ultra HD SSE](http://www.nexusmods.com/skyrimspecialedition/mods/29258)
-#### [Faction Crossbows SE](http://www.nexusmods.com/skyrimspecialedition/mods/4047)
-#### [Heavy Armory - New Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/6308)
-#### [Immersive Armors](http://www.nexusmods.com/skyrimspecialedition/mods/3479)
-#### [Immersive Armours - SSE CBBE BodySlide](https://www.nexusmods.com/skyrimspecialedition/mods/22382)
-Install if you use Immersive Armors with CBBE.
-#### [Immersive Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/16788)
-#### [Royal Armory - New Artifacts](http://www.nexusmods.com/skyrimspecialedition/mods/6994)
-#### [Ruin's Edge](http://www.nexusmods.com/skyrimspecialedition/mods/12792)
-#### [The Staff Of Sheogorath](http://www.nexusmods.com/skyrimspecialedition/mods/14468)
-#### [Unique Uniques SE](https://www.nexusmods.com/skyrimspecialedition/mods/3334)
-Install main file
-#### [Winter Is Coming SSE - Cloaks](http://www.nexusmods.com/skyrimspecialedition/mods/4933)
-Install the patch for Cloaks of Skyrim only if you are not using Complete Crafting Overhaul Remade.
-
-## Items - Weapons Armor and Clothing - Cathedral Concept
-*This whole section should be used together or not at all.*
-*Disable the following STEP mods:*
-- *LeanWolf's Better-Shaped Weapons (included in the mod)*
-- *aMidianBorn Book of Silence*
-- *aMidianBorn Blades Armor SSE Patch*
-- *aMidianBorn imperial light and studded*
-- *aMidianBorn stormcloak officer armour*
-
-#### [Weapons Armor and Clothing - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/20199)
-Choose CBBE in the installer if you use CBBE.
-Hide or delete the file _CalienteTools\BodySlide\ShapeData\CBBE Vanilla\Body\Ebony.nif_ since this mesh is causing issues.
-#### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
-This mod is installed with STEP. Simply place it here in the load order.
-#### [Frankly HD Dragonbone and Dragonscale - Armor and Weapons HQ](https://www.nexusmods.com/skyrimspecialedition/mods/25110)
-This mod is installed with STEP. Simply place it here in the load order.
-#### [Frankly HD Thieves Guild Armors HQ](https://www.nexusmods.com/skyrimspecialedition/mods/19953)
-This mod is installed with STEP. Simply place it here in the load order.
-#### [Frankly HD Masque of Clavicus Vile](https://www.nexusmods.com/skyrimspecialedition/mods/28565)
-#### [Frankly HD Imperial Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/20848)
-Install the Pants ans Sleeves patch and the Better-Shaped Weapons patch.
-#### [Frankly HD Nightingale Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/18560)
-Install the CBBE patch and the Better-Shaped Weapons patch.
-#### [Frankly HD Dawnguard Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/19663)
-Install the CBBE patch.
-#### [Frankly HD Miraak](https://www.nexusmods.com/skyrimspecialedition/mods/19699)
-Install the CBBE patch.
-#### [Frankly HD Shrouded Armor](https://www.nexusmods.com/skyrimspecialedition/mods/18785)
-#### [Improved Closedfaced Helmets](https://www.nexusmods.com/skyrim/mods/15927)
-Download Improved Closefaced Helmets Patch v1 and choose SkyRealism Shiny in the installer. Install this as a new mod, making sure to not overwrite or merge it with the mod installed with STEP.
-
-## Enemies
-#### [Arena - An Encounter Zone Overhaul](Arena - An Encounter Zone Overhaul)
-#### [Deadly Dragons](http://www.nexusmods.com/skyrimspecialedition/mods/23723)
-Choose Loremonger version with patches for Diverse Dragons, Splender Dragons and Wyrmstooth.
-#### [Diverse Dragons Collection SE](http://www.nexusmods.com/skyrimspecialedition/mods/695)
-#### [OBIS SE - Organized Bandits In Skyrim Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/4145)
-Install main file and OBIS SE Patrols addon.
-#### [Skyrim Revamped - Complete Enemy Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/14598)
-#### [Splendor – Dragon Variants SE](http://www.nexusmods.com/skyrimspecialedition/mods/9670)
-
-## New characters - NPC's, followers and encounters
-#### [Immersive Patrols SE](http://www.nexusmods.com/skyrimspecialedition/mods/718)
-#### [Immersive World Encounters SE](https://www.nexusmods.com/skyrimspecialedition/mods/18330)
-#### [INIGO](http://www.nexusmods.com/skyrimspecialedition/mods/1461)
-#### [Interesting NPCs SE](https://www.nexusmods.com/skyrimspecialedition/mods/29194)
-#### [Interesting NPCs (3DNPC) character Zora Fairchild's voice boosted](http://www.nexusmods.com/skyrimspecialedition/mods/16090)
 
 ## Gameplay - AI & Combat
 #### [TK Dodge SE](https://www.nexusmods.com/skyrimspecialedition/mods/15309)
@@ -233,14 +202,43 @@ Do not activate this mod yet. Waith until you have left the first cell of Altern
 #### [Sacrosanct - Vampires of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/3928)
 #### [Thunderchild - Epic Shouts and Immersion](http://www.nexusmods.com/skyrimspecialedition/mods/1460)
 
-## Interface
+## Gameplay - User Interface
 #### [UIExtensions](https://www.nexusmods.com/skyrimspecialedition/mods/17561)
 This is needed by Class Overhaul Re-Imagined.
 
-## Locations
+## Items – Armor, Clothing, & Accessories
+*Remember to use both *Cloaks of Skyrim* and *Winter is coming* if you want new cloaks in the game.
+#### [Bandolier - Bags and Pouches Classic](http://www.nexusmods.com/skyrimspecialedition/mods/2417)
+#### [Cloaks of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/6369)
+Install the main version
+#### [Cloaks of Skyrim Ultra HD SSE](http://www.nexusmods.com/skyrimspecialedition/mods/29258)
+#### [Immersive Armors](http://www.nexusmods.com/skyrimspecialedition/mods/3479)
+#### [Immersive Armours - SSE CBBE BodySlide](https://www.nexusmods.com/skyrimspecialedition/mods/22382)
+Install if you use Immersive Armors with CBBE.
+#### [Winter Is Coming SSE - Cloaks](http://www.nexusmods.com/skyrimspecialedition/mods/4933)
+Install the patch for Cloaks of Skyrim only if you are not using Complete Crafting Overhaul Remade.
+
+## Items – Weapons
+#### [Faction Crossbows SE](http://www.nexusmods.com/skyrimspecialedition/mods/4047)
+#### [Heavy Armory - New Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/6308)
+#### [Immersive Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/16788)
+#### [Royal Armory - New Artifacts](http://www.nexusmods.com/skyrimspecialedition/mods/6994)
+#### [Ruin's Edge](http://www.nexusmods.com/skyrimspecialedition/mods/12792)
+#### [The Staff Of Sheogorath](http://www.nexusmods.com/skyrimspecialedition/mods/14468)
+#### [Unique Uniques SE](https://www.nexusmods.com/skyrimspecialedition/mods/3334)
+Install main file
+
+## Locations - New Structures & Landmarks
 #### [Bells of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/10495)
 Install the patch for Immersive Citizens - AI overhaul.
+#### [Solitude Skyway](http://www.nexusmods.com/skyrimspecialedition/mods/8250)
+#### [Windhelm Lighthouse](http://www.nexusmods.com/skyrimspecialedition/mods/8453)
+
+## Locations - New Lands
 #### [Falskaar](http://www.nexusmods.com/skyrimspecialedition/mods/2057)
+#### [Wyrmstooth SSE](https://archive.org/details/wyrmstooth1.18SSE)
+
+## Locations - Overhauls
 #### [Immersive College of Winterhold](http://www.nexusmods.com/skyrimspecialedition/mods/17004)
 Choose 
 - desaturated book covers
@@ -248,9 +246,6 @@ Choose
 - Better Dynamic Snow Patch
 - Skyrim Project Optimization SSE Patch.
 #### [Immersive Dawnguard Dayspring Pass SE](http://www.nexusmods.com/skyrimspecialedition/mods/4126)
-#### [Solitude Skyway](http://www.nexusmods.com/skyrimspecialedition/mods/8250)
-#### [Windhelm Lighthouse](http://www.nexusmods.com/skyrimspecialedition/mods/8453)
-#### [Wyrmstooth SSE](https://archive.org/details/wyrmstooth1.18SSE)
 
 ## Locations - Arthmoor's towns and villages
 #### [Darkwater Crossing](https://www.nexusmods.com/skyrimspecialedition/mods/326)
@@ -268,20 +263,24 @@ Choose
 #### [The Fall of Granite Hill](https://www.nexusmods.com/skyrimspecialedition/mods/22512)
 #### [Whistling Mine](https://www.nexusmods.com/skyrimspecialedition/mods/367)
 
-## Audiovisual - Lighting & Weather 
-#### [Luminosity Lighting Overhaul - The Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/16830)
-This mod is similar to *Enhanced Lighting For ENB* that is installed by STEP. Since they edit the same records they are incompatible. Uninstall *Enhanced Lighting For ENB*. Luminosity makes the ambient light brighter than *Enhanced Lighting For ENB* does. Dark dungeon and interior nerds should stick with *ELE*.
+## New Characters - Enemies
+#### [Arena - An Encounter Zone Overhaul](Arena - An Encounter Zone Overhaul)
+#### [Deadly Dragons](http://www.nexusmods.com/skyrimspecialedition/mods/23723)
+Choose Loremonger version with patches for Diverse Dragons, Splender Dragons and Wyrmstooth.
+#### [Diverse Dragons Collection SE](http://www.nexusmods.com/skyrimspecialedition/mods/695)
+#### [OBIS SE - Organized Bandits In Skyrim Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/4145)
+Install main file and OBIS SE Patrols addon.
+#### [Skyrim Revamped - Complete Enemy Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/14598)
+#### [Splendor – Dragon Variants SE](http://www.nexusmods.com/skyrimspecialedition/mods/9670)
 
-## Audiovisual - Trees
-*To use the mods in this section, deactivate Enhanced Vanilla Trees from STEP SE: Core.*
-#### [Realistic Aspen Trees SE](http://www.nexusmods.com/skyrimspecialedition/mods/4423)
-Choose 2k or 4k. Choose LodGen billboards (doesn't really matter, they will be overwritten by the next mod)
-#### [Simply Bigger Trees SE](http://www.nexusmods.com/skyrimspecialedition/mods/5281)
-Install the Realistic Aspen trees version of this mod.
-#### [HQ Tree Bark](http://www.nexusmods.com/skyrimspecialedition/mods/6556)
-Choose the options you prefer. Install the Simply Bigger Trees patch.
-#### [No More Hanging Moss](https://www.nexusmods.com/skyrimspecialedition/mods/16426)
-Install _Hanging moss removal - partial - the moss around trees -_ mesh edits only. Without this mod you would get floating moss hanging from resized trees.
+## New Characters - Neutral
+#### [Immersive Patrols SE](http://www.nexusmods.com/skyrimspecialedition/mods/718)
+#### [Immersive World Encounters SE](https://www.nexusmods.com/skyrimspecialedition/mods/18330)
+#### [Interesting NPCs SE](https://www.nexusmods.com/skyrimspecialedition/mods/29194)
+#### [Interesting NPCs (3DNPC) character Zora Fairchild's voice boosted](http://www.nexusmods.com/skyrimspecialedition/mods/16090)
+
+## New Characters - Allies
+#### [INIGO](http://www.nexusmods.com/skyrimspecialedition/mods/1461)
 
 ## STEP SE: Core Changes
 *Some updates to STEP mods are required to make them compatible with other mods in this list*
@@ -310,6 +309,8 @@ Choose
 - Fast Travel Addon
 - Unique Region Names Addon
 #### [Immersive College of Winterhold - Not so fast Mage Guild Patch](https://www.nexusmods.com/skyrimspecialedition/mods/18731)
+#### [Improved Closedfaced Helmets](https://www.nexusmods.com/skyrim/mods/15927)
+Download Improved Closefaced Helmets Patch v1 and choose SkyRealism Shiny in the installer. Install this as a new mod, making sure to not overwrite or merge it with the mod installed with STEP.
 #### [Interesting NPC's Imperious Patch](http://www.nexusmods.com/skyrimspecialedition/mods/29271)
 #### [Kryptopyr's Patch Hub](http://www.nexusmods.com/skyrimspecialedition/mods/19518)
 The fomod installer will identify which patches you need and select them automatically. Do not install the *WACCF - Survival Mode Patch*.
