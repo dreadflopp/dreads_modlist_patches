@@ -94,6 +94,41 @@ ICAIO = Immersive Citizens – AI Overhaul\
 
 # The mod list
 
+## Extenders
+#### [SKSE64](http://www.nexusmods.com/skyrimspecialedition/mods/30379)
+**Root Files Installation**
+1. Download the most current archive for Skyrim SE.
+2. Open the downloaded archive and extract the following files to the Skyrim Special Edition folder: (..\Steam\steamapps\common\Skyrim Special Edition\) 
+    - skse64_X_X_X.dll
+    - skse64_loader.exe
+    - skse64_steam_loader.dll 
+
+**Data Files Installation**
+1. Open MO2 and right-click on the mod list.
+2. Hover over All Mods and select Create empty mod.
+3. Type in SKSE64, or anything similar.
+4. Hold down the Ctrl key and double-click on the newly created mod in the mod list.
+5. Keep this folder open for the next two steps below. 
+
+**INI File**
+1. In the new Explorer window, create a new folder named SKSE
+2. Open that folder and create a new file named SKSE.ini
+3. Open the new file and copy and paste the code in the box below
+4. Save and close the file.
+```
+[Display]
+iTintTextureResolution=2048
+
+[General]
+ClearInvalidRegistrations=1
+```
+
+**Scripts**
+1. From the archive downloaded above, open the Data folder (..\skse64_X_X_X\Data\)
+2. Extract the Scripts folder to the mod's folder.
+
+Once complete, the SKSE mod's folder structure should [look like this.](https://i.postimg.cc/hvWNwHh3/SKSEinMO.jpg)
+
 ## Resources
 #### [.NET Script Framework](http://www.nexusmods.com/skyrimspecialedition/mods/21294)
 #### [Address Library for SKSE Plugins](http://www.nexusmods.com/skyrimspecialedition/mods/32444)
