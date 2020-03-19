@@ -94,10 +94,47 @@ ICAIO = Immersive Citizens – AI Overhaul\
 
 # The mod list
 
+## Extenders
+#### [SKSE64](http://www.nexusmods.com/skyrimspecialedition/mods/30379)
+**Root Files Installation**
+1. Download the most current archive for Skyrim SE.
+2. Open the downloaded archive and extract the following files to the Skyrim Special Edition folder: (..\Steam\steamapps\common\Skyrim Special Edition\) 
+    - skse64_X_X_X.dll
+    - skse64_loader.exe
+    - skse64_steam_loader.dll 
+
+**Data Files Installation**
+1. Open MO2 and right-click on the mod list.
+2. Hover over All Mods and select Create empty mod.
+3. Type in SKSE64, or anything similar.
+4. Hold down the Ctrl key and double-click on the newly created mod in the mod list.
+5. Keep this folder open for the next two steps below. 
+
+**INI File**
+1. In the new Explorer window, create a new folder named SKSE
+2. Open that folder and create a new file named SKSE.ini
+3. Open the new file and copy and paste the code in the box below
+4. Save and close the file.
+```
+[Display]
+iTintTextureResolution=2048
+
+[General]
+ClearInvalidRegistrations=1
+```
+
+**Scripts**
+1. From the archive downloaded above, open the Data folder (..\skse64_X_X_X\Data\)
+2. Extract the Scripts folder to the mod's folder.
+
+Once complete, the SKSE mod's folder structure should [look like this.](https://i.postimg.cc/hvWNwHh3/SKSEinMO.jpg)
+
 ## Resources
 #### [.NET Script Framework](http://www.nexusmods.com/skyrimspecialedition/mods/21294)
 #### [Address Library for SKSE Plugins](http://www.nexusmods.com/skyrimspecialedition/mods/32444)
+Download and install the All-in-One Main File. 
 #### [FileAccess Interface for Skyrim SE Scripts - FISSES](http://www.nexusmods.com/skyrimspecialedition/mods/13956)
+ Only the Main File is required. 
 #### [PapyrusUtil SE - Modders Scripting Utility Functions](http://www.nexusmods.com/skyrimspecialedition/mods/13048)
 #### [Scaleform Translation++](http://www.nexusmods.com/skyrimspecialedition/mods/22603)
 #### [Skyrim Skill Uncapper](http://www.nexusmods.com/skyrimspecialedition/mods/8889)
@@ -105,6 +142,7 @@ ICAIO = Immersive Citizens – AI Overhaul\
 
 ## Foundational Mods
 #### [Unofficial High Definition Audio Project](http://www.nexusmods.com/skyrimspecialedition/mods/18115)
+ Download and install all Main Files. Merge when asked. 
 #### [Unofficial Skyrim Special Edition Patch](http://www.nexusmods.com/skyrimspecialedition/mods/266)
 #### [Skyrim Particle Patch for ENB](https://drive.google.com/open?id=12tL3_kpm_KXlQvQqEnK3zOAl-sm_H3Fw)
 Download and install the Special Edition PARTICLE PATCH ALL-IN-ONE INSTALLATION file. Do not install the plugin, it is not needed.
@@ -131,135 +169,417 @@ In the installer, choose:
 Choose CBBE in the installer if you use CBBE.
 Hide or delete the file _CalienteTools\BodySlide\ShapeData\CBBE Vanilla\Body\Ebony.nif_ since this mesh is causing issues.
 #### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
+Recommendation: 2K
 #### [Unofficial Material Fix](http://www.nexusmods.com/skyrimspecialedition/mods/21027)
 
 ## Audiovisual
 ### Audiovisual - Animations & Effects
+#### [D13 Faster GET UP STAND UP Animation](http://www.nexusmods.com/skyrimspecialedition/mods/5890)
+Install loose files
+#### [No Spinning Death Animation (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/1432)
+Install *No Spinning Death Animation MERGED*
+#### [No Spinning Death Animation MERGED](http://www.nexusmods.com/skyrimspecialedition/mods/15881)
 #### [XP32 Maximum Skeleton Special Extended - XPMSSE](http://www.nexusmods.com/skyrimspecialedition/mods/1988)
+Install the main file using the following options:\
+**Skeleton**
+- Meshes: Skeleton meshes
+- Animation Rig Map: Physics Extensions
 
-### Audiovisual - Lighting & Weather
-#### [Cathedral Weathers and Seasons](http://www.nexusmods.com/skyrimspecialedition/mods/24791)
-#### [Lanterns Of Skyrim II](http://www.nexusmods.com/skyrimspecialedition/mods/30817)
-#### [Luminosity Lighting Overhaul - The Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/16830)
-#### [Relighting Skyrim - SSE](http://www.nexusmods.com/skyrimspecialedition/mods/8586)
-#### [Storm Lightning for SSE](http://www.nexusmods.com/skyrimspecialedition/mods/29243)
-#### [Wonders of Weather (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/13044)
+**Character Creation**
+- Character Creation: Racemenu
+
+**Character Creation**
+- Weapon Style Randomizer for NPCs: None
+
+**Animation Variants**
+- Choose none for all
+
+**First Person Animation**
+- Choose none or nothing for all
+
+**Mounted Combat Animation**
+- Choose none or nothing for all
+
+**Compatibility Patches**
+- Choose none or nothing for all
 
 ### Audiovisual - Models & Textures
 #### [Arctic - Frost Effects Redux](http://www.nexusmods.com/skyrimspecialedition/mods/29817)
+Install the main file using the following options:\
+>TODO
 #### [Armor and Clothing Extension](http://www.nexusmods.com/skyrimspecialedition/mods/19002)
+Recommendation: 2K
 #### [Barenziah's Glory SE](http://www.nexusmods.com/skyrimspecialedition/mods/6343)
+Recommended intall options:\
+- Desaturated Crown Texture - 1k
+- Gamwich Jewelrybox Texture - 1k
+- Gamwich Gem Texture - dark
 #### [Bellyaches Animal and Creature Pack SSE](http://www.nexusmods.com/skyrimspecialedition/mods/6839)
+Recommended install options:\
+**Options**
+- Options: Custom Install
+
+**Custom**
+- Bear (brown and black): Bear Replacers
+- Chaurus: None
+- Chicken: Brown
+- Dog: HD Default
+- Dragonfly: Select Nothing
+- Deer: Select Nothing
+- Fox (Red): Red
+- Fox (Arctic): Arctic
+- Frostbite Spider (Brown): None
+- Frostbite Spider (Arctic): None
+- Goat: None
+- Hawk: None
+- Highland Cow: Orange
+- Horker: Grey
+
+**Horse Options**
+- Horse Tails: None
+- Horse Textures: None
+
+**More Custom Options**
+- Mammoth: None
+- Mudcrab: Grey
+- Rabbit: Rabbit Replacer
+- Sabre Cat (Brown): None
+- Sabre Cat (Arctic): None
+- Skeever (Grey): Mangy - Dark Grey
+- Skeever (Arctic): Mangy - Grey Hooded
+- Wolf (Black): Darker Black
+- Wolf (Ice): White (Brown Eyes)
+- Wolf (Red): Brown
+- Werewolf: Dark Grey
+- Werewolf Eyes: Normal Brown
+
 #### [Bellyaches HD Dragon Replacer Pack (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/2636)
 #### [Better Dynamic Ash SE](http://www.nexusmods.com/skyrimspecialedition/mods/14644)
 #### [Better Dynamic Snow SE](http://www.nexusmods.com/skyrimspecialedition/mods/9121)
+In the installer, choose to install SMIM meshes and Snowy Farmhouses. No patches.
 #### [BetterFalmerCaveCeilingGlow](http://www.nexusmods.com/skyrimspecialedition/mods/17232)
 #### [Book Covers Skyrim (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/901)
+Choose whatever options you like, desaturated books are recommended.
 #### [Book Covers Skyrim - Lost Library (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/902)
+Choose whatever options you like, desaturated books are recommended.
 #### [CleverCharff's Photorealistic Ash Pile](http://www.nexusmods.com/skyrimspecialedition/mods/32720)
 #### [Dark Brotherhood Tenets Restored (SE)](http://www.nexusmods.com/skyrim/mods/31087)
+Recommendation: 1K
+#### [Deadly Spell Impacts (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/12939)
+Recommended install options:\
+**Options**
+- Options: Custom
+
+**Custom**
+- One Fire Impact (Default)
+
+**One**
+- Fire: Default
+
+**Frost**
+- Alternate 1
+
+**Lightning**
+- Default
 #### [Deathbell HD](http://www.nexusmods.com/skyrimspecialedition/mods/10755)
+Recommendation: 1K
 #### [Detailing the Eldrich - Higher-Res Riekling Architecture](http://www.nexusmods.com/skyrim/mods/46741)
-#### [EASIER LOCKPICKING (SE)](http://www.nexusmods.com/skyrim/mods/53071)
+Recommendation: Higher Res
+#### [Divine Amulets and Daedric Rings](http://www.nexusmods.com/skyrim/mods/92542)
+Install main and optional files
 #### [Dragon Glyphs HD - Fixed](http://www.nexusmods.com/skyrim/mods/27095)
+Recommendation: Dragon Chiseled
 #### [Dragon Masks Retextured SE (4K - 2K)](http://www.nexusmods.com/skyrimspecialedition/mods/22699)
+Recommendation: 2K
 #### [DRAGON PRIEST](http://www.nexusmods.com/skyrimspecialedition/mods/4974)
+Recommendation: 2K full option
 #### [Dragonbone Mastery - Weapons Retexture](http://www.nexusmods.com/skyrimspecialedition/mods/2056)
+>TODO Check options and overwrites/conflicts
 #### [DRAUGR](http://www.nexusmods.com/skyrimspecialedition/mods/5848)
+Recommendation: 2K
 #### [DROPS](http://www.nexusmods.com/skyrim/mods/63991)
 #### [Dust Effects by HHaleyy](http://www.nexusmods.com/skyrimspecialedition/mods/2407)
+#### [EASIER LOCKPICKING (SE)](http://www.nexusmods.com/skyrim/mods/53071)
 #### [ElSopa HD - Ants SE](http://www.nexusmods.com/skyrimspecialedition/mods/26715)
+Recommendation: 1K
 #### [ElSopa HD - Briar Heart](http://www.nexusmods.com/skyrimspecialedition/mods/27983)
+Recommendation: red 1k
 #### [ElSopa HD - Dirt Blast SE](http://www.nexusmods.com/skyrimspecialedition/mods/22342)
-#### [ETHEREAL CLOUDS - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/2393)
+Recommendation: 2K
 #### [Embers HD](http://www.nexusmods.com/skyrimspecialedition/mods/14368)
+Install using the following options:\
+**Main Component**
+- Embers HD 2k
+
+**Embers HD Fireplaces Add-On Component**
+- Fireplaces Add-On
+
+**Embers HD Add-On Components**
+- Forges Add-On
+- Lave Crater Add-On
+
+**Embers HD Compatibility Patches**
+- Campfire
+
 #### [Enhanced Blood Textures SE](http://www.nexusmods.com/skyrimspecialedition/mods/2357)
+>TODO Switch to lite version
+#### [ETHEREAL CLOUDS - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/2393)
+Recommendation: 1K
 #### [FALMER](http://www.nexusmods.com/skyrimspecialedition/mods/17224)
+Recommendation: 2K
 #### [Frankly HD Dawnguard Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/19663)
+Recommendation: 2K\
 Install the CBBE patch.
 #### [Frankly HD Dragonbone and Dragonscale - Armor and Weapons HQ](https://www.nexusmods.com/skyrimspecialedition/mods/25110)
+Recommendation: 2K\
 Install both main and update file. 
 #### [Frankly HD Imperial Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/20848)
+Recommendation: 2K\
 Install the *Pants and Sleeves* patch and the *Better-Shaped Weapons* patch.
 #### [Frankly HD Masque of Clavicus Vile](https://www.nexusmods.com/skyrimspecialedition/mods/28565)
+Recommendation: 2K
 #### [Frankly HD Miraak](https://www.nexusmods.com/skyrimspecialedition/mods/19699)
+Recommendation: 2K\
 Install the CBBE patch.
 #### [Frankly HD Nightingale Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/18560)
+Recommendation: 2K\
 Install the CBBE patch and the Better-Shaped Weapons patch.
 #### [Frankly HD Shrouded Armor](https://www.nexusmods.com/skyrimspecialedition/mods/18785)
+Recommendation: 2K\
+Choose the color option you prefer
 #### [Frankly HD Thieves Guild Armors HQ](https://www.nexusmods.com/skyrimspecialedition/mods/19953)
+Recommendation: 2K\
 #### [Gemling Queen Jewelry SE](http://www.nexusmods.com/skyrimspecialedition/mods/4294)
-#### [Greatsword Sheaths and Scabbards Redux SE](http://www.nexusmods.com/skyrimspecialedition/mods/325)
-#### [GIANT](http://www.nexusmods.com/skyrimspecialedition/mods/6179)
+Install instructions:\
+**Main modules:**
+- Amulets
+- Circlets
+- Rings
+
+**DLC Addons**
+- Dawnguard Addon
+
+**Amulet Textures**
+- Gamwich Amulet Textures - 1024
+
+**Ring Texture Options**
+- Gamwich Ring Textures -Combined - 1k
+- Optional Mesh Packs: Select Nothing
+- Optional Mesh Packs Dawnguard: Select Nothing
+
+#### [GIANT (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/6179)
+Recommendation: 2K
 #### [Gold Septim - Coins Retex](http://www.nexusmods.com/skyrimspecialedition/mods/1358)
+Recommendation: 1K
+#### [Greatsword Sheaths and Scabbards Redux SE](http://www.nexusmods.com/skyrimspecialedition/mods/325)
+Install options:\
+-Meshes Type: Meshes - Thin
+- Sheath/Scabbard Type: Small - Default Textures
+- Skyforge Weapons: Select Nothing
+
 #### [HAGRAVEN](http://www.nexusmods.com/skyrimspecialedition/mods/7679)
+Recommendation: 2K
 #### [Hardy Hares](http://www.nexusmods.com/skyrimspecialedition/mods/27366)
 #### [HD Dark brotherhood door](http://www.nexusmods.com/skyrim/mods/53059)
 #### [HD Executioners Block SE](http://www.nexusmods.com/skyrimspecialedition/mods/22674)
 #### [HD Misc](http://www.nexusmods.com/skyrim/mods/3595)
 #### [HD Pondfish](http://www.nexusmods.com/skyrimspecialedition/mods/24731)
 #### [HD Reworked Horses](http://www.nexusmods.com/skyrimspecialedition/mods/28249)
+Recommendation: 2K-1K
 #### [HD Road Signs](http://www.nexusmods.com/skyrimspecialedition/mods/2454)
+Recommendation: 2K\
+Install Main and both Optional files.
 #### [HD Stone Quarry and Clay Deposit (SE)](http://www.nexusmods.com/skyrim/mods/38479)
+Download and install the 1K Main File.\
+Hide the following files:
+- meshes\_byoh\clutter\resources\claypilem01.nif
+- textures\_byoh\clutter\resources\claydeposit01_p.dds
+- textures\_byoh\clutter\resources\StoneQuarry01.dds
+- textures\_byoh\clutter\resources\StoneQuarry01_N.dds
+- textures\_byoh\clutter\resources\StoneQuarry01_P.dds 
+
 #### [High-Res Dartwing (Dragonfly) Texture](http://www.nexusmods.com/skyrim/mods/62809)
 #### [High Quality Food and Ingredients SE](http://www.nexusmods.com/skyrimspecialedition/mods/10897)
+Choose *custom* in the installer and choose the following:
+- Baked Potatoes
+- Boiled Creme Treat
+- Bone Meal
+- Bread
+- Carrots
+- Charred Skeever Hide and Meat
+- Chicken Breast
+- Dead Hare
+- Dead Pheasant
+- Garlic
+- Green Apple
+- Grilled Chicken Breast
+- Grilled Leeks
+- Honey Nut Treat
+- Long Taffy Treat
+- Mead
+- Moon Sugar
+- Mora Tapinella
+- Pie
+- Potatoes
+- Powered Mannoth Tusk (it's misspelled)
+- Raw Beef
+- Red Apple
+- Salmon Meat
+- Salmon Steak
+- Salt Pile
+- Scaly Photiota
+- Seared Slaughterfish
+- Slaughterfish Scales
+- Sweet Roll
+- Venison
+- Void Salts
+
 #### [HORNCANDLES](http://www.nexusmods.com/skyrimspecialedition/mods/17285)
+Recommendation: 2K-1K
 #### [Hybrids HD Plants and Herbs Retexture (SE)](http://www.nexusmods.com/skyrim/mods/1546)
+Hide the following files/folders:
+- Textures\Plants\FloraNirnroot01.dds
+- Textures\Plants\HangingMoss01.dds
+- Textures\Plants\MountainFloweringPurple.dds
+- Textures\Plants\MountainFloweringPurple_n.dds
+- Textures\Plants\Snowberry01.dds
+- Textures\Plants\SnowberrySnow01.dds
+- Textures\Plants\TundraCotton01.dds 
+
 #### [Iconic's Real Hay](http://www.nexusmods.com/skyrimspecialedition/mods/11133)
+Recommendation: 2K alt
 #### [Immersive Dragons](http://www.nexusmods.com/skyrimspecialedition/mods/18957)
 #### [Immersive Smilodons](http://www.nexusmods.com/skyrimspecialedition/mods/18429)				
 #### [Improved closefaced helmets (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/824)
 #### [Improved Sparks](http://www.nexusmods.com/skyrimspecialedition/mods/19831)
+Recommendation: Grindstones - 10X Sparks and Impact Effects - Vanilla Sparks
 #### [Improved Weapon Impact EFFECTS Correct Metal SE](http://www.nexusmods.com/skyrimspecialedition/mods/8936)
 #### [Inferno - Fire Effects Redux](http://www.nexusmods.com/skyrimspecialedition/mods/29316)
+Recommended install options:\
+- Main Installation: Core Files
+- Resolution Options: Lite
+- Glow Options: Normal
+- Inferno Flame Color: Freeseia
+- Tile Options: New
+- Patch Options: Ember HD
+- Patch Options: Select Nothing
+- Patch Options: Select Nothing
+
 #### [Just Ice (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/9444)
+Recommendation: 2K
 #### [LeanWolf's Improved Enchanter Candle Meshes SE](http://www.nexusmods.com/skyrimspecialedition/mods/7883)
 #### [MAMMOTH](http://www.nexusmods.com/skyrimspecialedition/mods/6127)
+Recommendation: 2K
 #### [Metallurgy - Ingots and Ore HD](http://www.nexusmods.com/skyrimspecialedition/mods/30738)
+Recommendation: Metallurgy - Ingots and Ore HD 1K (LOOSE)
 #### [MM - REAL ELKS](http://www.nexusmods.com/skyrim/mods/94362)
+Recommendation: 2K
 #### [New Thinner Torch](http://www.nexusmods.com/skyrim/mods/6950)
+Download and install the Ultimate HD Torch by rheadude compatible file. 
 #### [Not Really HD Display Case](http://www.nexusmods.com/skyrim/mods/3693)
 #### [Not Really HD Keys](http://www.nexusmods.com/skyrim/mods/2875)
 #### [Rally's Hooks and Saws](http://www.nexusmods.com/skyrimspecialedition/mods/32652)
 #### [Rally's Instruments HQ](http://www.nexusmods.com/skyrimspecialedition/mods/28193)
+Recommendation: Rallys Instruments HQ - Version 2 Vanilla Lute
 #### [Real Wood Textures - Farmhouses (SE)](http://www.nexusmods.com/skyrim/mods/50595)
+Download and Install the Real Wood Textures - Farmhouses No Green Moss Version Optional File.\
+\
+Hide the following files/folders:
+- textures\architecture\farmhouse\StoneWall01.dds
+- textures\architecture\farmhouse\StoneWall01_n.dds
+- textures\architecture\farmhouse\WovenFence01.dds
+- textures\architecture\farmhouse\WovenFence01_n.dds 
+
 #### [Realistic HD Baskets Remastered](http://www.nexusmods.com/skyrimspecialedition/mods/22199)
 #### [Realistic HD Pickaxe Remastered](http://www.nexusmods.com/skyrimspecialedition/mods/20168)
 #### [Realistic HD Woodcutter's Axe Remastered](http://www.nexusmods.com/skyrimspecialedition/mods/20239)
 #### [Realistic Water Two (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/2182)
+Choose no optional textures. Choose extended ambiance and patches for *Landscape Fixes for Grass Mods*,  *Falskaar* and *Wyrmstooth*.
+
 #### [Rens HD Shrines (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/13572)
+ChooseThe shrines that you think look the best, for example:\
+- Akatosh: Sands of Time
+- Arkay: Golden Shells
+- Dibella: Springs of Love
+- Julianos: Magic Circles
+- Kynareth: Heavenly Air
+- Mara: Gilded Saint
+- Stendarr: Tusk of Mercy
+- Talos: Rusted Steel
+- Zenithar: Golden Circuit
+
 #### [Retexture for Bread - Hearthfire](http://www.nexusmods.com/skyrim/mods/64980)
 #### [Retexture for Soup](http://www.nexusmods.com/skyrim/mods/65238)
+Install SMIM Mesh - Poor Version
 #### [Ruins Clutter Improved](http://www.nexusmods.com/skyrimspecialedition/mods/5870)
+Choose *Install Everything* in the installer. Hide or delete the following files or folders:
+- meshes\furniture\workbenches
+- meshes\furniture\enchantingworkbench.nif
+- meshes\furniture\enchantingworkstation.nif
+- meshes\loadscreenart\loadscreenenchantingworkbench.nif
+- textures\clutter\candles 
 #### [RUSTIC ANIMATED POTIONS and POISONS](http://www.nexusmods.com/skyrimspecialedition/mods/2276)
+Recommendation: 1K
 #### [RUSTIC ARMOR and WEAPONS SE](http://www.nexusmods.com/skyrimspecialedition/mods/19666)
+Recommendation: 2K
 #### [RUSTIC AZURA'S STAR - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/18345)
+Recommendation: 2K
 #### [RUSTIC COOKING - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/6142)
+Recommendation: 1K
 #### [RUSTIC DAEDRA - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/19272)
+Recommendation: 2K
 #### [RUSTIC DEATH HOUND and GARGOYLE - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/17740)
+Recommendation: 2K
 #### [RUSTIC DRAGON CORPSE - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/17639)
+Recommendation: 2K
 #### [RUSTIC ELDERSCROLL - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/17757)
+Recommendation: 2K
 #### [RUSTIC FROSTBITE SPIDER - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/18817)
+Recommendation: 2K
 #### [RUSTIC NORDIC MURALS](http://www.nexusmods.com/skyrim/mods/65602)
+Recommendation: 2K-1K
 #### [RUSTIC SOULGEMS - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/5785)
+Recommendation: 1K
 #### [RUSTIC SPRIGGAN - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/18107)
+Recommendation: 2K
 #### [RUSTIC WINDOWS - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/1937)
+Recommendation: 2K
 #### [SABRECAT](http://www.nexusmods.com/skyrimspecialedition/mods/5303)
+Recommendation: 2K\
+Install both options in the installer.
 #### [SKELETON](http://www.nexusmods.com/skyrimspecialedition/mods/17282)
+Recommendation: 2K\
+Install selecting the Skin, clutter without sounds option. 
+#### [Skygazer Moons SSE](http://www.nexusmods.com/skyrimspecialedition/mods/32057)
+The *Glow* version (1.2) has some issues which should be fixed with later versions. For now, use the *No Glow* version
 #### [Skyrim Redesigned WIP (SE)](http://www.nexusmods.com/skyrim/mods/8954)
+Download and install the FOMOD Version and install using the STEP option. 
 #### [Skyrim SE Improved Puddles](http://www.nexusmods.com/skyrimspecialedition/mods/1462)
+Choose *2048x2048 Resolution* and *Skyrim Special Edition (all DLCs)* in the installer
 #### [Skyrim SE Skill Interface Re-Texture](http://www.nexusmods.com/skyrimspecialedition/mods/1523)
+Choose the options you prefer
 #### [Smooth Sky mesh - SSE](http://www.nexusmods.com/skyrimspecialedition/mods/18350)
 #### [Stalhrim](http://www.nexusmods.com/skyrimspecialedition/mods/9447)
+Recommendation: 2K
 #### [Sweet Mother - The Night Mother Improvement](http://www.nexusmods.com/skyrim/mods/4947)
+Recommendation: Sweet Mother HD
 #### [The Elder Scrolls V Rewritten - Arvak SE](http://www.nexusmods.com/skyrimspecialedition/mods/11999)
+Recommendation: *High Definition* texture size and the *Soul Cairn* model.
 #### [TROLL](http://www.nexusmods.com/skyrimspecialedition/mods/4682)
+Recommendation: 2K
 #### [Ultimate HD Torch](http://www.nexusmods.com/skyrim/mods/28060)
+Recommendation: 2K
 #### [Vivid Landscapes - Tundra Moss Revised](http://www.nexusmods.com/skyrim/mods/43221)
+Recommendation: *Vivid Landscapes - Tundra Moss Revised - yellow 1024* main file and *SMIM compatibility patch* optional file. 
 #### [WEBS S.E.](http://www.nexusmods.com/skyrimspecialedition/mods/4873)
+Recommendation: 2K
 #### [White Phial Replacer SE](http://www.nexusmods.com/skyrimspecialedition/mods/6113)
+Recommendation: Install main file and *White Phial Replacer 0.5x size* optional file. 
 #### [Whiterun Trellis Redesigned SE](http://www.nexusmods.com/skyrimspecialedition/mods/31905)
+Recommendation: 2K
 #### [WISPMOTHER](http://www.nexusmods.com/skyrimspecialedition/mods/7638)
+Recommendation: 2K-1K\
+Choose *Full version - skin with a linen fabric cloth* in the installer.
 
 ### Audiovisual - Trees & Vegetation
 #### [HQ Tree Bark](http://www.nexusmods.com/skyrimspecialedition/mods/6556)
@@ -274,13 +594,16 @@ Install the Realistic Aspen trees version of this mod.
 
 ## Audiovisual - Sounds & Music
 #### [Audio Overhaul for Skyrim SE](http://www.nexusmods.com/skyrimspecialedition/mods/12466)
+Do not install any patches. Delete the SKSE folder after installation.
 #### [Better Animal Footsteps](https://www.nexusmods.com/skyrim/mods/24805)
+Choose to install all footstep sounds. Do not install any patches.
 #### [Better Horse Pain Sounds](http://www.nexusmods.com/skyrim/mods/12608)
-#### [Dragons Shout with Voice (SE)](http://www.nexusmods.com/skyrim/mods/35286)
 #### [Heart of the Beast - Werewolf Sound and Texture Overhaul](http://www.nexusmods.com/skyrim/mods/13779)
+Recommendation: *Feral Werewolf sounds - HIGH AGGRESSION*
 #### [IHSS - Improved Horse Step Sounds](http://www.nexusmods.com/skyrimspecialedition/mods/848)
 #### [Lower Sounding Thieves Guild Door](http://www.nexusmods.com/skyrim/mods/1826)
 #### [Realistic wolf howls](http://www.nexusmods.com/skyrim/mods/30636)
+Recommendation: *Realistic Wolf Howls more barks than howls*
 #### [Sound Hammering Sounds](http://www.nexusmods.com/skyrimspecialedition/mods/5592)
 #### [Thundering Shouts (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/14352)	
 #### [Ultra Realistic Bow Shoot Sounds](https://www.nexusmods.com/skyrim/mods/27208)
@@ -307,25 +630,90 @@ Install the main file
 
 ### Character Appearance - Face Parts, textures and overhauls
 #### [Beards](http://www.nexusmods.com/skyrimspecialedition/mods/1067)
+Choose *Full Install* and *Low: 1024*
 #### [Brows](http://www.nexusmods.com/skyrimspecialedition/mods/1062)
+Choose *Full Install* and *Low: 512*
 #### [Consistent Older People](http://www.nexusmods.com/skyrimspecialedition/mods/2977)
+Install the loose version
 #### [Coverkhajiits (SE)](http://www.nexusmods.com/skyrim/mods/5941)
-#### [Female Vampires Have Fangs](http://www.nexusmods.com/skyrimspecialedition/mods/1211)
+Install both main files
 #### [FAR - Forgotten Argonian Roots (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/1704)
+The mod is not packaged correctly for mod managers. To install:
+
+1. Open the archive in MO for installation.
+2. Expand FAR-Forgotten Argonian Roots
+3. Expand Females → CBBE Body → MAIN texture
+4. Drag and drop the Textures folder onto < data > above
+5. Expand Males → Better Males body
+6. Drag and drop the Textures folder onto < data > above
+7. Expand no glow skin → Female
+8. Drag and drop the Textures folder onto '< data > above
+9. Expand no glow skin → Male
+10. Drag and drop the Textures folder onto < data > above
+11. Untick FAR-Forgotten Argonian Roots and click OK
+
+#### [Female Vampires Have Fangs](http://www.nexusmods.com/skyrimspecialedition/mods/1211)
 #### [Immersive Spectral Assassin](http://www.nexusmods.com/skyrimspecialedition/mods/27051)	
+Download and install the Immersive Spectral Assassin (Oblivion) file.
+
+Some of this mod's features have been reverted in this builds patch in order to return it to a more vanilla-like replacement. The following was changed:
+
+- The perks have been removed
+    - The perks were added by the author and weren't present in vanilla so this was reverted. 
+- Magic has been increased
+    - Upon looking up the lore and Oblivion NPC, it was found that Lucien's magic was much higher than Skyrim has it. Therefore, it's been increased. 
+- Nightingale gloves removed
+    - In an effort to return the NPC back to as much a vanilla-like state as possible, he Nightingale gloves (too powerful) were switched out with the Jester gloves (more equivalent to vanilla). 
+
 #### [KS Hairdos SSE](http://www.nexusmods.com/skyrimspecialedition/mods/6817)
 #### [Maevan2’s Mature Skin Texture for CBBE – UNP](https://www.nexusmods.com/skyrimspecialedition/mods/26017)
 *NSFW warning*\
 In the installer, choose what you want, for example: high, CBBE slim, medium, lips, complexions, young, mature.
 #### [RUSTIC CHILDREN (SE)](http://www.nexusmods.com/skyrim/mods/63353)
+Recommendation: 2K
 #### [Salt and Wind – Rough Hair for KS Hairdos SE](http://www.nexusmods.com/skyrimspecialedition/mods/16582)
 #### [Superior Lore-Friendly Hair (SE)](http://www.nexusmods.com/skyrim/mods/36510)
+Recommendation: Rough hair, 1K
 #### [TDN Equipable Horns SE](http://www.nexusmods.com/skyrimspecialedition/mods/9224)
 Yes, some Bosmer have antlers.\
 *"It is also common among the Bosmer to wear decorative antlers on their foreheads, although rarely, individuals with real, magically-grown antlers can also be encountered."* [source](https://en.uesp.net/wiki/Lore:Bosmer) \
 Skip this mod if you do not intend to use horns or antlers for your character.
 #### [Tempered Skins for Males](http://www.nexusmods.com/skyrimspecialedition/mods/7902)
+In the installer you can choose what you like but the following is recommended: A1, B6, C1, D2, E2, no facemarks or scars.\
+\
+Hide the following files:
+- textures\actors\character\argonianmale (entire folder)
+- textures\actors\character\khajiitmale\khajiitmalehead_s.dds
+- textures\actors\character\male\maleunderwear.dds
+- textures\actors\character\male\maleunderwear_n.dds
+- textures\armor\briarheart\briarheart.dds
+- textures\armor\briarheart\briarheart_n.dds
+
 #### [Vanilla Makeup HD](http://www.nexusmods.com/skyrimspecialedition/mods/24482)
+Recommendation: 2K for all races and update file.
+#### [MHD - All Races - 2K Also install the 2K update file](http://www.nexusmods.com/skyrimspecialedition/mods/20751)
+Recommendation: 2K.\
+In the installer, choose the following:
+**Main Files**
+- Vanilla Replacers: 2K vanilla Replacers
+- 2K RaceMenu All-In-One
+
+**Variant Textures**
+- Vanilla Variants General Watercolor: None
+- Vanilla Variants Wood Elves Muddy: None
+- Vanilla Variants Dark Elf Ashy: None
+- Vanilla Variants Khajiit Stripes Furry: 2K Furry
+- Vanilla Variants Nord Splattered: None
+- Vanilla Variants Argonian Scaley: 2K Scaley
+- RaceMenu Variants General Watercolor: None
+- RaceMenu Variants Wood Elves Muddy: None
+- RaceMenu Variants Dark Elf Ashy: None
+- RaceMenu Variants Khajiit Stripes Furry: 2K Furry
+- RaceMenu Variants Nord Splattered: None
+- RaceMenu Variants Argonian Scaley: 2K Scaley
+
+**SKSE Tintmask Configs**
+- None
 
 ## Fixes
 #### [(SKSE64) Havok Fix](http://www.nexusmods.com/skyrimspecialedition/mods/18160)
@@ -333,33 +721,91 @@ Skip this mod if you do not intend to use horns or antlers for your character.
 #### [Bug Fixes SSE](http://www.nexusmods.com/skyrimspecialedition/mods/33261)
 #### [Butterflies Land True](http://www.nexusmods.com/skyrimspecialedition/mods/29434)
 #### [Butterflies Unchained](http://www.nexusmods.com/skyrimspecialedition/mods/29538)
+Install esl version
 #### [Critters Ain't Snitches - Animal and Monster Crime Reporting Fix - BETA](http://www.nexusmods.com/skyrimspecialedition/mods/15134)
 #### [Dragon Stalking Fix](http://www.nexusmods.com/skyrimspecialedition/mods/14060)
 #### [Enchantment Reload Fix SE](http://www.nexusmods.com/skyrimspecialedition/mods/21055)
 #### [Eye Normal Map Fix SSE](http://www.nexusmods.com/skyrimspecialedition/mods/5445)
+Install *Eye Normal Map Fix SSE BC7*
 #### [Fuz Ro D-oh - Silent Voice](http://www.nexusmods.com/skyrimspecialedition/mods/15109)
+Install main and optional files.
 #### [Hearthfires Houses Building Fix](http://www.nexusmods.com/skyrimspecialedition/mods/27298)
 #### [Invisibility and Eyes Mesh Fix by HHaleyy](http://www.nexusmods.com/skyrimspecialedition/mods/14464)
+Choose *Eyes Mesh Fix* in the installer.
 #### [Modern Brawl Bug Fix](http://www.nexusmods.com/skyrimspecialedition/mods/1473)
 #### [Reasonable Movement Speed](http://www.nexusmods.com/skyrimspecialedition/mods/3422)
 #### [Skyrim Landscape and Water Fixes](http://www.nexusmods.com/skyrimspecialedition/mods/26138)
+In the installer, choose:
+- Base Fixed Meshes: Base Meshes
+- Main Plugin: 1. ESM
+- Patches: Relighting Skyrim
+- Walkway Wall FIX: Walkway Wall FIX SMIM
+
 #### [Skyrim Project Optimization SE](http://www.nexusmods.com/skyrimspecialedition/mods/14084)
+Choose ESM version
 #### [SkyUI SE - Flashing Savegames Fix](http://www.nexusmods.com/skyrimspecialedition/mods/20406)
 #### [SSE Engine Fixes (skse64 plugin)](http://www.nexusmods.com/skyrimspecialedition/mods/17230)
+1. Download and install the (Part 1) Engine Fixes 4.11 for SSE 1.5.97 - skse64 plugin Main File.= in MO.
+2. Download the (Part 2) Engine Fixes - skse64 Preloader and TBB Lib Main File.
+3. Extract the contents of the second archive to the root Skyrim SE directory (i.e. ..\Steam\SteamApps\Common\Skyrim Special Edition\) 
+Once installed open and ensure the EngineFixes.ini file is configured:
+```
+[Patches]
+EnableAchievementsWithMods = true
+
+FormCaching = true
+
+MaxStdio = true
+
+TreeLODReferenceCaching = true
+
+WaterflowAnimation = true
+
+WaterflowSpeed = 16.0
+20.0 = default. Smaller = slower, larger = faster.
+
+[Fixes]
+ArcheryDownwardAiming = true
+
+AnimationLoadSignedCrash = true
+
+DoublePerkApply = true
+
+LipSync = true
+
+MemoryAccessErrors = true
+
+MO5STypo = true
+
+SlowTimeCameraMovement = true
+
+TreeReflections = true
+
+VerticalLookSensitivity = true
+```
+>Leave the remainder of the settings at their defaults, unless the changes are known and desired.
 #### [Stay At The System Page - Updated](http://www.nexusmods.com/skyrimspecialedition/mods/19832)
 #### [Unlimited Bookshelves (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/2885)
 #### [Waterbreathing Breathless Emerge SSE](http://www.nexusmods.com/skyrimspecialedition/mods/14485)
 #### [Wiseman303's Critter Fixes (SE)](http://www.nexusmods.com/skyrim/mods/54485)
+In the installer, choose *Monarch Wing Fix*.
 #### [Wiseman303's Flora Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/28197)
 Install the main file and the patch for SMIM.
 
 ## Gameplay
+### Gameplay - General
+#### [GIST - Genuinely Intelligent Soul Trap SE](http://www.nexusmods.com/skyrimspecialedition/mods/15755)
+Download and install the Main File and the GIST - Rustic Soul Gems patch Optional File. 
+
 ### Gameplay - AI & Combat
 #### [Auto Hide Ammo](http://www.nexusmods.com/skyrimspecialedition/mods/1882)
+Install the Simple Auto Unequip Ammo from the Old Files.
 #### [Better Stealth AI for Followers](http://www.nexusmods.com/skyrimspecialedition/mods/17600)
 #### [Follower Trap Safety](http://www.nexusmods.com/skyrimspecialedition/mods/2755)
-#### [GIST - Genuinely Intelligent Soul Trap SE](http://www.nexusmods.com/skyrimspecialedition/mods/15755)
+#### [Immersive Citizens - AI Overhaul SE](http://www.nexusmods.com/skyrimspecialedition/mods/173)
+Do not choose any patches in the main installer.
 #### [Realistic AI Detection SE](http://www.nexusmods.com/skyrimspecialedition/mods/2345)
+Choose *Realistic AI Detection 2 SE - Medium Interior Medium Exterior*
 #### [Run For Your Lives (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/2272)
 #### [Tavern AI fix](http://www.nexusmods.com/skyrimspecialedition/mods/23107)
 #### [TK Dodge SE](https://www.nexusmods.com/skyrimspecialedition/mods/15309)
@@ -369,7 +815,7 @@ Install the main file and the patch for SMIM.
 #### [Aetherius - A Race Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/26686)
 #### [Class Overhaul Re-Imagined (SkyRem - Cori)](https://www.nexusmods.com/skyrimspecialedition/mods/24808)
 #### [Experience](http://www.nexusmods.com/skyrimspecialedition/mods/17751)
-Do not activate this mod yet. Waith until you have left the first cell of Alternate Start to avoid getting experience when different mods do their initial setup routines.
+Do not activate this mod yet. Wait until you have left the first cell of Alternate Start to avoid getting experience when different mods do their initial setup routines.
 #### [Growl - Werebeasts of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/31245)
 #### [Sacrosanct - Vampires of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/3928)
 
@@ -379,23 +825,31 @@ Do not activate this mod yet. Waith until you have left the first cell of Altern
 ### Gameplay - Economy & Item Balance
 #### [Trade and Barter](http://www.nexusmods.com/skyrimspecialedition/mods/23081)
 #### [Weapons Armor Clothing and Clutter Fixes](http://www.nexusmods.com/skyrimspecialedition/mods/18994)
+Recommendation: 2K textures.
+After installation, hide or delete the file *WACCF_BashedPatchLvlListFix.esp*
 
 ### Gameplay - Immersion & Role-playing
 #### [Campfire - Complete Camping System](http://www.nexusmods.com/skyrimspecialedition/mods/667)
-Hide or delete the file _SKSE/Plugins/PapyrusUtil.dll_. It is outdated and we need to use the newer one from PapyrusUtil SE.
+Hide or delete the file *SKSE/Plugins/PapyrusUtil.dll*. It is outdated and we need to use the newer one from PapyrusUtil SE.
 #### [Campfire and Frostfall - Unofficial SSE Update](http://www.nexusmods.com/skyrimspecialedition/mods/17925)
 #### [Carriage and Ferry Travel Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/8379)
-Install patches for Immersive Citizens - AI Overhaul and Dawnstar.
+Install patches for *Immersive Citizens - AI Overhaul* and *Dawnstar*.
+#### [Convenient Horses (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/9519)
 #### [Daedric Voices](https://www.nexusmods.com/skyrimspecialedition/mods/32090)
 Install the main file and the Growl patch.
 #### [Disease Descriptions for the Immersive Adventurer SE](http://www.nexusmods.com/skyrimspecialedition/mods/26992)
 #### [ElSopa - Campfire HD SE](http://www.nexusmods.com/skyrimspecialedition/mods/24511)
 #### [Get Snowy (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/22488)
+When installing the mod, untick the following plugins:
+- getSnowy_ObsidianWeathers_Patch.esp
+- getSnowy_WnC-Ashes Patch.esp
+
 #### [Go On Ahead](http://www.nexusmods.com/skyrimspecialedition/mods/4779)
 #### [Guard Dialogue Overhaul SE](http://www.nexusmods.com/skyrimspecialedition/mods/22075)
 #### [Improved Traps](http://www.nexusmods.com/skyrimspecialedition/mods/17592)
+Install *Improved Traps and Mining Makes Noise*
 #### [Lenient Survival](https://www.nexusmods.com/skyrimspecialedition/mods/13087)
-For users of Survival Mode only. Do not install the optional file. A plugin to remove carry weight penalty is found the guides patches.
+For users of Survival Mode only. Do not install the optional file. A plugin to remove carry weight penalty is found in the guides patches.
 #### [Lock Related Loot](http://www.nexusmods.com/skyrimspecialedition/mods/11342)
 #### [Nether's Follower Framework](http://www.nexusmods.com/skyrimspecialedition/mods/18076)
 Choose the following: 
@@ -423,6 +877,7 @@ Install the main file and the Survival patch. Do not install the Audio Overhaul 
 #### [Clockwork (SSE)](http://www.nexusmods.com/skyrimspecialedition/mods/4155)
 #### [Dawnguard and Clan Volkihar Epilogues](http://www.nexusmods.com/skyrimspecialedition/mods/12098)
 #### [Even Better Quest Objectives](http://www.nexusmods.com/skyrimspecialedition/mods/159)
+In the installer, choose the optional file *Dark Brotherhood Forever to Miscellaneous Quests* and patches for *Alternate Start, Book Covers Skyrim, Cutting room floor* and *The Paarthurnax Dilemma*.
 #### [The Forgotten City](http://www.nexusmods.com/skyrimspecialedition/mods/1179)
 #### [Gildergreen Regrown](http://www.nexusmods.com/skyrimspecialedition/mods/348)
 #### [The Gray Cowl of Nocturnal SE](http://www.nexusmods.com/skyrimspecialedition/mods/4509)
@@ -437,6 +892,7 @@ Install the WACCF patch. The USSEP-patch isn't needed if you use SMIM, CFTO or R
 #### [Not So Fast - Main Quest (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/2475)
 #### [The Paarthurnax Dilemma](http://www.nexusmods.com/skyrimspecialedition/mods/365)
 #### [Timing is Everything SE](http://www.nexusmods.com/skyrimspecialedition/mods/25464)
+Install the FISS version.
 
 ### Gameplay - Skills & Perks
 #### [Adamant - A Perk Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/30191)
@@ -444,6 +900,7 @@ Install the WACCF patch. The USSEP-patch isn't needed if you use SMIM, CFTO or R
 
 ### Gameplay - User Interface
 #### [Better Container Controls for SkyUI](http://www.nexusmods.com/skyrimspecialedition/mods/25271)
+Do not install the main file, install the esl optional file only. If you play with a gamepad, skip this mod completely.
 #### [Better Dialogue Controls](http://www.nexusmods.com/skyrimspecialedition/mods/1429)
 #### [Better MessageBox Controls](http://www.nexusmods.com/skyrimspecialedition/mods/1428)
 #### [Cathedral Weathers MCM](http://www.nexusmods.com/skyrimspecialedition/mods/24940)
@@ -487,7 +944,6 @@ Install main file
 #### [Bells of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/10495)
 Install the patch for Immersive Citizens - AI overhaul.
 #### [Cutting Room Floor](http://www.nexusmods.com/skyrimspecialedition/mods/276)
-#### [Farmhouse Chimneys SE](http://www.nexusmods.com/skyrimspecialedition/mods/8766)
 #### [Solitude Skyway](http://www.nexusmods.com/skyrimspecialedition/mods/8250)
 #### [Windhelm Lighthouse](http://www.nexusmods.com/skyrimspecialedition/mods/8453)
 
@@ -495,18 +951,7 @@ Install the patch for Immersive Citizens - AI overhaul.
 #### [Falskaar](http://www.nexusmods.com/skyrimspecialedition/mods/2057)
 #### [Wyrmstooth SSE](https://archive.org/details/wyrmstooth1.18SSE)
 
-### Locations - Overhauls
-#### [Bring Out Your Dead (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/323)
-#### [Immersive College of Winterhold](http://www.nexusmods.com/skyrimspecialedition/mods/17004)
-Choose 
-- desaturated book covers
-- RLS SSE Patch
-- Better Dynamic Snow Patch
-- Skyrim Project Optimization SSE Patch.
-#### [Immersive Dawnguard Dayspring Pass SE](http://www.nexusmods.com/skyrimspecialedition/mods/4126)
-#### [Smooth Shores](http://www.nexusmods.com/skyrimspecialedition/mods/10624)
-
-### Locations - Arthmoor's towns and villages
+### Locations - Towns and villages
 #### [Darkwater Crossing](https://www.nexusmods.com/skyrimspecialedition/mods/326)
 #### [Dragon Bridge](https://www.nexusmods.com/skyrimspecialedition/mods/8683)
 #### [Dawnstar](https://www.nexusmods.com/skyrimspecialedition/mods/13607)
@@ -523,6 +968,36 @@ Choose
 #### [Telengard](https://www.nexusmods.com/skyrimspecialedition/mods/17423)
 #### [The Fall of Granite Hill](https://www.nexusmods.com/skyrimspecialedition/mods/22512)
 #### [Whistling Mine](https://www.nexusmods.com/skyrimspecialedition/mods/367)
+
+### Locations - Overhauls
+#### [Bring Out Your Dead (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/323)
+#### [Immersive College of Winterhold](http://www.nexusmods.com/skyrimspecialedition/mods/17004)
+Choose 
+- desaturated book covers
+- RLS SSE Patch
+- Better Dynamic Snow Patch
+- Skyrim Project Optimization SSE Patch.
+#### [Immersive Dawnguard Dayspring Pass SE](http://www.nexusmods.com/skyrimspecialedition/mods/4126)
+#### [Smooth Shores](http://www.nexusmods.com/skyrimspecialedition/mods/10624)
+#### [Farmhouse Chimneys SE](http://www.nexusmods.com/skyrimspecialedition/mods/8766)
+The installer auto detects which mods you have installed and automatically chosses the correct patches. Do not install any *Alternative Toppers* unless you prefer them.
+
+### Audiovisual - Lighting & Weather
+#### [Cathedral Weathers and Seasons](http://www.nexusmods.com/skyrimspecialedition/mods/24791)
+Install the main file.
+#### [Lanterns Of Skyrim II](http://www.nexusmods.com/skyrimspecialedition/mods/30817)
+In the installer, choose no addons. Install *the LoS II - SMIM patch*. The installer will automatically select all patches you need.
+#### [Luminosity Lighting Overhaul - The Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/16830)
+#### [Relighting Skyrim - SSE](http://www.nexusmods.com/skyrimspecialedition/mods/8586)
+#### [Storm Lightning for SSE](http://www.nexusmods.com/skyrimspecialedition/mods/29243)
+In the installer, choose *Skyrim Special Edition* and the latest game version. Choose esl flagged plugin. Recommended settings for halo are as follows:
+- Night time sheet halo: Halo with dimmer lighting (level 0)
+- Day time sheet halo: Halo dim (level 2)
+- Night time fork halo: Halo dimmer (level 1)
+- Day time fork halo: Halo dim (level 2)
+
+#### [Wonders of Weather (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/13044)
+In the installer, choose core files and *Less Opaque Splashes*.
 
 ## New Characters
 ### New Characters - Enemies
@@ -546,10 +1021,6 @@ Install main file and OBIS SE Patrols addon.
 
 ## STEP SE: Core Changes
 *Some updates to STEP mods are required to make them compatible with other mods in this list*
-#### [Embers HD](http://www.nexusmods.com/skyrimspecialedition/mods/14368)
-Reinstall and add the Campfire patch.
-#### [Realistic Water Two](http://www.nexusmods.com/skyrimspecialedition/mods/2182)
-Reinstall and add patches for Falskaar and Wyrmstooth.
 #### [Farmhouse Chimneys](http://www.nexusmods.com/skyrimspecialedition/mods/8766)
 Reinstall and choose all relevant patches.
 #### [FAR - Forgotten Argonian Roots](http://www.nexusmods.com/skyrimspecialedition/mods/1704)
