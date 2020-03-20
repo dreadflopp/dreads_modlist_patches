@@ -455,7 +455,7 @@ Install using the following options:\
 - Campfire
 
 #### [Enhanced Blood Textures SE](http://www.nexusmods.com/skyrimspecialedition/mods/2357)
->TODO Switch to lite version
+Download and install the lite version
 #### [ETHEREAL CLOUDS - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/2393)
 Recommendation: 1K
 #### [FALMER](http://www.nexusmods.com/skyrimspecialedition/mods/17224)
