@@ -1,11 +1,13 @@
 # Where to find the guide
 The Github version (this version) of the guide is the first version to get updates but the Mod Picker version should mirror the Github version. The Github version has extended comments and users should at least read through the Github version of the guide.
+>TODO add links
 - [Github version of the guide](https://github.com/dreadflopp/dreads_modlist_patches/blob/master/README.md)
 - [Mod Picker version]()
 - [The guide section on STEP]()
 
 # Introduction
-This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/31054). This means that this guide is based on the STEP Core build. Everything you need is in this guide, you do not have to install anything prior following this guide. Almost everything in this build is optional, meaning you can use parts of it if that is what you want.
+>TODO update link when STEP CMS is launched
+This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/31054). This means that this guide is build based on STEP: Core. Everything you need to mod Skyrim is in this guide, you do not have to install anything prior following this guide. Almost everything in this build is optional, meaning you can use parts of it if that is what you want.
 
 **The mods featured in this build are chosen to be immersive and realistic. Realistic in a fantasy setting means believable. The mods should feel like they expand or enhances vanilla Skyrim, like they could have been there from the beginning**
 
@@ -15,32 +17,40 @@ This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https
 - No merging of mods. Every patch is esl-flagged to make sure the plugin limit count is not reached.
 - Advanced fomod installer for the patches. No need to actively choose patches, the fomod does the work for you.
 
+>TODO update link when STEP CMS is launched
 Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-se-core-addon/)  if you have any questions.
 
 **With this modular STEP build you will get**
-- New weapon textures
+- STEP Core which means:
+    - HD textures in the style of vanilla Skyrim
+    - Bug fixes
+    - Tweaks and to increase consistency
+    - Improvements to user interface
+    - Improvements to audio
+- Further improvements to textures
+- New and improved weathers and lighting
 - New armors
 - New weapons
-- Realistic female body compatible with popular skin and armor mods
-- Overhauled skills and perks
+- New quests
+- New lands
+- New and altered towns and villages
+- Expanded character creation with the CBBE female body with realistic presets, new hairstyles and improved character textures
+- Overhauled character leveling system:
+    - Overhauled skill trees with new perks
+    - A new class system
+    - New experience system that encourages exploration
+    - Slower leveling
 - Overhauled magic, races, standing stones, werewolves and vampires
 - New, tougher bandits, dragons and enemies
 - New NPC's and followers
-- New experience system with slower leveling
-- New class system
-- New lands and quests
-- New and altered towns and villages
 - Lightweight survival mod, the survival mod from Bethesda Creation Club.
-- Enhanced Lighting For ENB is replaced by Luminosity that has increased ambient lighting for those that think ELE is too dark.
 - Bigger trees for truly immersive forrests
-- …more
 
 **The STEP guide is in beta and this mod list will remain in beta/WIP for as least as long as STEP is in beta. For now, consider this a work in progress.**
 
 The patches comes with a neat FOMOD installer that automatically chooses what to install. The patches consists of a huge bunch of esl-flagged plugins. Since they are esl-flagged you do not have to worry about the old plugin count limit. Keeping the patches separated in different plugins helps during development when adding, testing and replacing mods. This also makes this mod list mostly modular. There are a few exceptions:
 - You need to use the Unofficial Skyrim Special Edition Patch
 - Cloaks of Skyrim and Winter is coming should be used together or not at all for the patches to work.
-
 
 Note that records from the Particle patch is not forwarded since the plugin is obsolete. ENB users should use [ENB Helper](https://www.nexusmods.com/skyrimspecialedition/mods/23174)
 
@@ -52,47 +62,167 @@ CFTO = Carriage and Ferry Travel Overhaul\
 SMIM = Static Mesh Improvement Mod\
 ICAIO = Immersive Citizens – AI Overhaul\
 
-
 # Game & Tool Installation
->TODO
+>TODO update link when STEP CMS is launched
+
+## Install Skyrim
+>TODO add link to STEP
+Follow the [system setup guide]() to have a clean Skyrim install ready to be modded.
+
+## Mod Organizer 2
+This guide is written for [Mod Organizer 2]() but users may use whichever mod manager they are comfortable with as long as they know hot to properly use it. To use this guide with Mod Organizer 2 users must know how to
+- Install Mod Organizer 2
+- Link Mod Organizer 2 to a Nexus account
+- Install mods
+- The difference between install order and load order and what conflicts in load order and install order means
+- Delete or manage files in installed mods
+- What Mod Organizer 2:s overwrite folder is
+- Add tools as executables in Mod Organizer 2
+If these concepts are new to you, watch the [tutorial videos](https://www.youtube.com/playlist?list=PLlN8weLk86Xh3ue76x2ibqtmMramwQmHB) by Gamerpoet. The STEP guide for Mod Organizer 2 is here[]()
+>TODO add link to STEP
+
+## Tools
+>TODO add link to STEP setup guide
+Install the following tools, preferably in the tools folder you created following the [system setup guide](). Most tools doesn't have an installer, unzip these into their own subfolders of the tools folder.
+#### [BethINI SE](http://www.nexusmods.com/skyrimspecialedition/mods/4875)
+#### [DynDOLOD](https://www.nexusmods.com/skyrimspecialedition/mods/32382)
+Download and install DynDOLOD. The resources file will be installed later.
+#### [](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
+If they are missing, install *vc_redist.x86.exe* and *vc_redist.x65.exe*.
+#### [Mod Organizer 2](http://www.nexusmods.com/skyrimspecialedition/mods/6194)
+Download and install the *archive* version
+#### [SSEEdit](http://www.nexusmods.com/skyrimspecialedition/mods/164)
+#### [Unlimited Bookshelves Patch Generator](https://www.nexusmods.com/skyrimspecialedition/mods/19160)
+This is a script for SSEEdit. Unzip the archive and place the content in the SSEEdit script folder (i.e. ..Modding\Tools\SSEEdit\Scripts\).
 
 # Tool Configuration
->TODO
+## Mod Organizer 2 - Configuration
+### Initialization 
+1. Launch MO2 by running its executable (i.e. ..Modding\Tools\Mod Organizer 2\ModOrganizer.exe)
+2. Upon launch, users will have a choose between setting it up as portable or create a new Instance. Choose to create a new Instance.
+3. Select SkyrimSE and choose OK.
+    - A prompt will appear informing you about the option of changing the location of data stored. Read it and click past it. 
+4. The installer should automatically detect the Skyrim SE installation (ie. ..Steam\steamapps\common\Skyrim Special Edition). Select it.
+    - If it didn't find the location, browse to to the Skyrim SE installation path. 
+5. Another prompt will appear for first time installers asking to run the tutorial or not. First time MO users should run it for a quick lesson on MO. Experienced MO users can skip it.
+6. The last prompt will ask if MO can handle .NXM links from the browser. Allow it to do so.
+7. MO2 is now set up and ready to use.
+
+### Tool Setup
+All tools should be launched through Mod Organizer 2. Mod Organizer 2 may have auto-detected some tool but the user needs to confirm this and manually add the rest of the tools.\
+\
+**Instructions to add tools as executables**
+1. Click the Executables button at the top of the main Mod Organizer window.
+2. In the Title field type SSEEdit or xEdit.
+3. In the Binary field either type the path to the SSEEdit.exe file or browse for it by selecting the ... button (i.e. ..Modding\Tools\xEdit\SSEEdit.exe)
+4. (optional) The following arguments can be helpful. Input them in the Argument field separated by a single space:
+    - -IKnowWhatImDoing : This turns off a warning present using users make edits.
+    - -AllowMasterFilesEdit : By default xEdit will not allow master file editing. This allows users to these files.
+    - -o:"Path\to output\folder" : This is the output path xEdit will use when it saves certain files. (i.e. ..Modding\Tools\xEdit\xEdit_Output) 
+5. Check the Use Application’s Icon for shortcuts box.
+6. Click the Apply button.
+7. Repeat steps 2 through 6 for adding the executables from the table below; filling in the appropriate data. The titles are suggestions:
+
+**Tool Setup Table**
+
+|Executable                             |Title                   |Argument(s)                    |
+| ------------------------------------- |:----------------------:| -----------------------------:|
+|DynDOLOD64.exe                         |DynDOLOD SE             | -SSE                          |
+|LOOT.exe                               |LOOT                    |--game="Skyrim Special Edition"|
+|SSEEditQuickAutoClean.exe              |xEdit Quick Auto Clean  |                               |
+|TexGen64.exe (installed with DynDOLOD) |TexGen SE               |-SSE                           |
+
+## BethINI Setup 
+BethINI needs to be set up to run for the current profile in MO2 and ran to establish solid INIs before beginning the mod installations. To do this:
+1. Close MO2 and run BethINI.
+2. Select Skyrim Special Edition from the game selection box.
+3. Allow BethINI to handle custom INIs, if prompted.
+4. Go to the Setup tab
+    - Ensure the Game Path is correct (i.e., ..\Modding\Steam\steamapps\common\Skyrim Special Edition).
+    - Ensure the Mod Organizer path is correct (i.e., ..\Modding\Tools\Mod Organizer 2).
+    - If the MO path is correct, the INI Path menu will find the user’s profiles in MO2. Select the profile created earlier in the Guide (STEP SE Core v0.1.0).
+        - If BethINI does not automatically find the profiles, browse to MO2's Profile folder.
+        - For Instance users the profile will be stored in the user's AppData folder (i.e. C:\Users\UserName\AppData\Local\ModOrganizer\SkyrimSE\profiles)
+
+At this time BethINI should restart to grab the correct INIs. Once it is restarted:
+1. Return to the Setup tab.
+    - BethINI will be used for multiple games from a single installation, thus users should check the “Always Select Game” box.
+    - To prevent changes to the INIs, check the “Make INIs Read-Only” box. 
+2. Select the Basic tab.
+    - Ensure the Window Resolution matches the system resolution.
+    - Click the Medium profile button (this can be changed at the end of the Guide).
+    - Check the box for “Recommended Tweaks”. 
+3. Now Save and Exit.
+
+# Sorting with LOOT
+At any time during the mod installation process LOOT should be used to sort plugin load order before running the game. This is necessary to ensure proper plugin priority (load order), which can have a dramatic impact on the game. Users not running the game during the mod installation step of the Guide can wait to sort after this step is complete. To sort with LOOT:
+1. Launch LOOT via Mod Organizer 2 from the executables drop-down menu.
+2. Click the “Sort” button at the top of the LOOT window.
+3. Examine the resulting order carefully and look for any alerts or warnings and address each (clean any mods it says has ITMs or UDRs)
+4. Click the “Apply” button, which has replaced the Sort button at the top.
+5. Close LOOT.
+````
+LOOT may throw errors or warnings of missing mods or running tools if executed before the entire mod installation step of the Guide is complete. If LOOT is run before the entire mod installation set is complete, please ignore these particular errors and warnings. These issues will resolve themselves as the Guide progresses. 
+````
 
 # Cleaning Vanilla Master Files 
->TODO
+To remove errors in the Bethesda master files, it is recommended they be cleaned with xEdit before modding begins. This ensures maximum stability and compatibility within the modding experience.
+## Create New Mod Listings
+1. On the MO window, click the Open list options button at the top of the left pane, next to the profile selection drop-down.
+2. Choose Create empty mod, name it “Cleaned Vanilla Masters”, and click OK.
+3. Repeat the above to create two additional new empty mods and name them: xEdit Backups and xEdit Cache
+Users should replace "x" with the version they are using (e.g. "SSEEdit Backups" and "SSEEdit Cache").
 
-# DynDOLOD
->TODO
+## Standard Cleaning Procedures
+1. Run xEdit64 Quick Auto Clean from the drop-down executable list in MO2.
+2. On the plugin selection window, double-click on the mod being cleaned (i.e., Update.esm, Dawnguard.esm, etc).
+3. xEdit will now automatically clean the "Identical to master" and "deleted" records from the selected mod.
+4. Once xEdit is done cleaning, click the X in upper right of the program window to close the program.
 
-# Mod Configuration (MCM)
->TODO
+## Clean the Masters
+Vanilla masters should be cleaned in the following order:
 
-# BethINI Customization 
->TODO
+1. Update.esm
+2. Dawnguard.esm
+3. Hearthfires.esm
+4. Dragonborn.esm 
 
-# Instructions
->TODO Revise
-1. Install STEP SE: Core but do not install the STEP patch.
-2. Install xEdit https://www.nexusmods.com/skyrimspecialedition/mods/164 and add it as an executable in Mod Organizer.
-3. Install my mod list and place the mods after the STEP guide, letting my listed mods overwrite the STEP guide and DynDOLOD resources. When you install mods, always install the main file and update files if you are not explicitly told not to.
-4. Run LOOT.
-5. Run DynDOLOD following the instructions from the STEP guide,
-6. Run FNIS and check the box for TK Dodge / Ultimate combat if any of those mods are used. Instructions are in the STEP guide.
-5. Build body and armor meshes using BodySlide following these simple instructions:
->1. Run BodySlide through Mod Organizer
->2. In the *Outfit/Body* dropdown menu, choose *CBBE NeverNude* (this will also prevent NSFW images).
->3. In the preset menu, choose what suits you. The preset you choose should end with the word ‘outfit’. I recommended the presets *Pear (outfit), Natural (outfit), CBBE Slim (outfit), UNP Natural (outfit), Thief (outfit)* or *Warrior (outfit)*.
->4. Tick the checkbox *Build Morphs*.
->5. Click the button *Build* to build the body.
->6. Click on the spyglass at the field Group filter and choose *Choose groups*.
->7. Check the following and click ok: *CBBE vanilla outfits, Frankly HD, Immersive Armors SSE CBBE, WACCF*.
->8. Click the button *Batch build…*
->9. Click *build* to build armor meshes.
->10. Make sure no physics options are checked. Check all Frankly options. Click *ok* and close BodySlide. The meshes that has been built are placed in Mod Organizers overwrite folder and can be moved to a new mod folder if you choose to.
-6. Install the mod [Unlimited Bookshelves Patch Generator](http://https://www.nexusmods.com/skyrimspecialedition/mods/19160). Follow the instructions on the Nexus page to build an Unlimited Bookshelves patch.
+Follow the standard cleaning procedures to clean Update.esm, followed by Dawnguard.esm. Once Dawnguard is cleaned, complete the manual cleaning below...
 
+1. Run xEdit from MO.
+2. At the prompt, double-click on Dawnguard.esm.
+3. Once loaded, type in 00016BCF in the FormID field (above the mod list) and hit **Enter/Return**.
+4. In the right pane, find the **XEZN - Encounter Zone** record.
+5. In the Dawnguard.esm column, right-click on the *RiftenRatwayZone \[ECZN:0009FBB9\]* entry and select Remove.
+    - If a prompt appears select Yes for each of these removals. 
+6. In the FormID field again, type in 0001FA4C and hit Enter/Return.
+7. On the Dawnguard.esm column, right-lick on the Dawnguard.esm header and select Remove.
+8. In the FormID field again, type in 0006C3B6 and hit Enter/Return.
+9. On the Dawnguard.esm column, right-lick on the Dawnguard.esm header and select Remove.
+10. Now close xEdit, ensuring Dawnguard.esm is checked on the prompt.
+
+Once Dawnguard's manual cleaning is complete, follow the standard cleaning procedures to clean Hearthfires.esm, and then last, Dragonborn.esm.
+
+## Moving the Cleaned Files
+After the vanilla master files are cleaned, users should move them to their created mod listing in MO2 and restore the original files. This prevents users from having to re-clean the files after verifying their cache in Steam. To do this, complete the following:
+1. In a new window, open the Skyrim Special Edition Data directory (e.g. ..\Modding\Steam\steamapps\common\Skyrim Special Edition\Data)
+2. Drag and drop (or copy and paste) the four cleaned master files from Data to the "Cleaned Vanilla Masters" folder.
+3. In the xEdit Backups folder, rename the files to “MasterName.esm” (e.g. "Update.esm").
+    - If there are multiple copies of any of the files, use the one with the earliest timestamp. 
+4. Drag and drop the renamed files from the xEdit Backups folder to the Data directory and choose to overwrite/replace, if asked.
+5. Close the explorer windows.
+Drag and drop the new Cleaned Vanilla Masters mod listing in the left pane directly below DLC: Dragonborn.esm.
+    - The xEdit mod listing can be placed anywhere.
+
+````
+Any time Bethesda updates these master files, users should complete this cleaning process again. This ensures users have any fixes Bethesda may have included within their updates. 
+````
 # The mod list
+It is now time to install the mods.
+- Mods should be installed in the order that they are listed.
+- If LOOT tells you to clean a mod, clean it.
+- Always install the main and update file(s), unless the guide tells you otherwise.
+- The recommended resolutions of textures are just recommendations. You may install higher resolution versions of the mods if your computer can handle it.
 
 ## Extenders
 #### [SKSE64](http://www.nexusmods.com/skyrimspecialedition/mods/30379)
@@ -622,8 +752,6 @@ In the main installer, choose:
 - Underwear options: NeverNude
 - Outfit options: Vanilla outfits
 - SKEE (RaceMenu): RaceMenu Morphs
-#### [BodySlide and Outfit Studio](https://www.nexusmods.com/skyrimspecialedition/mods/201)
-Check the nexus page for the instructions to add this mod as an executable in Mod Organizer (in short, install as a normal mod and right click the executable in MO:s data tab. Choose add as executable).
 #### [CBBE Presets Compendium](https://www.nexusmods.com/skyrimspecialedition/mods/11229)
 *NSFW warning*\
 Install the main file
@@ -737,7 +865,7 @@ Choose *Eyes Mesh Fix* in the installer.
 #### [Skyrim Landscape and Water Fixes](http://www.nexusmods.com/skyrimspecialedition/mods/26138)
 In the installer, choose:
 - Base Fixed Meshes: Base Meshes
-- Main Plugin: 1. ESM
+- Main Plugin: 1. ESM<<<<<>>>>>
 - Patches: Relighting Skyrim
 - Walkway Wall FIX: Walkway Wall FIX SMIM
 
@@ -1034,8 +1162,14 @@ Move this mod to my patches section. Refer to that section for install options.
 #### [Landscape fixes for grass mods](https://www.nexusmods.com/skyrimspecialedition/mods/9005)
 Reinstall and add patches for Helgen Reborn, Moon and Star and all Arthmoor's villages.
 
-## Utilities
-#### [Fores New Idles in Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/3038)
+## [DynDOLOD Resources](https://www.nexusmods.com/skyrim/mods/59721?)
+>TODO check install order
+Download and install *DynDOLOD Resources SE*. Install using the following options:
+- Whiterun Exterior
+- Solitude Exterior
+- High Hrothgar Window Glow
+- DLC2 Vvardenfell 3D Plume
+- Desync Birds of Prey
 
 ## Patches
 #### [Better Dynamic Majestic Mountains](http://www.nexusmods.com/skyrimspecialedition/mods/20102)
@@ -1058,3 +1192,144 @@ Choose the Unofficial Skyrim Survival Patch.
 #### [Dread's modlist patches](https://github.com/dreadflopp/dreads_modlist_patches)
 To download, click the button *Clone or download* and choose *download zip*.
 The fomod installer will automatically select all mods you use. Select the tweaks you want to use.
+
+## Utilities
+#### [BodySlide and Outfit Studio](https://www.nexusmods.com/skyrimspecialedition/mods/201)
+Check the nexus page for the instructions to add this mod as an executable in Mod Organizer (in short, install as a normal mod and right click the executable in MO:s data tab. Choose add as executable).
+#### [Fores New Idles in Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/3038)
+
+# Sorting and cleaning the new load order
+Before moving on, sort the load order with LOOT. Take note of any plugins that LOOT reports as needing to be cleaned and perform the standard cleaning procedures on these mods. Ignore any reported missing compatibility patches. The guides patches take care of all the patching, thus eliminating the need for those additional plugins.
+
+# Generating body and armor meshes
+Build body and armor meshes using BodySlide following these simple instructions:
+1. Run BodySlide through Mod Organizer
+2. In the *Outfit/Body* dropdown menu, choose *CBBE NeverNude* (this will also prevent NSFW images).
+3. In the preset menu, choose what suits you. The preset you choose should end with the word ‘outfit’. I recommended the presets *Pear (outfit), Natural (outfit), CBBE Slim (outfit), UNP Natural (outfit), Thief (outfit)* or *Warrior (outfit)*.
+4. Tick the checkbox *Build Morphs*.
+5. Click the button *Build* to build the body.
+6. Click on the spyglass at the field Group filter and choose *Choose groups*.
+7. Check the following and click ok: *CBBE vanilla outfits, Frankly HD, Immersive Armors SSE CBBE, WACCF*.
+8. Click the button *Batch build…*
+9. Click *build* to build armor meshes.
+10. Make sure no physics options are checked. Check all Frankly options. Click *ok* and close BodySlide. The meshes that has been built are placed in Mod Organizers overwrite folder and can be moved to a new mod folder if you choose to.
+
+After closing BodySlide, there will be files in Overwrite (essentially a fake mod located at the bottom of the left pane if sorted by priority ascending):
+1. Right-click Overwrite and select Create Mod
+2. Name it *BodySlide Output* and click *ok*.
+    - This will create a new mod listing in the left pane for the BodySlide generated files. 
+3. Check the new mod entry to enable it. 
+
+# Generating Animation Files
+Once FNIS SE is installed, the animation files need to be generated for the skeleton changes.
+1. Sort the load order with LOOT.
+2. Run FNIS SE via Mod Organizer 2.
+3. In the Available Patches at the bottom of the window, check the boxes adjacent to *SKELETON Arm Fix* and *TK Dodge / Ultimate combat*.
+4. Click the [Update FNIS Behavior] button and wait for a message to appear in the window stating "X animations for Y mods successfully included".
+5. Click [Exit]. 
+
+After closing FNIS SE, there will be files in Overwrite:
+1. Right-click Overwrite and select Create Mod
+2. Name it *FNIS SE Output* and click *ok*.
+    - This will create a new mod listing in the left pane for the FNIS SE generated files. 
+3. Check the new mod entry to enable it.
+
+# Gnerating Unlimited Bookshelves patch
+1. Sort the load order with LOOT
+2. Run SSEEdit via Mod Organizer 2.
+3. Make sure all plugins are selected and click ok.
+    - A second window asking the user to select modgroups might show up. Simply click *ok*.
+4. Wait for SSEEdit to load. It may take a couple of minutes.
+5. Right-click in the tree view on the left side of the window. Choose *Apply Script*.
+6. Choose *Unlimited Bookshelves Patch Generator* and click *ok*.
+7. Anytime the script asks whether a file should be added as master, click on *ok*".
+8. When the scipt is finished, close SSEEdit and make sure that the new patch is saved.
+
+After closing SSEEdit, the patch will be in Overwrite:
+1. Right-click Overwrite and select Create Mod
+2. Name it *Unlimited Bookshelves Patch* and click *ok*.
+    - This will create a new mod listing in the left pane for the FNIS SE generated files. 
+3. Check the new mod entry to enable it.
+
+# DynDOLOD
+## Create Output Folders
+Crete two empty mods to use as output for DynDOLOD:
+1. Right-click on the mod list in MO2 and hover over All Mods.
+2. Select *Create empty mod*.
+3. Name it *TexGen Output*.
+4. Repeat step 1-3 to create another new mod called *DynDOLOD Output*.
+
+## Run TextGen
+1. Run TexGen from the MO2 executable drop-down list.
+2. Keep the default output location and and choose one of the follow two options:
+    1. Option 1: Keep the default settings. This is for the average system.
+    2. Option 2: Users who have the a bit more performance room, change the *LOD Texture Size* to *512*. This will result in higher resolution LOD textures. 
+3. Once the option has been chosen click Start.
+4. Once the completed message has appeared, click *Save & Exit*.
+5. Navigate to the DynDOLOD folder location (i.e., ..\Modding\Tools\DynDOLOD).
+6. Copy or cut the files from the *TexGen_Output* folder.
+7. In MO2, hold down the Ctrl key and double-click on the TexGen Output mod created above. This opens the mod's folder in an Explorer window.
+8. Paste the files into the mod's folder and close the window.
+9. In MO2, ensure the TexGen Output mod is active (checked).
+
+## Run DynDOLOD
+1. Open the root DynDOLOD folder (i.e., ..\Modding\Tools\DynDOLOD\).
+2. Open the DynDOLOD_SSE.ini file (i.e., ..\DynDOLOD\Edit Scripts\DynDOLOD\DynDOLOD_SSE.ini)
+3. Set *TreeLOD=0*
+4. Set *TreeFullFallBack=0*. 
+5. Run DynDOLOD from the MO2 executable drop-down list.
+6. Select all worldspaces.
+7. Ensure the *Candles, FXGlow, Generate static LOD, Windows,* and *High* boxes are checked.
+8. Keep the default Output location and settings, click *High preset* button, and run it. This takes ~40 minutes.
+9. Once the completed message has appeared, click Save & Exit.
+10. Navigate to the DynDOLOD folder location (i.e., ..\Modding\Tools\DynDOLOD).
+11. Copy or cut the files from the DynDOLOD_Output folder.
+12. In MO2, hold down the Ctrl key and double-click on the DynDOLOD Output mod created above.
+13. Paste the files into the mod's folder and close the window.
+14. In MO2, ensure the DynDOLOD Output mod is active (checked).
+15. Ensure the DynDOLOD esm and esp files are checked in the right pane.
+16. Sort with LOOT.
+17. Ensure DynDOLOD.esp is the last plugin in the load order.
+
+# Mod Configuration (MCM)
+>TODO
+
+# BethINI Customization 
+Run BethINI from where it is installed, not through Mod Organizer 2. These are suggested settings:\
+**Basic**
+Click *Ultra* or *High*. Select *Recommended Tweaks*.
+- Resolution: set your resolution
+- Antialiasing: TSAA (None if using ENB)
+- FXAA: off
+- VSync: On (Off if using ENB)
+
+**General**
+- Background Load Scripting VM: Checked
+- Post-Load Update Time: 2000
+
+**Detail**
+- Water
+    - Reflect Trees: On
+    - Reflect Objects: On
+    - Reflect Land: On
+    - Reflect Sky: On
+- Decal Quantity: High
+- Godrays: High
+- Particles: 4500
+- Decals: On
+- Shadows
+    - Shadow Resolution: 2048
+    - Ambient Occlusion: SSAO Full
+    - Shadow Bias: 0.15
+    - Detailed Draw Distace: 2800
+    - Exterior Draw Distance: 8000
+    - Remove shadows: Off
+    - Tree shadows: On
+    - Land shadows: On
+    - Sun-Shadow Update Time 1
+    - Sun-Shadow Update Threshold: 0.5
+- Snow
+    - Rim Lighting: On
+    - Improved Shader: On
+    - Sparkles: On
+    - Intensity: 0.30
