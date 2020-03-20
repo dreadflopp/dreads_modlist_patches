@@ -162,7 +162,9 @@ At any time during the mod installation process LOOT should be used to sort plug
 4. Click the “Apply” button, which has replaced the Sort button at the top.
 5. Close LOOT.
 ````
-LOOT may throw errors or warnings of missing mods or running tools if executed before the entire mod installation step of the Guide is complete. If LOOT is run before the entire mod installation set is complete, please ignore these particular errors and warnings. These issues will resolve themselves as the Guide progresses. 
+LOOT may throw errors or warnings of missing mods or running tools if executed before the entire mod installation step of the Guide is complete. 
+If LOOT is run before the entire mod installation set is complete, please ignore these particular errors and warnings. 
+These issues will resolve themselves as the Guide progresses. 
 ````
 
 # Cleaning Vanilla Master Files 
@@ -215,7 +217,8 @@ Drag and drop the new Cleaned Vanilla Masters mod listing in the left pane direc
     - The xEdit mod listing can be placed anywhere.
 
 ````
-Any time Bethesda updates these master files, users should complete this cleaning process again. This ensures users have any fixes Bethesda may have included within their updates. 
+Any time Bethesda updates these master files, users should complete this cleaning process again. 
+This ensures users have any fixes Bethesda may have included within their updates. 
 ````
 # The mod list
 It is now time to install the mods.
