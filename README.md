@@ -714,12 +714,11 @@ Choose *Full version - skin with a linen fabric cloth* in the installer.
 
 ### Audiovisual - Trees & Vegetation
 #### [Landscape Fixes For Grass Mods](http://www.nexusmods.com/skyrimspecialedition/mods/9005)
-In the installer, choose patches for:
+Install patches for
 - Alternate Start - Live Anothe Life
-- Cutting Room Floor
 - Helgen Reborn
 - Moon And Star
-- All Arthmoor's villages
+- Arthmoors mods - everything except *Provincial Courier Sevice*
 
 #### [No More Hanging Moss](https://www.nexusmods.com/skyrimspecialedition/mods/16426)
 Install _Hanging moss removal - partial - the moss around trees -_ mesh edits only. Without this mod you would get floating moss hanging from resized trees.
@@ -1015,8 +1014,6 @@ In the installer, choose the optional file *Dark Brotherhood Forever to Miscella
 #### [The Gray Cowl of Nocturnal SE](http://www.nexusmods.com/skyrimspecialedition/mods/4509)
 #### [The Gray Cowl of Nocturnal SSE - HD pack](http://www.nexusmods.com/skyrimspecialedition/mods/7644)
 #### [Gray Cowl of Nocturnal Alikr Flora Overhaul SE](http://www.nexusmods.com/skyrimspecialedition/mods/10141)
-#### [The Gray Cowl of Nocturnal SE - Addons and Patches](http://www.nexusmods.com/skyrimspecialedition/mods/19724)
-Install the WACCF patch. The USSEP-patch isn't needed if you use SMIM, CFTO or Realistic Water 2.
 #### [Helgen Reborn](http://www.nexusmods.com/skyrimspecialedition/mods/5673)
 #### [Moon and Star](http://www.nexusmods.com/skyrimspecialedition/mods/4301)
 #### [Moonpath to Elsweyr SSE](http://www.nexusmods.com/skyrimspecialedition/mods/4341)
@@ -1042,8 +1039,8 @@ Do not install the main file, install the esl optional file only. If you play wi
 #### [MoreHUD Inventory Edition](http://www.nexusmods.com/skyrimspecialedition/mods/18619)
 #### [MoreHUD SE](http://www.nexusmods.com/skyrimspecialedition/mods/12688)
 #### [RaceMenu](http://www.nexusmods.com/skyrimspecialedition/mods/19080)
-#### [UIExtensions](https://www.nexusmods.com/skyrimspecialedition/mods/17561)
 #### [Smaller Vanilla Cursors SE](http://www.nexusmods.com/skyrimspecialedition/mods/20617)
+#### [UIExtensions](https://www.nexusmods.com/skyrimspecialedition/mods/17561)
 #### [Viewable Faction Ranks](http://www.nexusmods.com/skyrimspecialedition/mods/17924)
 #### [Whose Quest Is It Anyway](http://www.nexusmods.com/skyrimspecialedition/mods/23581)
 #### [Yes Im Sure](http://www.nexusmods.com/skyrimspecialedition/mods/24898)
@@ -1085,8 +1082,8 @@ Install the patch for Immersive Citizens - AI overhaul.
 
 ### Locations - Towns and villages
 #### [Darkwater Crossing](https://www.nexusmods.com/skyrimspecialedition/mods/326)
-#### [Dragon Bridge](https://www.nexusmods.com/skyrimspecialedition/mods/8683)
 #### [Dawnstar](https://www.nexusmods.com/skyrimspecialedition/mods/13607)
+#### [Dragon Bridge](https://www.nexusmods.com/skyrimspecialedition/mods/8683)
 #### [Falkreath](https://www.nexusmods.com/skyrimspecialedition/mods/21266)
 #### [Helarchen Creek](http://www.nexusmods.com/skyrimspecialedition/mods/4043)
 #### [Karthwasten](https://www.nexusmods.com/skyrimspecialedition/mods/350)
@@ -1133,13 +1130,12 @@ In the installer, choose core files and *Less Opaque Splashes*.
 
 ## New Characters
 ### New Characters - Enemies
-#### [Arena - An Encounter Zone Overhaul](Arena - An Encounter Zone Overhaul)
+#### [Arena - An Encounter Zone Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/33487)
 #### [Deadly Dragons](http://www.nexusmods.com/skyrimspecialedition/mods/23723)
 Choose Loremonger version with patches for Diverse Dragons, Splender Dragons and Wyrmstooth.
 #### [Diverse Dragons Collection SE](http://www.nexusmods.com/skyrimspecialedition/mods/695)
 #### [OBIS SE - Organized Bandits In Skyrim Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/4145)
 Install main file and OBIS SE Patrols addon.
-#### [Skyrim Revamped - Complete Enemy Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/14598)
 #### [Splendor – Dragon Variants SE](http://www.nexusmods.com/skyrimspecialedition/mods/9670)
 
 ### New Characters - Neutral
@@ -1151,7 +1147,8 @@ Install main file and OBIS SE Patrols addon.
 ### New Characters - Allies
 #### [INIGO](http://www.nexusmods.com/skyrimspecialedition/mods/1461)
 
-## [DynDOLOD Resources](https://www.nexusmods.com/skyrim/mods/59721?)
+## DynDOLOD Resources
+#### [DynDOLOD Resources](https://www.nexusmods.com/skyrim/mods/59721?)
 >TODO check install order\
 Download and install *DynDOLOD Resources SE*. Install using the following options:
 - Whiterun Exterior
