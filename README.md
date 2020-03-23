@@ -1,12 +1,12 @@
 # Where to find the guide
 The Github version (this version) of the guide is the first version to get updates but the Mod Picker version should mirror the Github version. The Github version has extended comments and users should at least read through the Github version of the guide.
->TODO add links
+>TODO add links\
 - [Github version of the guide](https://github.com/dreadflopp/dreads_modlist_patches/blob/master/README.md)
 - [Mod Picker version]()
 - [The guide section on STEP]()
 
 # Introduction
->TODO update link when STEP CMS is launched
+>TODO update link when STEP CMS is launched\
 This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/31054). This means that this guide is build based on STEP: Core. Everything you need to mod Skyrim is in this guide, you do not have to install anything prior following this guide. Almost everything in this build is optional, meaning you can use parts of it if that is what you want.
 
 **The mods featured in this build are chosen to be immersive and realistic. Realistic in a fantasy setting means believable. The mods should feel like they expand or enhances vanilla Skyrim, like they could have been there from the beginning**
@@ -17,7 +17,7 @@ This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https
 - No merging of mods. Every patch is esl-flagged to make sure the plugin limit count is not reached.
 - Advanced fomod installer for the patches. No need to actively choose patches, the fomod does the work for you.
 
->TODO update link when STEP CMS is launched
+>TODO update link when STEP CMS is launched\
 Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-se-core-addon/)  if you have any questions.
 
 **With this modular STEP build you will get**
@@ -63,10 +63,10 @@ SMIM = Static Mesh Improvement Mod\
 ICAIO = Immersive Citizens – AI Overhaul\
 
 # Game & Tool Installation
->TODO update link when STEP CMS is launched
+>TODO update link when STEP CMS is launched\
 
 ## Install Skyrim
->TODO add link to STEP
+>TODO add link to STEP\
 Follow the [system setup guide]() to have a clean Skyrim install ready to be modded.
 
 ## Mod Organizer 2
@@ -79,10 +79,10 @@ This guide is written for [Mod Organizer 2]() but users may use whichever mod ma
 - What Mod Organizer 2:s overwrite folder is
 - Add tools as executables in Mod Organizer 2
 If these concepts are new to you, watch the [tutorial videos](https://www.youtube.com/playlist?list=PLlN8weLk86Xh3ue76x2ibqtmMramwQmHB) by Gamerpoet. The STEP guide for Mod Organizer 2 is here[]()
->TODO add link to STEP
+>TODO add link to STEP\
 
 ## Tools
->TODO add link to STEP setup guide
+>TODO add link to STEP setup guide\
 Install the following tools, preferably in the tools folder you created following the [system setup guide](). Most tools doesn't have an installer, unzip these into their own subfolders of the tools folder.
 #### [BethINI SE](http://www.nexusmods.com/skyrimspecialedition/mods/4875)
 #### [DynDOLOD](https://www.nexusmods.com/skyrimspecialedition/mods/32382)
@@ -267,7 +267,7 @@ Once complete, the SKSE mod's folder structure should [look like this.](https://
 #### [Address Library for SKSE Plugins](http://www.nexusmods.com/skyrimspecialedition/mods/32444)
 Download and install the All-in-One Main File. 
 #### [FileAccess Interface for Skyrim SE Scripts - FISSES](http://www.nexusmods.com/skyrimspecialedition/mods/13956)
- Only the Main File is required. 
+Only the Main File is required. 
 #### [PapyrusUtil SE - Modders Scripting Utility Functions](http://www.nexusmods.com/skyrimspecialedition/mods/13048)
 #### [Scaleform Translation++](http://www.nexusmods.com/skyrimspecialedition/mods/22603)
 #### [Skyrim Skill Uncapper](http://www.nexusmods.com/skyrimspecialedition/mods/8889)
@@ -280,7 +280,7 @@ Download and install the All-in-One Main File.
 #### [Skyrim Particle Patch for ENB](https://drive.google.com/open?id=12tL3_kpm_KXlQvQqEnK3zOAl-sm_H3Fw)
 Download and install the Special Edition PARTICLE PATCH ALL-IN-ONE INSTALLATION file. Do not install the plugin, it is not needed.
 #### [Static Mesh Improvement Mod](http://www.nexusmods.com/skyrimspecialedition/mods/659)
->TODO install instructions
+>TODO install instructions\
 #### [Cathedral - Plants](http://www.nexusmods.com/skyrimspecialedition/mods/26104)
 #### [Skyrim Realistic Overhaul](http://www.moddb.com/mods/skyrim-realistic-overhaul)
 - Install Part 1-3, choosing to merge the files when asked.
@@ -309,6 +309,7 @@ Install loose files
 #### [No Spinning Death Animation (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/1432)
 Install *No Spinning Death Animation MERGED*
 #### [No Spinning Death Animation MERGED](http://www.nexusmods.com/skyrimspecialedition/mods/15881)
+#### [Smooth Running Animations](http://www.nexusmods.com/skyrimspecialedition/mods/15881)
 #### [XP32 Maximum Skeleton Special Extended - XPMSSE](http://www.nexusmods.com/skyrimspecialedition/mods/1988)
 Install the main file using the following options:\
 **Skeleton**
@@ -336,7 +337,14 @@ Install the main file using the following options:\
 ### Audiovisual - Models & Textures
 #### [Arctic - Frost Effects Redux](http://www.nexusmods.com/skyrimspecialedition/mods/29817)
 Install the main file using the following options:\
->TODO
+- Resplution: Lite
+- Color: Realistic hue
+- Size: x.5
+- Style: Standard
+- Plugin option: Frost mesh patch (esl-tagged)
+
+#### [Armor and Clothing Extension](http://www.nexusmods.com/skyrimspecialedition/mods/19002)
+Recommendation: 2K
 #### [Barenziah's Glory SE](http://www.nexusmods.com/skyrimspecialedition/mods/6343)
 Recommended intall options:\
 - Desaturated Crown Texture - 1k
@@ -395,7 +403,6 @@ Choose whatever options you like, desaturated books are recommended.
 Recommendation: 1K
 #### [Deadly Spell Impacts (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/12939)
 Recommended install options:\
-**Options**
 - Options: Custom
 
 **Custom**
@@ -707,6 +714,13 @@ Choose *Full version - skin with a linen fabric cloth* in the installer.
 
 ### Audiovisual - Trees & Vegetation
 #### [Landscape Fixes For Grass Mods](http://www.nexusmods.com/skyrimspecialedition/mods/9005)
+In the installer, choose patches for:
+- Alternate Start - Live Anothe Life
+- Cutting Room Floor
+- Helgen Reborn
+- Moon And Star
+- All Arthmoor's villages
+
 #### [No More Hanging Moss](https://www.nexusmods.com/skyrimspecialedition/mods/16426)
 Install _Hanging moss removal - partial - the moss around trees -_ mesh edits only. Without this mod you would get floating moss hanging from resized trees.
 #### [Realistic Aspen Trees SE](http://www.nexusmods.com/skyrimspecialedition/mods/4423)
@@ -769,7 +783,7 @@ The mod is not packaged correctly for mod managers. To install:
 5. Expand Males → Better Males body
 6. Drag and drop the Textures folder onto < data > above
 7. Expand no glow skin → Female
-8. Drag and drop the Textures folder onto '< data > above
+8. Drag and drop the Textures folder onto < data > above
 9. Expand no glow skin → Male
 10. Drag and drop the Textures folder onto < data > above
 11. Untick FAR-Forgotten Argonian Roots and click OK
@@ -847,7 +861,7 @@ In the installer, choose the following:
 #### [Butterflies Land True](http://www.nexusmods.com/skyrimspecialedition/mods/29434)
 #### [Butterflies Unchained](http://www.nexusmods.com/skyrimspecialedition/mods/29538)
 Install esl version
-#### [Critters Ain't Snitches - Animal and Monster Crime Reporting Fix - BETA](http://www.nexusmods.com/skyrimspecialedition/mods/15134)
+#### [Critters Ain't Snitches](http://www.nexusmods.com/skyrimspecialedition/mods/15134)
 #### [Dragon Stalking Fix](http://www.nexusmods.com/skyrimspecialedition/mods/14060)
 #### [Enchantment Reload Fix SE](http://www.nexusmods.com/skyrimspecialedition/mods/21055)
 #### [Eye Normal Map Fix SSE](http://www.nexusmods.com/skyrimspecialedition/mods/5445)
@@ -855,7 +869,7 @@ Install *Eye Normal Map Fix SSE BC7*
 #### [Fuz Ro D-oh - Silent Voice](http://www.nexusmods.com/skyrimspecialedition/mods/15109)
 Install main and optional files.
 #### [Hearthfires Houses Building Fix](http://www.nexusmods.com/skyrimspecialedition/mods/27298)
-#### [Invisibility and Eyes Mesh Fix by HHaleyy](http://www.nexusmods.com/skyrimspecialedition/mods/14464)
+#### [Invisibility and Eyes Mesh Fix](http://www.nexusmods.com/skyrimspecialedition/mods/14464)
 Choose *Eyes Mesh Fix* in the installer.
 #### [Modern Brawl Bug Fix](http://www.nexusmods.com/skyrimspecialedition/mods/1473)
 #### [Reasonable Movement Speed](http://www.nexusmods.com/skyrimspecialedition/mods/3422)
@@ -909,7 +923,7 @@ TreeReflections = true
 VerticalLookSensitivity = true
 ```
 >Leave the remainder of the settings at their defaults, unless the changes are known and desired.
-#### [Stay At The System Page - Updated](http://www.nexusmods.com/skyrimspecialedition/mods/19832)
+#### [Stay At The System Page](http://www.nexusmods.com/skyrimspecialedition/mods/19832)
 #### [Unlimited Bookshelves (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/2885)
 #### [Waterbreathing Breathless Emerge SSE](http://www.nexusmods.com/skyrimspecialedition/mods/14485)
 #### [Wiseman303's Critter Fixes (SE)](http://www.nexusmods.com/skyrim/mods/54485)
@@ -927,14 +941,10 @@ Download and install the Main File and the GIST - Rustic Soul Gems patch Optiona
 Install the Simple Auto Unequip Ammo from the Old Files.
 #### [Better Stealth AI for Followers](http://www.nexusmods.com/skyrimspecialedition/mods/17600)
 #### [Follower Trap Safety](http://www.nexusmods.com/skyrimspecialedition/mods/2755)
-#### [Immersive Citizens - AI Overhaul SE](http://www.nexusmods.com/skyrimspecialedition/mods/173)
-Do not choose any patches in the main installer.
 #### [Realistic AI Detection SE](http://www.nexusmods.com/skyrimspecialedition/mods/2345)
 Choose *Realistic AI Detection 2 SE - Medium Interior Medium Exterior*
 #### [Run For Your Lives (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/2272)
 #### [Tavern AI fix](http://www.nexusmods.com/skyrimspecialedition/mods/23107)
-#### [TK Dodge SE](https://www.nexusmods.com/skyrimspecialedition/mods/15309)
-#### [Ultimate Combat SE](http://www.nexusmods.com/skyrimspecialedition/mods/17196)
 
 ### Gameplay - Classes & Races
 #### [Aetherius - A Race Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/26686)
@@ -949,9 +959,6 @@ Do not activate this mod yet. Wait until you have left the first cell of Alterna
 
 ### Gameplay - Economy & Item Balance
 #### [Trade and Barter](http://www.nexusmods.com/skyrimspecialedition/mods/23081)
-#### [Weapons Armor Clothing and Clutter Fixes](http://www.nexusmods.com/skyrimspecialedition/mods/18994)
-Recommendation: 2K textures.
-After installation, hide or delete the file *WACCF_BashedPatchLvlListFix.esp*
 
 ### Gameplay - Immersion & Role-playing
 #### [Campfire - Complete Camping System](http://www.nexusmods.com/skyrimspecialedition/mods/667)
@@ -1144,23 +1151,8 @@ Install main file and OBIS SE Patrols addon.
 ### New Characters - Allies
 #### [INIGO](http://www.nexusmods.com/skyrimspecialedition/mods/1461)
 
-## STEP SE: Core Changes
-*Some updates to STEP mods are required to make them compatible with other mods in this list*
-#### [Farmhouse Chimneys](http://www.nexusmods.com/skyrimspecialedition/mods/8766)
-Reinstall and choose all relevant patches.
-#### [FAR - Forgotten Argonian Roots](http://www.nexusmods.com/skyrimspecialedition/mods/1704)
-Reinstall using the STEP instructions but choose CBBE body instead of default for females.
-#### [Lanterns Of Skyrim II](https://www.nexusmods.com/skyrimspecialedition/mods/30817)
-Reinstall using STEP options and patches for Arthmoor's villages.
-#### [Enhanced Lighting for ENB (ELE) - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/1377)
-Install the patches for Helgen Reborn and Falskaar. No other patches are needed. Uninstall if you use *Luminosity*.
-#### [Kryptopyr's Patch Hub](http://www.nexusmods.com/skyrimspecialedition/mods/19518)
-Move this mod to my patches section. Refer to that section for install options.
-#### [Landscape fixes for grass mods](https://www.nexusmods.com/skyrimspecialedition/mods/9005)
-Reinstall and add patches for Helgen Reborn, Moon and Star and all Arthmoor's villages.
-
 ## [DynDOLOD Resources](https://www.nexusmods.com/skyrim/mods/59721?)
->TODO check install order
+>TODO check install order\
 Download and install *DynDOLOD Resources SE*. Install using the following options:
 - Whiterun Exterior
 - Solitude Exterior
@@ -1185,7 +1177,6 @@ The fomod installer will identify which patches you need and select them automat
 #### [Unofficial Moonpath to Elsweyr Patch](http://www.nexusmods.com/skyrimspecialedition/mods/15882)
 #### [Unofficial Skyrim Creation Club Content Patches](http://www.nexusmods.com/skyrimspecialedition/mods/18975)
 Choose the Unofficial Skyrim Survival Patch.
-#### [Weapons Armor Clothing and Clutter Fixes - CBBE Patch](https://www.nexusmods.com/skyrimspecialedition/mods/19176)
 #### [Dread's modlist patches](https://github.com/dreadflopp/dreads_modlist_patches)
 To download, click the button *Clone or download* and choose *download zip*.
 The fomod installer will automatically select all mods you use. Select the tweaks you want to use.
@@ -1289,7 +1280,7 @@ Crete two empty mods to use as output for DynDOLOD:
 17. Ensure DynDOLOD.esp is the last plugin in the load order.
 
 # Mod Configuration (MCM)
->TODO
+>TODO\
 
 # BethINI Customization 
 Run BethINI from where it is installed, not through Mod Organizer 2. These are suggested settings:\
