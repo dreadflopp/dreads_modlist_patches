@@ -1,13 +1,13 @@
 # Where to find the guide
 The Github version (this version) of the guide is the first version to get updates but the Mod Picker version should mirror the Github version. The Github version has extended comments and users should at least read through the Github version of the guide.
->TODO add links\
+>TODO upate links when CMS has been launched\
 - [Github version of the guide](https://github.com/dreadflopp/dreads_modlist_patches/blob/master/README.md)
 - [Mod Picker version]()
 - [The guide section on STEP]()
 
 # Introduction
->TODO update link when STEP CMS is launched\
-This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/31054). This means that this guide is build based on STEP: Core. Everything you need to mod Skyrim is in this guide, you do not have to install anything prior following this guide. Almost everything in this build is optional, meaning you can use parts of it if that is what you want.
+>TODO upate links when CMS has been launched\
+This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/31054). This means that this guide is a build based on STEP: Core. Everything you need to mod Skyrim is in this guide, you do not have to install anything prior following it. Almost everything in this build is optional, meaning you can use parts of it if that is what you want.
 
 **The mods featured in this build are chosen to be immersive and realistic. Realistic in a fantasy setting means believable. The mods should feel like they expand or enhances vanilla Skyrim, like they could have been there from the beginning**
 
@@ -17,14 +17,14 @@ This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https
 - No merging of mods. Every patch is esl-flagged to make sure the plugin limit count is not reached.
 - Advanced fomod installer for the patches. No need to actively choose patches, the fomod does the work for you.
 
->TODO update link when STEP CMS is launched\
-Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-se-core-addon/)  if you have any questions.
+>TODO upate links when CMS has been launched\
+Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-se-core-addon/) if you have any questions.
 
-**With this modular STEP build you will get**
+**With Dread's modlist you will get**
 - STEP Core which means:
     - HD textures in the style of vanilla Skyrim
     - Bug fixes
-    - Tweaks and to increase consistency
+    - Tweaks to increase consistency
     - Improvements to user interface
     - Improvements to audio
 - Further improvements to textures
@@ -41,7 +41,7 @@ Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-s
     - New experience system that encourages exploration
     - Slower leveling
 - Overhauled magic, races, standing stones, werewolves and vampires
-- New, tougher bandits, dragons and enemies
+- New, tougher bandits and dragons
 - New NPC's and followers
 - Lightweight survival mod, the survival mod from Bethesda Creation Club.
 - Bigger trees for truly immersive forrests
@@ -56,21 +56,15 @@ Note that records from the Particle patch is not forwarded since the plugin is o
 
 **Acronyms that are used in the guide:**\
 USSEP = Unofficial Skyrim Special Edition Patch\
-WACCF = Weapons, Armor, Clothing & Clutter Fixes\
-CCOR = Complete Crafting Overhaul Remade\
 CFTO = Carriage and Ferry Travel Overhaul\
 SMIM = Static Mesh Improvement Mod\
-ICAIO = Immersive Citizens – AI Overhaul\
-
-# Game & Tool Installation
->TODO update link when STEP CMS is launched\
 
 ## Install Skyrim
->TODO add link to STEP\
+>TODO upate links when CMS has been launched\
 Follow the [system setup guide]() to have a clean Skyrim install ready to be modded.
 
 ## Mod Organizer 2
-This guide is written for [Mod Organizer 2]() but users may use whichever mod manager they are comfortable with as long as they know hot to properly use it. To use this guide with Mod Organizer 2 users must know how to
+This guide is written for [Mod Organizer 2](https://www.nexusmods.com/skyrimspecialedition/mods/6194) but users may use whichever mod manager they are comfortable with as long as they know hot to properly use it. To use this guide with Mod Organizer 2 users should be familiar with how to
 - Install Mod Organizer 2
 - Link Mod Organizer 2 to a Nexus account
 - Install mods
@@ -79,10 +73,10 @@ This guide is written for [Mod Organizer 2]() but users may use whichever mod ma
 - What Mod Organizer 2:s overwrite folder is
 - Add tools as executables in Mod Organizer 2
 If these concepts are new to you, watch the [tutorial videos](https://www.youtube.com/playlist?list=PLlN8weLk86Xh3ue76x2ibqtmMramwQmHB) by Gamerpoet. The STEP guide for Mod Organizer 2 is here[]()
->TODO add link to STEP\
+>TODO upate links when CMS has been launched\
 
 ## Tools
->TODO add link to STEP setup guide\
+>TODO upate links when CMS has been launched\
 Install the following tools, preferably in the tools folder you created following the [system setup guide](). Most tools doesn't have an installer, unzip these into their own subfolders of the tools folder.
 #### [BethINI SE](http://www.nexusmods.com/skyrimspecialedition/mods/4875)
 #### [DynDOLOD](https://www.nexusmods.com/skyrimspecialedition/mods/32382)
@@ -343,8 +337,6 @@ Install the main file using the following options:\
 - Style: Standard
 - Plugin option: Frost mesh patch (esl-tagged)
 
-#### [Armor and Clothing Extension](http://www.nexusmods.com/skyrimspecialedition/mods/19002)
-Recommendation: 2K
 #### [Barenziah's Glory SE](http://www.nexusmods.com/skyrimspecialedition/mods/6343)
 Recommended intall options:\
 - Desaturated Crown Texture - 1k
@@ -964,7 +956,7 @@ Do not activate this mod yet. Wait until you have left the first cell of Alterna
 Hide or delete the file *SKSE/Plugins/PapyrusUtil.dll*. It is outdated and we need to use the newer one from PapyrusUtil SE.
 #### [Campfire and Frostfall - Unofficial SSE Update](http://www.nexusmods.com/skyrimspecialedition/mods/17925)
 #### [Carriage and Ferry Travel Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/8379)
-Install patches for *Immersive Citizens - AI Overhaul* and *Dawnstar*.
+Install patch for *Dawnstar*.
 #### [Convenient Horses (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/9519)
 #### [Daedric Voices](https://www.nexusmods.com/skyrimspecialedition/mods/32090)
 Install the main file and the Growl patch.
@@ -1071,7 +1063,6 @@ Install main file
 ## Locations
 ### Locations - New Structures & Landmarks
 #### [Bells of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/10495)
-Install the patch for Immersive Citizens - AI overhaul.
 #### [Cutting Room Floor](http://www.nexusmods.com/skyrimspecialedition/mods/276)
 #### [Solitude Skyway](http://www.nexusmods.com/skyrimspecialedition/mods/8250)
 #### [Windhelm Lighthouse](http://www.nexusmods.com/skyrimspecialedition/mods/8453)
@@ -1080,7 +1071,7 @@ Install the patch for Immersive Citizens - AI overhaul.
 #### [Falskaar](http://www.nexusmods.com/skyrimspecialedition/mods/2057)
 #### [Wyrmstooth SSE](https://archive.org/details/wyrmstooth1.18SSE)
 
-### Locations - Towns and villages
+### Locations - Towns & villages
 #### [Darkwater Crossing](https://www.nexusmods.com/skyrimspecialedition/mods/326)
 #### [Dawnstar](https://www.nexusmods.com/skyrimspecialedition/mods/13607)
 #### [Dragon Bridge](https://www.nexusmods.com/skyrimspecialedition/mods/8683)
