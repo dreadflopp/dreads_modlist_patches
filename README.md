@@ -286,23 +286,20 @@ Download and install the Special Edition PARTICLE PATCH ALL-IN-ONE INSTALLATION 
 - Install Part 1-3, choosing to merge the files when asked.
 - Install the update file, choosing to merge as well.
 #### [Majestic Mountains - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/11052)
-Install a main file and a lod file, choose the version you like the most.
-Main installer:
+Install a main file and a lod file, choose the version you like the most.\
+**Main installer:**
 - Snow Mountain Type: Snow Mountain New version ESL
 - Optionals: Moss Rocks ESL Version
 - Sun Direction (choose one or none): None
 - Compatibility Patches: SMIM
-LOD installer:
+
+**LOD installer:**
 - LOD Resolution: 1024 (2-4GB Vram)
 #### [Cathedral landscapes](https://www.nexusmods.com/skyrimspecialedition/mods/21954)
 In the installer, choose:
 - Full Install, Brown Tundra
 - Blended Roads
-#### [Weapons Armor and Clothing - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/20199)
-Choose CBBE in the installer if you use CBBE.
-Hide or delete the file _CalienteTools\BodySlide\ShapeData\CBBE Vanilla\Body\Ebony.nif_ since this mesh is causing issues.
-#### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
-Recommendation: 2K
+
 #### [Unofficial Material Fix](http://www.nexusmods.com/skyrimspecialedition/mods/21027)
 
 ## Audiovisual
@@ -340,8 +337,6 @@ Install the main file using the following options:\
 #### [Arctic - Frost Effects Redux](http://www.nexusmods.com/skyrimspecialedition/mods/29817)
 Install the main file using the following options:\
 >TODO
-#### [Armor and Clothing Extension](http://www.nexusmods.com/skyrimspecialedition/mods/19002)
-Recommendation: 2K
 #### [Barenziah's Glory SE](http://www.nexusmods.com/skyrimspecialedition/mods/6343)
 Recommended intall options:\
 - Desaturated Crown Texture - 1k
@@ -418,21 +413,17 @@ Recommended install options:\
 Recommendation: 1K
 #### [Detailing the Eldrich - Higher-Res Riekling Architecture](http://www.nexusmods.com/skyrim/mods/46741)
 Recommendation: Higher Res
-#### [Divine Amulets and Daedric Rings](http://www.nexusmods.com/skyrim/mods/92542)
-Install main and optional files
 #### [Dragon Glyphs HD - Fixed](http://www.nexusmods.com/skyrim/mods/27095)
 Recommendation: Dragon Chiseled
 #### [Dragon Masks Retextured SE (4K - 2K)](http://www.nexusmods.com/skyrimspecialedition/mods/22699)
 Recommendation: 2K
 #### [DRAGON PRIEST](http://www.nexusmods.com/skyrimspecialedition/mods/4974)
 Recommendation: 2K full option
-#### [Dragonbone Mastery - Weapons Retexture](http://www.nexusmods.com/skyrimspecialedition/mods/2056)
->TODO Check options and overwrites/conflicts
 #### [DRAUGR](http://www.nexusmods.com/skyrimspecialedition/mods/5848)
 Recommendation: 2K
 #### [DROPS](http://www.nexusmods.com/skyrim/mods/63991)
+Install DROPS v1 Optional File. In the installer, choose the *512 x* texture and no alternate textures.
 #### [Dust Effects by HHaleyy](http://www.nexusmods.com/skyrimspecialedition/mods/2407)
-#### [EASIER LOCKPICKING (SE)](http://www.nexusmods.com/skyrim/mods/53071)
 #### [ElSopa HD - Ants SE](http://www.nexusmods.com/skyrimspecialedition/mods/26715)
 Recommendation: 1K
 #### [ElSopa HD - Briar Heart](http://www.nexusmods.com/skyrimspecialedition/mods/27983)
@@ -458,47 +449,10 @@ Install using the following options:\
 Download and install the lite version
 #### [ETHEREAL CLOUDS - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/2393)
 Recommendation: 1K
+#### [ETHEREAL COSMOS - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/5728)
+The vivid version is recommended
 #### [FALMER](http://www.nexusmods.com/skyrimspecialedition/mods/17224)
 Recommendation: 2K
-#### [Frankly HD Dawnguard Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/19663)
-Recommendation: 2K\
-Install the CBBE patch.
-#### [Frankly HD Dragonbone and Dragonscale - Armor and Weapons HQ](https://www.nexusmods.com/skyrimspecialedition/mods/25110)
-Recommendation: 2K\
-Install both main and update file. 
-#### [Frankly HD Imperial Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/20848)
-Recommendation: 2K\
-Install the *Pants and Sleeves* patch and the *Better-Shaped Weapons* patch.
-#### [Frankly HD Masque of Clavicus Vile](https://www.nexusmods.com/skyrimspecialedition/mods/28565)
-Recommendation: 2K
-#### [Frankly HD Miraak](https://www.nexusmods.com/skyrimspecialedition/mods/19699)
-Recommendation: 2K\
-Install the CBBE patch.
-#### [Frankly HD Nightingale Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/18560)
-Recommendation: 2K\
-Install the CBBE patch and the Better-Shaped Weapons patch.
-#### [Frankly HD Shrouded Armor](https://www.nexusmods.com/skyrimspecialedition/mods/18785)
-Recommendation: 2K\
-Choose the color option you prefer
-#### [Frankly HD Thieves Guild Armors HQ](https://www.nexusmods.com/skyrimspecialedition/mods/19953)
-Recommendation: 2K\
-#### [Gemling Queen Jewelry SE](http://www.nexusmods.com/skyrimspecialedition/mods/4294)
-Install instructions:\
-**Main modules:**
-- Amulets
-- Circlets
-- Rings
-
-**DLC Addons**
-- Dawnguard Addon
-
-**Amulet Textures**
-- Gamwich Amulet Textures - 1024
-
-**Ring Texture Options**
-- Gamwich Ring Textures -Combined - 1k
-- Optional Mesh Packs: Select Nothing
-- Optional Mesh Packs Dawnguard: Select Nothing
 
 #### [GIANT (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/6179)
 Recommendation: 2K
@@ -611,7 +565,9 @@ Recommendation: 2K
 Download and install the Ultimate HD Torch by rheadude compatible file. 
 #### [Not Really HD Display Case](http://www.nexusmods.com/skyrim/mods/3693)
 #### [Not Really HD Keys](http://www.nexusmods.com/skyrim/mods/2875)
+#### [Pilgrims Delight](http://www.nexusmods.com/skyrimspecialedition/mods/3273)
 #### [Rally's Hooks and Saws](http://www.nexusmods.com/skyrimspecialedition/mods/32652)
+Choose one main file, the version with shine is recommended. Fomod recommendation is *default*.
 #### [Rally's Instruments HQ](http://www.nexusmods.com/skyrimspecialedition/mods/28193)
 Recommendation: Rallys Instruments HQ - Version 2 Vanilla Lute
 #### [Real Wood Textures - Farmhouses (SE)](http://www.nexusmods.com/skyrim/mods/50595)
@@ -628,6 +584,8 @@ Hide the following files/folders:
 #### [Realistic HD Woodcutter's Axe Remastered](http://www.nexusmods.com/skyrimspecialedition/mods/20239)
 #### [Realistic Water Two (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/2182)
 Choose no optional textures. Choose extended ambiance and patches for *Landscape Fixes for Grass Mods*,  *Falskaar* and *Wyrmstooth*.
+#### [Red Dog's Smaller Realistic Ice Spike and Ice Spear](http://www.nexusmods.com/skyrimspecialedition/mods/25519)
+#### [Remove Small Rocks](http://www.nexusmods.com/skyrimspecialedition/mods/8733)
 
 #### [Rens HD Shrines (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/13572)
 ChooseThe shrines that you think look the best, for example:\
@@ -691,6 +649,12 @@ Download and install the FOMOD Version and install using the STEP option.
 Choose *2048x2048 Resolution* and *Skyrim Special Edition (all DLCs)* in the installer
 #### [Skyrim SE Skill Interface Re-Texture](http://www.nexusmods.com/skyrimspecialedition/mods/1523)
 Choose the options you prefer
+#### [Skyrim Textures Redone - Enhanced Night Sky](https://www.nexusmods.com/skyrimspecialedition/mods/5561)
+Choose the 2k versions of textures, big and small stars. Hide or delete all files from this mod except:
+- Textures/sky/skyrimconstellations01.dds
+- Textures/sky/skyrimconstellations02.dds
+- Textures/sky/skystars.dds
+
 #### [Smooth Sky mesh - SSE](http://www.nexusmods.com/skyrimspecialedition/mods/18350)
 #### [Stalhrim](http://www.nexusmods.com/skyrimspecialedition/mods/9447)
 Recommendation: 2K
@@ -704,6 +668,33 @@ Recommendation: 2K
 Recommendation: 2K
 #### [Vivid Landscapes - Tundra Moss Revised](http://www.nexusmods.com/skyrim/mods/43221)
 Recommendation: *Vivid Landscapes - Tundra Moss Revised - yellow 1024* main file and *SMIM compatibility patch* optional file. 
+#### [Weapons Armor and Clothing - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/20199)
+Choose CBBE in the installer if you use CBBE.
+Hide or delete the file _CalienteTools\BodySlide\ShapeData\CBBE Vanilla\Body\Ebony.nif_ since this mesh is causing issues.
+#### [Frankly HD Dawnguard Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/19663)
+Recommendation: 2K\
+Install the CBBE patch.
+#### [Frankly HD Dragonbone and Dragonscale - Armor and Weapons HQ](https://www.nexusmods.com/skyrimspecialedition/mods/25110)
+Recommendation: 2K\
+Install both main and update file. 
+#### [Frankly HD Imperial Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/20848)
+Recommendation: 2K\
+Install the *Pants and Sleeves* patch and the *Better-Shaped Weapons* patch.
+#### [Frankly HD Masque of Clavicus Vile](https://www.nexusmods.com/skyrimspecialedition/mods/28565)
+Recommendation: 2K
+#### [Frankly HD Miraak](https://www.nexusmods.com/skyrimspecialedition/mods/19699)
+Recommendation: 2K\
+Install the CBBE patch.
+#### [Frankly HD Nightingale Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/18560)
+Recommendation: 2K\
+Install the CBBE patch and the Better-Shaped Weapons patch.
+#### [Frankly HD Shrouded Armor](https://www.nexusmods.com/skyrimspecialedition/mods/18785)
+Recommendation: 2K\
+Choose the color option you prefer
+#### [Frankly HD Thieves Guild Armors HQ](https://www.nexusmods.com/skyrimspecialedition/mods/19953)
+Recommendation: 2K\
+#### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
+Recommendation: 2K
 #### [WEBS S.E.](http://www.nexusmods.com/skyrimspecialedition/mods/4873)
 Recommendation: 2K
 #### [White Phial Replacer SE](http://www.nexusmods.com/skyrimspecialedition/mods/6113)
@@ -715,8 +706,6 @@ Recommendation: 2K-1K\
 Choose *Full version - skin with a linen fabric cloth* in the installer.
 
 ### Audiovisual - Trees & Vegetation
-#### [HQ Tree Bark](http://www.nexusmods.com/skyrimspecialedition/mods/6556)
-Choose the options you prefer. Install the Simply Bigger Trees patch.
 #### [Landscape Fixes For Grass Mods](http://www.nexusmods.com/skyrimspecialedition/mods/9005)
 #### [No More Hanging Moss](https://www.nexusmods.com/skyrimspecialedition/mods/16426)
 Install _Hanging moss removal - partial - the moss around trees -_ mesh edits only. Without this mod you would get floating moss hanging from resized trees.
@@ -724,6 +713,8 @@ Install _Hanging moss removal - partial - the moss around trees -_ mesh edits on
 Choose 2k or 4k. Choose LodGen billboards (doesn't really matter, they will be overwritten by the next mod)
 #### [Simply Bigger Trees SE](http://www.nexusmods.com/skyrimspecialedition/mods/5281)
 Install the Realistic Aspen trees version of this mod.
+#### [HQ Tree Bark](http://www.nexusmods.com/skyrimspecialedition/mods/6556)
+Choose the options you prefer. Install the Simply Bigger Trees patch.
 
 ## Audiovisual - Sounds & Music
 #### [Audio Overhaul for Skyrim SE](http://www.nexusmods.com/skyrimspecialedition/mods/12466)
@@ -800,6 +791,9 @@ Some of this mod's features have been reverted in this builds patch in order to 
 #### [Maevan2’s Mature Skin Texture for CBBE – UNP](https://www.nexusmods.com/skyrimspecialedition/mods/26017)
 *NSFW warning*\
 In the installer, choose what you want, for example: high, CBBE slim, medium, lips, complexions, young, mature.
+#### [More Realistic Hair (SE)](http://www.nexusmods.com/skyrim/mods/3397)
+#### [Natural Eyes SSE](http://www.nexusmods.com/skyrimspecialedition/mods/10099)
+#### [Northborn Scars (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/720)
 #### [RUSTIC CHILDREN (SE)](http://www.nexusmods.com/skyrim/mods/63353)
 Recommendation: 2K
 #### [Salt and Wind – Rough Hair for KS Hairdos SE](http://www.nexusmods.com/skyrimspecialedition/mods/16582)
@@ -822,7 +816,7 @@ Hide the following files:
 
 #### [Vanilla Makeup HD](http://www.nexusmods.com/skyrimspecialedition/mods/24482)
 Recommendation: 2K for all races and update file.
-#### [MHD - All Races - 2K Also install the 2K update file](http://www.nexusmods.com/skyrimspecialedition/mods/20751)
+#### [Vanilla Warpaints Absolution](http://www.nexusmods.com/skyrimspecialedition/mods/20751)
 Recommendation: 2K.\
 In the installer, choose the following:
 **Main Files**
@@ -868,7 +862,7 @@ Choose *Eyes Mesh Fix* in the installer.
 #### [Skyrim Landscape and Water Fixes](http://www.nexusmods.com/skyrimspecialedition/mods/26138)
 In the installer, choose:
 - Base Fixed Meshes: Base Meshes
-- Main Plugin: 1. ESM<<<<<>>>>>
+- Main Plugin: 1. ESM
 - Patches: Relighting Skyrim
 - Walkway Wall FIX: Walkway Wall FIX SMIM
 
