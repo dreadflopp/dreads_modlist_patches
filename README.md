@@ -1048,7 +1048,7 @@ Install the main version
 #### [Immersive Armours - SSE CBBE BodySlide](https://www.nexusmods.com/skyrimspecialedition/mods/22382)
 Install if you use Immersive Armors with CBBE.
 #### [Winter Is Coming SSE - Cloaks](http://www.nexusmods.com/skyrimspecialedition/mods/4933)
-Install the patch for Cloaks of Skyrim only if you are not using Complete Crafting Overhaul Remade.
+Install the patch for Cloaks of Skyrim.
 
 ### Items – Weapons
 #### [Faction Crossbows SE](http://www.nexusmods.com/skyrimspecialedition/mods/4047)
@@ -1159,8 +1159,6 @@ Choose
 #### [Immersive College of Winterhold - Not so fast Mage Guild Patch](https://www.nexusmods.com/skyrimspecialedition/mods/18731)
 #### [Improved Closedfaced Helmets](https://www.nexusmods.com/skyrim/mods/15927)
 Download Improved Closefaced Helmets Patch v1 and choose SkyRealism Shiny in the installer. Install this as a new mod, making sure to not overwrite or merge it with the main Closefaced Helmets mod.
-#### [Kryptopyr's Patch Hub](http://www.nexusmods.com/skyrimspecialedition/mods/19518)
-The fomod installer will identify which patches you need and select them automatically. Do not install the *WACCF - Survival Mode Patch*.
 #### [Moonpath to Elsweyr Sky and Lightning fix](http://www.nexusmods.com/skyrimspecialedition/mods/18683)
 #### [Unofficial Moonpath to Elsweyr Patch](http://www.nexusmods.com/skyrimspecialedition/mods/15882)
 #### [Unofficial Skyrim Creation Club Content Patches](http://www.nexusmods.com/skyrimspecialedition/mods/18975)
@@ -1185,7 +1183,7 @@ Build body and armor meshes using BodySlide following these simple instructions:
 4. Tick the checkbox *Build Morphs*.
 5. Click the button *Build* to build the body.
 6. Click on the spyglass at the field Group filter and choose *Choose groups*.
-7. Check the following and click ok: *CBBE vanilla outfits, Frankly HD, Immersive Armors SSE CBBE, WACCF*.
+7. Check the following and click ok: *CBBE vanilla outfits, Frankly HD, Immersive Armors SSE CBBE*.
 8. Click the button *Batch build…*
 9. Click *build* to build armor meshes.
 10. Make sure no physics options are checked. Check all Frankly options. Click *ok* and close BodySlide. The meshes that has been built are placed in Mod Organizers overwrite folder and can be moved to a new mod folder if you choose to.
