@@ -2,7 +2,7 @@
 The Github version (this version) of the guide is the first version to get updates but the Mod Picker version should mirror the Github version. The Github version has extended comments and users should at least read through the Github version of the guide.
 >TODO upate links when CMS has been launched\
 - [Github version of the guide](https://github.com/dreadflopp/dreads_modlist_patches/blob/master/README.md)
-- [Mod Picker version]()
+- [Mod Picker version](https://modpicker.com/skyrimse/mod-lists/7729/)
 - [The guide section on STEP]()
 
 # Introduction
@@ -302,7 +302,6 @@ In the installer, choose:
 Install loose files
 #### [No Spinning Death Animation (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/1432)
 Install *No Spinning Death Animation MERGED*
-#### [No Spinning Death Animation MERGED](http://www.nexusmods.com/skyrimspecialedition/mods/15881)
 #### [Smooth Running Animations](http://www.nexusmods.com/skyrimspecialedition/mods/15881)
 #### [XP32 Maximum Skeleton Special Extended - XPMSSE](http://www.nexusmods.com/skyrimspecialedition/mods/1988)
 Install the main file using the following options:\
@@ -1230,7 +1229,7 @@ After closing SSEEdit, the patch will be in Overwrite:
 Crete two empty mods to use as output for DynDOLOD:
 1. Right-click on the mod list in MO2 and hover over All Mods.
 2. Select *Create empty mod*.
-3. Name it *TexGen Output*.
+3. Name it *TexGen Output*. 
 4. Repeat step 1-3 to create another new mod called *DynDOLOD Output*.
 
 ## Run TextGen
