@@ -600,6 +600,7 @@ ChooseThe shrines that you think look the best, for example:\
 #### [Retexture for Bread - Hearthfire](http://www.nexusmods.com/skyrim/mods/64980)
 #### [Retexture for Soup](http://www.nexusmods.com/skyrim/mods/65238)
 Install SMIM Mesh - Poor Version
+#### [RUGNAROK - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/5436)
 #### [Ruins Clutter Improved](http://www.nexusmods.com/skyrimspecialedition/mods/5870)
 Choose *Install Everything* in the installer. Hide or delete the following files or folders:
 - meshes\furniture\workbenches
@@ -755,8 +756,12 @@ In the main installer, choose:
 Install the main file
 
 ### Character Appearance - Face Parts, textures and overhauls
+#### [Argonian Improvements SSE - Horns](https://www.nexusmods.com/skyrimspecialedition/mods/6104)
 #### [Beards](http://www.nexusmods.com/skyrimspecialedition/mods/1067)
 Choose *Full Install* and *Low: 1024*
+#### [Bijin Skin UNP and CBBE SE](https://www.nexusmods.com/skyrimspecialedition/mods/20078)
+*NSFW warning*\
+Install *Bijin Skin CBBE*. Choose default 2K options in the installer.
 #### [Brows](http://www.nexusmods.com/skyrimspecialedition/mods/1062)
 Choose *Full Install* and *Low: 512*
 #### [Consistent Older People](http://www.nexusmods.com/skyrimspecialedition/mods/2977)
@@ -792,9 +797,6 @@ Some of this mod's features have been reverted in this builds patch in order to 
     - In an effort to return the NPC back to as much a vanilla-like state as possible, he Nightingale gloves (too powerful) were switched out with the Jester gloves (more equivalent to vanilla). 
 
 #### [KS Hairdos SSE](http://www.nexusmods.com/skyrimspecialedition/mods/6817)
-#### [Maevan2’s Mature Skin Texture for CBBE – UNP](https://www.nexusmods.com/skyrimspecialedition/mods/26017)
-*NSFW warning*\
-In the installer, choose what you want, for example: high, CBBE slim, medium, lips, complexions, young, mature.
 #### [More Realistic Hair (SE)](http://www.nexusmods.com/skyrim/mods/3397)
 #### [Natural Eyes SSE](http://www.nexusmods.com/skyrimspecialedition/mods/10099)
 #### [Northborn Scars (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/720)
@@ -956,7 +958,6 @@ Hide or delete the file *SKSE/Plugins/PapyrusUtil.dll*. It is outdated and we ne
 #### [Campfire and Frostfall - Unofficial SSE Update](http://www.nexusmods.com/skyrimspecialedition/mods/17925)
 #### [Carriage and Ferry Travel Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/8379)
 Install patch for *Dawnstar*.
-#### [Convenient Horses (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/9519)
 #### [Daedric Voices](https://www.nexusmods.com/skyrimspecialedition/mods/32090)
 Install the main file and the Growl patch.
 #### [Disease Descriptions for the Immersive Adventurer SE](http://www.nexusmods.com/skyrimspecialedition/mods/26992)
@@ -968,6 +969,8 @@ When installing the mod, untick the following plugins:
 
 #### [Go On Ahead](http://www.nexusmods.com/skyrimspecialedition/mods/4779)
 #### [Guard Dialogue Overhaul SE](http://www.nexusmods.com/skyrimspecialedition/mods/22075)
+#### [Immersive Horses](https://www.nexusmods.com/skyrimspecialedition/mods/13402)
+Install main file and the 2K horse textures.
 #### [Improved Traps](http://www.nexusmods.com/skyrimspecialedition/mods/17592)
 Install *Improved Traps and Mining Makes Noise*
 #### [Lenient Survival](https://www.nexusmods.com/skyrimspecialedition/mods/13087)
@@ -1050,9 +1053,10 @@ Install if you use Immersive Armors with CBBE.
 Install the patch for Cloaks of Skyrim.
 
 ### Items – Weapons
+#### [Animated Armoury - New Weapons with animations SSE Version](https://www.nexusmods.com/skyrimspecialedition/mods/15394)
+Download main file and update file.
 #### [Faction Crossbows SE](http://www.nexusmods.com/skyrimspecialedition/mods/4047)
 #### [Heavy Armory - New Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/6308)
-#### [Immersive Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/16788)
 #### [Royal Armory - New Artifacts](http://www.nexusmods.com/skyrimspecialedition/mods/6994)
 #### [Ruin's Edge](http://www.nexusmods.com/skyrimspecialedition/mods/12792)
 #### [The Staff Of Sheogorath](http://www.nexusmods.com/skyrimspecialedition/mods/14468)
@@ -1168,8 +1172,18 @@ The fomod installer will automatically select all mods you use. Select the tweak
 
 ## Utilities
 #### [BodySlide and Outfit Studio](https://www.nexusmods.com/skyrimspecialedition/mods/201)
-Check the nexus page for the instructions to add this mod as an executable in Mod Organizer (in short, install as a normal mod and right click the executable in MO:s data tab. Choose add as executable).
-#### [Fores New Idles in Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/3038)
+Download and install as a normal mod.\
+**Instructions to add tool as executable**
+1. In Mod Organizer 2, click in the *Data* tab
+2. Right click on *CalienteTools\BodySlide\BodySlide x64.exe* and choose *Add as Executable*.
+3. A dialog box opens asking for a name of the executable. Accept the default name by clicking *OK*.
+
+#### [Nemesis](https://github.com/ShikyoKira/Project-New-Reign---Nemesis-Main/releases)
+Download latest SSE version and install as a normal mod.\
+**Instructions to add tool as executable**
+1. In Mod Organizer 2, click in the *Data* tab
+2. Right click on *Nemesis_Engine\Nemesis Unlimited Behavior Engine.exe* and choose *Add as Executable*.
+3. A dialog box opens asking for a name of the executable. Accept the default name by clicking *OK*.
 
 # Sorting and cleaning the new load order
 Before moving on, sort the load order with LOOT. Take note of any plugins that LOOT reports as needing to be cleaned and perform the standard cleaning procedures on these mods. Ignore any reported missing compatibility patches. The guides patches take care of all the patching, thus eliminating the need for those additional plugins.
