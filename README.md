@@ -832,18 +832,6 @@ The mod is not packaged correctly for mod managers. To install:
 11. Untick FAR-Forgotten Argonian Roots and click OK
 
 #### [Female Vampires Have Fangs](http://www.nexusmods.com/skyrimspecialedition/mods/1211)
-#### [Immersive Spectral Assassin](http://www.nexusmods.com/skyrimspecialedition/mods/27051)	
-Download and install the Immersive Spectral Assassin (Oblivion) file.
-
-Some of this mod's features have been reverted in this builds patch in order to return it to a more vanilla-like replacement. The following was changed:
-
-- The perks have been removed
-    - The perks were added by the author and weren't present in vanilla so this was reverted. 
-- Magic has been increased
-    - Upon looking up the lore and Oblivion NPC, it was found that Lucien's magic was much higher than Skyrim has it. Therefore, it's been increased. 
-- Nightingale gloves removed
-    - In an effort to return the NPC back to as much a vanilla-like state as possible, he Nightingale gloves (too powerful) were switched out with the Jester gloves (more equivalent to vanilla). 
-
 #### [KS Hairdos SSE](http://www.nexusmods.com/skyrimspecialedition/mods/6817)
 #### [More Realistic Hair (SE)](http://www.nexusmods.com/skyrim/mods/3397)
 #### [Natural Eyes SSE](http://www.nexusmods.com/skyrimspecialedition/mods/10099)
@@ -1093,10 +1081,6 @@ Do not install the main file, install the esl optional file only. If you play wi
 #### [Bandolier - Bags and Pouches Classic](http://www.nexusmods.com/skyrimspecialedition/mods/2417)
 #### [Cloaks of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/6369)
 Install the main version
-#### [Cloaks of Skyrim Ultra HD SSE](http://www.nexusmods.com/skyrimspecialedition/mods/29258)
-#### [Immersive Armors](http://www.nexusmods.com/skyrimspecialedition/mods/3479)
-#### [Immersive Armours - SSE CBBE BodySlide](https://www.nexusmods.com/skyrimspecialedition/mods/22382)
-Install if you use Immersive Armors with CBBE.
 #### [Winter Is Coming SSE - Cloaks](http://www.nexusmods.com/skyrimspecialedition/mods/4933)
 Install the patch for Cloaks of Skyrim.
 
@@ -1143,12 +1127,6 @@ Install main file
 
 ### Locations - Overhauls
 #### [Bring Out Your Dead (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/323)
-#### [Immersive College of Winterhold](http://www.nexusmods.com/skyrimspecialedition/mods/17004)
-Choose 
-- desaturated book covers
-- RLS SSE Patch
-- Better Dynamic Snow Patch
-- Skyrim Project Optimization SSE Patch.
 #### [Immersive Dawnguard Dayspring Pass SE](http://www.nexusmods.com/skyrimspecialedition/mods/4126)
 #### [Smooth Shores](http://www.nexusmods.com/skyrimspecialedition/mods/10624)
 #### [Farmhouse Chimneys SE](http://www.nexusmods.com/skyrimspecialedition/mods/8766)
@@ -1182,7 +1160,6 @@ Install main file and OBIS SE Patrols addon.
 #### [Splendor – Dragon Variants SE](http://www.nexusmods.com/skyrimspecialedition/mods/9670)
 
 ### New Characters - Neutral
-#### [Immersive Patrols SE](http://www.nexusmods.com/skyrimspecialedition/mods/718)
 #### [Immersive World Encounters SE](https://www.nexusmods.com/skyrimspecialedition/mods/18330)
 #### [Interesting NPCs SE](https://www.nexusmods.com/skyrimspecialedition/mods/29194)
 #### [Interesting NPCs (3DNPC) character Zora Fairchild's voice boosted](http://www.nexusmods.com/skyrimspecialedition/mods/16090)
@@ -1208,7 +1185,6 @@ Choose
 - Boat Location Patch
 - Fast Travel Addon
 - Unique Region Names Addon
-#### [Immersive College of Winterhold - Not so fast Mage Guild Patch](https://www.nexusmods.com/skyrimspecialedition/mods/18731)
 #### [Improved Closedfaced Helmets](https://www.nexusmods.com/skyrim/mods/15927)
 Download Improved Closefaced Helmets Patch v1 and choose SkyRealism Shiny in the installer. Install this as a new mod, making sure to not overwrite or merge it with the main Closefaced Helmets mod.
 #### [Moonpath to Elsweyr Sky and Lightning fix](http://www.nexusmods.com/skyrimspecialedition/mods/18683)
