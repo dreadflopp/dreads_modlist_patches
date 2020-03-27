@@ -2071,7 +2071,7 @@ Tweaks:
 					<plugins order="Explicit">
 						<plugin name="Ok">
 							<typeDescriptor>
-								<type name="Optional"/>
+								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -2079,8 +2079,10 @@ Tweaks:
 			</optionalFileGroups>
 		</installStep>
 	</installSteps>
-
-	<!-- Install patterns -->
+	
+	<!-- ****************************** -->
+	<!-- ****** Install patterns ****** -->
+	<!-- ****************************** -->
 	<conditionalFileInstalls>
 		<patterns>
 			<!-- Interesting NPCs 3DNPC -->
@@ -3040,7 +3042,7 @@ Tweaks:
 
 			<!-- Tweaks -->
 			<pattern>
-				<dependencies operator="">
+				<dependencies operator="And">
 					<flagDependency flag="tweakspectralassassin" value="On"/>
 					<flagDependency flag="brotherhoodofold" value="Off"/>
 				</dependencies>
@@ -3049,7 +3051,7 @@ Tweaks:
 				</files>
 			</pattern>
 			<pattern>
-				<dependencies operator="">
+				<dependencies operator="And">
 					<flagDependency flag="brotherhoodofold" value="On"/>
 					<flagDependency flag="tweakspectralassassin" value="On"/>
 				</dependencies>
@@ -3058,7 +3060,7 @@ Tweaks:
 				</files>
 			</pattern>
 			<pattern>
-				<dependencies operator="">
+				<dependencies operator="And">
 					<flagDependency flag="tweakscore" value="On"/>
 					<flagDependency flag="raid" value="Off"/>
 					<flagDependency flag="aetherius" value="Off"/>					
@@ -3068,7 +3070,7 @@ Tweaks:
 				</files>
 			</pattern>
 			<pattern>
-				<dependencies operator="">
+				<dependencies operator="And">
 					<flagDependency flag="raid" value="On"/>
 					<flagDependency flag="tweakscore" value="On"/>
 					<flagDependency flag="aetherius" value="Off"/>	
@@ -3078,7 +3080,7 @@ Tweaks:
 				</files>
 			</pattern>
 			<pattern>
-				<dependencies operator="">
+				<dependencies operator="And">
 					<flagDependency flag="tweakscore" value="On"/>
 					<flagDependency flag="raid" value="Off"/>
 					<flagDependency flag="aetherius" value="On"/>					
@@ -3088,7 +3090,7 @@ Tweaks:
 				</files>
 			</pattern>
 			<pattern>
-				<dependencies operator="">
+				<dependencies operator="And">
 					<flagDependency flag="raid" value="On"/>
 					<flagDependency flag="tweakscore" value="On"/>
 					<flagDependency flag="aetherius" value="On"/>	
@@ -3101,7 +3103,7 @@ Tweaks:
 
 			<!--Heavy Armory, Animated Armoury -->			
 			<pattern>
-				<dependencies operator="">
+				<dependencies operator="And">
 					<flagDependency flag="ha" value="On"/>
 					<flagDependency flag="animatedarmoury" value="On"/>
 				</dependencies>
@@ -3113,7 +3115,7 @@ Tweaks:
 
 			<!-- Midwood Isle -->
 			<pattern>
-				<dependencies operator="">
+				<dependencies operator="And">
 					<flagDependency flag="midwoodisle" value="On"/>
 					<flagDependency flag="rw2" value="Off"/>
 				</dependencies>
