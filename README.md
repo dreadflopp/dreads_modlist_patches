@@ -294,6 +294,9 @@ In the installer, choose:
 - Full Install, Brown Tundra
 - Blended Roads
 
+#### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
+Recommendation: 2K
+
 #### [Unofficial Material Fix](http://www.nexusmods.com/skyrimspecialedition/mods/21027)
 
 ## Audiovisual
@@ -691,8 +694,6 @@ Recommendation: 2K\
 Choose the color option you prefer
 #### [Frankly HD Thieves Guild Armors HQ](https://www.nexusmods.com/skyrimspecialedition/mods/19953)
 Recommendation: 2K\
-#### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
-Recommendation: 2K
 #### [WEBS S.E.](http://www.nexusmods.com/skyrimspecialedition/mods/4873)
 Recommendation: 2K
 #### [White Phial Replacer SE](http://www.nexusmods.com/skyrimspecialedition/mods/6113)
