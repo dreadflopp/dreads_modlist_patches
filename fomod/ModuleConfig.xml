@@ -2733,7 +2733,6 @@ Tweaks:
 				</files>
 			</pattern>
 			<pattern>
-			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="gdo" value="On"/>
 					<flagDependency flag="alternatestart" value="On"/>
