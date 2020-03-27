@@ -2063,21 +2063,6 @@ Tweaks:
 				</group>
 			</optionalFileGroups>
 		</installStep>
-
-		<!-- Finish -->
-		<installStep name="Finish">
-			<optionalFileGroups order="Explicit">
-				<group name="Install" type="SelectExactlyOne">
-					<plugins order="Explicit">
-						<plugin name="Ok">
-							<typeDescriptor>
-								<type name="Recommended"/>
-							</typeDescriptor>
-						</plugin>
-					</plugins>
-				</group>
-			</optionalFileGroups>
-		</installStep>
 	</installSteps>
 	
 	<!-- ****************************** -->
