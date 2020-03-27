@@ -2,7 +2,7 @@
 	<moduleName>Dread's modlist patches</moduleName>
 	<installSteps order="Explicit">
 
-		<!-- Welcome -->
+		<!-- Welcome --> 
 		<installStep name="Welcome">
 			<optionalFileGroups order="Explicit">
 				<group name="Do you use Unofficial Skyrim Special Edition Patch" type="SelectExactlyOne">
