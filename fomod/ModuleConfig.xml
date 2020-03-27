@@ -1428,24 +1428,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="Immersive College of Winterhold">
-							<conditionFlags>
-								<flag name="icow">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="CollegeOfWinterholdImmersive.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
 						<plugin name="Immersive Dawnguard Dayspring Pass SE">
 							<conditionFlags>
 								<flag name="dgbetterentrance">On</flag>
@@ -2091,26 +2073,6 @@ Tweaks:
 				</files>
 			</pattern>
 			<!-- ****************************************** -->
-
-			<!-- College Of Winterhold -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="icow" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_CollegeOfWinterholdImmersive.esp" destination="df_CollegeOfWinterholdImmersive.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="icow" value="On"/>
-					<flagDependency flag="cop" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_CollegeOfWinterholdImmersive-ConsistenOlderPeople.esp" destination="df_CollegeOfWinterholdImmersive-ConsistenOlderPeople.esp" priority="0" />
-				</files>
-			</pattern>
-			<!-- ************************************** -->
 			
 			<!-- Cutting Room Floor -->
 			<pattern>
@@ -2769,15 +2731,6 @@ Tweaks:
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="luminosity" value="On"/>
-					<flagDependency flag="icow" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_LuminosityLightingOverhaul-CollegeOfWinterholdImmersive.esp" destination="df_LuminosityLightingOverhaul-CollegeOfWinterholdImmersive.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="luminosity" value="On"/>
 					<flagDependency flag="crf" value="On"/>
 				</dependencies>
 				<files>
@@ -2953,16 +2906,7 @@ Tweaks:
 				<files>
 					<file source="df_Cloaks-USSEP.esp" destination="df_Cloaks-USSEP.esp" priority="0" />
 				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="cloaks" value="On"/>
-					<flagDependency flag="ia" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Cloaks-ImmersiveArmors.esp" destination="df_Cloaks-ImmersiveArmors.esp" priority="0" />
-				</files>
-			</pattern>					
+			</pattern>				
 				
 			<!-- *************************** -->
 
