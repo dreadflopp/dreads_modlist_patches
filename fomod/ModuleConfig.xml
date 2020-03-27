@@ -31,8 +31,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="moonpath">Off</flag>	
 								<flag name="wyrmstooth">Off</flag>	
 								<flag name="bandolier">Off</flag>	
-								<flag name="cloaks">Off</flag>	
-								<flag name="highlevellootrarified">Off</flag>		
+								<flag name="cloaks">Off</flag>		
 								<flag name="ia">Off</flag>	
 								<flag name="aetherius">Off</flag>	
 								<flag name="lenient">Off</flag>	
@@ -2367,7 +2366,7 @@ Tweaks:
 			<!-- Relighting Skyrim -->
 			<pattern>
 				<dependencies operator="And">
-					<flagDependency flag="3DNPC" value="On"/>
+					<flagDependency flag="3dnpc" value="On"/>
 					<flagDependency flag="rls" value="On"/>
 				</dependencies>
 				<files>
@@ -2419,10 +2418,19 @@ Tweaks:
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="bcs" value="On"/>
-					<flagDependency flag="notSoFast-MainQuest.esp" value="On"/>
+					<flagDependency flag="nsf-main" value="On"/>
 				</dependencies>
 				<files>
 					<file source="df_BookCoversSkyrim-NotSoFastMainQuest.esp" destination="df_BookCoversSkyrim-NotSoFastMainQuest.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="bcs" value="On"/>
+					<flagDependency flag="immersivehorses" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ImmersiveHorses-BookCoversSkyrim.esp" destination="df_ImmersiveHorses-BookCoversSkyrim.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- ****************************************** -->
@@ -2636,7 +2644,7 @@ Tweaks:
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="aos" value="On"/>
-					<flagDependency flag="immersivehorses" value="Off"/>
+					<flagDependency flag="immersivehorses" value="On"/>
 				</dependencies>
 				<files>
 					<file source="df_AudioOverhaulSkyrim-ImmersiveHorses.esp" destination="df_AudioOverhaulSkyrim-ImmersiveHorses.esp" priority="0" />
@@ -2779,7 +2787,7 @@ Tweaks:
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="luminosity" value="On"/>
-					<flagDependency flag="Karthwasten" value="On"/>
+					<flagDependency flag="karthwasten" value="On"/>
 				</dependencies>
 				<files>
 					<file source="df_LuminosityLightingOverhaul-Karthwasten.esp" destination="df_LuminosityLightingOverhaul-Karthwasten.esp" priority="0" />
