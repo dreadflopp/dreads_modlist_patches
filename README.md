@@ -294,6 +294,8 @@ In the installer, choose:
 - Full Install, Brown Tundra
 - Blended Roads
 
+#### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
+Recommendation: 2K
 #### [Unofficial Material Fix](http://www.nexusmods.com/skyrimspecialedition/mods/21027)
 
 ## Audiovisual
@@ -335,6 +337,59 @@ Install the main file using the following options:\
 - Size: x.5
 - Style: Standard
 - Plugin option: Frost mesh patch (esl-tagged)
+
+#### [aMidianBorn Book of Silence](https://www.nexusmods.com/skyrim/mods/24909)
+Download and install:
+
+- aMidianBorn book of silence_ARMORS
+    - Custom
+    - Iron and baded: Iron - Vanilla Cut
+    - Steel: Steel
+    - Steel Plate: Steel Plate
+    - Leather: Leather
+    - Hide and Studed: Hide
+    - Fur: Fur
+    - Elven: Gold
+    - Dwarwen: Dwarwen
+    - Ancient Nord: Ancient Nord
+    - Orcish: Orcish
+    - Scaled: Scaled
+    - Wolf: Wolf - Grey Fur
+    - Glass: Glass - Golden
+    - Ebony - Ebony - Black
+    - Blades: Blades
+    - Falmer: Falmer
+
+- aMidianBorn book of silence_Creatures
+    - Custom
+        - Charrus
+
+- aMidianBorn book of silence_DRAGONBORN DLC
+    - Custom
+        - Nordic Carved Armor: Black Fur
+        - Bonemold Armor
+        - Acolyte Masks
+        - Ash Spawn
+        - Ash Guardians
+
+- aMidianBorn book of silence_UNIQUE ITEMS
+    - Custom:
+        - Target of the blooded
+        - Wuuthrad
+        - Savior's hide: Savior's Hide
+        - Helm of Yngol
+        - Mace of Molag Bal
+        - Mehrunez Razor
+        - Volendrung
+        - Tsun's Armor
+        - Ebony Mail: Ebony Mail - Black
+        - Staff of Magnus
+
+- aMidianBorn book of silence_WEAPONS
+    - Install all weapons
+
+- Bonemold Hotfix
+- Staff of Magnus Hotfix
 
 #### [Barenziah's Glory SE](http://www.nexusmods.com/skyrimspecialedition/mods/6343)
 Recommended intall options:\
@@ -451,7 +506,30 @@ Recommendation: 1K
 The vivid version is recommended
 #### [FALMER](http://www.nexusmods.com/skyrimspecialedition/mods/17224)
 Recommendation: 2K
-
+#### [RUSTIC ARMOR and WEAPONS SE](http://www.nexusmods.com/skyrimspecialedition/mods/19666)
+Recommendation: 2K
+#### [Frankly HD Dawnguard Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/19663)
+Recommendation: 2K\
+Install the CBBE patch.
+#### [Frankly HD Dragonbone and Dragonscale - Armor and Weapons HQ](https://www.nexusmods.com/skyrimspecialedition/mods/25110)
+Recommendation: 2K\
+Install both main and update file. 
+#### [Frankly HD Imperial Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/20848)
+Recommendation: 2K\
+Install the *Pants and Sleeves* patch and the *Better-Shaped Weapons* patch.
+#### [Frankly HD Masque of Clavicus Vile](https://www.nexusmods.com/skyrimspecialedition/mods/28565)
+Recommendation: 2K
+#### [Frankly HD Miraak](https://www.nexusmods.com/skyrimspecialedition/mods/19699)
+Recommendation: 2K\
+Install the CBBE patch.
+#### [Frankly HD Nightingale Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/18560)
+Recommendation: 2K\
+Install the CBBE patch and the Better-Shaped Weapons patch.
+#### [Frankly HD Shrouded Armor](https://www.nexusmods.com/skyrimspecialedition/mods/18785)
+Recommendation: 2K\
+Choose the color option you prefer
+#### [Frankly HD Thieves Guild Armors HQ](https://www.nexusmods.com/skyrimspecialedition/mods/19953)
+Recommendation: 2K\
 #### [GIANT (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/6179)
 Recommendation: 2K
 #### [Gold Septim - Coins Retex](http://www.nexusmods.com/skyrimspecialedition/mods/1358)
@@ -609,8 +687,6 @@ Choose *Install Everything* in the installer. Hide or delete the following files
 - textures\clutter\candles 
 #### [RUSTIC ANIMATED POTIONS and POISONS](http://www.nexusmods.com/skyrimspecialedition/mods/2276)
 Recommendation: 1K
-#### [RUSTIC ARMOR and WEAPONS SE](http://www.nexusmods.com/skyrimspecialedition/mods/19666)
-Recommendation: 2K
 #### [RUSTIC AZURA'S STAR - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/18345)
 Recommendation: 2K
 #### [RUSTIC COOKING - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/6142)
@@ -666,33 +742,6 @@ Recommendation: 2K
 Recommendation: 2K
 #### [Vivid Landscapes - Tundra Moss Revised](http://www.nexusmods.com/skyrim/mods/43221)
 Recommendation: *Vivid Landscapes - Tundra Moss Revised - yellow 1024* main file and *SMIM compatibility patch* optional file. 
-#### [Weapons Armor and Clothing - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/20199)
-Choose CBBE in the installer if you use CBBE.
-Hide or delete the file _CalienteTools\BodySlide\ShapeData\CBBE Vanilla\Body\Ebony.nif_ since this mesh is causing issues.
-#### [Frankly HD Dawnguard Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/19663)
-Recommendation: 2K\
-Install the CBBE patch.
-#### [Frankly HD Dragonbone and Dragonscale - Armor and Weapons HQ](https://www.nexusmods.com/skyrimspecialedition/mods/25110)
-Recommendation: 2K\
-Install both main and update file. 
-#### [Frankly HD Imperial Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/20848)
-Recommendation: 2K\
-Install the *Pants and Sleeves* patch and the *Better-Shaped Weapons* patch.
-#### [Frankly HD Masque of Clavicus Vile](https://www.nexusmods.com/skyrimspecialedition/mods/28565)
-Recommendation: 2K
-#### [Frankly HD Miraak](https://www.nexusmods.com/skyrimspecialedition/mods/19699)
-Recommendation: 2K\
-Install the CBBE patch.
-#### [Frankly HD Nightingale Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/18560)
-Recommendation: 2K\
-Install the CBBE patch and the Better-Shaped Weapons patch.
-#### [Frankly HD Shrouded Armor](https://www.nexusmods.com/skyrimspecialedition/mods/18785)
-Recommendation: 2K\
-Choose the color option you prefer
-#### [Frankly HD Thieves Guild Armors HQ](https://www.nexusmods.com/skyrimspecialedition/mods/19953)
-Recommendation: 2K\
-#### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
-Recommendation: 2K
 #### [WEBS S.E.](http://www.nexusmods.com/skyrimspecialedition/mods/4873)
 Recommendation: 2K
 #### [White Phial Replacer SE](http://www.nexusmods.com/skyrimspecialedition/mods/6113)
@@ -1071,6 +1120,7 @@ Install main file
 
 ### Locations - New Lands
 #### [Falskaar](http://www.nexusmods.com/skyrimspecialedition/mods/2057)
+#### [Midwood Isle SE](https://www.nexusmods.com/skyrimspecialedition/mods/28120)
 #### [Wyrmstooth SSE](https://archive.org/details/wyrmstooth1.18SSE)
 
 ### Locations - Towns & villages
