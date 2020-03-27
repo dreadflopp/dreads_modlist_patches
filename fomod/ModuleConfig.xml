@@ -31,8 +31,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="moonpath">Off</flag>	
 								<flag name="wyrmstooth">Off</flag>	
 								<flag name="bandolier">Off</flag>	
-								<flag name="cloaks">Off</flag>		
-								<flag name="ia">Off</flag>	
+								<flag name="cloaks">Off</flag>	
 								<flag name="aetherius">Off</flag>	
 								<flag name="lenient">Off</flag>	
 								<flag name="rw2">Off</flag>																								
@@ -805,24 +804,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>	
-						<plugin name="Immersive Spectral Assassin">
-							<conditionFlags>
-								<flag name="immersivespectralassassin">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="TESIVLucienLachance.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>	
 						<plugin name="Lenient Survival">
 							<conditionFlags>
 								<flag name="lenient">On</flag>
@@ -1211,25 +1192,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>
-						<plugin name="Immersive Armors">
-							<conditionFlags>
-								<flag name="ia">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="Hothtrooper44_ArmorCompilation.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>						
+						</plugin>					
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -1811,25 +1774,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			</visible>
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
-					<plugins order="Explicit">
-						<plugin name="Immersive Patrols SE">
-							<conditionFlags>
-								<flag name="immersivepatrols">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="Immersive Patrols II.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
+					<plugins order="Explicit">						
 						<plugin name="Inigo">
 							<conditionFlags>
 								<flag name="inigo">On</flag>
@@ -2090,15 +2035,6 @@ Tweaks:
 				</dependencies>
 				<files>
 					<file source="df_CuttingRoomFloor-3DNPC.esp" destination="df_CuttingRoomFloor-3DNPC.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="crf" value="On"/>
-					<flagDependency flag="immersivepatrols" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_CuttingRoomFloor-ImmersivePatrols.esp" destination="df_CuttingRoomFloor-ImmersivePatrols.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
@@ -2978,24 +2914,6 @@ Tweaks:
 			<!-- *************************** -->			
 
 			<!-- Tweaks -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="tweakspectralassassin" value="On"/>
-					<flagDependency flag="brotherhoodofold" value="Off"/>
-				</dependencies>
-				<files>
-					<file source="df_ImmersiveSpectralAssassin-STEPTweaked.esp" destination="df_ImmersiveSpectralAssassin-STEPTweaked.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="brotherhoodofold" value="On"/>
-					<flagDependency flag="tweakspectralassassin" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_ImmersiveSpectralAssassin-STEPTweaked-TheBrotherhoodOfOld.esp" destination="df_ImmersiveSpectralAssassin-STEPTweaked-TheBrotherhoodOfOld.esp" priority="0" />
-				</files>
-			</pattern>
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="tweakscore" value="On"/>
