@@ -465,7 +465,6 @@ Install options:\
 #### [HAGRAVEN](http://www.nexusmods.com/skyrimspecialedition/mods/7679)
 Recommendation: 2K
 #### [Hardy Hares](http://www.nexusmods.com/skyrimspecialedition/mods/27366)
-#### [HD Dark brotherhood door](http://www.nexusmods.com/skyrim/mods/53059)
 #### [HD Executioners Block SE](http://www.nexusmods.com/skyrimspecialedition/mods/22674)
 #### [HD Misc](http://www.nexusmods.com/skyrim/mods/3595)
 #### [HD Pondfish](http://www.nexusmods.com/skyrimspecialedition/mods/24731)
