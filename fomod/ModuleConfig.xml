@@ -31,11 +31,11 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="moonpath">Off</flag>	
 								<flag name="wyrmstooth">Off</flag>	
 								<flag name="bandolier">Off</flag>	
-								<flag name="cloaks">Off</flag>		
-								<flag name="ia">Off</flag>	
+								<flag name="cloaks">Off</flag>	
 								<flag name="aetherius">Off</flag>	
 								<flag name="lenient">Off</flag>	
-								<flag name="rw2">Off</flag>																								
+								<flag name="rw2">Off</flag>
+								<flag name="oap">Off</flag>																							
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
@@ -401,6 +401,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="SPTConsistentOlderPeopleSE.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="DIVERSE SKYRIM SSE">
+							<conditionFlags>
+								<flag name="diverse">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="DIVERSE SKYRIM.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -805,24 +823,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>	
-						<plugin name="Immersive Spectral Assassin">
-							<conditionFlags>
-								<flag name="immersivespectralassassin">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="TESIVLucienLachance.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>	
 						<plugin name="Lenient Survival">
 							<conditionFlags>
 								<flag name="lenient">On</flag>
@@ -1033,6 +1033,60 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="Castle Volkihar Rebuilt - SSE">
+							<conditionFlags>
+								<flag name="volkiharrebuilt">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Castle Volkihar Rebuilt.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>					
+						<plugin name="College of Winterhold The Missing Apprentices Quest Fix">
+							<conditionFlags>
+								<flag name="cow-crffix">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Missing Apprentices CRF Quest Fix.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Forgotten City">
+							<conditionFlags>
+								<flag name="forgottencity">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="ForgottenCity.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="The Gray Cowl of Nocturnal SE">
 							<conditionFlags>
 								<flag name="graycowl">On</flag>
@@ -1062,6 +1116,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="Helgen Reborn.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>						
+						<plugin name="Improved Companions - Questline Tweaks">
+							<conditionFlags>
+								<flag name="ic-qt">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="CompanionsTweaks.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -1105,6 +1177,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="More Radiant Quests for the Companions">
+							<conditionFlags>
+								<flag name="moreradiantcompanions">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="More Radiant Quests for the Companions.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Not So Fast - Main Quest">
 							<conditionFlags>
 								<flag name="nsf-main">On</flag>
@@ -1116,6 +1206,42 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="NotSoFast-MainQuest.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Tactical Valtheim SSE">
+							<conditionFlags>
+								<flag name="tacticalvaltheim">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="TacticalValtheim.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>						
+						<plugin name="The Tools of Kagrenac">
+							<conditionFlags>
+								<flag name="kagrenac">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Tools of Kagrenac.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -1155,7 +1281,25 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>						
+						</plugin>
+						<plugin name="Skyrim Alchemy Fixed">
+							<conditionFlags>
+								<flag name="saf">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Skyrim Alchemy Fixed.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>							
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -1211,25 +1355,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>
-						<plugin name="Immersive Armors">
-							<conditionFlags>
-								<flag name="ia">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="Hothtrooper44_ArmorCompilation.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>						
+						</plugin>					
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -1280,6 +1406,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="PrvtI_HeavyArmory.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Oblivion Artifact Pack SE">
+							<conditionFlags>
+								<flag name="oap">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="WZOblivionArtifacts.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -1349,6 +1493,60 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="Bring Out Your Dead.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Landscape Fixes For Grass Mods">
+							<conditionFlags>
+								<flag name="lffgm">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Landscape Fixes For Grass Mods.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Obscure's College of Winterhold">
+							<conditionFlags>
+								<flag name="boyd">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="ocw"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="OCW_Obscure's_CollegeofWinterhold.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Obscure's College of Winterhold Cell Settings">
+							<conditionFlags>
+								<flag name="boyd">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="ocw-cell"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="OCW_CellSettings.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -1811,25 +2009,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			</visible>
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
-					<plugins order="Explicit">
-						<plugin name="Immersive Patrols SE">
-							<conditionFlags>
-								<flag name="immersivepatrols">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="Immersive Patrols II.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
+					<plugins order="Explicit">						
 						<plugin name="Inigo">
 							<conditionFlags>
 								<flag name="inigo">On</flag>
@@ -2071,6 +2251,24 @@ Tweaks:
 				<files>
 					<file source="df_BetterQuestObjectives-TheBrotherhoodOfOld.esp" destination="df_BetterQuestObjectives-TheBrotherhoodOfOld.esp" priority="0" />
 				</files>
+			</pattern>			 
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="bqo" value="On"/>
+					<flagDependency flag="ic-qt" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_BetterQuestObjectives-CompanionTweaks.esp" destination="df_BetterQuestObjectives-CompanionTweaks.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="bqo" value="On"/>
+					<flagDependency flag="moreradiantcompanions" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_BetterQuestObjectives-MoreRadiantQuestsForTheCompanions.esp" destination="df_BetterQuestObjectives-MoreRadiantQuestsForTheCompanions.esp" priority="0" />
+				</files>
 			</pattern>
 			<!-- ****************************************** -->
 			
@@ -2090,15 +2288,6 @@ Tweaks:
 				</dependencies>
 				<files>
 					<file source="df_CuttingRoomFloor-3DNPC.esp" destination="df_CuttingRoomFloor-3DNPC.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="crf" value="On"/>
-					<flagDependency flag="immersivepatrols" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_CuttingRoomFloor-ImmersivePatrols.esp" destination="df_CuttingRoomFloor-ImmersivePatrols.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
@@ -2223,6 +2412,15 @@ Tweaks:
 					<file source="df_OBISPatrols-BetterQuestObjectives.esp" destination="df_OBISPatrols-BetterQuestObjectives.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="diverse" value="On"/>
+					<flagDependency flag="obis" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_OBIS-DiverseSkyrim" destination="df_OBIS-DiverseSkyrim" priority="0" />
+				</files>
+			</pattern>
 			<!-- ************************************* -->
 
 			<!-- Soul Gems-->
@@ -2282,7 +2480,7 @@ Tweaks:
 					<flagDependency flag="keldnar" value="On"/>
 				</dependencies>
 				<files>
-					<file source="df_TradeAndBarter-KeldNAr.esp" destination="df_TradeAndBarter-KeldNAr.esp" priority="0" />
+					<file source="df_TradeAndBarter-Keldnar.esp" destination="df_TradeAndBarter-Keldnar.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
@@ -2375,6 +2573,15 @@ Tweaks:
 				</dependencies>
 				<files>
 					<file source="df_BookCoversSkyrim-CuttingRoomFloor.esp" destination="df_BookCoversSkyrim-CuttingRoomFloor.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="bcs" value="On"/>
+					<flagDependency flag="cow-crffix" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_BookCoverSkyrim-MissingApprenticesQuestFix.esp" destination="df_BookCoverSkyrim-MissingApprenticesQuestFix.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
@@ -2534,6 +2741,15 @@ Tweaks:
 				</dependencies>
 				<files>
 					<file source="df_AudioOverhaulSkyrim-CathedralWeathers.esp" destination="df_AudioOverhaulSkyrim-CathedralWeathers.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aos" value="On"/>
+					<flagDependency flag="kagrenac" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AudioOverhaulSkyrim-ToolsOfKagrenac.esp" destination="df_AudioOverhaulSkyrim-ToolsOfKagrenac.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
@@ -2731,6 +2947,14 @@ Tweaks:
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="luminosity" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_Luminosity-USSEP.esp" destination="df_Luminosity-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="luminosity" value="On"/>
 					<flagDependency flag="crf" value="On"/>
 				</dependencies>
 				<files>
@@ -2785,7 +3009,16 @@ Tweaks:
 				<files>
 					<file source="df_Adamant-SurvivalModeCC.esp" destination="df_Adamant-SurvivalModeCC.esp" priority="0" />
 				</files>
-			</pattern>					
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="adamant" value="On"/>
+					<flagDependency flag="saf" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_Adamant-SkyrimAlchemyFixed.esp" destination="df_Adamant-SkyrimAlchemyFixed.esp" priority="0" />
+				</files>
+			</pattern>						
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="aetherius" value="On"/>
@@ -2906,11 +3139,18 @@ Tweaks:
 				<files>
 					<file source="df_Cloaks-USSEP.esp" destination="df_Cloaks-USSEP.esp" priority="0" />
 				</files>
-			</pattern>				
-				
-			<!-- *************************** -->
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="cloaks" value="On"/>
+					<flagDependency flag="tacticalvaltheim" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_Cloaks-TacticalValtheim.esp" destination="df_Cloaks-TacticalValtheim.esp" priority="0" />
+				</files>
+			</pattern>			
 
-			<!-- Lost library, cloaks, obis -->
+			<!-- Lost library, cloaks, obis, oblivion artifacts -->
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="cloaks" value="On"/>
@@ -2919,12 +3159,37 @@ Tweaks:
 				<files>
 					<file source="df_Cloaks-OBIS.esp" destination="df_Cloaks-OBIS.esp" priority="0" />
 				</files>
-			</pattern>	
+			</pattern>
+
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="lostlibrary" value="On"/>
+					<flagDependency flag="cloaks" value="Off"/>
+					<flagDependency flag="obis" value="Off"/>
+					<flagDependency flag="oap" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_LostLibrary-OblivionArtifacts.esp" destination="df_LostLibrary-OblivionArtifacts.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="lostlibrary" value="Off"/>
+					<flagDependency flag="cloaks" value="Off"/>
+					<flagDependency flag="obis" value="On"/>
+					<flagDependency flag="oap" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_OBIS-OblivionArtifacts.esp" destination="df_OBIS-OblivionArtifacts.esp" priority="0" />
+				</files>
+			</pattern>
+
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="lostlibrary" value="On"/>
 					<flagDependency flag="cloaks" value="On"/>
 					<flagDependency flag="obis" value="Off"/>
+					<flagDependency flag="oap" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_LostLibrary-Cloaks.esp" destination="df_LostLibrary-Cloaks.esp" priority="0" />
@@ -2934,7 +3199,21 @@ Tweaks:
 				<dependencies operator="And">
 					<flagDependency flag="lostlibrary" value="On"/>
 					<flagDependency flag="cloaks" value="On"/>
+					<flagDependency flag="obis" value="Off"/>
+					<flagDependency flag="oap" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_LostLibrary-Cloaks-OblivionArtifacts.esp" destination="df_LostLibrary-Cloaks-OblivionArtifacts.esp" priority="0" />
+				</files>
+			</pattern>
+
+
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="lostlibrary" value="On"/>
+					<flagDependency flag="cloaks" value="On"/>
 					<flagDependency flag="obis" value="On"/>
+					<flagDependency flag="oap" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_LostLibrary-OBIS-Cloaks.esp" destination="df_LostLibrary-OBIS-Cloaks.esp" priority="0" />
@@ -2942,9 +3221,22 @@ Tweaks:
 			</pattern>
 			<pattern>
 				<dependencies operator="And">
+					<flagDependency flag="lostlibrary" value="On"/>
+					<flagDependency flag="cloaks" value="On"/>
+					<flagDependency flag="obis" value="On"/>
+					<flagDependency flag="oap" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_LostLibrary-OBIS-Cloaks-OblivionArtifacts.esp" destination="df_LostLibrary-OBIS-Cloaks-OblivionArtifacts.esp" priority="0" />
+				</files>
+			</pattern>
+
+			<pattern>
+				<dependencies operator="And">
 					<flagDependency flag="lostlibrary" value="Off"/>
 					<flagDependency flag="cloaks" value="On"/>
 					<flagDependency flag="obis" value="On"/>
+					<flagDependency flag="oap" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_OBIS-Cloaks.esp" destination="df_OBIS-Cloaks.esp" priority="0" />
@@ -2952,14 +3244,40 @@ Tweaks:
 			</pattern>
 			<pattern>
 				<dependencies operator="And">
+					<flagDependency flag="lostlibrary" value="Off"/>
+					<flagDependency flag="cloaks" value="On"/>
+					<flagDependency flag="obis" value="On"/>
+					<flagDependency flag="oap" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_OBIS-Cloaks-OblivionArtifacts.esp" destination="df_OBIS-Cloaks-OblivionArtifacts.esp" priority="0" />
+				</files>
+			</pattern>
+
+			<pattern>
+				<dependencies operator="And">
 					<flagDependency flag="lostlibrary" value="On"/>
 					<flagDependency flag="cloaks" value="Off"/>
 					<flagDependency flag="obis" value="On"/>
+					<flagDependency flag="oap" value="Off"/>
 				</dependencies>
 				<files>
-					<file source="df_OBIS-LostLibrary.esp" destination="df_OBIS-LostLibrary.esp" priority="0" />
+					<file source="df_LostLibrary-OBIS.esp" destination="df_LostLibrary-OBIS.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="lostlibrary" value="On"/>
+					<flagDependency flag="cloaks" value="Off"/>
+					<flagDependency flag="obis" value="On"/>
+					<flagDependency flag="oap" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_LostLibrary-OBIS-OblivionArtifacts.esp" destination="df_LostLibrary-OBIS-OblivionArtifacts.esp" priority="0" />
+				</files>
+			</pattern>
+
+			
 			<!-- *************************** -->
 
 			<!-- Cutting Room Floor -->
@@ -2978,24 +3296,6 @@ Tweaks:
 			<!-- *************************** -->			
 
 			<!-- Tweaks -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="tweakspectralassassin" value="On"/>
-					<flagDependency flag="brotherhoodofold" value="Off"/>
-				</dependencies>
-				<files>
-					<file source="df_ImmersiveSpectralAssassin-STEPTweaked.esp" destination="df_ImmersiveSpectralAssassin-STEPTweaked.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="brotherhoodofold" value="On"/>
-					<flagDependency flag="tweakspectralassassin" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_ImmersiveSpectralAssassin-STEPTweaked-TheBrotherhoodOfOld.esp" destination="df_ImmersiveSpectralAssassin-STEPTweaked-TheBrotherhoodOfOld.esp" priority="0" />
-				</files>
-			</pattern>
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="tweakscore" value="On"/>
@@ -3048,6 +3348,15 @@ Tweaks:
 					<file source="df_AnimatedArmory-HeavyArmory.esp" destination="df_AnimatedArmory-HeavyArmory.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="dgbetterentrance" value="On"/>
+					<flagDependency flag="animatedarmoury" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AnimatedArmoury-ImmersiveDayspringPass.esp" destination="df_AnimatedArmoury-ImmersiveDayspringPass.esp" priority="0" />
+				</files>
+			</pattern>
 			<!-- *************************** -->	
 
 			<!-- Midwood Isle -->
@@ -3061,6 +3370,79 @@ Tweaks:
 				</files>
 			</pattern>
 			<!-- *************************** -->
+
+			<!-- Castle Volkihar Rebuilt -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="volkiharrebuilt" value="On"/>
+					<flagDependency flag="luminosity" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CastleVolkiharRebuilt-Luminosity.esp" destination="df_CastleVolkiharRebuilt-Luminosity.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="volkiharrebuilt" value="On"/>
+					<flagDependency flag="animatedarmoury" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CastleVolkiharRebuilt-AnimatedArmoury.esp" destination="df_CastleVolkiharRebuilt-AnimatedArmoury.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="volkiharrebuilt" value="On"/>
+					<flagDependency flag="rls" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CastleVolkiharRebuilt-RelightingSkyrim.esp" destination="df_CastleVolkiharRebuilt-RelightingSkyrim.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- *************************** -->
+
+			<!-- OCW_Obscure's_CollegeofWinterhold -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ocw" value="On"/>
+					<flagDependency flag="saf" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ObscuresCollegeOfWinterhold-SkyrimAlchemyFixed.esp" destination="df_CastleVolkiharRebuilt-RelightingSkyrim.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ocw-cell" value="On"/>
+					<flagDependency flag="rw2" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ObscureCollegeOfWinterholdCellSettings-RealisticWaterTwo.esp" destination="df_ObscureCollegeOfWinterholdCellSettings-RealisticWaterTwo.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- *********************************** -->
+
+			<!-- Tools of Kagrenac -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="kagrenac" value="On"/>
+					<flagDependency flag="forgottencity" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ToolsOfKagrenac-ForgottenCity.esp" destination="df_ToolsOfKagrenac-ForgottenCity.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="kagrenac" value="On"/>
+					<flagDependency flag="lffgm" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ToolsOfKagrenac-LandscapeFixesForGrassMods" destination="df_ToolsOfKagrenac-LandscapeFixesForGrassMods" priority="0" />
+				</files>
+			</pattern>
+
+			<!-- *********************************** -->
 		</patterns>
 	</conditionalFileInstalls>
 </config>

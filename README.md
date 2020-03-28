@@ -296,7 +296,10 @@ In the installer, choose:
 
 #### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
 Recommendation: 2K
+<<<<<<< HEAD
 
+=======
+>>>>>>> 591d0e473259acc6431317d46494830ec5ed5139
 #### [Unofficial Material Fix](http://www.nexusmods.com/skyrimspecialedition/mods/21027)
 
 ## Audiovisual
@@ -338,6 +341,59 @@ Install the main file using the following options:\
 - Size: x.5
 - Style: Standard
 - Plugin option: Frost mesh patch (esl-tagged)
+
+#### [aMidianBorn Book of Silence](https://www.nexusmods.com/skyrim/mods/24909)
+Download and install:
+
+- aMidianBorn book of silence_ARMORS
+    - Custom
+    - Iron and baded: Iron - Vanilla Cut
+    - Steel: Steel
+    - Steel Plate: Steel Plate
+    - Leather: Leather
+    - Hide and Studed: Hide
+    - Fur: Fur
+    - Elven: Gold
+    - Dwarwen: Dwarwen
+    - Ancient Nord: Ancient Nord
+    - Orcish: Orcish
+    - Scaled: Scaled
+    - Wolf: Wolf - Grey Fur
+    - Glass: Glass - Golden
+    - Ebony - Ebony - Black
+    - Blades: Blades
+    - Falmer: Falmer
+
+- aMidianBorn book of silence_Creatures
+    - Custom
+        - Charrus
+
+- aMidianBorn book of silence_DRAGONBORN DLC
+    - Custom
+        - Nordic Carved Armor: Black Fur
+        - Bonemold Armor
+        - Acolyte Masks
+        - Ash Spawn
+        - Ash Guardians
+
+- aMidianBorn book of silence_UNIQUE ITEMS
+    - Custom:
+        - Target of the blooded
+        - Wuuthrad
+        - Savior's hide: Savior's Hide
+        - Helm of Yngol
+        - Mace of Molag Bal
+        - Mehrunez Razor
+        - Volendrung
+        - Tsun's Armor
+        - Ebony Mail: Ebony Mail - Black
+        - Staff of Magnus
+
+- aMidianBorn book of silence_WEAPONS
+    - Install all weapons
+
+- Bonemold Hotfix
+- Staff of Magnus Hotfix
 
 #### [Barenziah's Glory SE](http://www.nexusmods.com/skyrimspecialedition/mods/6343)
 Recommended intall options:\
@@ -454,7 +510,30 @@ Recommendation: 1K
 The vivid version is recommended
 #### [FALMER](http://www.nexusmods.com/skyrimspecialedition/mods/17224)
 Recommendation: 2K
-
+#### [RUSTIC ARMOR and WEAPONS SE](http://www.nexusmods.com/skyrimspecialedition/mods/19666)
+Recommendation: 2K
+#### [Frankly HD Dawnguard Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/19663)
+Recommendation: 2K\
+Install the CBBE patch.
+#### [Frankly HD Dragonbone and Dragonscale - Armor and Weapons HQ](https://www.nexusmods.com/skyrimspecialedition/mods/25110)
+Recommendation: 2K\
+Install both main and update file. 
+#### [Frankly HD Imperial Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/20848)
+Recommendation: 2K\
+Install the *Pants and Sleeves* patch and the *Better-Shaped Weapons* patch.
+#### [Frankly HD Masque of Clavicus Vile](https://www.nexusmods.com/skyrimspecialedition/mods/28565)
+Recommendation: 2K
+#### [Frankly HD Miraak](https://www.nexusmods.com/skyrimspecialedition/mods/19699)
+Recommendation: 2K\
+Install the CBBE patch.
+#### [Frankly HD Nightingale Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/18560)
+Recommendation: 2K\
+Install the CBBE patch and the Better-Shaped Weapons patch.
+#### [Frankly HD Shrouded Armor](https://www.nexusmods.com/skyrimspecialedition/mods/18785)
+Recommendation: 2K\
+Choose the color option you prefer
+#### [Frankly HD Thieves Guild Armors HQ](https://www.nexusmods.com/skyrimspecialedition/mods/19953)
+Recommendation: 2K\
 #### [GIANT (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/6179)
 Recommendation: 2K
 #### [Gold Septim - Coins Retex](http://www.nexusmods.com/skyrimspecialedition/mods/1358)
@@ -612,8 +691,6 @@ Choose *Install Everything* in the installer. Hide or delete the following files
 - textures\clutter\candles 
 #### [RUSTIC ANIMATED POTIONS and POISONS](http://www.nexusmods.com/skyrimspecialedition/mods/2276)
 Recommendation: 1K
-#### [RUSTIC ARMOR and WEAPONS SE](http://www.nexusmods.com/skyrimspecialedition/mods/19666)
-Recommendation: 2K
 #### [RUSTIC AZURA'S STAR - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/18345)
 Recommendation: 2K
 #### [RUSTIC COOKING - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/6142)
@@ -669,6 +746,7 @@ Recommendation: 2K
 Recommendation: 2K
 #### [Vivid Landscapes - Tundra Moss Revised](http://www.nexusmods.com/skyrim/mods/43221)
 Recommendation: *Vivid Landscapes - Tundra Moss Revised - yellow 1024* main file and *SMIM compatibility patch* optional file. 
+<<<<<<< HEAD
 #### [Weapons Armor and Clothing - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/20199)
 Choose CBBE in the installer if you use CBBE.
 Hide or delete the file _CalienteTools\BodySlide\ShapeData\CBBE Vanilla\Body\Ebony.nif_ since this mesh is causing issues.
@@ -694,6 +772,8 @@ Recommendation: 2K\
 Choose the color option you prefer
 #### [Frankly HD Thieves Guild Armors HQ](https://www.nexusmods.com/skyrimspecialedition/mods/19953)
 Recommendation: 2K\
+=======
+>>>>>>> 591d0e473259acc6431317d46494830ec5ed5139
 #### [WEBS S.E.](http://www.nexusmods.com/skyrimspecialedition/mods/4873)
 Recommendation: 2K
 #### [White Phial Replacer SE](http://www.nexusmods.com/skyrimspecialedition/mods/6113)
@@ -784,18 +864,6 @@ The mod is not packaged correctly for mod managers. To install:
 11. Untick FAR-Forgotten Argonian Roots and click OK
 
 #### [Female Vampires Have Fangs](http://www.nexusmods.com/skyrimspecialedition/mods/1211)
-#### [Immersive Spectral Assassin](http://www.nexusmods.com/skyrimspecialedition/mods/27051)	
-Download and install the Immersive Spectral Assassin (Oblivion) file.
-
-Some of this mod's features have been reverted in this builds patch in order to return it to a more vanilla-like replacement. The following was changed:
-
-- The perks have been removed
-    - The perks were added by the author and weren't present in vanilla so this was reverted. 
-- Magic has been increased
-    - Upon looking up the lore and Oblivion NPC, it was found that Lucien's magic was much higher than Skyrim has it. Therefore, it's been increased. 
-- Nightingale gloves removed
-    - In an effort to return the NPC back to as much a vanilla-like state as possible, he Nightingale gloves (too powerful) were switched out with the Jester gloves (more equivalent to vanilla). 
-
 #### [KS Hairdos SSE](http://www.nexusmods.com/skyrimspecialedition/mods/6817)
 #### [More Realistic Hair (SE)](http://www.nexusmods.com/skyrim/mods/3397)
 #### [Natural Eyes SSE](http://www.nexusmods.com/skyrimspecialedition/mods/10099)
@@ -1045,10 +1113,6 @@ Do not install the main file, install the esl optional file only. If you play wi
 #### [Bandolier - Bags and Pouches Classic](http://www.nexusmods.com/skyrimspecialedition/mods/2417)
 #### [Cloaks of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/6369)
 Install the main version
-#### [Cloaks of Skyrim Ultra HD SSE](http://www.nexusmods.com/skyrimspecialedition/mods/29258)
-#### [Immersive Armors](http://www.nexusmods.com/skyrimspecialedition/mods/3479)
-#### [Immersive Armours - SSE CBBE BodySlide](https://www.nexusmods.com/skyrimspecialedition/mods/22382)
-Install if you use Immersive Armors with CBBE.
 #### [Winter Is Coming SSE - Cloaks](http://www.nexusmods.com/skyrimspecialedition/mods/4933)
 Install the patch for Cloaks of Skyrim.
 
@@ -1072,6 +1136,7 @@ Install main file
 
 ### Locations - New Lands
 #### [Falskaar](http://www.nexusmods.com/skyrimspecialedition/mods/2057)
+#### [Midwood Isle SE](https://www.nexusmods.com/skyrimspecialedition/mods/28120)
 #### [Wyrmstooth SSE](https://archive.org/details/wyrmstooth1.18SSE)
 
 ### Locations - Towns & villages
@@ -1094,12 +1159,6 @@ Install main file
 
 ### Locations - Overhauls
 #### [Bring Out Your Dead (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/323)
-#### [Immersive College of Winterhold](http://www.nexusmods.com/skyrimspecialedition/mods/17004)
-Choose 
-- desaturated book covers
-- RLS SSE Patch
-- Better Dynamic Snow Patch
-- Skyrim Project Optimization SSE Patch.
 #### [Immersive Dawnguard Dayspring Pass SE](http://www.nexusmods.com/skyrimspecialedition/mods/4126)
 #### [Smooth Shores](http://www.nexusmods.com/skyrimspecialedition/mods/10624)
 #### [Farmhouse Chimneys SE](http://www.nexusmods.com/skyrimspecialedition/mods/8766)
@@ -1133,7 +1192,6 @@ Install main file and OBIS SE Patrols addon.
 #### [Splendor – Dragon Variants SE](http://www.nexusmods.com/skyrimspecialedition/mods/9670)
 
 ### New Characters - Neutral
-#### [Immersive Patrols SE](http://www.nexusmods.com/skyrimspecialedition/mods/718)
 #### [Immersive World Encounters SE](https://www.nexusmods.com/skyrimspecialedition/mods/18330)
 #### [Interesting NPCs SE](https://www.nexusmods.com/skyrimspecialedition/mods/29194)
 #### [Interesting NPCs (3DNPC) character Zora Fairchild's voice boosted](http://www.nexusmods.com/skyrimspecialedition/mods/16090)
@@ -1159,7 +1217,6 @@ Choose
 - Boat Location Patch
 - Fast Travel Addon
 - Unique Region Names Addon
-#### [Immersive College of Winterhold - Not so fast Mage Guild Patch](https://www.nexusmods.com/skyrimspecialedition/mods/18731)
 #### [Improved Closedfaced Helmets](https://www.nexusmods.com/skyrim/mods/15927)
 Download Improved Closefaced Helmets Patch v1 and choose SkyRealism Shiny in the installer. Install this as a new mod, making sure to not overwrite or merge it with the main Closefaced Helmets mod.
 #### [Moonpath to Elsweyr Sky and Lightning fix](http://www.nexusmods.com/skyrimspecialedition/mods/18683)
