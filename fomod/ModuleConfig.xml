@@ -1520,11 +1520,11 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 						</plugin>
 						<plugin name="Obscure's College of Winterhold">
 							<conditionFlags>
-								<flag name="boyd">On</flag>
+								<flag name="ocw">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
-									<defaultType name="ocw"/>
+									<defaultType name="Optional"/>
 									<patterns>
 										<pattern>
 											<dependencies operator="And">
@@ -1538,11 +1538,11 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 						</plugin>
 						<plugin name="Obscure's College of Winterhold Cell Settings">
 							<conditionFlags>
-								<flag name="boyd">On</flag>
+								<flag name="ocw-cell">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
-									<defaultType name="ocw-cell"/>
+									<defaultType name="Optional"/>
 									<patterns>
 										<pattern>
 											<dependencies operator="And">
@@ -3428,10 +3428,22 @@ Tweaks:
 					<flagDependency flag="lffgm" value="On"/>
 				</dependencies>
 				<files>
-					<file source="df_ToolsOfKagrenac-LandscapeFixesForGrassMods" destination="df_ToolsOfKagrenac-LandscapeFixesForGrassMods" priority="0" />
+					<file source="df_ToolsOfKagrenac-LandscapeFixesForGrassMods.esp" destination="df_ToolsOfKagrenac-LandscapeFixesForGrassMods.esp" priority="0" />
 				</files>
 			</pattern>
 
+			<!-- *********************************** -->
+
+			<!-- Landscape fixes for grass mods -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="dgbetterentrance" value="On"/>
+					<flagDependency flag="lffgm" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ImmersiveDayspringPass-LandscapefixesForGrassMods.esp" destination="df_ImmersiveDayspringPass-LandscapefixesForGrassMods.esp" priority="0" />
+				</files>
+			</pattern>
 			<!-- *********************************** -->
 		</patterns>
 	</conditionalFileInstalls>
