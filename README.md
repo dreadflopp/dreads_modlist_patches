@@ -1,5 +1,5 @@
 # Where to find the guide
-The Github version (this version) of the guide is the first version to get updates but the Mod Picker version should mirror the Github version. The Github version has extended comments and users should at least read through the Github version of the guide.
+The Github version (this version) of the guide is the first version to get updates but the Mod Picker version should mirror the Github version. The Github version has extended comments and instructions. Users should at least read through the Github version of the guide.
 >TODO upate links when CMS has been launched\
 - [Github version of the guide](https://github.com/dreadflopp/dreads_modlist_patches/blob/master/README.md)
 - [Mod Picker version](https://modpicker.com/skyrimse/mod-lists/7729/)
@@ -7,7 +7,7 @@ The Github version (this version) of the guide is the first version to get updat
 
 # Introduction
 >TODO upate links when CMS has been launched\
-This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/31054). This means that this guide is a build based on STEP: Core. Everything you need to mod Skyrim is in this guide, you do not have to install anything prior following it. Almost everything in this build is optional, meaning you can use parts of it if that is what you want.
+This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/31054). This means that this guide is a modlist based on STEP: Core. Everything you need to mod Skyrim is in this guide, you do not have to install anything prior following it. Almost everything in this build is optional, meaning you can use parts of it if that is what you want.
 
 **The mods featured in this build are chosen to be immersive and realistic. Realistic in a fantasy setting means believable. The mods should feel like they expand or enhances vanilla Skyrim, like they could have been there from the beginning**
 
@@ -33,7 +33,7 @@ Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-s
 - New weapons
 - New quests
 - New lands
-- New and altered towns and villages
+- New and overhauled cities, towns and villages
 - Expanded character creation with the CBBE female body with realistic presets, new hairstyles and improved character textures
 - Overhauled character leveling system:
     - Overhauled skill trees with new perks
@@ -43,7 +43,7 @@ Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-s
 - Overhauled magic, races, standing stones, werewolves and vampires
 - New, tougher bandits and dragons
 - New NPC's and followers
-- Lightweight survival mod, the survival mod from Bethesda Creation Club.
+- Support for the survival mod from Bethesda Creation Club.
 - Bigger trees for truly immersive forrests
 
 **The STEP guide is in beta and this mod list will remain in beta/WIP for as least as long as STEP is in beta. For now, consider this a work in progress.**
@@ -54,16 +54,14 @@ The patches comes with a neat FOMOD installer that automatically chooses what to
 
 Note that records from the Particle patch is not forwarded since the plugin is obsolete. ENB users should use [ENB Helper](https://www.nexusmods.com/skyrimspecialedition/mods/23174)
 
-**Acronyms that are used in the guide:**\
-USSEP = Unofficial Skyrim Special Edition Patch\
-CFTO = Carriage and Ferry Travel Overhaul\
-SMIM = Static Mesh Improvement Mod\
+# What about Weapons Armor Clothing and Clutter Fixes (WACCF) by Kryptopr?
+WACCF is a great mod that fixes bugs and inconsitencies among weapons, armors, etc. Even though it has the word fixes in its name, it could have been named Weapons Armor Clothing and Clutter *Overhaul*, because it overhauls the weapon and armor stats and progression. To avoid inconsitencies, all mods that add weapons and armors to the game needs to be checked and eventually rebalanced against WACCF. I have decided that isn't something that I want to do, it is just to much work. There are other mod guides that rebalances quest and weapon mods around WACCF and other overhauls, like [Lexy’s Legacy of the Dragonborn: Special Edition](https://lexyslotd.com).
 
-## Install Skyrim
+# Install Skyrim
 >TODO upate links when CMS has been launched\
 Follow the [system setup guide]() to have a clean Skyrim install ready to be modded.
 
-## Mod Organizer 2
+# Mod Organizer 2
 This guide is written for [Mod Organizer 2](https://www.nexusmods.com/skyrimspecialedition/mods/6194) but users may use whichever mod manager they are comfortable with as long as they know hot to properly use it. To use this guide with Mod Organizer 2 users should be familiar with how to
 - Install Mod Organizer 2
 - Link Mod Organizer 2 to a Nexus account
@@ -75,23 +73,11 @@ This guide is written for [Mod Organizer 2](https://www.nexusmods.com/skyrimspec
 If these concepts are new to you, watch the [tutorial videos](https://www.youtube.com/playlist?list=PLlN8weLk86Xh3ue76x2ibqtmMramwQmHB) by Gamerpoet. The STEP guide for Mod Organizer 2 is here[]()
 >TODO upate links when CMS has been launched\
 
-## Tools
->TODO upate links when CMS has been launched\
-Install the following tools, preferably in the tools folder you created following the [system setup guide](). Most tools doesn't have an installer, unzip these into their own subfolders of the tools folder.
-#### [BethINI SE](http://www.nexusmods.com/skyrimspecialedition/mods/4875)
-#### [DynDOLOD](https://www.nexusmods.com/skyrimspecialedition/mods/32382)
-Download and install DynDOLOD. The resources file will be installed later.
-#### [](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
-If they are missing, install *vc_redist.x86.exe* and *vc_redist.x65.exe*.
+## Installation
 #### [Mod Organizer 2](http://www.nexusmods.com/skyrimspecialedition/mods/6194)
 Download and install the *archive* version
-#### [SSEEdit](http://www.nexusmods.com/skyrimspecialedition/mods/164)
-#### [Unlimited Bookshelves Patch Generator](https://www.nexusmods.com/skyrimspecialedition/mods/19160)
-This is a script for SSEEdit. Unzip the archive and place the content in the SSEEdit script folder (i.e. ..Modding\Tools\SSEEdit\Scripts\).
 
-# Tool Configuration
-## Mod Organizer 2 - Configuration
-### Initialization 
+## Initialization
 1. Launch MO2 by running its executable (i.e. ..Modding\Tools\Mod Organizer 2\ModOrganizer.exe)
 2. Upon launch, users will have a choose between setting it up as portable or create a new Instance. Choose to create a new Instance.
 3. Select SkyrimSE and choose OK.
@@ -102,6 +88,22 @@ This is a script for SSEEdit. Unzip the archive and place the content in the SSE
 6. The last prompt will ask if MO can handle .NXM links from the browser. Allow it to do so.
 7. MO2 is now set up and ready to use.
 
+# Tools
+## Tool Installation
+>TODO upate links when CMS has been launched\
+
+Install the following tools, preferably in the tools folder you created following the [system setup guide](). Most tools doesn't have an installer, unzip these into their own subfolders of the tools folder.
+#### [BethINI SE](http://www.nexusmods.com/skyrimspecialedition/mods/4875)
+#### [DynDOLOD](https://www.nexusmods.com/skyrimspecialedition/mods/32382)
+Download and install DynDOLOD. The resources file will be installed later.
+Make sure that [Microsoft Visual C++ 2017 Redistributable](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) are installed. If they are missing, install *vc_redist.x86.exe* and *vc_redist.x64.exe*.
+#### [LOOT](https://github.com/loot/loot/releases)
+Download and install the latest version. In the installer, change the patch to the *tools* folder.
+#### [SSEEdit](http://www.nexusmods.com/skyrimspecialedition/mods/164)
+#### [Unlimited Bookshelves Patch Generator](https://www.nexusmods.com/skyrimspecialedition/mods/19160)
+This is a script for SSEEdit. Unzip the archive and place the content in the SSEEdit script folder (i.e. ..Modding\Tools\SSEEdit\Scripts\).
+
+## Tool Configuration
 ### Tool Setup
 All tools should be launched through Mod Organizer 2. Mod Organizer 2 may have auto-detected some tool but the user needs to confirm this and manually add the rest of the tools.\
 \
@@ -126,7 +128,7 @@ All tools should be launched through Mod Organizer 2. Mod Organizer 2 may have a
 |SSEEditQuickAutoClean.exe              |xEdit Quick Auto Clean  |                               |
 |TexGen64.exe (installed with DynDOLOD) |TexGen SE               |-SSE                           |
 
-## BethINI Setup 
+### BethINI Setup 
 BethINI needs to be set up to run for the current profile in MO2 and ran to establish solid INIs before beginning the mod installations. To do this:
 1. Close MO2 and run BethINI.
 2. Select Skyrim Special Edition from the game selection box.
@@ -269,12 +271,68 @@ Only the Main File is required.
 
 ## Foundational Mods
 #### [Unofficial High Definition Audio Project](http://www.nexusmods.com/skyrimspecialedition/mods/18115)
- Download and install all Main Files. Merge when asked. 
+Download and install all Main Files. Merge when asked. 
 #### [Unofficial Skyrim Special Edition Patch](http://www.nexusmods.com/skyrimspecialedition/mods/266)
 #### [Skyrim Particle Patch for ENB](https://drive.google.com/open?id=12tL3_kpm_KXlQvQqEnK3zOAl-sm_H3Fw)
 Download and install the Special Edition PARTICLE PATCH ALL-IN-ONE INSTALLATION file. Do not install the plugin, it is not needed.
 #### [Static Mesh Improvement Mod](http://www.nexusmods.com/skyrimspecialedition/mods/659)
->TODO install instructions\
+Choose custom install in the installer and choose the following:
+- Barrels: Modified Vanilla Barrels
+- Bowl Ingredients: Improved Bowl Ingredients
+- Bridges: Bridges
+- Candelabras: Improved Candelabras
+- Carriage Seats and Fixes: Improved Carriages
+- Chains 3D - Misc: Chains 3D - Misc
+- Chains 3D - Pull Levers: Chains 3D - Pull Levers Small Rings (Recommended)
+- Chains 3D - Signs: Chains 3D - Signs
+- Chains 3D - Whiterun: Chains 3D - Whiterun
+- Chandeliers: Improved Chandeliers (Recommended)
+- Clothing Fixes: Clothing Fixes
+- Dawnguard Soulcairn Bone Piles: Bone Piles Yellow Bones (Recommended)
+- Draugr Corpses: Draugr Corpses
+- Dungeons Cliffs Snow Skirts: Snow Blending ESP (Recommended)
+- Dwemer Animated Lifts: Dwemer Animated Lifts
+- Dwemer Clutter: Dwemer Clutter
+- Farmhouse Woven Fence: Woven Fence Dense Grey (NOTE: If heavy flickering occurs with the fences, either disable or a different option.)
+- Food: Improved Food
+- Food - Tomato Style: Default Heirloom
+- Furniture Chests: Improved Furniture Chests
+- Furniture Common: Improved Furniture SMIM Textures (Recommended)
+- Furniture Noble: Improved Furniture Noble
+- Hanging Rings: Hanging Rings
+- Hawk: Hawk Improvements
+- Hearthfires Stuff: Hearthfires Stuff
+- Human Skull Fixes: Human Skull Fixes
+- Imperial Jail: Improved Imperial Jail (Recommended)
+- Jewelry Rings: Jewelry Rings CCO Remade or Jewelcraft
+- Lanterns: Lanterns
+- Nordic Tables and Benches: Nordic Tables and Benches
+- Orc Longhouse: Orc Longhouse
+- Poor Coffin: Poor Coffin
+- Rabbit: Improved Rabbit
+- Rocks - Blackreach: Rocks - Blackreach
+- Rocks - Generic: Rocks - Generic
+- Rocks - Mountains: Rocks - Mountains
+- Ropes 3D - Dungeons: Dungeons 3D Ropes and Glorious Scaffolding
+- Ropes 3D - Farmhouse: Farmhouse 3D Ropes No Fade (Recommended)
+- Ropes 3D - Raven Rock Docks: Raven Rock Docks 3D Ropes
+- Ropes 3D - Riften: Riften 3D Ropes Default Ropes Style (Recommended)
+- Ropes 3D - Solitude Docks: Solitude Docks 3D Ropes
+- Ropes 3D - Stockade: Stockade 3D Ropes
+- Ruins Sarcophagus: Ruins Sarcophagus
+- Shack Roofs: Improved Shack Roofs with Dragonborn
+- Skeletal Remains 3D: Skeletal Remains 3D
+- Smelters: Smelters
+- Solitude Gate Doors: Solitude Gate Doors
+- Tankards: Dark Brushed Metal Tankards
+- Tree - Juniper Tree: Improved Juniper Tree
+- Tree - Tundra Tree: Improved Tundra Tree
+- Whiterun Castle Wood Carvings: Wood Carvings Improved Vanilla
+- Whiterun Doors: Whiterun Doors
+- Windmills: DynDOLOD/SkyMills Compatibility
+- Xtra Options - Half-Size Textures Addon: None (NOTE: Low VRAM graphic card users can use the half-size textures.)
+- Xtra Options - Ultra-Sized Textures Addon: Select Nothing
+- Merged Plugin Special Edition Forced Install: Special Edition Merged Plugin Will Be Installed
 #### [Cathedral - Plants](http://www.nexusmods.com/skyrimspecialedition/mods/26104)
 #### [Skyrim Realistic Overhaul](http://www.moddb.com/mods/skyrim-realistic-overhaul)
 - Install Part 1-3, choosing to merge the files when asked.
@@ -445,6 +503,7 @@ Choose whatever options you like, desaturated books are recommended.
 #### [Book Covers Skyrim - Lost Library (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/902)
 Choose whatever options you like, desaturated books are recommended.
 #### [CleverCharff's Photorealistic Ash Pile](http://www.nexusmods.com/skyrimspecialedition/mods/32720)
+Install 2K option without bones.
 #### [Dark Brotherhood Tenets Restored (SE)](http://www.nexusmods.com/skyrim/mods/31087)
 Recommendation: 1K
 #### [Deadly Spell Impacts (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/12939)
@@ -613,7 +672,7 @@ Hide the following files/folders:
 #### [Iconic's Real Hay](http://www.nexusmods.com/skyrimspecialedition/mods/11133)
 Recommendation: 2K alt
 #### [Immersive Dragons](http://www.nexusmods.com/skyrimspecialedition/mods/18957)
-#### [Immersive Smilodons](http://www.nexusmods.com/skyrimspecialedition/mods/18429)				
+#### [Immersive Smilodons](http://www.nexusmods.com/skyrimspecialedition/mods/18429)		
 #### [Improved closefaced helmets (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/824)
 #### [Improved Sparks](http://www.nexusmods.com/skyrimspecialedition/mods/19831)
 Recommendation: Grindstones - 10X Sparks and Impact Effects - Vanilla Sparks
@@ -768,7 +827,7 @@ Install patches for
 #### [No More Hanging Moss](https://www.nexusmods.com/skyrimspecialedition/mods/16426)
 Install _Hanging moss removal - partial - the moss around trees -_ mesh edits only. Without this mod you would get floating moss hanging from resized trees.
 #### [Realistic Aspen Trees SE](http://www.nexusmods.com/skyrimspecialedition/mods/4423)
-Choose 2k or 4k. Choose LodGen billboards (doesn't really matter, they will be overwritten by the next mod)
+2K recommended. Choose LodGen billboards (doesn't really matter, they will be overwritten by the next mod)
 #### [Simply Bigger Trees SE](http://www.nexusmods.com/skyrimspecialedition/mods/5281)
 Install the Realistic Aspen trees version of this mod.
 #### [HQ Tree Bark](http://www.nexusmods.com/skyrimspecialedition/mods/6556)
@@ -776,7 +835,7 @@ Choose the options you prefer. Install the Simply Bigger Trees patch.
 
 ### Audiovisual - Sounds & Music
 #### [Audio Overhaul for Skyrim SE](http://www.nexusmods.com/skyrimspecialedition/mods/12466)
-Do not install any patches. Delete the SKSE folder after installation.
+v
 #### [Better Animal Footsteps](https://www.nexusmods.com/skyrim/mods/24805)
 Choose to install all footstep sounds. Do not install any patches.
 #### [Better Horse Pain Sounds](http://www.nexusmods.com/skyrim/mods/12608)
@@ -913,7 +972,21 @@ Install esl version
 #### [Eye Normal Map Fix SSE](http://www.nexusmods.com/skyrimspecialedition/mods/5445)
 Install *Eye Normal Map Fix SSE BC7*
 #### [Fuz Ro D-oh - Silent Voice](http://www.nexusmods.com/skyrimspecialedition/mods/15109)
-Install main and optional files.
+Install main and optional files.\
+The Fuz Ro D'oh.ini file needs to be created and edited manually. To do this:
+
+1. In Mod Organizer, hold Ctrl and double-click the Fuz Ro Doh mod listing.
+2. Navigate into the SKSE\Plugins folder.
+3. Right-click within the folder and select the menu option New > Text Document.
+4. Name the file Fuz Ro D'oh.ini
+
+Open the new file and copy the below contents, pasting them into the file
+```
+[General]
+WordsPerSecondSilence=2
+```
+
+Save and close the file.
 #### [Hearthfires Houses Building Fix](http://www.nexusmods.com/skyrimspecialedition/mods/27298)
 #### [Invisibility and Eyes Mesh Fix](http://www.nexusmods.com/skyrimspecialedition/mods/14464)
 Choose *Eyes Mesh Fix* in the installer.
@@ -935,38 +1008,36 @@ Choose ESM version
 3. Extract the contents of the second archive to the root Skyrim SE directory (i.e. ..\Steam\SteamApps\Common\Skyrim Special Edition\) 
 Once installed open and ensure the EngineFixes.ini file is configured:
 ```
-[Patches]
-EnableAchievementsWithMods = true
+[FormCaching]
+; caches FormIDs to fix some performance issues, especially in the Rift
+enabled=true
 
-FormCaching = true
+[DoublePerkApply]
+; fixes a bug which causes enemies to have double perks applied on cell loads from a save file, making them harder than they should be to defeat
+enabled=true
 
-MaxStdio = true
+[SlowTimeCamera]
+enabled=true
 
-TreeLODReferenceCaching = true
+[VerticalSensitivity]
+enabled=true
 
-WaterflowAnimation = true
+[Waterflow]
+; change this if you want water to move slower/faster
+; 20.0 is the default speed at default timescale
+; STEP recommends 16.0
+enabled=true
+timescale=16.0
 
-WaterflowSpeed = 16.0
-20.0 = default. Smaller = slower, larger = faster.
+[TreeReflection]
+; fixes tree reflections in water
+; if an ENB will be installed, set this to disabled
+enabled=true
 
-[Fixes]
-ArcheryDownwardAiming = true
-
-AnimationLoadSignedCrash = true
-
-DoublePerkApply = true
-
-LipSync = true
-
-MemoryAccessErrors = true
-
-MO5STypo = true
-
-SlowTimeCameraMovement = true
-
-TreeReflections = true
-
-VerticalLookSensitivity = true
+[SnowSparkle]
+; fixes an issue with the snow sparkle effect applied to certain meshes, potentially leading to CTDs.
+; if the sparkles are disabled in the game's INIs, then this can be disabled. Else leave it set to *true*.
+enabled=true
 ```
 >Leave the remainder of the settings at their defaults, unless the changes are known and desired.
 #### [Stay At The System Page](http://www.nexusmods.com/skyrimspecialedition/mods/19832)
@@ -1011,7 +1082,7 @@ Do not activate this mod yet. Wait until you have left the first cell of Alterna
 Hide or delete the file *SKSE/Plugins/PapyrusUtil.dll*. It is outdated and we need to use the newer one from PapyrusUtil SE.
 #### [Campfire and Frostfall - Unofficial SSE Update](http://www.nexusmods.com/skyrimspecialedition/mods/17925)
 #### [Carriage and Ferry Travel Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/8379)
-Install patch for *Dawnstar*.
+>TODO Check if the Dawnstar patch is needed and if it conflicts with JKs.
 #### [Daedric Voices](https://www.nexusmods.com/skyrimspecialedition/mods/32090)
 Install the main file and the Growl patch.
 #### [Disease Descriptions for the Immersive Adventurer SE](http://www.nexusmods.com/skyrimspecialedition/mods/26992)
