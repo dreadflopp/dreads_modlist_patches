@@ -3153,16 +3153,6 @@ Tweaks:
 			<!-- Lost library, cloaks, obis, oblivion artifacts -->
 			<pattern>
 				<dependencies operator="And">
-					<flagDependency flag="cloaks" value="On"/>
-					<flagDependency flag="obis" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Cloaks-OBIS.esp" destination="df_Cloaks-OBIS.esp" priority="0" />
-				</files>
-			</pattern>
-
-			<pattern>
-				<dependencies operator="And">
 					<flagDependency flag="lostlibrary" value="On"/>
 					<flagDependency flag="cloaks" value="Off"/>
 					<flagDependency flag="obis" value="Off"/>
