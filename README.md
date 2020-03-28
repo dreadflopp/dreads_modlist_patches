@@ -464,6 +464,8 @@ Recommended install options:\
 - Default
 #### [Deathbell HD](http://www.nexusmods.com/skyrimspecialedition/mods/10755)
 Recommendation: 1K
+#### [Designs of the Nords SE](https://www.nexusmods.com/skyrimspecialedition/mods/8724/)
+In the installer, install optionals if that is desired.
 #### [Detailing the Eldrich - Higher-Res Riekling Architecture](http://www.nexusmods.com/skyrim/mods/46741)
 Recommendation: Higher Res
 #### [Dragon Glyphs HD - Fixed](http://www.nexusmods.com/skyrim/mods/27095)
@@ -753,6 +755,9 @@ Recommendation: 2K-1K\
 Choose *Full version - skin with a linen fabric cloth* in the installer.
 
 ### Audiovisual - Trees & Vegetation
+#### [Alpine Forest of Whiterun Valley](https://www.nexusmods.com/skyrimspecialedition/mods/18866)
+#### [Bent Pines II](https://www.nexusmods.com/skyrimspecialedition/mods/8306)
+#### [Immersive Fallen Trees SSE](https://www.nexusmods.com/skyrimspecialedition/mods/8767)
 #### [Landscape Fixes For Grass Mods](http://www.nexusmods.com/skyrimspecialedition/mods/9005)
 Install patches for
 - Alternate Start - Live Anothe Life
@@ -769,7 +774,7 @@ Install the Realistic Aspen trees version of this mod.
 #### [HQ Tree Bark](http://www.nexusmods.com/skyrimspecialedition/mods/6556)
 Choose the options you prefer. Install the Simply Bigger Trees patch.
 
-## Audiovisual - Sounds & Music
+### Audiovisual - Sounds & Music
 #### [Audio Overhaul for Skyrim SE](http://www.nexusmods.com/skyrimspecialedition/mods/12466)
 Do not install any patches. Delete the SKSE folder after installation.
 #### [Better Animal Footsteps](https://www.nexusmods.com/skyrim/mods/24805)
@@ -786,7 +791,20 @@ Recommendation: *Realistic Wolf Howls more barks than howls*
 #### [Ultra Realistic Bow Shoot Sounds](https://www.nexusmods.com/skyrim/mods/27208)
 #### [Ultra Realistic Crossbow Shoot Sounds](https://www.nexusmods.com/skyrim/mods/31274)
 
+### Audiovisual - Lighting & Weather
+#### [Cathedral Weathers and Seasons](http://www.nexusmods.com/skyrimspecialedition/mods/24791)
+Install the main file.
+#### [Luminosity Lighting Overhaul - The Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/16830)
+#### [Relighting Skyrim - SSE](http://www.nexusmods.com/skyrimspecialedition/mods/8586)
+#### [Storm Lightning for SSE](http://www.nexusmods.com/skyrimspecialedition/mods/29243)
+In the installer, choose *Skyrim Special Edition* and the latest game version. Choose esl flagged plugin. Recommended settings for halo are as follows:
+- Night time sheet halo: Halo with dimmer lighting (level 0)
+- Day time sheet halo: Halo dim (level 2)
+- Night time fork halo: Halo dimmer (level 1)
+- Day time fork halo: Halo dim (level 2)
 
+#### [Wonders of Weather (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/13044)
+In the installer, choose core files and *Less Opaque Splashes*.
 
 ## Character Appearance
 ### Character Appearance - Female body
@@ -1045,17 +1063,25 @@ In the installer, choose the optional file *Dark Brotherhood Forever to Miscella
 #### [The Gray Cowl of Nocturnal SSE - HD pack](http://www.nexusmods.com/skyrimspecialedition/mods/7644)
 #### [Gray Cowl of Nocturnal Alikr Flora Overhaul SE](http://www.nexusmods.com/skyrimspecialedition/mods/10141)
 #### [Helgen Reborn](http://www.nexusmods.com/skyrimspecialedition/mods/5673)
+#### [Improved College Entry - Questline Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/22184)
+#### [Improved Companions - Questline Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/22300)
 #### [Moon and Star](http://www.nexusmods.com/skyrimspecialedition/mods/4301)
 #### [Moonpath to Elsweyr SSE](http://www.nexusmods.com/skyrimspecialedition/mods/4341)
+#### [More Radiant Quests for the Companions](https://www.nexusmods.com/skyrimspecialedition/mods/24144)
+Choose *Option 1* in the installer (suggestion)
 #### [Not So Fast - Mage Guild (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/5686)
 #### [Not So Fast - Main Quest (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/2475)
 #### [The Paarthurnax Dilemma](http://www.nexusmods.com/skyrimspecialedition/mods/365)
 #### [Timing is Everything SE](http://www.nexusmods.com/skyrimspecialedition/mods/25464)
 Install the FISS version.
+#### [The Tools of Kagrenac](https://www.nexusmods.com/skyrimspecialedition/mods/14168)
 
 ### Gameplay - Skills & Perks
 #### [Adamant - A Perk Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/30191)
 #### [Lock Overhaul (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/14927)
+#### [Skyrim Alchemy Fixed](https://www.nexusmods.com/skyrimspecialedition/mods/2262)
+Install *Skyrim Alchemy Fixed*
+
 
 ### Gameplay - User Interface
 #### [Better Container Controls for SkyUI](http://www.nexusmods.com/skyrimspecialedition/mods/25271)
@@ -1063,6 +1089,7 @@ Do not install the main file, install the esl optional file only. If you play wi
 #### [Better Dialogue Controls](http://www.nexusmods.com/skyrimspecialedition/mods/1429)
 #### [Better MessageBox Controls](http://www.nexusmods.com/skyrimspecialedition/mods/1428)
 #### [Cathedral Weathers MCM](http://www.nexusmods.com/skyrimspecialedition/mods/24940)
+#### [Easy Wheelmenu - SSE Conversion](https://www.nexusmods.com/skyrimspecialedition/mods/22934)
 #### [Font Overhaul - Natural Typefaces for Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/2880)
 #### [Immersive HUD - iHUD Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/12440)
 #### [Lore-Based Loading Screens (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/1185)
@@ -1081,14 +1108,26 @@ Do not install the main file, install the esl optional file only. If you play wi
 #### [Bandolier - Bags and Pouches Classic](http://www.nexusmods.com/skyrimspecialedition/mods/2417)
 #### [Cloaks of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/6369)
 Install the main version
+#### [Cloaks of the Nords](https://www.nexusmods.com/skyrimspecialedition/mods/8886)
+#### [Scout Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/18910)
+#### [Scout Armor SE - Meshes Fix](https://www.nexusmods.com/skyrimspecialedition/mods/26817)
+#### [Talos Housecarl Armor Pack](https://www.nexusmods.com/skyrimspecialedition/mods/5540)
+#### [Volkihar Knight - Vampire Armor](https://www.nexusmods.com/skyrimspecialedition/mods/4806)
+#### [Wayfarer's Coat](https://www.nexusmods.com/skyrimspecialedition/mods/10194)
+Install main file and *Wayfarers Coat CBBE UUNP Bodyslide HDT Patch(Installer)*.
+In the patch installer, choose *CBBE Bodyslide HDT*.
+
 #### [Winter Is Coming SSE - Cloaks](http://www.nexusmods.com/skyrimspecialedition/mods/4933)
 Install the patch for Cloaks of Skyrim.
 
 ### Items – Weapons
 #### [Animated Armoury - New Weapons with animations SSE Version](https://www.nexusmods.com/skyrimspecialedition/mods/15394)
 Download main file and update file.
+#### [Artifacts - The Tournament of the ten Bloods](https://www.nexusmods.com/skyrimspecialedition/mods/15264)
+In the installer, 2K is recommended.
 #### [Faction Crossbows SE](http://www.nexusmods.com/skyrimspecialedition/mods/4047)
 #### [Heavy Armory - New Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/6308)
+#### [Oblivion Artifact Pack SE](https://www.nexusmods.com/skyrimspecialedition/mods/10644)
 #### [Royal Armory - New Artifacts](http://www.nexusmods.com/skyrimspecialedition/mods/6994)
 #### [Ruin's Edge](http://www.nexusmods.com/skyrimspecialedition/mods/12792)
 #### [The Staff Of Sheogorath](http://www.nexusmods.com/skyrimspecialedition/mods/14468)
@@ -1099,7 +1138,11 @@ Install main file
 ### Locations - New Structures & Landmarks
 #### [Bells of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/10495)
 #### [Cutting Room Floor](http://www.nexusmods.com/skyrimspecialedition/mods/276)
+#### [Northern Marsh Bridges](https://www.nexusmods.com/skyrimspecialedition/mods/9107/)
 #### [Solitude Skyway](http://www.nexusmods.com/skyrimspecialedition/mods/8250)
+#### [Solstheim Lighthouse](https://www.nexusmods.com/skyrimspecialedition/mods/14329)
+Install *Solstheim Lighthouse v1.2 ESL* and *HD Raven Rock Brick Texture Replacer*
+#### [Solstheim - Skaal Fishing Camp](https://www.nexusmods.com/skyrimspecialedition/mods/14450)
 #### [Windhelm Lighthouse](http://www.nexusmods.com/skyrimspecialedition/mods/8453)
 
 ### Locations - New Lands
@@ -1127,27 +1170,26 @@ Install main file
 
 ### Locations - Overhauls
 #### [Bring Out Your Dead (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/323)
+#### [Castle Volkihar Rebuilt - SSE](https://www.nexusmods.com/skyrimspecialedition/mods/324)
 #### [Immersive Dawnguard Dayspring Pass SE](http://www.nexusmods.com/skyrimspecialedition/mods/4126)
+#### [JK's Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/6289)
+Install main file and the following patches:
+- JK's Skyrim - Arthmoor's Patch Pack
+    - Choose individual patches and let the installer choose patches for you.
+- JK's Skyrim - Carriage and Ferry Travel (CFTO) Patch
+- JK's Skyrim - Clockwork Patch
+- JK's Skyrim - Realistic Water Two Patch
+- JK's Skyrim - Thunderchild Patch
+
 #### [Smooth Shores](http://www.nexusmods.com/skyrimspecialedition/mods/10624)
+#### [Tactical Valtheim SSE](https://www.nexusmods.com/skyrimspecialedition/mods/9101)
+In the installer. choose *Radiant Exclusions*.
 #### [Farmhouse Chimneys SE](http://www.nexusmods.com/skyrimspecialedition/mods/8766)
 The installer auto detects which mods you have installed and automatically chosses the correct patches. Do not install any *Alternative Toppers* unless you prefer them.
-
-### Audiovisual - Lighting & Weather
-#### [Cathedral Weathers and Seasons](http://www.nexusmods.com/skyrimspecialedition/mods/24791)
-Install the main file.
 #### [Lanterns Of Skyrim II](http://www.nexusmods.com/skyrimspecialedition/mods/30817)
 In the installer, choose no addons. Install *the LoS II - SMIM patch*. The installer will automatically select all patches you need.
-#### [Luminosity Lighting Overhaul - The Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/16830)
-#### [Relighting Skyrim - SSE](http://www.nexusmods.com/skyrimspecialedition/mods/8586)
-#### [Storm Lightning for SSE](http://www.nexusmods.com/skyrimspecialedition/mods/29243)
-In the installer, choose *Skyrim Special Edition* and the latest game version. Choose esl flagged plugin. Recommended settings for halo are as follows:
-- Night time sheet halo: Halo with dimmer lighting (level 0)
-- Day time sheet halo: Halo dim (level 2)
-- Night time fork halo: Halo dimmer (level 1)
-- Day time fork halo: Halo dim (level 2)
-
-#### [Wonders of Weather (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/13044)
-In the installer, choose core files and *Less Opaque Splashes*.
+#### [Obscure's College of Winterhold](https://www.nexusmods.com/skyrimspecialedition/mods/20514)
+The installer will automatically choose the correct patches to use.
 
 ## New Characters
 ### New Characters - Enemies
@@ -1160,11 +1202,16 @@ Install main file and OBIS SE Patrols addon.
 #### [Splendor – Dragon Variants SE](http://www.nexusmods.com/skyrimspecialedition/mods/9670)
 
 ### New Characters - Neutral
+#### [DIVERSE SKYRIM SSE](https://www.nexusmods.com/skyrimspecialedition/mods/7707)
+#### [Immersive College NPCs](https://www.nexusmods.com/skyrimspecialedition/mods/9252)
+Use the default settings in the installler
 #### [Immersive World Encounters SE](https://www.nexusmods.com/skyrimspecialedition/mods/18330)
 #### [Interesting NPCs SE](https://www.nexusmods.com/skyrimspecialedition/mods/29194)
 #### [Interesting NPCs (3DNPC) character Zora Fairchild's voice boosted](http://www.nexusmods.com/skyrimspecialedition/mods/16090)
 
 ### New Characters - Allies
+#### [Lucien - Fully Voiced Follower](https://www.nexusmods.com/skyrimspecialedition/mods/20035)
+Install main file and patches for *Moon and Star* and *Moonpath to Elsweyr* Patch.
 #### [INIGO](http://www.nexusmods.com/skyrimspecialedition/mods/1461)
 
 ## DynDOLOD Resources
@@ -1179,6 +1226,7 @@ Download and install *DynDOLOD Resources SE*. Install using the following option
 
 ## Patches
 #### [Better Dynamic Majestic Mountains](http://www.nexusmods.com/skyrimspecialedition/mods/20102)
+#### [College of Winterhold The Missing Apprentices Quest Fix](https://www.nexusmods.com/skyrimspecialedition/mods/6677)
 #### [Falskaar - Addons and Patches](http://www.nexusmods.com/skyrimspecialedition/mods/19454)
 Choose 
 - Bug Fixes

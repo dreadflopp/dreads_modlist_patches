@@ -1032,25 +1032,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>
-						<plugin name="Castle Volkihar Rebuilt - SSE">
-							<conditionFlags>
-								<flag name="volkiharrebuilt">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="Castle Volkihar Rebuilt.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>					
+						</plugin>				
 						<plugin name="College of Winterhold The Missing Apprentices Quest Fix">
 							<conditionFlags>
 								<flag name="cow-crffix">On</flag>
@@ -1500,6 +1482,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="Castle Volkihar Rebuilt - SSE">
+							<conditionFlags>
+								<flag name="volkiharrebuilt">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Castle Volkihar Rebuilt.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>	
 						<plugin name="Landscape Fixes For Grass Mods">
 							<conditionFlags>
 								<flag name="lffgm">On</flag>
