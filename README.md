@@ -296,10 +296,6 @@ In the installer, choose:
 
 #### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
 Recommendation: 2K
-<<<<<<< HEAD
-
-=======
->>>>>>> 591d0e473259acc6431317d46494830ec5ed5139
 #### [Unofficial Material Fix](http://www.nexusmods.com/skyrimspecialedition/mods/21027)
 
 ## Audiovisual
@@ -746,34 +742,6 @@ Recommendation: 2K
 Recommendation: 2K
 #### [Vivid Landscapes - Tundra Moss Revised](http://www.nexusmods.com/skyrim/mods/43221)
 Recommendation: *Vivid Landscapes - Tundra Moss Revised - yellow 1024* main file and *SMIM compatibility patch* optional file. 
-<<<<<<< HEAD
-#### [Weapons Armor and Clothing - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/20199)
-Choose CBBE in the installer if you use CBBE.
-Hide or delete the file _CalienteTools\BodySlide\ShapeData\CBBE Vanilla\Body\Ebony.nif_ since this mesh is causing issues.
-#### [Frankly HD Dawnguard Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/19663)
-Recommendation: 2K\
-Install the CBBE patch.
-#### [Frankly HD Dragonbone and Dragonscale - Armor and Weapons HQ](https://www.nexusmods.com/skyrimspecialedition/mods/25110)
-Recommendation: 2K\
-Install both main and update file. 
-#### [Frankly HD Imperial Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/20848)
-Recommendation: 2K\
-Install the *Pants and Sleeves* patch and the *Better-Shaped Weapons* patch.
-#### [Frankly HD Masque of Clavicus Vile](https://www.nexusmods.com/skyrimspecialedition/mods/28565)
-Recommendation: 2K
-#### [Frankly HD Miraak](https://www.nexusmods.com/skyrimspecialedition/mods/19699)
-Recommendation: 2K\
-Install the CBBE patch.
-#### [Frankly HD Nightingale Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/18560)
-Recommendation: 2K\
-Install the CBBE patch and the Better-Shaped Weapons patch.
-#### [Frankly HD Shrouded Armor](https://www.nexusmods.com/skyrimspecialedition/mods/18785)
-Recommendation: 2K\
-Choose the color option you prefer
-#### [Frankly HD Thieves Guild Armors HQ](https://www.nexusmods.com/skyrimspecialedition/mods/19953)
-Recommendation: 2K\
-=======
->>>>>>> 591d0e473259acc6431317d46494830ec5ed5139
 #### [WEBS S.E.](http://www.nexusmods.com/skyrimspecialedition/mods/4873)
 Recommendation: 2K
 #### [White Phial Replacer SE](http://www.nexusmods.com/skyrimspecialedition/mods/6113)
