@@ -21,7 +21,7 @@ This modlist a build for the [STEP: Core guide for Skyrim Special Edition](https
 >TODO upate links when CMS has been launched\
 Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-se-core-addon/) if you have any questions.
 
-### With Dread's modlist you will get
+### With Dread's modlist you will get:
 - STEP Core which means:
     - HD textures in the style of vanilla Skyrim
     - Bug fixes
@@ -47,16 +47,11 @@ Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-s
 - Support for the survival mod from Bethesda Creation Club.
 - Bigger trees for a truly immersive forrest
 
-The provided patches comes with a neat FOMOD installer that automatically chooses what to install. The patches consists of a huge bunch of esl-flagged plugins. Since they are esl-flagged you do not have to worry about the old plugin count limit. Keeping the patches separated in different plugins helps during development when adding, testing and replacing mods. This also makes this mod list mostly modular. There are a few exceptions:
-- You need to use the Unofficial Skyrim Special Edition Patch
-- Cloaks of Skyrim and Winter is coming should be used together or not at all for the patches to work.
-
-Note that records from the Particle patch is not forwarded since the plugin is obsolete. ENB users should use [ENB Helper](https://www.nexusmods.com/skyrimspecialedition/mods/23174)
-
 ### What about Weapons Armor Clothing and Clutter Fixes (WACCF) by Kryptopyr?
 WACCF is a great mod that fixes bugs and inconsitencies among weapons, armors, etc. Even though it has the word fixes in its name, it could have been named Weapons Armor Clothing and Clutter *Overhaul*, because it overhauls the weapon and armor stats and progression. To avoid inconsitencies, all mods that add weapons and armors to the game needs to be checked and eventually rebalanced against WACCF. I have decided that isn't something that I want to do, it is just to much work. There are other mod guides that rebalances quest and weapon mods around WACCF and other overhauls, like [Lexy’s Legacy of the Dragonborn: Special Edition](https://lexyslotd.com).
 
-# Game & Tool Installation
+# Prerequisites
+**Game & Tool Installation**
 ## Game Installation and Modding Setup
 >TODO upate links when CMS has been launched\
 
@@ -148,6 +143,7 @@ At this time BethINI should restart to grab the correct INIs. Once it is restart
     - Click the Medium profile button (this can be changed at the end of the Guide).
     - Check the box for “Recommended Tweaks”. 
 3. Now Save and Exit.
+Users now have a minimal setup for the game INIs for testing and running the game during the mod installations. Once all mods have been installed, BethINI will be ran again to complete the INI setup.
 
 # Cleanup and Considerations
 ## LOOT
@@ -229,6 +225,12 @@ It is now time to install the mods.
 - If LOOT tells you to clean a mod, clean it.
 - Always install the main and update file(s), unless the guide tells you otherwise.
 - The recommended resolutions of textures are just recommendations. You may install higher resolution versions of the mods if your computer can handle it.
+
+The provided patches comes with a neat FOMOD installer that automatically chooses what to install. The patches consists of a huge bunch of esl-flagged plugins. Since they are esl-flagged you do not have to worry about the old plugin count limit. Keeping the patches separated in different plugins helps during development when adding, testing and replacing mods. This also makes this mod list mostly modular. There are a few exceptions:
+- You need to use the Unofficial Skyrim Special Edition Patch
+- Cloaks of Skyrim and Winter is coming should be used together or not at all for the patches to work.
+
+Note that records from the Particle patch is not forwarded since the plugin is obsolete. ENB users should use [ENB Helper](https://www.nexusmods.com/skyrimspecialedition/mods/23174)
 
 ## Extenders
 #### [SKSE64](http://www.nexusmods.com/skyrimspecialedition/mods/30379)
