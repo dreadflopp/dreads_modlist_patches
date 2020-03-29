@@ -2082,27 +2082,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="Tweaks to Immersive Spectral Assassin">
-							<description>
-								<![CDATA[STEP Tweaks that removes features of the mod Immersive Spectral Assassin]]>
-							</description>
-							<conditionFlags>
-								<flag name="tweakspectralassassin">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="TESIVLucienLachance.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
 					</plugins>
 				</group>
 				<group name="Other Tweaks" type="SelectAny">

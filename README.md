@@ -690,6 +690,33 @@ Recommended install options:\
 
 #### [Just Ice (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/9444)
 Recommendation: 2K
+#### [LeanWolf's Better-Shaped Weapons SE](https://www.nexusmods.com/skyrimspecialedition/mods/2017)
+Install with the following options:
+- Options 1: Select nothing
+- Options 2: Select nothing
+- Patches
+    - Dawnguard
+    - Dragonborn
+    - Glass with refraction
+    - Keeining with refraction
+    - Dawnbreaker options
+- Glass
+    - Glass Weapons: Refractive Glass Weapons
+    - Glass Quivers: Glass Quiver with Refraction
+    - Chillrend Options: Chillrend with Refraction
+- Dawnbreaker
+    - Dawnbreaker Options: Dawnbreaker Elven Sheath
+- Dawnguard
+    - Dragonbone Weapons: Dragonboring Weapons
+    - Dragonbone Quivers: Dragonboring Quiver
+    - More Quivers: Auriel Quivers
+- Dragonborn
+    - Stalhrim Weapons: Stalhrim with Refraction
+    - Stalhrim Quivers: Stalhrim Quiver with Refraction
+    -  Nordic Weapons
+        - Swords
+        - Quivers
+        
 #### [LeanWolf's Improved Enchanter Candle Meshes SE](http://www.nexusmods.com/skyrimspecialedition/mods/7883)
 #### [MAMMOTH](http://www.nexusmods.com/skyrimspecialedition/mods/6127)
 Recommendation: 2K
@@ -822,6 +849,7 @@ Install patches for
 - Alternate Start - Live Anothe Life
 - Helgen Reborn
 - Moon And Star
+- JK's Skyrim - Towns
 - Arthmoors mods - everything except *Provincial Courier Sevice*
 
 #### [No More Hanging Moss](https://www.nexusmods.com/skyrimspecialedition/mods/16426)
@@ -1003,42 +1031,16 @@ In the installer, choose:
 Choose ESM version
 #### [SkyUI SE - Flashing Savegames Fix](http://www.nexusmods.com/skyrimspecialedition/mods/20406)
 #### [SSE Engine Fixes (skse64 plugin)](http://www.nexusmods.com/skyrimspecialedition/mods/17230)
-1. Download and install the (Part 1) Engine Fixes 4.11 for SSE 1.5.97 - skse64 plugin Main File.= in MO.
+1. Download and install the (Part 1) Engine Fixes 4.13 for SSE 1.5.97 - skse64 plugin Main File.= in MO.
 2. Download the (Part 2) Engine Fixes - skse64 Preloader and TBB Lib Main File.
 3. Extract the contents of the second archive to the root Skyrim SE directory (i.e. ..\Steam\SteamApps\Common\Skyrim Special Edition\) 
 Once installed open and ensure the EngineFixes.ini file is configured:
+
 ```
-[FormCaching]
-; caches FormIDs to fix some performance issues, especially in the Rift
-enabled=true
-
-[DoublePerkApply]
-; fixes a bug which causes enemies to have double perks applied on cell loads from a save file, making them harder than they should be to defeat
-enabled=true
-
-[SlowTimeCamera]
-enabled=true
-
-[VerticalSensitivity]
-enabled=true
-
-[Waterflow]
-; change this if you want water to move slower/faster
-; 20.0 is the default speed at default timescale
-; STEP recommends 16.0
-enabled=true
-timescale=16.0
-
-[TreeReflection]
-; fixes tree reflections in water
-; if an ENB will be installed, set this to disabled
-enabled=true
-
-[SnowSparkle]
-; fixes an issue with the snow sparkle effect applied to certain meshes, potentially leading to CTDs.
-; if the sparkles are disabled in the game's INIs, then this can be disabled. Else leave it set to *true*.
-enabled=true
+[Patches]
+RegularQuicksaves = true
 ```
+
 >Leave the remainder of the settings at their defaults, unless the changes are known and desired.
 #### [Stay At The System Page](http://www.nexusmods.com/skyrimspecialedition/mods/19832)
 #### [Unlimited Bookshelves (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/2885)
