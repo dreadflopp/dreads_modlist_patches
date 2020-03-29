@@ -69,7 +69,7 @@ This guide uses [Mod Organizer 2](https://www.nexusmods.com/skyrimspecialedition
 If these concepts are new to you, watch the [tutorial videos by Gamerpoet](https://www.youtube.com/playlist?list=PLlN8weLk86Xh3ue76x2ibqtmMramwQmHB) or read the [STEP guide for Mod Organizer 2]().
 >TODO upate links when CMS has been launched\
 
-## Tools Installation and Setup
+## Tool Installation and Setup
 ### Tool Installation
 >TODO upate links when CMS has been launched\
 
@@ -98,7 +98,7 @@ This is a script for SSEEdit. Unzip the archive and place the content in the SSE
 5. Another prompt will appear for first time installers asking to run the tutorial or not. First time MO users should run it for a quick lesson on MO. Experienced MO users can skip it.
 6. The last prompt will ask if MO can handle .NXM links from the browser. Allow it to do so.
 7. MO2 is now set up and ready to use.
-### Tools Setup
+### Tool Setup
 All tools should be launched through Mod Organizer 2. Mod Organizer 2 may have auto-detected some tool but the user needs to confirm this and manually add the rest of the tools.\
 \
 **Instructions to add tools as executables**
@@ -149,16 +149,10 @@ Users now have a minimal setup for the game INIs for testing and running the gam
 ## LOOT
 At any time during the mod installation process LOOT should be used to sort plugin load order before running the game. This is necessary to ensure proper plugin priority (load order), which can have a dramatic impact on the game. Users not running the game during the mod installation step of the Guide can wait to sort after this step is complete. To sort with LOOT:
 1. Launch LOOT via Mod Organizer 2 from the executables drop-down menu.
-    - If LOOT fails to start, try adding the following argument to it: --single-process
 2. Click the “Sort” button at the top of the LOOT window.
 3. Examine the resulting order carefully and look for any alerts or warnings and address each (clean any mods it says has ITMs or UDRs)
 4. Click the “Apply” button, which has replaced the Sort button at the top.
 5. Close LOOT.
-````
-LOOT may throw errors or warnings of missing mods or running tools if executed before the entire mod installation step of the Guide is complete. 
-If LOOT is run before the entire mod installation set is complete, please ignore these particular errors and warnings. 
-These issues will resolve themselves as the Guide progresses. 
-````
 
 ## Cleaning Vanilla Master Files 
 To remove errors in the Bethesda master files, it is recommended they be cleaned with xEdit before modding begins. This ensures maximum stability and compatibility within the modding experience.
@@ -208,10 +202,6 @@ After the vanilla master files are cleaned, users should move them to their crea
 5. Close the explorer windows.
 6. Drag and drop the new Cleaned Vanilla Masters mod listing in the left pane directly below DLC: Dragonborn.esm.
 
-````
-Any time Bethesda updates these master files, users should complete this cleaning process again. 
-This ensures users have any fixes Bethesda may have included within their updates. 
-````
 At this point, the Bethesda masters should be cleaned and the mod list order should reflect: 
 1. DLC: Dawnguard.esm
 2. DLC: HearthFires.esm
