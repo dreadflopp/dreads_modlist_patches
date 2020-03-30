@@ -1330,10 +1330,11 @@ Download latest SSE version and install as a normal mod.\
 2. Right click on *Nemesis_Engine\Nemesis Unlimited Behavior Engine.exe* and choose *Add as Executable*.
 3. A dialog box opens asking for a name of the executable. Accept the default name by clicking *OK*.
 
-# Sorting and cleaning the new load order
+# Post installation
+## Sorting and cleaning the new load order
 Before moving on, sort the load order with LOOT. Take note of any plugins that LOOT reports as needing to be cleaned and perform the standard cleaning procedures on these mods. Ignore any reported missing compatibility patches. The guides patches take care of all the patching, thus eliminating the need for those additional plugins.
 
-# Generating body and armor meshes
+## Generating body and armor meshes
 Build body and armor meshes using BodySlide following these simple instructions:
 1. Run BodySlide through Mod Organizer
 2. In the *Outfit/Body* dropdown menu, choose *CBBE NeverNude* (this will also prevent NSFW images).
@@ -1352,7 +1353,7 @@ After closing BodySlide, there will be files in Overwrite (essentially a fake mo
     - This will create a new mod listing in the left pane for the BodySlide generated files. 
 3. Check the new mod entry to enable it. 
 
-# Generating Animation Files
+## Generating Animation Files
 Once FNIS SE is installed, the animation files need to be generated for the skeleton changes.
 1. Sort the load order with LOOT.
 2. Run FNIS SE via Mod Organizer 2.
@@ -1366,7 +1367,7 @@ After closing FNIS SE, there will be files in Overwrite:
     - This will create a new mod listing in the left pane for the FNIS SE generated files. 
 3. Check the new mod entry to enable it.
 
-# Gnerating Unlimited Bookshelves patch
+## Generating Unlimited Bookshelves patch
 1. Sort the load order with LOOT
 2. Run SSEEdit via Mod Organizer 2.
 3. Make sure all plugins are selected and click ok.
@@ -1383,15 +1384,15 @@ After closing SSEEdit, the patch will be in Overwrite:
     - This will create a new mod listing in the left pane for the FNIS SE generated files. 
 3. Check the new mod entry to enable it.
 
-# DynDOLOD
-## Create Output Folders
+## DynDOLOD
+### Create Output Folders
 Crete two empty mods to use as output for DynDOLOD:
 1. Right-click on the mod list in MO2 and hover over All Mods.
 2. Select *Create empty mod*.
 3. Name it *TexGen Output*. 
 4. Repeat step 1-3 to create another new mod called *DynDOLOD Output*.
 
-## Run TextGen
+### Run TextGen
 1. Run TexGen from the MO2 executable drop-down list.
 2. Keep the default output location and and choose one of the follow two options:
     1. Option 1: Keep the default settings. This is for the average system.
@@ -1404,7 +1405,7 @@ Crete two empty mods to use as output for DynDOLOD:
 8. Paste the files into the mod's folder and close the window.
 9. In MO2, ensure the TexGen Output mod is active (checked).
 
-## Run DynDOLOD
+### Run DynDOLOD
 1. Open the root DynDOLOD folder (i.e., ..\Modding\Tools\DynDOLOD\).
 2. Open the DynDOLOD_SSE.ini file (i.e., ..\DynDOLOD\Edit Scripts\DynDOLOD\DynDOLOD_SSE.ini)
 3. Set *TreeLOD=0*
