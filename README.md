@@ -45,7 +45,7 @@ This guide is a STEP build based on the [STEP: Core build](https://www.nexusmods
 
 ## What about Weapons Armor Clothing and Clutter Fixes (WACCF) by Kryptopyr?
 
-WACCF is a great mod that fixes bugs and inconsitencies among weapons, armors, etc. Even though it has the word fixes in its name, it could have been named Weapons Armor Clothing and Clutter *Overhaul*, because it overhauls the weapon and armor stats and progression. To avoid inconsitencies, all mods that add weapons and armors to the game needs to be checked and eventually rebalanced against WACCF. I have decided that isn't something that I want to do, it is just to much work. There are other mod guides that rebalances quest and weapon mods around WACCF and other overhauls, like [Lexy’s Legacy of the Dragonborn: Special Edition](https://lexyslotd.com).
+WACCF is a great mod that fixes bugs and inconsitencies among weapons, armors, etc. Even though it has the word fixes in its name, it could have been named Weapons Armor Clothing and Clutter *Overhaul*, because it overhauls the weapon and armor stats and progression. To avoid inconsitencies, all mods that add weapons and armors to the game needs to be checked and eventually rebalanced against WACCF. I have decided that isn't something that I want to do, it is just to much work. There are other mod guides that rebalances quest and weapon mods around WACCF and other overhauls.
 
 # Prerequisites
 ## Game & Tool Installation
@@ -83,7 +83,7 @@ This is a script for SSEEdit. Unzip the archive and place the content in the SSE
 
 ### About
 
-This guide uses [Mod Organizer 2](https://www.nexusmods.com/skyrimspecialedition/mods/6194) but users may use whichever mod manager they are comfortable with as long as they know hot to properly use it. Users make them self familiar with how to
+This guide uses Mod Organizer 2 but users may use whichever mod manager they are comfortable with as long as they know hot to properly use it. Users make them self familiar with how to
 * Link Mod Organizer 2 to a Nexus account
 * Install mods
 * The difference between install order and load order and what conflicts in load order and install order means (not how to solve them)
@@ -103,7 +103,7 @@ If these concepts are new to you, watch the [tutorial videos by Gamerpoet](https
 1. The last prompt will ask if MO can handle .NXM links from the browser. Allow it to do so.
 1. MO2 is now set up and ready to use.
 
-## Tool Setup
+### Tool Setup
 
 All tools should be launched through Mod Organizer 2. Mod Organizer 2 may have auto-detected some tool but the user needs to confirm this and manually add the rest of the tools.
 
@@ -412,9 +412,7 @@ Recommendation: 2K
 
 #### [Unofficial Material Fix](http://www.nexusmods.com/skyrimspecialedition/mods/21027)
 
-## Audiovisual
-
-### Audiovisual - Animations & Effects
+## Audiovisual - Animations & Effects
 
 #### [D13 Faster GET UP STAND UP Animation](http://www.nexusmods.com/skyrimspecialedition/mods/5890)
 Install loose files.
@@ -450,7 +448,7 @@ Install the main file using the following options:
 * Compatibility Patches
 	* Choose none or nothing for all
 
-### Audiovisual - Models & Textures
+## Audiovisual - Models & Textures
 
 #### [Arctic - Frost Effects Redux](http://www.nexusmods.com/skyrimspecialedition/mods/29817)
 
@@ -1029,7 +1027,7 @@ Recommendation: 2K-1K
 
 Choose *Full version - skin with a linen fabric cloth* in the installer.
 
-### Audiovisual - Trees & Vegetation
+## Audiovisual - Trees & Vegetation
 
 #### [Alpine Forest of Whiterun Valley](https://www.nexusmods.com/skyrimspecialedition/mods/18866)
 
@@ -1058,7 +1056,7 @@ Install the main file *Simply Bigger Trees SE (Realistic Aspen Trees - Loose)*.
 #### [HQ Tree Bark](http://www.nexusmods.com/skyrimspecialedition/mods/6556)
 Choose the options you prefer. Install the Simply Bigger Trees patch.
 
-### Audiovisual - Sounds & Music
+## Audiovisual - Sounds & Music
 
 #### [Audio Overhaul for Skyrim SE](http://www.nexusmods.com/skyrimspecialedition/mods/12466)
 Do not install any patches. Delete the SKSE folder after installation.
@@ -1106,11 +1104,9 @@ In the installer, choose *Skyrim Special Edition* and the latest game version. C
 #### [Wonders of Weather (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/13044)
 In the installer, choose core files and *Less Opaque Splashes*.
 
-## Character Appearance
+## Character Appearance - Female body
 
-### Character Appearance - Female body
-
-*This section replaces the vanilla female body with the CBBE body. The CBBE body is chosen because of its versatility. Recommended presets makes the body look realistic or vanilla-ish. Using a body replacer is the only way to make sure the female body is compatible both with skin texture replacers and with mods that add new armors to the game.*
+*This section replaces the vanilla female body with the CBBE body. The CBBE body is chosen because of its versatility. Recommended presets makes the body look realistic or vanilla-ish.*
 
 #### [Caliente’s Beautiful Bodies Enhancer -CBBE-](https://www.nexusmods.com/skyrimspecialedition/mods/198)
 *NSFW warning*
@@ -1129,7 +1125,7 @@ In the main installer, choose:
 
 Install the main file
 
-### Character Appearance - Face Parts, textures and overhauls
+## Character Appearance - Face Parts, textures and overhauls
 
 #### [Argonian Improvements SSE - Horns](https://www.nexusmods.com/skyrimspecialedition/mods/6104)
 
@@ -1319,14 +1315,12 @@ In the installer, choose *Monarch Wing Fix*.
 #### [Wiseman303's Flora Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/28197)
 Install the main file and the patch for SMIM.
 
-## Gameplay
-
-### Gameplay - General
+## Gameplay - General
 
 #### [GIST - Genuinely Intelligent Soul Trap SE](http://www.nexusmods.com/skyrimspecialedition/mods/15755)
 Download and install the Main File and the GIST - Rustic Soul Gems patch Optional File. 
 
-### Gameplay - AI & Combat
+## Gameplay - AI & Combat
 
 #### [Auto Hide Ammo](http://www.nexusmods.com/skyrimspecialedition/mods/1882)
 Install the Simple Auto Unequip Ammo from the Old Files.
@@ -1342,7 +1336,7 @@ Choose *Realistic AI Detection 2 SE - Medium Interior Medium Exterior*
 
 #### [Tavern AI fix](http://www.nexusmods.com/skyrimspecialedition/mods/23107)
 
-### Gameplay - Classes & Races
+## Gameplay - Classes & Races
 
 #### [Aetherius - A Race Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/26686)
 
@@ -1355,15 +1349,15 @@ Do not activate this mod yet. Wait until you have left the first cell of Alterna
 
 #### [Sacrosanct - Vampires of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/3928)
 
-### Gameplay - Crafting
+## Gameplay - Crafting
 
 #### [Ars Metallica - Smithing Enhancement](https://www.nexusmods.com/skyrimspecialedition/mods/321)
 
-### Gameplay - Economy & Item Balance
+## Gameplay - Economy & Item Balance
 
 #### [Trade and Barter](http://www.nexusmods.com/skyrimspecialedition/mods/23081)
 
-### Gameplay - Immersion & Role-playing
+## Gameplay - Immersion & Role-playing
 
 #### [Campfire - Complete Camping System](http://www.nexusmods.com/skyrimspecialedition/mods/667)
 Hide or delete the file *SKSE/Plugins/PapyrusUtil.dll*. It is outdated and we need to use the newer one from PapyrusUtil SE.
@@ -1420,7 +1414,7 @@ Choose the following:
 
 #### [Torches Ignite Oil](http://www.nexusmods.com/skyrimspecialedition/mods/13226)
 
-### Gameplay - Magic & Abilities
+## Gameplay - Magic & Abilities
 
 #### [Mundus - A Standing Stone Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/33411)
 
@@ -1429,7 +1423,7 @@ Install the main file and the Survival patch. Do not install the Audio Overhaul 
 
 #### [Thunderchild - Epic Shouts and Immersion](http://www.nexusmods.com/skyrimspecialedition/mods/1460)
 
-### Gameplay - Quests & Stories
+## Gameplay - Quests & Stories
 
 #### [Alternate Start - Live Another Life - SSE](http://www.nexusmods.com/skyrimspecialedition/mods/272)	
 
@@ -1478,7 +1472,7 @@ Install the FISS version.
 
 #### [The Tools of Kagrenac](https://www.nexusmods.com/skyrimspecialedition/mods/14168)
 
-### Gameplay - Skills & Perks
+## Gameplay - Skills & Perks
 
 #### [Adamant - A Perk Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/30191)
 
@@ -1488,7 +1482,7 @@ Install the FISS version.
 Install *Skyrim Alchemy Fixed*
 
 
-### Gameplay - User Interface
+## User Interface
 
 #### [Better Container Controls for SkyUI](http://www.nexusmods.com/skyrimspecialedition/mods/25271)
 Do not install the main file, install the esl optional file only. If you play with a gamepad, skip this mod completely.
@@ -1523,9 +1517,7 @@ Do not install the main file, install the esl optional file only. If you play wi
 
 #### [Yes Im Sure](http://www.nexusmods.com/skyrimspecialedition/mods/24898)
 
-## Items
-
-### Items – Armor, Clothing, & Accessories
+## Items – Armor, Clothing, & Accessories
 *Remember to use both *Cloaks of Skyrim* and *Winter is coming* if you want new cloaks in the game.
 
 #### [Bandolier - Bags and Pouches Classic](http://www.nexusmods.com/skyrimspecialedition/mods/2417)
@@ -1550,7 +1542,7 @@ In the patch installer, choose *CBBE Bodyslide HDT*.
 #### [Winter Is Coming SSE - Cloaks](http://www.nexusmods.com/skyrimspecialedition/mods/4933)
 Install main file and the patch for Cloaks of Skyrim.
 
-### Items – Weapons
+## Items – Weapons
 
 #### [Animated Armoury - New Weapons with animations SSE Version](https://www.nexusmods.com/skyrimspecialedition/mods/15394)
 Download main file and update file.
@@ -1573,9 +1565,7 @@ In the installer, 2K is recommended.
 #### [Unique Uniques SE](https://www.nexusmods.com/skyrimspecialedition/mods/3334)
 Install main file
 
-## Locations
-
-### Locations - New Structures & Landmarks
+## Locations - New Structures & Landmarks
 
 #### [Bells of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/10495)
 
@@ -1592,7 +1582,7 @@ Install *Solstheim Lighthouse v1.2 ESL* and *HD Raven Rock Brick Texture Replace
 
 #### [Windhelm Lighthouse](http://www.nexusmods.com/skyrimspecialedition/mods/8453)
 
-### Locations - New Lands
+## Locations - New Lands
 
 #### [Falskaar](http://www.nexusmods.com/skyrimspecialedition/mods/2057)
 
@@ -1600,7 +1590,7 @@ Install *Solstheim Lighthouse v1.2 ESL* and *HD Raven Rock Brick Texture Replace
 
 #### [Wyrmstooth SSE](https://archive.org/details/wyrmstooth1.18SSE)
 
-### Locations - Towns & villages
+## Locations - Towns & villages
 
 #### [Darkwater Crossing](https://www.nexusmods.com/skyrimspecialedition/mods/326)
 
@@ -1634,7 +1624,7 @@ Install *Solstheim Lighthouse v1.2 ESL* and *HD Raven Rock Brick Texture Replace
 
 #### [Whistling Mine](https://www.nexusmods.com/skyrimspecialedition/mods/367)
 
-### Locations - Overhauls
+## Locations - Overhauls
 
 #### [Bring Out Your Dead (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/323)
 
@@ -1666,9 +1656,7 @@ In the installer, choose no addons. Install *the LoS II - SMIM patch*. The insta
 #### [Obscure's College of Winterhold](https://www.nexusmods.com/skyrimspecialedition/mods/20514)
 The installer will automatically choose the correct patches to use.
 
-## New Characters
-
-### New Characters - Enemies
+## New Characters - Enemies
 
 #### [Arena - An Encounter Zone Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/33487)
 
@@ -1682,7 +1670,7 @@ Install main file and OBIS SE Patrols addon.
 
 #### [Splendor – Dragon Variants SE](http://www.nexusmods.com/skyrimspecialedition/mods/9670)
 
-### New Characters - Neutral
+## New Characters - Neutral
 
 #### [DIVERSE SKYRIM SSE](https://www.nexusmods.com/skyrimspecialedition/mods/7707)
 
@@ -1695,7 +1683,7 @@ Use the default settings in the installer.
 
 #### [Interesting NPCs (3DNPC) character Zora Fairchild's voice boosted](http://www.nexusmods.com/skyrimspecialedition/mods/16090)
 
-### New Characters - Allies
+## New Characters - Allies
 
 #### [Lucien - Fully Voiced Follower](https://www.nexusmods.com/skyrimspecialedition/mods/20035)
 Install main file and patches for *Moon and Star* and *Moonpath to Elsweyr*.
@@ -1881,8 +1869,6 @@ Crete two empty mods to use as output for DynDOLOD:
 1. Sort with LOOT.
 1. Ensure DynDOLOD.esp is the last plugin in the load order.
 
-# Mod Configuration (MCM)
-
 # BethINI Customization 
 Run BethINI from where it is installed, not through Mod Organizer 2. These are suggested settings:
 
@@ -1923,3 +1909,5 @@ Click *Ultra* or *High*. Select *Recommended Tweaks*.
     * Improved Shader: On
     * Sparkles: On
     * Intensity: 0.30
+
+# Mod Configuration (MCM)
