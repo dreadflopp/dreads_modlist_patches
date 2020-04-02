@@ -410,8 +410,8 @@ Install a main file, choose the version you like the most. A matching LOD will b
 
 #### [Cathedral landscapes](https://www.nexusmods.com/skyrimspecialedition/mods/21954)
 In the installer, choose:
-- Full Install, Brown Tundra
-- Blended Roads
+* Full Install, Brown Tundra
+* Blended Roads
 
 #### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
 Recommendation: 2K
@@ -462,7 +462,7 @@ Install the main file using the following options:
 
 Install the main file using the following options:
 
-* Resplution: Lite
+* Resolution: Lite
 * Color: Realistic hue
 * Size: x.5
 * Style: Standard
@@ -521,6 +521,10 @@ Download and install:
 
 * Bonemold Hotfix
 * Staff of Magnus Hotfix
+
+#### [aMidianBorn Blades Armor SSE Patch](http://www.nexusmods.com/skyrimspecialedition/mods/12963)
+
+#### [aMidianBorn stormcloak officer armour](https://www.nexusmods.com/skyrim/mods/45692)
 
 #### [Barenziah's Glory SE](http://www.nexusmods.com/skyrimspecialedition/mods/6343)
 
@@ -692,6 +696,7 @@ Install the CBBE patch.
 
 #### [Frankly HD Nightingale Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/18560)
 Recommendation: 2K
+
 Install the CBBE patch and the Better-Shaped Weapons patch.
 
 #### [Frankly HD Shrouded Armor](https://www.nexusmods.com/skyrimspecialedition/mods/18785)
@@ -707,6 +712,7 @@ Recommendation: 2K
 
 #### [Gold Septim - Coins Retex](http://www.nexusmods.com/skyrimspecialedition/mods/1358)
 Recommendation: 1K
+
 #### [Greatsword Sheaths and Scabbards Redux SE](http://www.nexusmods.com/skyrimspecialedition/mods/325)
 Install options:
 
@@ -902,7 +908,7 @@ Choose no optional textures. Choose extended ambiance and patches for *Landscape
 #### [Remove Small Rocks](http://www.nexusmods.com/skyrimspecialedition/mods/8733)
 
 #### [Rens HD Shrines (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/13572)
-ChooseThe shrines that you think look the best, for example:
+Choose the shrines that you think looks the best, for example:
 
 * Akatosh: Sands of Time
 * Arkay: Golden Shells
@@ -968,10 +974,12 @@ Recommendation: 2K
 
 #### [SABRECAT](http://www.nexusmods.com/skyrimspecialedition/mods/5303)
 Recommendation: 2K
+
 Install both options in the installer.
 
 #### [SKELETON](http://www.nexusmods.com/skyrimspecialedition/mods/17282)
 Recommendation: 2K
+
 Install selecting the Skin, clutter without sounds option. 
 
 #### [Skygazer Moons SSE](http://www.nexusmods.com/skyrimspecialedition/mods/32057)
@@ -1059,7 +1067,8 @@ Choose the options you prefer. Install the Simply Bigger Trees patch.
 ### Audiovisual - Sounds & Music
 
 #### [Audio Overhaul for Skyrim SE](http://www.nexusmods.com/skyrimspecialedition/mods/12466)
-v
+Do not install any patches. Delete the SKSE folder after installation.
+
 #### [Better Animal Footsteps](https://www.nexusmods.com/skyrim/mods/24805)
 Choose to install all footstep sounds. Do not install any patches.
 
@@ -1120,7 +1129,7 @@ In the main installer, choose:
 * Underwear options: NeverNude
 * Outfit options: Vanilla outfits
 * SKEE (RaceMenu): RaceMenu Morphs
-* 
+
 #### [CBBE Presets Compendium](https://www.nexusmods.com/skyrimspecialedition/mods/11229)
 *NSFW warning*
 
@@ -1473,6 +1482,7 @@ Choose *Option 1* in the installer (suggestion)
 
 #### [Timing is Everything SE](http://www.nexusmods.com/skyrimspecialedition/mods/25464)
 Install the FISS version.
+
 #### [The Tools of Kagrenac](https://www.nexusmods.com/skyrimspecialedition/mods/14168)
 
 ### Gameplay - Skills & Perks
@@ -1545,7 +1555,7 @@ Install main file and *Wayfarers Coat CBBE UUNP Bodyslide HDT Patch(Installer)*.
 In the patch installer, choose *CBBE Bodyslide HDT*.
 
 #### [Winter Is Coming SSE - Cloaks](http://www.nexusmods.com/skyrimspecialedition/mods/4933)
-Install the patch for Cloaks of Skyrim.
+Install main file and the patch for Cloaks of Skyrim.
 
 ### Items – Weapons
 
@@ -1695,7 +1705,7 @@ Use the default settings in the installer.
 ### New Characters - Allies
 
 #### [Lucien - Fully Voiced Follower](https://www.nexusmods.com/skyrimspecialedition/mods/20035)
-Install main file and patches for *Moon and Star* and *Moonpath to Elsweyr* Patch.
+Install main file and patches for *Moon and Star* and *Moonpath to Elsweyr*.
 
 #### [INIGO](http://www.nexusmods.com/skyrimspecialedition/mods/1461)
 
