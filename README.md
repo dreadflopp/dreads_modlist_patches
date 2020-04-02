@@ -1,7 +1,7 @@
-### Where to find Dread's modlist
+### Where to find Dread's Skyrim Build
 
-The main version of the guide is on the STEP website. A markdown version of the modlist can be found on Github and is included with the patches. There is also a Mod Picker version that can be used but users should check the STEP or Github version for extended explanations and instructions. The actual modlist section in either version and instructions to install each mod are identical in all three versions.
->TODO upate links when CMS has been launched\
+The main version of this guide is on the STEP website. A markdown version of the guide can be found on Github and is included with the patches. There is also a Mod Picker version that can be used but users should check the STEP or Github version for extended explanations and instructions. The actual mod list sections instructions to install each mod are identical in all three versions.
+
 - [Github version of the guide](https://github.com/dreadflopp/dreads_modlist_patches/blob/master/README.md)
 - [Mod Picker version](https://modpicker.com/skyrimse/mod-lists/7729/)
 - [The guide section on STEP]()
@@ -9,9 +9,7 @@ The main version of the guide is on the STEP website. A markdown version of the 
 Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-se-core-addon/) if you have any questions.
 
 # Introduction
-## Welcome
-
->TODO upate links when CMS has been launched\
+## Welcome to Dread's Skyrim Build
 
 This guide is a STEP build based on the [STEP: Core build](https://www.nexusmods.com/skyrimspecialedition/mods/31054). The STEP team has built a base with mods that enhances and fixes skyrim without breaking the vanilla look and feel. This guides futher enhaces Skyrim and adds to it and alters elements of it in several ways. 
 
