@@ -52,15 +52,11 @@ WACCF is a great mod that fixes bugs and inconsitencies among weapons, armors, e
 
 ## Game Installation and Modding Setup
 
->TODO upate links when CMS has been launched
-
 Follow the [system setup guide]() to have a clean Skyrim install ready to be modded.
 
 ## Tool Installation and Setup
 
 ### Tool Installation
-
->TODO upate links when CMS has been launched
 
 Install the following tools, preferably in the tools folder you created following the [system setup guide](). Most tools doesn't have an installer, simply unzip these into their own subfolders of the tools folder. If a tool is available both as an installer and as a stand alone archive, use the stand alone archive version of the tool.
 
@@ -94,8 +90,6 @@ This guide uses [Mod Organizer 2](https://www.nexusmods.com/skyrimspecialedition
 * Delete or manage files in installed mods
 * What Mod Organizer 2:s overwrite folder is
 If these concepts are new to you, watch the [tutorial videos by Gamerpoet](https://www.youtube.com/playlist?list=PLlN8weLk86Xh3ue76x2ibqtmMramwQmHB) or read the [STEP guide for Mod Organizer 2]().
-
->TODO upate links when CMS has been launched
 
 ### Initialization
 
@@ -1377,7 +1371,6 @@ Hide or delete the file *SKSE/Plugins/PapyrusUtil.dll*. It is outdated and we ne
 #### [Campfire and Frostfall - Unofficial SSE Update](http://www.nexusmods.com/skyrimspecialedition/mods/17925)
 
 #### [Carriage and Ferry Travel Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/8379)
->TODO Check if the Dawnstar patch is needed and if it conflicts with JKs.
 >
 #### [Daedric Voices](https://www.nexusmods.com/skyrimspecialedition/mods/32090)
 Install the main file and the Growl patch.
@@ -1889,8 +1882,6 @@ Crete two empty mods to use as output for DynDOLOD:
 1. Ensure DynDOLOD.esp is the last plugin in the load order.
 
 # Mod Configuration (MCM)
-
->TODO\
 
 # BethINI Customization 
 Run BethINI from where it is installed, not through Mod Organizer 2. These are suggested settings:
