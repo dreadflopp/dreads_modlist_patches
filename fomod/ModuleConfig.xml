@@ -35,7 +35,8 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="aetherius">Off</flag>	
 								<flag name="lenient">Off</flag>	
 								<flag name="rw2">Off</flag>
-								<flag name="oap">Off</flag>																							
+								<flag name="oap">Off</flag>	
+								<flag name="imp">Off</flag>																							
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
@@ -209,6 +210,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="dD - Enhanced Blood Main LITE.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Improved Closefaced Helmets">
+							<conditionFlags>
+								<flag name="imp">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="imp_helm_legend.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -3048,16 +3067,39 @@ Tweaks:
 			</pattern>
 			<!-- *************************** -->
 
-			<!-- Survival Mode -->
+			<!-- Unlimited Bookshelves, Improved Closefaced Helmets, Survival Mode -->
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="ccsurvival" value="On"/>
 					<flagDependency flag="ubs" value="On"/>
+					<flagDependency flag="imp" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_UnlimitedBookshelves-SurvivalModeCC.esp" destination="df_UnlimitedBookshelves-SurvivalModeCC.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ccsurvival" value="On"/>
+					<flagDependency flag="ubs" value="On"/>
+					<flagDependency flag="imp" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_UnlimitedBookshelves-SurvivalModeCC-ImprovedClosefacedHelmets.esp" destination="df_UnlimitedBookshelves-SurvivalModeCC-ImprovedClosefacedHelmets.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ccsurvival" value="On"/>
+					<flagDependency flag="ubs" value="Off"/>
+					<flagDependency flag="imp" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ImprovedClosefacedHelmets-SurvivalModeCC" destination="df_ImprovedClosefacedHelmets-SurvivalModeCC" priority="0" />
+				</files>
+			</pattern>
+
+			<!-- Survival Mode -->
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="campfire" value="On"/>

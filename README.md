@@ -1786,6 +1786,7 @@ Repeat step 1-3 above and create the following mod folders:
 * DynDOLOD_Output
 * Nemesis_Output
 * BodySlide _Output
+* Unlimited_Bookshelves_Patch_Generator_Output
 
 Some tools can be set to output data to these folders.
 
@@ -1841,14 +1842,13 @@ Once Nemesis is installed, the animation files need to be generated.
 
 After closing Nemesis, there will be files in Overwrite:
 
-1. Hold down the Ctrl key and double-click on Overwrite. A new window will open. Keep this open for now.
-1. Hold down the Ctrl key and double-click on Nemesis_Output
-1. Move the following folders and files from Overwrite to Nemesis_Output
+1. Double-click on Overwrite. A window will open.
+1. Drag the following folders and files from Overwrite to Nemesis_Output:
     * meshes
     * Nemesis_Engine
     * scripts
     * FNIS.esp
-1. Right click any mod in Mod Organizer 2 and choose *All Mods/Refresh*.
+1. Close the window.
 1. Ensure the Nemesis_Output mod is active (checked).
 
 ## Generating Unlimited Bookshelves patch
@@ -1860,7 +1860,7 @@ After closing Nemesis, there will be files in Overwrite:
 1. Wait for SSEEdit to load. It may take a couple of minutes.
 1. Right-click in the tree view on the left side of the window. Choose *Apply Script*.
 1. Choose *Unlimited Bookshelves Patch Generator* and click *ok*.
-1. Anytime the script asks whether a file should be added as master, click on *ok*".
+1. Anytime the script asks whether a file should be added as a master, click on *ok*".
 1. When the scipt is finished, close SSEEdit and make sure that the new patch is saved.
 
 After closing SSEEdit, the patch will be in Overwrite:
@@ -1869,6 +1869,11 @@ After closing SSEEdit, the patch will be in Overwrite:
 1. Name it *Unlimited Bookshelves Patch* and click *ok*.
     - This will create a new mod listing in the left pane for the FNIS SE generated files. 
 1. Check the new mod entry to enable it.
+
+1. Double-click on Overwrite. A window will open.
+1. Drag the file *UnlimitedBookshelvesPatch.esp* from Overwrite to Unlimited_Bookshelves_Patch_Generator_Output.
+1. Close the window.
+1. Ensure the Nemesis_Output mod is active (checked).
 
 ## DynDOLOD
 
