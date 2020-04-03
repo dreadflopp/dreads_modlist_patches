@@ -2435,7 +2435,7 @@ Tweaks:
 					<flagDependency flag="obis" value="On"/>
 				</dependencies>
 				<files>
-					<file source="df_OBIS-DiverseSkyrim" destination="df_OBIS-DiverseSkyrim" priority="0" />
+					<file source="df_OBIS-DiverseSkyrim.esp" destination="df_OBIS-DiverseSkyrim.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- ************************************* -->
