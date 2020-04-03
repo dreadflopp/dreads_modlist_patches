@@ -3395,15 +3395,6 @@ Tweaks:
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="volkiharrebuilt" value="On"/>
-					<flagDependency flag="animatedarmoury" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_CastleVolkiharRebuilt-AnimatedArmoury.esp" destination="df_CastleVolkiharRebuilt-AnimatedArmoury.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="volkiharrebuilt" value="On"/>
 					<flagDependency flag="rls" value="On"/>
 				</dependencies>
 				<files>
