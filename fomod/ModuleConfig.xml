@@ -9,7 +9,7 @@
 					<plugins order="Explicit">
 						<plugin name="Yes">
 							<description>
-								<![CDATA[These patches are meant to be used with the STEP build Dread's modlist.
+								<![CDATA[These patches are meant to be used with the STEP build Dread's Skyrim Build.
 IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these patches.]]>
 							</description>
 							<conditionFlags>
@@ -35,7 +35,8 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="aetherius">Off</flag>	
 								<flag name="lenient">Off</flag>	
 								<flag name="rw2">Off</flag>
-								<flag name="oap">Off</flag>																							
+								<flag name="oap">Off</flag>	
+								<flag name="imp">Off</flag>																							
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
@@ -209,6 +210,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="dD - Enhanced Blood Main LITE.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Improved Closefaced Helmets">
+							<conditionFlags>
+								<flag name="imp">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="imp_helm_legend.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -2068,7 +2087,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 - Chance of recovering arrors incresed from 33% to 50%
 - Greeting distance is reduced
 - Increased arrow speed
-- Cap to npc arrow dodging reduced to 66% (50% if Ultimate Combat is used) from 100%
+- Cap to npc arrow dodging reduced to 66% from 100%
 - Fast travel speed fix. The correct ammount of time will pass as you fast travel.
 - NPC crime detection radius is decreased
 - Battle cry fix by NTense (open permissions) https://www.nexusmods.com/skyrimspecialedition/mods/12133
@@ -2123,7 +2142,7 @@ Tweaks:
 					<plugins order="Explicit">
 						<plugin name="TDN Equipable Horns SE Tweaks">
 							<description>
-								<![CDATA[This makes all equipable horns from the mod free to craft]]>
+								<![CDATA[This makes all equipable horns from the mod free to craft.]]>
 							</description>
 							<files>
 								<file source="df_HornsPatch.esp" destination="df_HornsPatch.esp" priority="0" />
@@ -3067,16 +3086,39 @@ Tweaks:
 			</pattern>
 			<!-- *************************** -->
 
-			<!-- Survival Mode -->
+			<!-- Unlimited Bookshelves, Improved Closefaced Helmets, Survival Mode -->
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="ccsurvival" value="On"/>
 					<flagDependency flag="ubs" value="On"/>
+					<flagDependency flag="imp" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_UnlimitedBookshelves-SurvivalModeCC.esp" destination="df_UnlimitedBookshelves-SurvivalModeCC.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ccsurvival" value="On"/>
+					<flagDependency flag="ubs" value="On"/>
+					<flagDependency flag="imp" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_UnlimitedBookshelves-SurvivalModeCC-ImprovedClosefacedHelmets.esp" destination="df_UnlimitedBookshelves-SurvivalModeCC-ImprovedClosefacedHelmets.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ccsurvival" value="On"/>
+					<flagDependency flag="ubs" value="Off"/>
+					<flagDependency flag="imp" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ImprovedClosefacedHelmets-SurvivalModeCC" destination="df_ImprovedClosefacedHelmets-SurvivalModeCC" priority="0" />
+				</files>
+			</pattern>
+
+			<!-- Survival Mode -->
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="campfire" value="On"/>
@@ -3372,15 +3414,6 @@ Tweaks:
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="volkiharrebuilt" value="On"/>
-					<flagDependency flag="animatedarmoury" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_CastleVolkiharRebuilt-AnimatedArmoury.esp" destination="df_CastleVolkiharRebuilt-AnimatedArmoury.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="volkiharrebuilt" value="On"/>
 					<flagDependency flag="rls" value="On"/>
 				</dependencies>
 				<files>
@@ -3396,7 +3429,7 @@ Tweaks:
 					<flagDependency flag="saf" value="On"/>
 				</dependencies>
 				<files>
-					<file source="df_ObscuresCollegeOfWinterhold-SkyrimAlchemyFixed.esp" destination="df_CastleVolkiharRebuilt-RelightingSkyrim.esp" priority="0" />
+					<file source="df_ObscuresCollegeOfWinterhold-SkyrimAlchemyFixed.esp" destination="df_ObscuresCollegeOfWinterhold-SkyrimAlchemyFixed.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>

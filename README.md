@@ -101,7 +101,7 @@ If these concepts are new to you, watch the [tutorial videos by Gamerpoet](https
 
 #### Adding executables
 
-All tools should be launched through Mod Organizer 2. Mod Organizer 2 may have auto-detected some tool but the user needs to confirm this and manually add the rest of the tools.
+All tools should be launched through Mod Organizer 2. Mod Organizer 2 may have auto-detected some tool but the user needs to confirm this and manually add the rest of the tools. 
 
 **Instructions to add tools as executables**
 
@@ -111,27 +111,30 @@ All tools should be launched through Mod Organizer 2. Mod Organizer 2 may have a
 1. Input arguments in the Argument field.
 1. Check the Use Application’s Icon for shortcuts box.
 1. Click the Apply button.
+
 Repeat the steps for the executables listed below, filling in the appropriate data. The titles are suggestions.
 
 **Tools**
 * SSEEdit
+    * Title: SSEEdit
 	* Executable: SSEEdit.exe
-	* Arguments:
-		* -IKnowWhatImDoing
+	* Arguments: -IKnowWhatImDoing
 * DynDOLOD SE
+    * Title: DynDOLOD SE
 	* Executable: DynDOLOD64.exe
-	* Arguments:
-		* -SSE                         
+	* Arguments: -SSE                         
 * LOOT
+    * Title: LOOT
 	* Executable: LOOT.exe
 	* Arguments: --game="Skyrim Special Edition"
 * SSEEdit Quick Auto Clean (installed with SSEEdit)
+    * Title: SSEEdit Quick Auto Clean
 	* Executable: SSEEditQuickAutoClean.exe
 	* Arguments:
 * TexGen SE (installed with DynDOLOD)
+    * Title: TexGen SE
 	* Executable: TexGen64.exe
-	* Arguments: 
-		* -SSE                           |
+	* Arguments: -SSE                           |
 
 ### BethINI setup
 
@@ -659,6 +662,34 @@ Recommendation: 2K
 #### [RUSTIC ARMOR and WEAPONS SE](http://www.nexusmods.com/skyrimspecialedition/mods/19666)
 Recommendation: 2K
 
+#### [LeanWolf's Better-Shaped Weapons SE](https://www.nexusmods.com/skyrimspecialedition/mods/2017)
+Install with the following options:
+
+* Options 1: Select nothing
+* Options 2: Select nothing
+* Patches
+    * Dawnguard
+    * Dragonborn
+    * Glass with refraction
+    * Keeining with refraction
+    * Dawnbreaker options
+* Glass
+    * Glass Weapons: Refractive Glass Weapons
+    * Glass Quivers: Glass Quiver with Refraction
+    * Chillrend Options: Chillrend with Refraction
+* Dawnbreaker
+    * Dawnbreaker Options: Dawnbreaker Elven Sheath
+* Dawnguard
+    * Dragonbone Weapons: Dragonboring Weapons
+    * Dragonbone Quivers: Dragonboring Quiver
+    * More Quivers: Auriel Quivers
+* Dragonborn
+    * Stalhrim Weapons: Stalhrim with Refraction
+    * Stalhrim Quivers: Stalhrim Quiver with Refraction
+    *  Nordic Weapons
+        * Swords
+        * Quivers
+        
 #### [Frankly HD Dawnguard Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/19663)
 Recommendation: 2K
 
@@ -820,34 +851,6 @@ Recommended install options:
 #### [Just Ice (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/9444)
 Recommendation: 2K
 
-#### [LeanWolf's Better-Shaped Weapons SE](https://www.nexusmods.com/skyrimspecialedition/mods/2017)
-Install with the following options:
-
-* Options 1: Select nothing
-* Options 2: Select nothing
-* Patches
-    * Dawnguard
-    * Dragonborn
-    * Glass with refraction
-    * Keeining with refraction
-    * Dawnbreaker options
-* Glass
-    * Glass Weapons: Refractive Glass Weapons
-    * Glass Quivers: Glass Quiver with Refraction
-    * Chillrend Options: Chillrend with Refraction
-* Dawnbreaker
-    * Dawnbreaker Options: Dawnbreaker Elven Sheath
-* Dawnguard
-    * Dragonbone Weapons: Dragonboring Weapons
-    * Dragonbone Quivers: Dragonboring Quiver
-    * More Quivers: Auriel Quivers
-* Dragonborn
-    * Stalhrim Weapons: Stalhrim with Refraction
-    * Stalhrim Quivers: Stalhrim Quiver with Refraction
-    *  Nordic Weapons
-        * Swords
-        * Quivers
-        
 #### [LeanWolf's Improved Enchanter Candle Meshes SE](http://www.nexusmods.com/skyrimspecialedition/mods/7883)
 
 #### [MAMMOTH](http://www.nexusmods.com/skyrimspecialedition/mods/6127)
@@ -1079,26 +1082,6 @@ Recommendation: *Realistic Wolf Howls more barks than howls*
 #### [Ultra Realistic Bow Shoot Sounds](https://www.nexusmods.com/skyrim/mods/27208)
 
 #### [Ultra Realistic Crossbow Shoot Sounds](https://www.nexusmods.com/skyrim/mods/31274)
-
-### Audiovisual - Lighting & Weather
-
-#### [Cathedral Weathers and Seasons](http://www.nexusmods.com/skyrimspecialedition/mods/24791)
-Install the main file.
-
-#### [Luminosity Lighting Overhaul - The Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/16830)
-
-#### [Relighting Skyrim - SSE](http://www.nexusmods.com/skyrimspecialedition/mods/8586)
-
-#### [Storm Lightning for SSE](http://www.nexusmods.com/skyrimspecialedition/mods/29243)
-In the installer, choose *Skyrim Special Edition* and the latest game version. Choose esl flagged plugin. Recommended settings for halo are as follows:
-
-* Night time sheet halo: Halo with dimmer lighting (level 0)
-* Day time sheet halo: Halo dim (level 2)
-* Night time fork halo: Halo dimmer (level 1)
-* Day time fork halo: Halo dim (level 2)
-
-#### [Wonders of Weather (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/13044)
-In the installer, choose core files and *Less Opaque Splashes*.
 
 ## Character Appearance - Female body
 
@@ -1391,12 +1374,7 @@ For users of Survival Mode only. Do not install the optional file. A plugin to r
 #### [Lock Related Loot](http://www.nexusmods.com/skyrimspecialedition/mods/11342)
 
 #### [Nether's Follower Framework](http://www.nexusmods.com/skyrimspecialedition/mods/18076)
-Choose the following: 
-
-* Followers avoid traps
-* Interesting NPC support
-* Relationship Dialogue Overhaul
-* RDO Comments
+Choose the following default settings in the installer.
 
 #### [No Lockpick Activate (SKSE) - Updated](http://www.nexusmods.com/skyrimspecialedition/mods/26790)
 
@@ -1431,9 +1409,6 @@ Install the main file and the Survival patch. Do not install the Audio Overhaul 
 
 #### [Dawnguard and Clan Volkihar Epilogues](http://www.nexusmods.com/skyrimspecialedition/mods/12098)
 
-#### [Even Better Quest Objectives](http://www.nexusmods.com/skyrimspecialedition/mods/159)
-In the installer, choose the optional file *Dark Brotherhood Forever to Miscellaneous Quests* and patches for *Alternate Start, Book Covers Skyrim, Cutting room floor* and *The Paarthurnax Dilemma*.
-
 #### [The Forgotten City](http://www.nexusmods.com/skyrimspecialedition/mods/1179)
 
 #### [Gildergreen Regrown](http://www.nexusmods.com/skyrimspecialedition/mods/348)
@@ -1465,6 +1440,9 @@ Choose *Option 1* in the installer (suggestion)
 
 #### [Timing is Everything SE](http://www.nexusmods.com/skyrimspecialedition/mods/25464)
 Install the FISS version.
+
+#### [Even Better Quest Objectives](http://www.nexusmods.com/skyrimspecialedition/mods/159)
+In the installer, choose the optional file *Dark Brotherhood Forever to Miscellaneous Quests*. Let the installer choose the rest of the patches.
 
 #### [The Tools of Kagrenac](https://www.nexusmods.com/skyrimspecialedition/mods/14168)
 
@@ -1500,6 +1478,7 @@ Do not install the main file, install the esl optional file only. If you play wi
 #### [MoreHUD Inventory Edition](http://www.nexusmods.com/skyrimspecialedition/mods/18619)
 
 #### [MoreHUD SE](http://www.nexusmods.com/skyrimspecialedition/mods/12688)
+Choose the light master version.
 
 #### [RaceMenu](http://www.nexusmods.com/skyrimspecialedition/mods/19080)
 
@@ -1560,6 +1539,61 @@ In the installer, 2K is recommended.
 
 #### [Unique Uniques SE](https://www.nexusmods.com/skyrimspecialedition/mods/3334)
 Install main file
+
+## New Characters - Enemies
+
+#### [Arena - An Encounter Zone Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/33487)
+
+#### [Deadly Dragons](http://www.nexusmods.com/skyrimspecialedition/mods/23723)
+Choose Loremonger version with patches for Diverse Dragons, Splender Dragons and Wyrmstooth.
+
+#### [Diverse Dragons Collection SE](http://www.nexusmods.com/skyrimspecialedition/mods/695)
+
+#### [OBIS SE - Organized Bandits In Skyrim Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/4145)
+Install main file and OBIS SE Patrols addon.
+
+#### [Splendor – Dragon Variants SE](http://www.nexusmods.com/skyrimspecialedition/mods/9670)
+
+## New Characters - Neutral
+
+#### [DIVERSE SKYRIM SSE](https://www.nexusmods.com/skyrimspecialedition/mods/7707)
+
+#### [Immersive College NPCs](https://www.nexusmods.com/skyrimspecialedition/mods/9252)
+Use the default settings in the installer.
+
+#### [Immersive World Encounters SE](https://www.nexusmods.com/skyrimspecialedition/mods/18330)
+
+#### [Interesting NPCs SE](https://www.nexusmods.com/skyrimspecialedition/mods/29194)
+
+#### [Interesting NPCs (3DNPC) character Zora Fairchild's voice boosted](http://www.nexusmods.com/skyrimspecialedition/mods/16090)
+
+## New Characters - Allies
+
+#### [Lucien - Fully Voiced Follower](https://www.nexusmods.com/skyrimspecialedition/mods/20035)
+Install main file and patches for *Moon and Star* and *Moonpath to Elsweyr*.
+
+#### [INIGO](http://www.nexusmods.com/skyrimspecialedition/mods/1461)
+
+## Audiovisual - Lighting & Weather
+
+#### [Cathedral Weathers and Seasons](http://www.nexusmods.com/skyrimspecialedition/mods/24791)
+Install the main file.
+
+#### [Luminosity Lighting Overhaul - The Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/16830)
+
+#### [Relighting Skyrim - SSE](http://www.nexusmods.com/skyrimspecialedition/mods/8586)
+
+#### [Storm Lightning for SSE](http://www.nexusmods.com/skyrimspecialedition/mods/29243)
+In the installer, choose *Skyrim Special Edition* and the latest game version. Choose esl flagged plugin. Recommended settings for halo are as follows:
+
+* Night time sheet halo: Halo with dimmer lighting (level 0)
+* Day time sheet halo: Halo dim (level 2)
+* Night time fork halo: Halo dimmer (level 1)
+* Day time fork halo: Halo dim (level 2)
+
+#### [Wonders of Weather (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/13044)
+In the installer, choose core files and *Less Opaque Splashes*.
+
 
 ## Locations - New Structures & Landmarks
 
@@ -1646,45 +1680,11 @@ In the installer. choose *Radiant Exclusions*.
 #### [Farmhouse Chimneys SE](http://www.nexusmods.com/skyrimspecialedition/mods/8766)
 The installer auto detects which mods you have installed and automatically chosses the correct patches. Do not install any *Alternative Toppers* unless you prefer them.
 
-#### [Lanterns Of Skyrim II](http://www.nexusmods.com/skyrimspecialedition/mods/30817)
-In the installer, choose no addons. Install *the LoS II - SMIM patch*. The installer will automatically select all patches you need.
-
 #### [Obscure's College of Winterhold](https://www.nexusmods.com/skyrimspecialedition/mods/20514)
 The installer will automatically choose the correct patches to use.
 
-## New Characters - Enemies
-
-#### [Arena - An Encounter Zone Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/33487)
-
-#### [Deadly Dragons](http://www.nexusmods.com/skyrimspecialedition/mods/23723)
-Choose Loremonger version with patches for Diverse Dragons, Splender Dragons and Wyrmstooth.
-
-#### [Diverse Dragons Collection SE](http://www.nexusmods.com/skyrimspecialedition/mods/695)
-
-#### [OBIS SE - Organized Bandits In Skyrim Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/4145)
-Install main file and OBIS SE Patrols addon.
-
-#### [Splendor – Dragon Variants SE](http://www.nexusmods.com/skyrimspecialedition/mods/9670)
-
-## New Characters - Neutral
-
-#### [DIVERSE SKYRIM SSE](https://www.nexusmods.com/skyrimspecialedition/mods/7707)
-
-#### [Immersive College NPCs](https://www.nexusmods.com/skyrimspecialedition/mods/9252)
-Use the default settings in the installer.
-
-#### [Immersive World Encounters SE](https://www.nexusmods.com/skyrimspecialedition/mods/18330)
-
-#### [Interesting NPCs SE](https://www.nexusmods.com/skyrimspecialedition/mods/29194)
-
-#### [Interesting NPCs (3DNPC) character Zora Fairchild's voice boosted](http://www.nexusmods.com/skyrimspecialedition/mods/16090)
-
-## New Characters - Allies
-
-#### [Lucien - Fully Voiced Follower](https://www.nexusmods.com/skyrimspecialedition/mods/20035)
-Install main file and patches for *Moon and Star* and *Moonpath to Elsweyr*.
-
-#### [INIGO](http://www.nexusmods.com/skyrimspecialedition/mods/1461)
+#### [Lanterns Of Skyrim II](http://www.nexusmods.com/skyrimspecialedition/mods/30817)
+In the installer, choose no addons. Install *the LoS II - SMIM patch*. The installer will automatically select all patches you need.
 
 ## Level of Detail (LOD)
 
@@ -1758,6 +1758,53 @@ Download latest SSE version and install as a normal mod.
 
 # Post installation
 
+## Create output folders
+
+Some tools outputs data. To keep the data seperated, output folders will be created. The output folders will be placed in Mod Organizer 2's mods folder. The data output will be treated as installed mods by Mod Organizer 2.
+
+**Instructions to create output data folders**
+
+Create a seperator to keep things tidy:
+
+1. Right click in the mods section of Mod Organizer 2.
+1. Select *All Mods/Create Seperator*.
+1. Name the seperator *Output Data*.
+
+Create the output data folders
+
+1. Right click in the mods section of Mod Organizer 2.
+1. Select *All Mods/Create empty mod*.
+1. Name the mod folder.
+
+Repeat step 1-3 above and create the following mod folders:
+
+* TextGen_Output
+* DynDOLOD_Output
+* Nemesis_Output
+* BodySlide _Output
+* Unlimited_Bookshelves_Patch_Generator_Output
+
+Some tools can be set to output data to these folders.
+
+1. Click the Executables button at the top of the main Mod Organizer window.
+1. Select the tool to add an argument to.
+1. Input argument in the Argument field.
+1. Click the Apply button.
+
+Repeat the steps for the tools listed below. Arguments should be seperated by spaces.
+
+* Textgen SE: **-o:[path to Tools folder]\Mod Organizer 2\mods\TextGen_Output** *(typically: -o:C:\Modding\Tools\Mod Organizer 2\mods\TextGen_Output)*
+* Dyndolod SE: **-o:[path to Tools folder]\Mod Organizer 2\mods\DynDOLOD_Output** *(typically: -o:C:\Modding\Tools\Mod Organizer 2\mods\DynDOLOD_Output)*
+
+To set BodySlide to output data to its output folder:
+
+1. Run BodySlide x64 through Mod Organizer
+1. Click *Settings*
+1. Click *Advanced*
+1. Click *Browse* and browse to the *BodySlide _Output* folder.
+1. Click *Select folder*
+1. Click *OK* and close BodySlide
+
 ## Sorting and cleaning the new load order
 
 Before moving on, sort the load order with LOOT. Take note of any plugins that LOOT reports as needing to be cleaned and perform the standard cleaning procedures on these mods. Ignore any reported missing compatibility patches. The guides patches take care of all the patching, thus eliminating the need for those additional plugins.
@@ -1766,23 +1813,18 @@ Before moving on, sort the load order with LOOT. Take note of any plugins that L
 
 Build body and armor meshes using BodySlide following these instructions:
 
-1. Run BodySlide through Mod Organizer
+1. Run BodySlide x64 through Mod Organizer
 1. In the *Outfit/Body* dropdown menu, choose *CBBE NeverNude* (this will also prevent NSFW images).
 1. In the preset menu, choose what suits you. The preset you choose should end with the word ‘outfit’. I recommended the presets *Pear (outfit), Natural (outfit), CBBE Slim (outfit), UNP Natural (outfit), Thief (outfit)* or *Warrior (outfit)*.
 1. Tick the checkbox *Build Morphs*.
 1. Click the button *Build* to build the body.
 1. Click on the spyglass at the field Group filter and choose *Choose groups*.
-1. Check the following and click ok: *CBBE vanilla outfits, Frankly HD, Immersive Armors SSE CBBE*.
+1. Check the following and click ok: *CBBE vanilla outfits, Frankly HD, WTF Wayfare Coat CBBE*.
 1. Click the button *Batch build…*
 1. Click *build* to build armor meshes.
-1. Make sure no physics options are checked. Check all Frankly options. Click *ok* and close BodySlide. The meshes that has been built are placed in Mod Organizers overwrite folder and can be moved to a new mod folder if you choose to.
-
-After closing BodySlide, there will be files in Overwrite (essentially a fake mod located at the bottom of the left pane if sorted by priority ascending):
-
-1. Right-click Overwrite and select Create Mod
-1. Name it *BodySlide Output* and click *ok*.
-    * This will create a new mod listing in the left pane for the BodySlide generated files. 
-1. Check the new mod entry to enable it. 
+1. Make sure no physics options are checked. Check all Frankly options. Click *ok* and close BodySlide.
+1. Right click any mod in Mod Organizer 2 and choose *All Mods/Refresh*.
+1. Ensure the BodySlide_Output mod is active (checked).
 
 ## Generating Animation Files
 Once Nemesis is installed, the animation files need to be generated.
@@ -1791,15 +1833,19 @@ Once Nemesis is installed, the animation files need to be generated.
 1. Run Nemesis Unlimited Behaviour Engine via Mod Organizer 2.
 1. Check the box adjacent to *Animated Armoury FPA*
 1. Click *Update Engine* and wait for the update to finish.
-1. Click *Launch Nemesis Behaviour Engine* and wait for the generation to finish.
+1. Click *Launch Nemesis Behaviour Engine* and wait for the generation to finish indicated by the message *Behaviour generation complete*.
 1. Close Nemesis.
 
 After closing Nemesis, there will be files in Overwrite:
 
-1. Right-click Overwrite and select Create Mod
-1. Name it *FNemesis Output* and click *ok*.
-    - This will create a new mod listing in the left pane for the Nemesis generated files. 
-1. Check the new mod entry to enable it.
+1. Double-click on Overwrite. A window will open.
+1. Drag the following folders and files from Overwrite to Nemesis_Output:
+    * meshes
+    * Nemesis_Engine
+    * scripts
+    * FNIS.esp
+1. Close the window.
+1. Ensure the Nemesis_Output mod is active (checked).
 
 ## Generating Unlimited Bookshelves patch
 
@@ -1810,7 +1856,7 @@ After closing Nemesis, there will be files in Overwrite:
 1. Wait for SSEEdit to load. It may take a couple of minutes.
 1. Right-click in the tree view on the left side of the window. Choose *Apply Script*.
 1. Choose *Unlimited Bookshelves Patch Generator* and click *ok*.
-1. Anytime the script asks whether a file should be added as master, click on *ok*".
+1. Anytime the script asks whether a file should be added as a master, click on *ok*".
 1. When the scipt is finished, close SSEEdit and make sure that the new patch is saved.
 
 After closing SSEEdit, the patch will be in Overwrite:
@@ -1820,16 +1866,12 @@ After closing SSEEdit, the patch will be in Overwrite:
     - This will create a new mod listing in the left pane for the FNIS SE generated files. 
 1. Check the new mod entry to enable it.
 
+1. Double-click on Overwrite. A window will open.
+1. Drag the file *UnlimitedBookshelvesPatch.esp* from Overwrite to Unlimited_Bookshelves_Patch_Generator_Output.
+1. Close the window.
+1. Ensure the Nemesis_Output mod is active (checked).
+
 ## DynDOLOD
-
-### Create Output Folders
-
-Crete two empty mods to use as output for DynDOLOD:
-
-1. Right-click on the mod list in MO2 and hover over All Mods.
-1. Select *Create empty mod*.
-1. Name it *TexGen Output*. 
-1. Repeat step 1-3 to create another new mod called *DynDOLOD Output*.
 
 ### Run TextGen
 
@@ -1839,11 +1881,8 @@ Crete two empty mods to use as output for DynDOLOD:
     1. Option 2: Users who have the a bit more performance room, change the *LOD Texture Size* to *512*. This will result in higher resolution LOD textures. 
 1. Once the option has been chosen click Start.
 1. Once the completed message has appeared, click *Save & Exit*.
-1. Navigate to the DynDOLOD folder location (i.e., ..\Modding\Tools\DynDOLOD).
-1. Copy or cut the files from the *TexGen_Output* folder.
-1. In MO2, hold down the Ctrl key and double-click on the TexGen Output mod created above. This opens the mod's folder in an Explorer window.
-1. Paste the files into the mod's folder and close the window.
-1. In MO2, ensure the TexGen Output mod is active (checked).
+1. Right click any mod in Mod Organizer 2 and choose *All Mods/Refresh*.
+1. Ensure the TexGen_Output mod is active (checked).
 
 ### Run DynDOLOD
 
@@ -1856,11 +1895,8 @@ Crete two empty mods to use as output for DynDOLOD:
 1. Ensure the *Candles, FXGlow, Generate static LOD, Windows,* and *High* boxes are checked.
 1. Keep the default Output location and settings, click *High preset* button, and run it. This takes ~40 minutes.
 1. Once the completed message has appeared, click Save & Exit.
-1. Navigate to the DynDOLOD folder location (i.e., ..\Modding\Tools\DynDOLOD).
-1. Copy or cut the files from the DynDOLOD_Output folder.
-1. In MO2, hold down the Ctrl key and double-click on the DynDOLOD Output mod created above.
-1. Paste the files into the mod's folder and close the window.
-1. In MO2, ensure the DynDOLOD Output mod is active (checked).
+1. Right click any mod in Mod Organizer 2 and choose *All Mods/Refresh*.
+1. Ensure the DynDOLOD Output mod is active (checked).
 1. Ensure the DynDOLOD esm and esp files are checked in the right pane.
 1. Sort with LOOT.
 1. Ensure DynDOLOD.esp is the last plugin in the load order.
