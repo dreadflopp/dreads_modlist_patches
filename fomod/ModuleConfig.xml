@@ -9,7 +9,7 @@
 					<plugins order="Explicit">
 						<plugin name="Yes">
 							<description>
-								<![CDATA[These patches are meant to be used with the STEP build Dread's modlist.
+								<![CDATA[These patches are meant to be used with the STEP build Dread's Skyrim Build.
 IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these patches.]]>
 							</description>
 							<conditionFlags>
@@ -2068,7 +2068,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 - Chance of recovering arrors incresed from 33% to 50%
 - Greeting distance is reduced
 - Increased arrow speed
-- Cap to npc arrow dodging reduced to 66% (50% if Ultimate Combat is used) from 100%
+- Cap to npc arrow dodging reduced to 66% from 100%
 - Fast travel speed fix. The correct ammount of time will pass as you fast travel.
 - NPC crime detection radius is decreased
 - Battle cry fix by NTense (open permissions) https://www.nexusmods.com/skyrimspecialedition/mods/12133
@@ -2088,7 +2088,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 					<plugins order="Explicit">
 						<plugin name="TDN Equipable Horns SE Tweaks">
 							<description>
-								<![CDATA[This makes all equipable horns from the mod free to craft]]>
+								<![CDATA[This makes all equipable horns from the mod free to craft.]]>
 							</description>
 							<files>
 								<file source="df_HornsPatch.esp" destination="df_HornsPatch.esp" priority="0" />
@@ -3377,7 +3377,7 @@ Tweaks:
 					<flagDependency flag="saf" value="On"/>
 				</dependencies>
 				<files>
-					<file source="df_ObscuresCollegeOfWinterhold-SkyrimAlchemyFixed.esp" destination="df_CastleVolkiharRebuilt-RelightingSkyrim.esp" priority="0" />
+					<file source="df_ObscuresCollegeOfWinterhold-SkyrimAlchemyFixed.esp" destination="df_ObscuresCollegeOfWinterhold-SkyrimAlchemyFixed.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
