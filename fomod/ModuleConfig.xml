@@ -2084,6 +2084,41 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 						</plugin>
 					</plugins>
 				</group>
+				<group name="Uncapper settings" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="Slower skill gain">
+							<description>
+								<![CDATA[Tweaks:
+- Skills capped at 100, like in the vanilla game
+- Skills level at 50% 
+- 5 carry weight gained if stamina is increased when leveling up, like in the vanilla game
+- Legendary skills are turned off]]>
+							</description>
+							<files>
+								<file source="SKSE\Plugins\SkyrimUncapper.ini" destination="SKSE\Plugins\SkyrimUncapper.ini" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Recommended"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Slower skill gain without grinding">
+							<description>
+								<![CDATA[This is a custom Skyrim Uncapper settings and my personal preference. It is recommended to tweak the Uncapper settings yourselves.
+Tweaks:
+- Skills capped at 100
+- Skills level at 50% speed except smithing, alchemy and pickpocket which level at 200% speed
+- 5 carry weight gained if stamina is increased when leveling up, like in vanilla
+- Legendary skills are turned off]]>
+							</description>
+							<files>
+								<file source="Uncapper ini alternatives/50% leveling + no grinding/SkyrimUncapper.ini" destination="SKSE\Plugins\SkyrimUncapper.ini" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Recommended"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
 				<group name="Other Tweaks" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="TDN Equipable Horns SE Tweaks">
@@ -2141,26 +2176,10 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 						</plugin>
 						<plugin name="Slower leveling">
 							<description>
-								<![CDATA[This edits fXPLevelUpBase and fXPLevelUpMult to slow down character level gain to 50%. It is compatible with the mod Experience and Skyrim skill uncapper. It is recommended to slow down skill leveling by using the settings for that in the Skyrim Skill Uncapper ini file or use the Uncapper settings option below.]]>
+								<![CDATA[This edits fXPLevelUpBase and fXPLevelUpMult to slow down character level gain to 50%. It is compatible with the mod Experience and Skyrim skill uncapper. It is recommended to slow down skill gain using one of the uncapper settings provided above or creating a settings file yourself.]]>
 							</description>
 							<files>
 								<file source="df_SlowerLeveling.esp" destination="df_SlowerLeveling.esp" priority="0" />
-							</files>
-							<typeDescriptor>
-								<type name="Recommended"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="Uncapper settings">
-							<description>
-								<![CDATA[This is a custom Skyrim Uncapper settings and my personal preference. It is recommended to tweak the Uncapper settings yourselves.
-Tweaks:
-- Skills capped at 100
-- Skills level at 50% speed except smithing, alchemy and pickpocket which level at 200% speed
-- 5 carry weight gained if stamina is increased when leveling up, like in vanilla
-- Legendary skills are turned off]]>
-							</description>
-							<files>
-								<file source="SKSE\Plugins\SkyrimUncapper.ini" destination="SKSE\Plugins\SkyrimUncapper.ini" priority="0" />
 							</files>
 							<typeDescriptor>
 								<type name="Recommended"/>
