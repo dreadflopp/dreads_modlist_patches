@@ -8,8 +8,7 @@ The main version of this guide is on the STEP website. A markdown version of the
 
 Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-se-core-addon/) if you have any questions.
 
-# Introduction
-## Welcome to Dread's Skyrim Build
+# Introduction: Welcome to Dread's Skyrim Build
 
 This guide is a STEP build based on the [STEP: Core build](https://www.nexusmods.com/skyrimspecialedition/mods/31054). The STEP team has built a base with mods that enhances and fixes skyrim without breaking the vanilla look and feel. This guides futher enhaces Skyrim and adds to it and alters elements of it in several ways. 
 
@@ -47,16 +46,13 @@ This guide is a STEP build based on the [STEP: Core build](https://www.nexusmods
 
 WACCF is a great mod that fixes bugs and inconsitencies among weapons, armors, etc. Even though it has the word fixes in its name, it could have been named Weapons Armor Clothing and Clutter *Overhaul*, because it overhauls the weapon and armor stats and progression. To avoid inconsitencies, all mods that add weapons and armors to the game needs to be checked and eventually rebalanced against WACCF. I have decided that isn't something that I want to do, it is just to much work. There are other mod guides that rebalances quest and weapon mods around WACCF and other overhauls.
 
-# Prerequisites
-## Game & Tool Installation
+# Prerequisites: Game and tools installation
 
 ## Game Installation and Modding Setup
 
 Follow the [system setup guide]() to have a clean Skyrim install ready to be modded.
 
-## Tool Installation and Setup
-
-### Tool Installation
+## Tool Installation
 
 Install the following tools, preferably in the tools folder you created following the [system setup guide](). Most tools doesn't have an installer, simply unzip these into their own subfolders of the tools folder. If a tool is available both as an installer and as a stand alone archive, use the stand alone archive version of the tool.
 
@@ -77,11 +73,11 @@ Download and the *archive* version to a subfolder of *tools*.
 #### [Unlimited Bookshelves Patch Generator](https://www.nexusmods.com/skyrimspecialedition/mods/19160)
 This is a script for SSEEdit. Unzip the archive and place the content in the SSEEdit script folder (i.e. ..Modding\Tools\SSEEdit\Scripts\).
 
-# Tool Configuration
+## Tool Configuration
 
-## Mod Organizer 2
+### Mod Organizer 2 setup
 
-### About
+#### About
 
 This guide uses Mod Organizer 2 but users may use whichever mod manager they are comfortable with as long as they know hot to properly use it. Users make them self familiar with how to
 * Link Mod Organizer 2 to a Nexus account
@@ -91,7 +87,7 @@ This guide uses Mod Organizer 2 but users may use whichever mod manager they are
 * What Mod Organizer 2:s overwrite folder is
 If these concepts are new to you, watch the [tutorial videos by Gamerpoet](https://www.youtube.com/playlist?list=PLlN8weLk86Xh3ue76x2ibqtmMramwQmHB) or read the [STEP guide for Mod Organizer 2]().
 
-### Initialization
+#### Initialization
 
 1. Launch MO2 by running its executable (i.e. ..Modding\Tools\Mod Organizer 2\ModOrganizer.exe)
 1. Upon launch, users will have a choose between setting it up as portable or create a new Instance. Choose to create a new Instance.
@@ -103,7 +99,7 @@ If these concepts are new to you, watch the [tutorial videos by Gamerpoet](https
 1. The last prompt will ask if MO can handle .NXM links from the browser. Allow it to do so.
 1. MO2 is now set up and ready to use.
 
-### Tool Setup
+#### Adding executables
 
 All tools should be launched through Mod Organizer 2. Mod Organizer 2 may have auto-detected some tool but the user needs to confirm this and manually add the rest of the tools.
 
@@ -137,7 +133,7 @@ Repeat the steps for the executables listed below, filling in the appropriate da
 	* Arguments: 
 		* -SSE                           |
 
-## BethINI Setup
+### BethINI setup
 
 BethINI needs to be set up to run for the current profile in MO2 and ran to establish solid INIs before beginning the mod installations. To do this:
 
