@@ -348,6 +348,39 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			</optionalFileGroups>
 		</installStep>
 
+		<!-- Audiovisual - Trees & Vegetation -->
+		<installStep name="Audiovisual - Trees &amp; Vegetation">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="ussep" value="On"/>
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Choose" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="Bent Pines II">
+							<conditionFlags>
+								<flag name="bentpines">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="BentPines.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+
 		<!-- Audiovisual - Sounds & Music -->
 		<installStep name="Audiovisual - Sounds &amp; Music">
 			<visible>
@@ -438,6 +471,42 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="DIVERSE SKYRIM.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Immersive World Encounters SE">
+							<conditionFlags>
+								<flag name="iwe">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Immersive Encounters.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Nether's Follower Framework">
+							<conditionFlags>
+								<flag name="nff">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="nwsFollowerFramework.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -1519,60 +1588,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>	
-						<plugin name="Landscape Fixes For Grass Mods">
-							<conditionFlags>
-								<flag name="lffgm">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="Landscape Fixes For Grass Mods.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="Obscure's College of Winterhold">
-							<conditionFlags>
-								<flag name="ocw">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="OCW_Obscure's_CollegeofWinterhold.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="Obscure's College of Winterhold Cell Settings">
-							<conditionFlags>
-								<flag name="ocw-cell">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="OCW_CellSettings.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
+
 						<plugin name="Cutting Room Floor">
 							<conditionFlags>
 								<flag name="crf">On</flag>
@@ -1620,6 +1636,78 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="Falskaar - Boat Location.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="JKs Skyrim Cutting Room Floor Patch">
+							<conditionFlags>
+								<flag name="jk-crf">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="JKs Skyrim_Cutting Room Floor_Patch.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Landscape Fixes For Grass Mods">
+							<conditionFlags>
+								<flag name="lffgm">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Landscape Fixes For Grass Mods.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Obscure's College of Winterhold">
+							<conditionFlags>
+								<flag name="ocw">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="OCW_Obscure's_CollegeofWinterhold.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Obscure's College of Winterhold Cell Settings">
+							<conditionFlags>
+								<flag name="ocw-cell">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="OCW_CellSettings.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -1750,6 +1838,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="The Fall of Granite Hill">
+							<conditionFlags>
+								<flag name="granitehill">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Fall of Granite Hill.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Karthwasten">
 							<conditionFlags>
 								<flag name="karthwasten">On</flag>
@@ -1797,6 +1903,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="Oakwood.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Shor's Stone">
+							<conditionFlags>
+								<flag name="shorsstone">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Shor's Stone.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -2289,6 +2413,18 @@ Tweaks:
 			</pattern>
 			<!-- ****************************************** -->
 			
+			<!-- JKs Skyrim -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="jk-crf" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_JKsCuttingRoomFloorPatch-USSEP.esp" destination="df_JKsCuttingRoomFloorPatch-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
+
+			<!-- ************************* -->
+
 			<!-- Cutting Room Floor -->
 			<pattern>
 				<dependencies operator="And">
@@ -2310,6 +2446,15 @@ Tweaks:
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="crf" value="On"/>
+					<flagDependency flag="iwe" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CuttingRoomFloor-ImmersiveEncounters.esp" destination="df_CuttingRoomFloor-ImmersiveEncounters.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="crf" value="On"/>
 					<flagDependency flag="inigo" value="On"/>
 				</dependencies>
 				<files>
@@ -2318,7 +2463,7 @@ Tweaks:
 			</pattern>
 			<!-- ************************************** -->	
 
-			<!-- Dragons -->
+			<!-- Dragons --> 
 			<pattern>		
 				<dependencies operator="And">
 					<flagDependency flag="deadlydragons" value="On"/>
@@ -2335,6 +2480,33 @@ Tweaks:
 				</dependencies>
 				<files>
 					<file source="df_DeadlyDragons-SplenderDragons.esp" destination="df_DeadlyDragons-SplenderDragons.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="deadlydragons" value="On"/>
+					<flagDependency flag="volkiharrebuilt" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_DeadlyDragons-CastleVolkihar.esp" destination="df_DeadlyDragons-CastleVolkihar.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="deadlydragons" value="On"/>
+					<flagDependency flag="nff" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_DeadlyDragons-NethersFollowerFramework.esp" destination="df_DeadlyDragons-NethersFollowerFramework.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="deadlydragons" value="On"/>
+					<flagDependency flag="shorsstone" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_DeadlyDragons-ShorsStone.esp" destination="df_DeadlyDragons-ShorsStone.esp" priority="0" />
 				</files>
 			</pattern>
 
@@ -2450,6 +2622,19 @@ Tweaks:
 				</files>
 			</pattern>
 			<!-- ************************************* -->
+
+			<!-- Bent Pines - Fall of Granite Hill -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="bentpines" value="On"/>
+					<flagDependency flag="granitehill" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_FallOfGraniteHill-BentPines.esp" destination="df_FallOfGraniteHill-BentPines.esp" priority="0" />
+				</files>
+			</pattern>
+
+			<!-- ********************************** -->
 
 			<!-- Realistic Water Two -->
 			<pattern>
@@ -2583,6 +2768,14 @@ Tweaks:
 			<!-- ********************************* -->
 
 			<!-- Book Covers Skyrim-->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="bcs" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_BookCoversSkyrim-USSEP.esp" destination="df_BookCoversSkyrim-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="bcs" value="On"/>
@@ -3084,9 +3277,26 @@ Tweaks:
 					<file source="df_ArsMetallic-FloraFixes.esp" destination="df_ArsMetallic-FloraFixes.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="arsmetallica" value="On"/>
+					<flagDependency flag="ha" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_HeavyArmory-ArsMetallica.esp" destination="df_HeavyArmory-ArsMetallica.esp" priority="0" />
+				</files>
+			</pattern>
 			<!-- *************************** -->
 
 			<!-- Unlimited Bookshelves, Improved Closefaced Helmets, Survival Mode -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="imp" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_ImprovedClosefacedHelmets-USSEP.esp" destination="df_ImprovedClosefacedHelmets-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="ccsurvival" value="On"/>
@@ -3191,6 +3401,14 @@ Tweaks:
 			</pattern>			
 
 			<!-- Lost library, cloaks, obis, oblivion artifacts -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="oap" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_OblivionArtifacts-USSEP.esp" destination="df_OblivionArtifacts-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="lostlibrary" value="On"/>
@@ -3443,7 +3661,7 @@ Tweaks:
 			</pattern>
 			<!-- *********************************** -->
 
-			<!-- Tools of Kagrenac -->
+			<!-- Tools of Kagrenac, Forgotten City -->
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="kagrenac" value="On"/>
@@ -3451,6 +3669,14 @@ Tweaks:
 				</dependencies>
 				<files>
 					<file source="df_ToolsOfKagrenac-ForgottenCity.esp" destination="df_ToolsOfKagrenac-ForgottenCity.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="forgottencity" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ForgottenCity-USSEP.esp" destination="df_ForgottenCity-USSEP.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
