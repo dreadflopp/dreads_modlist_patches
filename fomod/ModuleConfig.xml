@@ -36,7 +36,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="lenient">Off</flag>	
 								<flag name="rw2">Off</flag>
 								<flag name="oap">Off</flag>	
-								<flag name="imp">Off</flag>																							
+								<flag name="imp">Off</flag>																				
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
@@ -3324,7 +3324,7 @@ Tweaks:
 					<flagDependency flag="imp" value="On"/>
 				</dependencies>
 				<files>
-					<file source="df_ImprovedClosefacedHelmets-SurvivalModeCC" destination="df_ImprovedClosefacedHelmets-SurvivalModeCC" priority="0" />
+					<file source="df_ImprovedClosefacedHelmets-SurvivalModeCC.esp" destination="df_ImprovedClosefacedHelmets-SurvivalModeCC.esp" priority="0" />
 				</files>
 			</pattern>
 
