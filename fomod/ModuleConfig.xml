@@ -36,7 +36,10 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="lenient">Off</flag>	
 								<flag name="rw2">Off</flag>
 								<flag name="oap">Off</flag>	
-								<flag name="imp">Off</flag>																				
+								<flag name="imp">Off</flag>	
+								<flag name="bqo">Off</flag>	
+								<flag name="radiantblocker">Off</flag>	
+								<flag name="hbr">Off</flag>	
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
@@ -253,6 +256,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="Luminous Atronachs">
+							<conditionFlags>
+								<flag name="luminousatronarchs">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="LuminousAtronachs.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>						
 						<plugin name="Pilgrims Delight">
 							<conditionFlags>
 								<flag name="pilgrimsdelight">On</flag>
@@ -803,7 +824,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
-					<plugin name="Campfire">
+						<plugin name="Campfire">
 							<conditionFlags>
 								<flag name="campfire">On</flag>
 							</conditionFlags>
@@ -820,7 +841,25 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>					
+						</plugin>
+						<plugin name="Carriage and Ferry Travel Overhaul">
+							<conditionFlags>
+								<flag name="cfto">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="CFTO.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>						
 						<plugin name="Daedric Voices">
 							<conditionFlags>
 								<flag name="daedricvoices">On</flag>
@@ -1283,6 +1322,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="The Paarthurnax Dilemma">
+							<conditionFlags>
+								<flag name="paarthurnaxdilemma">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="The Paarthurnax Dilemma.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Tactical Valtheim SSE">
 							<conditionFlags>
 								<flag name="tacticalvaltheim">On</flag>
@@ -1300,7 +1357,43 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>						
+						</plugin>	
+						<plugin name="Tactical Valtheim SSE - Radiant Blocker">
+							<conditionFlags>
+								<flag name="radiantblocker">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="radiantBlocker.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>	
+						<plugin name="Timing is Everything SE">
+							<conditionFlags>
+								<flag name="tie">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="TimingIsEverything.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>					
 						<plugin name="The Tools of Kagrenac">
 							<conditionFlags>
 								<flag name="kagrenac">On</flag>
@@ -2264,28 +2357,7 @@ Tweaks:
 				</group>
 				<group name="Other Tweaks" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="TDN Equipable Horns SE Tweaks">
-							<description>
-								<![CDATA[This makes all equipable horns from the mod free to craft.]]>
-							</description>
-							<files>
-								<file source="df_HornsPatch.esp" destination="df_HornsPatch.esp" priority="0" />
-							</files>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="TDNEquipableHorns.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="Creation Club survival mode tweaks">
+						<plugin name="Creation Club Survival Mode tweaks">
 							<description>
 								<![CDATA[CC Survial mode reduces carry weight by 150 points. This tweak removes that reduction.]]>
 							</description>
@@ -2306,28 +2378,6 @@ Tweaks:
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="No leveled unique items">
-							<description>
-								<![CDATA[No more low level unique items. Unique items in Skyrim actually exists as different versions with different levels. If you discover an item when your character is at a lower level, you will get a lower level version of that item. This setting removes that feature. From now on you will get the most powerfull version of all unique items you find.]]>
-							</description>
-							<files>
-								<file source="df_NoLeveledUniqueItems.esp" destination="df_NoLeveledUniqueItems.esp" priority="0" />
-							</files>
-							<typeDescriptor>
-								<type name="Recommended"/>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="Slower leveling">
-							<description>
-								<![CDATA[This edits fXPLevelUpBase and fXPLevelUpMult to slow down character level gain to 50%. It is compatible with the mod Experience and Skyrim skill uncapper. It is recommended to slow down skill gain using one of the uncapper settings provided above or creating a settings file yourself.]]>
-							</description>
-							<files>
-								<file source="df_SlowerLeveling.esp" destination="df_SlowerLeveling.esp" priority="0" />
-							</files>
-							<typeDescriptor>
-								<type name="Recommended"/>
-							</typeDescriptor>
-						</plugin>
 						<plugin name="Experience settings">
 							<description>
 								<![CDATA[This is a settings file for the mod Experience. It enables experience gain from miscellaneous quests and from killing enemies. This also installs a patch for Experience to allow miscellaneous from killing enemies added by other mods included in this modlist.]]>
@@ -2336,6 +2386,26 @@ Tweaks:
 								<file source="SKSE\Plugins\Experience.ini" destination="SKSE\Plugins\Experience.ini" priority="0" />
 								<file source="SKSE\Plugins\Experience\Races\experiencePatch.csv" destination="SKSE\Plugins\Experience\Races\experiencePatch.csv" priority="0" />
 							</files>
+							<typeDescriptor>
+								<type name="Recommended"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Higher Bounty Rewards">
+							<description>
+								<![CDATA[Alex's Higher Bounty Rewards lite is a mod that increases the rewrds for certain quests:
+
+								- Bandit Camp: 1000 gold
+								- Forsworn Camp: 1500 gold
+								- Giants: 2500 gold
+								- Dragons: 7500 gold
+								
+								Since the mod only alters values in four records in Skyrim.esm, it is impossible to patch without making the mod redundant. These patched plugins therefore replaces the original mod.
+								
+								Please download and endorse the original mod, but do not install it: https://www.nexusmods.com/skyrimspecialedition/mods/11294]]>
+							</description>
+							<conditionFlags>
+								<flag name="hbr">On</flag>
+							</conditionFlags>
 							<typeDescriptor>
 								<type name="Recommended"/>
 							</typeDescriptor>
@@ -2361,6 +2431,49 @@ Tweaks:
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="No leveled unique items">
+							<description>
+								<![CDATA[No more low level unique items. Unique items in Skyrim actually exists as different versions with different levels. If you discover an item when your character is at a lower level, you will get a lower level version of that item. This setting removes that feature. From now on you will get the most powerfull version of all unique items you find.]]>
+							</description>
+							<files>
+								<file source="df_NoLeveledUniqueItems.esp" destination="df_NoLeveledUniqueItems.esp" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Recommended"/>
+							</typeDescriptor>
+						</plugin>											
+						<plugin name="Slower leveling">
+							<description>
+								<![CDATA[This edits fXPLevelUpBase and fXPLevelUpMult to slow down character level gain to 50%. It is compatible with the mod Experience and Skyrim skill uncapper. It is recommended to slow down skill gain using one of the uncapper settings provided above or creating a settings file yourself.]]>
+							</description>
+							<files>
+								<file source="df_SlowerLeveling.esp" destination="df_SlowerLeveling.esp" priority="0" />
+							</files>
+							<typeDescriptor>
+								<type name="Recommended"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="TDN Equipable Horns SE Tweaks">
+							<description>
+								<![CDATA[This makes all equipable horns from the mod free to craft.]]>
+							</description>
+							<files>
+								<file source="df_HornsPatch.esp" destination="df_HornsPatch.esp" priority="0" />
+							</files>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="TDNEquipableHorns.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>						
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -2947,6 +3060,15 @@ Tweaks:
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="aos" value="On"/>
+					<flagDependency flag="luminousatronarchs" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AudioOverhaulSkyrim-LuminousAtronachs.esp" destination="df_AudioOverhaulSkyrim-LuminousAtronachs.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aos" value="On"/>
 					<flagDependency flag="cathedralweathers" value="On"/>
 				</dependencies>
 				<files>
@@ -3380,6 +3502,89 @@ Tweaks:
 				</files>
 			</pattern>
 			<!-- *************************** -->
+
+			<!-- Higher Bounty Rewards -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="hbr" value="On"/>
+					<flagDependency flag="bqo" value="On"/>
+					<flagDependency flag="radiantblocker" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_HigherBountyRewards-TacticalValtheimRadiantExclusions-BetterQuestObjectives.esp" destination="df_HigherBountyRewards-TacticalValtheimRadiantExclusions-BetterQuestObjectives.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="hbr" value="On"/>
+					<flagDependency flag="bqo" value="On"/>
+					<flagDependency flag="radiantblocker" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_HigherBountyRewards-BetterQuestObjectives.esp" destination="df_HigherBountyRewards-BetterQuestObjectives.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="hbr" value="On"/>
+					<flagDependency flag="bqo" value="Off"/>
+					<flagDependency flag="radiantblocker" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_HigherBountyRewards-TacticalValtheimRadiantExclusions.esp" destination="df_HigherBountyRewards-TacticalValtheimRadiantExclusions.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="hbr" value="On"/>
+					<flagDependency flag="bqo" value="Off"/>
+					<flagDependency flag="radiantblocker" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_HigherBountyRewards.esp" destination="df_HigherBountyRewards.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- ******************************* -->
+
+			<!-- Tactical Valtheim -->	
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="radiantblocker" value="On"/>
+					<flagDependency flag="bqo" value="On"/>
+					<flagDependency flag="hbr" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_TacticalValtheimRadiantBlocker-BetterQuestObjectives.esp" destination="df_TacticalValtheimRadiantBlocker-BetterQuestObjectives.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="radiantblocker" value="On"/>
+					<flagDependency flag="cfto" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_TacticalValtheimRadiantBlocker-CarriageFerryTravelOverhaul.esp" destination="df_TacticalValtheimRadiantBlocker-CarriageFerryTravelOverhaul.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="radiantblocker" value="On"/>
+					<flagDependency flag="paarthurnaxdilemma" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_TacticalValtheimRadiantBlocker-PaarthurnaxDilemma.esp" destination="df_TacticalValtheimRadiantBlocker-PaarthurnaxDilemma.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="radiantblocker" value="On"/>
+					<flagDependency flag="tie" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_TacticalValtheimRadiantBlocker-TimingIsEverything.esp" destination="df_TacticalValtheimRadiantBlocker-TimingIsEverything.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- *********************************** -->
 
 			<!-- Cloaks-->
 			<pattern>
