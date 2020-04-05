@@ -409,6 +409,9 @@ In the installer, choose:
 #### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
 Recommendation: 2K
 
+#### [Forgotten Retex Project](https://www.nexusmods.com/skyrimspecialedition/mods/7849)
+Install the main file.
+
 #### [Unofficial Material Fix](http://www.nexusmods.com/skyrimspecialedition/mods/21027)
 
 ## Audiovisual - Animations & Effects
@@ -517,6 +520,8 @@ Download and install:
 
 #### [aMidianBorn stormcloak officer armour](https://www.nexusmods.com/skyrim/mods/45692)
 
+#### [Arri's Snow Elf Ruins Retexture Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/7292)
+
 #### [Barenziah's Glory SE](http://www.nexusmods.com/skyrimspecialedition/mods/6343)
 
 Recommended intall options:
@@ -571,6 +576,9 @@ Recommended install options:
 
 #### [Better Dynamic Snow SE](http://www.nexusmods.com/skyrimspecialedition/mods/9121)
 In the installer, choose to install SMIM meshes and Snowy Farmhouses. No patches.
+
+#### [Better Dynamic Snow in New Worldspaces](http://www.nexusmods.com/skyrimspecialedition/mods/22741)
+Install Better Dynamic Snow in New Areas - ESL. In the installer, chose patches for Falskaar and Wyrmstooth.
 
 #### [BetterFalmerCaveCeilingGlow](http://www.nexusmods.com/skyrimspecialedition/mods/17232)
 
@@ -853,11 +861,14 @@ Recommendation: 2K
 
 #### [LeanWolf's Improved Enchanter Candle Meshes SE](http://www.nexusmods.com/skyrimspecialedition/mods/7883)
 
+#### [Luminous Atronachs](http://www.nexusmods.com/skyrimspecialedition/mods/27732)
+Install Luminous Atronachs - ESPLite.
+
 #### [MAMMOTH](http://www.nexusmods.com/skyrimspecialedition/mods/6127)
 Recommendation: 2K
 
 #### [Metallurgy - Ingots and Ore HD](http://www.nexusmods.com/skyrimspecialedition/mods/30738)
-Recommendation: Metallurgy - Ingots and Ore HD 1K (LOOSE)
+Recommendation: Metallurgy - Ingots and Ore HD 1K (LOOSE).
 
 #### [MM - REAL ELKS](http://www.nexusmods.com/skyrim/mods/94362)
 Recommendation: 2K
@@ -925,7 +936,12 @@ Choose *Install Everything* in the installer. Hide or delete the following files
 * meshes\furniture\enchantingworkbench.nif
 * meshes\furniture\enchantingworkstation.nif
 * meshes\loadscreenart\loadscreenenchantingworkbench.nif
-* textures\clutter\candles 
+* textures\clutter\candles
+
+#### [High Poly Project](http://www.nexusmods.com/skyrimspecialedition/mods/12029)
+
+#### [JS Dragon Claws SE](https://www.nexusmods.com/skyrimspecialedition/mods/1394)
+Recommendation: 2K
 
 #### [RUSTIC ANIMATED POTIONS and POISONS](http://www.nexusmods.com/skyrimspecialedition/mods/2276)
 Recommendation: 1K
@@ -1217,6 +1233,8 @@ In the installer, choose the following:
 #### [Butterflies Unchained](http://www.nexusmods.com/skyrimspecialedition/mods/29538)
 Install esl version
 
+#### [Closing time](https://www.nexusmods.com/skyrimspecialedition/mods/34169)
+
 #### [Critters Ain't Snitches](http://www.nexusmods.com/skyrimspecialedition/mods/15134)
 
 #### [Dragon Stalking Fix](http://www.nexusmods.com/skyrimspecialedition/mods/14060)
@@ -1484,6 +1502,9 @@ Choose the light master version.
 
 #### [Smaller Vanilla Cursors SE](http://www.nexusmods.com/skyrimspecialedition/mods/20617)
 
+#### [Undiscovered Means Unknown - Map Markers](https://www.nexusmods.com/skyrimspecialedition/mods/9762)
+In the installer, use the default settings.
+
 #### [UIExtensions](https://www.nexusmods.com/skyrimspecialedition/mods/17561)
 
 #### [Viewable Faction Ranks](http://www.nexusmods.com/skyrimspecialedition/mods/17924)
@@ -1580,6 +1601,8 @@ Install main file and patches for *Moon and Star* and *Moonpath to Elsweyr*.
 Install the main file.
 
 #### [Luminosity Lighting Overhaul - The Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/16830)
+
+#### [Obsidian Mountain Fogs](https://www.nexusmods.com/skyrimspecialedition/mods/13539)
 
 #### [Relighting Skyrim - SSE](http://www.nexusmods.com/skyrimspecialedition/mods/8586)
 
@@ -1721,6 +1744,13 @@ Choose
 * Boat Location Patch
 * Fast Travel Addon
 * Unique Region Names Addon
+
+#### [JS Dragon Claws - Patches](https://www.nexusmods.com/skyrimspecialedition/mods/23833)
+Install:
+
+* JS Dragon Claws - Amethyst Patch
+* JS Dragon Claws - Helgen Reborn Patch
+* JS Dragon Claws - Wyrmstooth Patch
 
 #### [Moonpath to Elsweyr Sky and Lightning fix](http://www.nexusmods.com/skyrimspecialedition/mods/18683)
 
