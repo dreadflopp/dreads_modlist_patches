@@ -1,10 +1,9 @@
-### Where to find Dread's Skyrim Build
+**Where to find Dread's Skyrim Build**
 
-The main version of this guide is on the STEP website. A markdown version of the guide can be found on Github and is included with the patches. There is also a Mod Picker version that can be used but users should check the STEP or Github version for extended explanations and instructions. The actual mod list sections instructions to install each mod are identical in all three versions.
+The main version of this guide is on the STEP website. A markdown version of the guide can be found on Github and is included with the patches.
 
 - [Github version of the guide](https://github.com/dreadflopp/dreads_modlist_patches/blob/master/README.md)
-- [Mod Picker version](https://modpicker.com/skyrimse/mod-lists/7729/)
-- [The guide section on STEP]()
+- [The guide section on STEP TBA]()
 
 Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-se-core-addon/) if you have any questions.
 
@@ -14,7 +13,7 @@ This guide is a STEP build based on the [STEP: Core build](https://www.nexusmods
 
 **The mods featured in this build are chosen to be immersive and realistic. Realistic in a fantasy setting means believable. The mods should feel like they expand or enhances vanilla Skyrim, like they could have been there from the beginning.**
 
-## What to expect:
+## What to expect
 
 * Support for the Survival mode from Bethesda Creation Club.
 * HD textures for landscapes, structures and buildings that keeps the vanilla look and feel.
@@ -40,57 +39,98 @@ This guide is a STEP build based on the [STEP: Core build](https://www.nexusmods
 * No LOOT rules, every conflict is resolved with the patches. Run LOOT and you are done.
 * No bashed patch. Every level list conflict is fixed in the patches.
 * No merging of mods. Every patch is esl-flagged to make sure the plugin limit count is not reached.
-* Advanced fomod installer for the patches. No need to actively choose patches, the fomod does the work for you.
+* Advanced FOMOD installer for the patches. No need to choose which patches to use, the installer does the work for you.
 
 ## What about Weapons Armor Clothing and Clutter Fixes (WACCF) by Kryptopyr?
 
 WACCF is a great mod that fixes bugs and inconsitencies among weapons, armors, etc. Even though it has the word fixes in its name, it could have been named Weapons Armor Clothing and Clutter *Overhaul*, because it overhauls the weapon and armor stats and progression. To avoid inconsitencies, all mods that add weapons and armors to the game needs to be checked and eventually rebalanced against WACCF. I have decided that isn't something that I want to do, it is just to much work. There are other mod guides that rebalances quest and weapon mods around WACCF and other overhauls.
 
-# Prerequisites: Game and tools installation
+# Preparations: Game Installation and modding setup
 
-## Game Installation and Modding Setup
+Follow the [system setup guide](https://wiki.step-project.com/Guide:SystemSetupGuide). The system setup guide ensures that all game files are fresh and prompts you to create a basic modding folder structure to install tools into. This guide uses the folder structure from the system setup guide in its instructions. Users that deviates from the system setup guide needs to be aware of this and adjust the instructions accordingly to their installation and modding paths.
 
-Follow the [system setup guide]() to have a clean Skyrim install ready to be modded.
+**Folder structure**
+````
+c:\
+└── Modding\
+    │
+    ├── Tools\
+    │
+    └── Steam\
+        │
+        └──steamapps\
+            │
+            └──common\
+                │
+                └──Skyrim Special Edition\
+                    │
+                    └──Data\
 
-## Tool Installation
+````
 
-Install the following tools, preferably in the tools folder you created following the [system setup guide](). Most tools doesn't have an installer, simply unzip these into their own subfolders of the tools folder. If a tool is available both as an installer and as a stand alone archive, use the stand alone archive version of the tool.
+**Common folders refered to in this guide**
 
-#### [BethINI SE](http://www.nexusmods.com/skyrimspecialedition/mods/4875)
+* Tools folder: c:\Modding\Tools\
+* Main game folder: c:\Modding\Tools\Steam\Steamapps\common\Skyrim Special Edition
+* Data folder: c:\Modding\Tools\Steam\Steamapps\common\Skyrim Special Edition\Data
 
-#### [DynDOLOD](https://www.nexusmods.com/skyrimspecialedition/mods/32382)
-Download and install DynDOLOD. The resources file will be installed later.
-Make sure that [Microsoft Visual C++ 2017 Redistributable](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) are installed. If they are missing, install *vc_redist.x86.exe* and *vc_redist.x64.exe*.
+# Tools: Tool Installation and setup
 
-#### [LOOT](https://github.com/loot/loot/releases)
-Download and install the latest version. In the installer, change the path to the *tools* folder.
+## [Creation Kit](http://download.cdp.bethesda.net/BethesdaNetLauncher_Setup.exe)
 
-#### [Mod Organizer 2](http://www.nexusmods.com/skyrimspecialedition/mods/6194)
-Download and the *archive* version to a subfolder of *tools*.
+The Creation Kit is needed to convert plugins made for Skyrim to work with Skyrim Special Edition. The convertion is very simple and basically just means to open a plugin in the creation kit and resave it. The link above goes to the Bethesda Launcher install file. Installation of the Creation Kit will be done using the Bethesda Launcher.
 
-#### [SSEEdit](http://www.nexusmods.com/skyrimspecialedition/mods/164)
+1. Download and install the Bethesda.net Launcher
+1. Run the Launcher and sign in (create an account if you don't have one).
+1. Users should see the grey "Creation" icon on the left. Click on it and install.
+1. Users should now launch the CK, choose no to extracting the scripts, and close the program. 
 
-#### [Unlimited Bookshelves Patch Generator](https://www.nexusmods.com/skyrimspecialedition/mods/19160)
-This is a script for SSEEdit. Unzip the archive and place the content in the SSEEdit script folder (i.e. ..Modding\Tools\SSEEdit\Scripts\).
+Create a new text file in the main game folder and name it *CreationKitCustom.ini*. Paste the following into the file:
 
-## Tool Configuration
+````
+[Audio]
+bEnableAudio=1
 
-### Mod Organizer 2 setup
+[Grass]
+bAllowCreateGrass=1
+bAllowLoadGrass=0
 
-#### About
+[General]
+bAllowMultipleMasterFiles=1
+bAllowMultipleMasterLoads=1
 
-This guide uses Mod Organizer 2 but users may use whichever mod manager they are comfortable with as long as they know hot to properly use it. Users make them self familiar with how to
-* Link Mod Organizer 2 to a Nexus account
-* Install mods
-* The difference between install order and load order and what conflicts in load order and install order means (not how to solve them)
-* Delete or manage files in installed mods
-* What Mod Organizer 2:s overwrite folder is
-If these concepts are new to you, watch the [tutorial videos by Gamerpoet](https://www.youtube.com/playlist?list=PLlN8weLk86Xh3ue76x2ibqtmMramwQmHB) or read the [STEP guide for Mod Organizer 2]().
+[MESSAGES]
+bBlockMessageBoxes=1
 
-#### Initialization
+[Archive]
+SResourceArchiveList2=Skyrim - Voices_en0.bsa, Skyrim - Textures0.bsa, Skyrim - Textures1.bsa, Skyrim - Textures2.bsa, Skyrim - Textures3.bsa, Skyrim - Textures4.bsa, Skyrim - Textures5.bsa, Skyrim - Textures6.bsa, Skyrim - Textures7.bsa, Skyrim - Textures8.bsa, Skyrim - Patch.bsa, Dawnguard.bsa, Hearthfires.bsa, Dragonborn.bsa
+````
 
-1. Launch MO2 by running its executable (i.e. ..Modding\Tools\Mod Organizer 2\ModOrganizer.exe)
-1. Upon launch, users will have a choose between setting it up as portable or create a new Instance. Choose to create a new Instance.
+## [SSE CreationKit Fixes](https://www.nexusmods.com/skyrimspecialedition/mods/20061) 
+Download and extract the contents to the main game folder.
+
+## [DynDOLOD](https://www.nexusmods.com/skyrimspecialedition/mods/32382)
+Download and extract into its own subfolder of the tools folder. The resources file will be installed later.
+
+## [LOOT](https://github.com/loot/loot/releases)
+Download and install the latest version. In the installer, change the installation path to the tools folder.
+
+## [Microsoft Visual C++ 2017 Redistributable](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
+Install *vc_redist.x86.exe* and *vc_redist.x64.exe*.
+
+## [SSEEdit](http://www.nexusmods.com/skyrimspecialedition/mods/164)
+Download extract into its own subfolder of the tools folder.
+
+## [Unlimited Bookshelves Patch Generator](https://www.nexusmods.com/skyrimspecialedition/mods/19160)
+This is a script for SSEEdit. Unzip the archive and place the content in the SSEEdit script folder (i.e. ..Modding/Tools/SSEEdit/Scripts/).
+
+## [Mod Organizer 2](http://www.nexusmods.com/skyrimspecialedition/mods/6194)
+Download the *archive* version and extract into its own subfolder of the tools folder. Name the subfolder *Mod Organizer 2*.
+
+### Initialization
+
+1. Launch MO2
+1. Upon launch, you  will have a choice between setting it up as portable or create a new Instance. Choose to create a new Instance.
 1. Select SkyrimSE and choose OK.
     * A prompt will appear informing you about the option of changing the location of data stored. Read it and click past it. 
 1. The installer should automatically detect the Skyrim SE installation (ie. ..Steam\steamapps\common\Skyrim Special Edition). Select it.
@@ -99,9 +139,17 @@ If these concepts are new to you, watch the [tutorial videos by Gamerpoet](https
 1. The last prompt will ask if MO can handle .NXM links from the browser. Allow it to do so.
 1. MO2 is now set up and ready to use.
 
-#### Adding executables
+### Create mod listings for SSEEdit
 
-All tools should be launched through Mod Organizer 2. Mod Organizer 2 may have auto-detected some tool but the user needs to confirm this and manually add the rest of the tools. 
+To prevent backup and cache files from SSEEdit ending up in the overwrite folder, mixing with other files you might want to keep track of, it is advised to create two empty mod listingss in MO2 for these two types of files:
+
+1. On the MO2 window, click the Open list options button at the top of the left pane, next to the profile selection drop-down.
+1. Choose Create empty mod, name it *SSEEdit Cache*, and click OK.
+1. Repeat the above steps to create another empty mod but name it *SSEEdit Backups* insead.
+
+### Adding executables
+
+All tools except BethINI should be launched through MO2. MO2 may have auto-detected some tool but you need to confirm this and manually add the rest of the tools. 
 
 **Instructions to add tools as executables**
 
@@ -118,7 +166,10 @@ Repeat the steps for the executables listed below, filling in the appropriate da
 * SSEEdit
     * Title: SSEEdit
 	* Executable: SSEEdit.exe
-	* Arguments: -IKnowWhatImDoing
+	* Arguments: 
+        * -IKnowWhatImDoing
+        * -B:"c:\Modding\Tools\Mod Organizer 2\mods\SSEEdit Backups"
+        * -C:"c:\Modding\Tools\Mod Organizer 2\mods\SSEEdit Cache"
 * DynDOLOD SE
     * Title: DynDOLOD SE
 	* Executable: DynDOLOD64.exe
@@ -136,7 +187,10 @@ Repeat the steps for the executables listed below, filling in the appropriate da
 	* Executable: TexGen64.exe
 	* Arguments: -SSE                           |
 
-### BethINI setup
+*Note that you need to check that that the paths for SSEEdits backup and cache folders in the given arguments are valid for your install.*
+
+## [BethINI SE](http://www.nexusmods.com/skyrimspecialedition/mods/4875)
+Download extract into its own subfolder of the tools folder.
 
 BethINI needs to be set up to run for the current profile in MO2 and ran to establish solid INIs before beginning the mod installations. To do this:
 
@@ -162,37 +216,66 @@ At this time BethINI should restart to grab the correct INIs. Once it is restart
 1. Now Save and Exit.
 Users now have a minimal setup for the game INIs for testing and running the game during the mod installations. Once all mods have been installed, BethINI will be ran again to complete the INI setup.
 
-# Cleanup and Considerations
+# Procedures: Common modding procedures
 
-## LOOT
+## Using Mod Organizer 2
+
+This guide uses Mod Organizer 2 (MO2) but you may use whichever mod manager you are comfortable with as long as you know how to properly use it. To learn how to use MO2, watch the [tutorial videos by Gamerpoet](https://www.youtube.com/playlist?list=PLlN8weLk86Xh3ue76x2ibqtmMramwQmHB) or read the [STEP guide for Mod Organizer 2](https://wiki.step-project.com/Guide:Mod_Organizer).
+
+## Sorting with LOOT
 
 At any time during the mod installation process LOOT should be used to sort plugin load order before running the game. This is necessary to ensure proper plugin priority (load order), which can have a dramatic impact on the game. Users not running the game during the mod installation step of the Guide can wait to sort after this step is complete. To sort with LOOT:
 
 1. Launch LOOT via Mod Organizer 2 from the executables drop-down menu.
 1. Click the “Sort” button at the top of the LOOT window.
-1. Examine the resulting order carefully and look for any alerts or warnings and address each (clean any mods it says has ITMs or UDRs)
+1. Examine the resulting order carefully and look for any alerts or warnings and take  note of these. Ignore warnings about patches being available. Patches are provided by this guide.
 1. Click the “Apply” button, which has replaced the Sort button at the top.
 1. Close LOOT.
 
-## Cleaning Vanilla Master Files
+## Standard cleaning procedures
 
-To remove errors in the Bethesda master files, it is recommended they be cleaned with xEdit before modding begins. This ensures maximum stability and compatibility within the modding experience.
+Some mods, as well as the official vanilla game, contains plugins (.esp-files) or master plugins (.esm-files) that are dirty. LOOT warns you about such plugins. Clean all plugins that LOOT prompts you to clean. To clean a plugin:
 
-### Create New Mod Listings
-
-1. On the MO window, click the Open list options button at the top of the left pane, next to the profile selection drop-down.
-1. Choose Create empty mod, name it “Cleaned Vanilla Masters”, and click OK.
-1. Repeat the above to create two additional new empty mods and name them: xEdit Backups and xEdit Cache
-    - Users should replace "x" with the version they are using (e.g. "SSEEdit Backups" and "SSEEdit Cache").
-
-### Standard Cleaning Procedures
-
-1. Run xEdit64 Quick Auto Clean from the drop-down executable list in MO2.
-1. On the plugin selection window, double-click on the mod being cleaned (i.e., Update.esm, Dawnguard.esm, etc).
-1. xEdit will now automatically clean the "Identical to master" and "deleted" records from the selected mod.
+1. Run xEdit64 Quick Auto Clean through Mod Organizer 2.
+1. Select the plugin being cleaned (i.e., Update.esm, Dawnguard.esm, etc).
+1. xEdit will now automatically clean the *Identical to master* and *deleted* records from the selected mod.
 1. Once xEdit is done cleaning, click the X in upper right of the program window to close the program.
 
-### Clean the Masters
+## Converting plugins
+
+Many plugins made for classic Skyrim works without issues with Skyrim Special Edition but the plugin form format (form 43) should be updated to Skyrim SE's form format (form 44). To achieve this, simply open the plugin in the Creation Kit and resave it.
+
+Whenever the guide prompts you to convert a plugin, follow these instructions:
+
+1. Run the Creation Kit through Mod Organizer 2.
+1. Select the *File* menu and choose *Data...*
+1. Find the plugin to be converted and select *Set as Active File*.
+1. Note the Parent Masters listed and ensure they are checked (double-click the plugin listing to check it).
+1. Click *OK* and allow the Creation Kit to load the files.
+1. Once complete, simply save the plug (icon on toolbar or Save from the File menu).
+1. Close the Creation Kit.
+
+Use SSEEdit to check that no errors were introduced in the plugin during the conversion:
+
+1. Run SSEEdit through Mod Organizer 2
+1. Right-click in the plugin pane and choose Select *None*.
+1. Select the plugin being checked and click *OK*
+1. Allow SSEEdit to load and process all plugins.
+1. Right-click on the last plugin in the left pane (it should be the new plugin), and select Check for Errors.
+    * The check should come back reading, *"All done!"*. If there are errors reported, reinstall the mod and redo the conversion.
+1. Right-click on the plugin again and choose, *Sort Masters*.
+1. Close xEdit and be sure the plugin is checked in the saving prompt.
+
+# Cleaning: Cleaning vanilla master files
+
+To remove redundancy and errors in Skyrims master plugins, it is recommended they be cleaned with SSEEdit before modding begins. This ensures maximum stability and compatibility within the modding experience. This section of the guide walks you through three steps; creating an empty mod in MO2 for the cleaned files, cleaning the files and lastly moving the cleaned files to the created empty mod.
+
+## Create an empty mod
+
+1. On the MO window, click the Open list options button at the top of the left pane, next to the profile selection drop-down.
+1. Choose Create empty mod, name it *Cleaned Vanilla Masters*, and click OK.
+
+## Clean the masters
 
 Vanilla masters should be cleaned in the following order:
 
@@ -203,7 +286,7 @@ Vanilla masters should be cleaned in the following order:
 
 Follow the standard cleaning procedures to clean Update.esm, followed by Dawnguard.esm. Once Dawnguard is cleaned, complete the manual cleaning below:
 
-1. Run xEdit from MO.
+1. Run SSEEdit from MO2.
 1. At the prompt, double-click on Dawnguard.esm.
 1. Once loaded, type in 00016BCF in the FormID field (above the mod list) and hit **Enter/Return**.
 1. In the right pane, find the **XEZN - Encounter Zone** record.
@@ -213,17 +296,17 @@ Follow the standard cleaning procedures to clean Update.esm, followed by Dawngua
 1. On the Dawnguard.esm column, right-lick on the Dawnguard.esm header and select Remove.
 1. In the FormID field again, type in 0006C3B6 and hit Enter/Return.
 1. On the Dawnguard.esm column, right-lick on the Dawnguard.esm header and select Remove.
-1. Now close xEdit, ensuring Dawnguard.esm is checked on the prompt.
+1. Now close SSEEdit, ensuring Dawnguard.esm is checked on the prompt.
 
 Once Dawnguard's manual cleaning is complete, follow the standard cleaning procedures to clean Hearthfires.esm, and then last, Dragonborn.esm.
 
-### Moving the Cleaned Files
+## Moving the cleaned files
 
 After the vanilla master files are cleaned, users should move them to their created mod listing in MO2 and restore the original files. This prevents users from having to re-clean the files after verifying their cache in Steam. To do this, complete the following:
 
 1. In a new window, open the Skyrim Special Edition Data directory (e.g. ..\Modding\Steam\steamapps\common\Skyrim Special Edition\Data)
-1. Drag and drop (or copy and paste) the four cleaned master files from Data to the "Cleaned Vanilla Masters" folder.
-1. In the xEdit Backups folder, rename the files to “MasterName.esm” (e.g. "Update.esm").
+1. Drag and drop (or copy and paste) the four cleaned master files from Data to the *Cleaned Vanilla Masters* folder.
+1. In the SSEEdit Backups folder, rename the files to their original names (e.g. *Update.esm*, etc).
     * If there are multiple copies of any of the files, use the one with the earliest timestamp. 
 1. Drag and drop the renamed files from the xEdit Backups folder to the Data directory and choose to overwrite/replace, if asked.
 1. Close the explorer windows.
@@ -235,12 +318,12 @@ At this point, the Bethesda masters should be cleaned and the mod list order sho
 1. DLC: HearthFires.esm
 1. DLC: Dragonborn.esm
 1. Cleaned Vanilla Masters
-    * The xEdit Output mod listing can be placed anywhere. 
 
-# The mod list
+# Mod Installation: The mod list
 
 Some things needs to be considered before installing the mods:
 
+* Skyrim master files should be clean, following the procedures in the cleaning plugins
 * Mods should be installed in the order that they are listed. You can create separators in Mod Organizer to separate sections of mods, preferably using the names from the mod sections in the guide.
 * Always install the main, update and hotfix file(s), unless the guide tells you otherwise.
 * The recommended resolutions of textures are just recommendations. You may install higher resolution versions of the mods if your computer can handle it.
