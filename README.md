@@ -468,6 +468,9 @@ Choose custom install in the installer and choose the following:
 * Xtra Options - Ultra-Sized Textures Addon: Select Nothing
 * Merged Plugin Special Edition Forced Install: Special Edition Merged Plugin Will Be Installed
 
+#### [Forgotten Retex Project](https://www.nexusmods.com/skyrimspecialedition/mods/7849)
+Install the main file.
+
 #### [Cathedral - Plants](http://www.nexusmods.com/skyrimspecialedition/mods/26104)
 
 #### [Skyrim Realistic Overhaul](http://www.moddb.com/mods/skyrim-realistic-overhaul)
@@ -491,9 +494,6 @@ In the installer, choose:
 
 #### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
 Recommendation: 2K
-
-#### [Forgotten Retex Project](https://www.nexusmods.com/skyrimspecialedition/mods/7849)
-Install the main file.
 
 #### [Unofficial Material Fix](http://www.nexusmods.com/skyrimspecialedition/mods/21027)
 
