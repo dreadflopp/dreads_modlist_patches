@@ -143,8 +143,9 @@ Download the *archive* version and extract into its own subfolder of the tools f
 
 To prevent backup and cache files from SSEEdit ending up in the overwrite folder, mixing with other files you might want to keep track of, it is advised to create two empty mod listingss in MO2 for these two types of files:
 
-1. On the MO2 window, click the Open list options button at the top of the left pane, next to the profile selection drop-down.
-1. Choose Create empty mod, name it *SSEEdit Cache*, and click OK.
+1. Right click in the mods section of Mod Organizer 2.
+1. Select *All Mods/Create empty mod*.
+1. Name the mod *SSEEdit Cache*.
 1. Repeat the above steps to create another empty mod but name it *SSEEdit Backups* insead.
 
 ### Adding executables
@@ -1870,13 +1871,13 @@ Download latest SSE version and install as a normal mod.
 1. Right click on *Nemesis_Engine\Nemesis Unlimited Behavior Engine.exe* and choose *Add as Executable*.
 1. A dialog box opens asking for a name of the executable. Accept the default name by clicking *OK*.
 
-# Post installation
+# Post Installation: Final steps
 
-## Create output folders
+## Create output data listings
 
-Some tools outputs data. To keep the data seperated, output folders will be created. The output folders will be placed in Mod Organizer 2's mods folder. The data output will be treated as installed mods by Mod Organizer 2.
+Some tools used during the post installation steps outputs data. To keep the data seperated, output mod listings will be created.
 
-**Instructions to create output data folders**
+**Instructions to create output data mods**
 
 Create a seperator to keep things tidy:
 
@@ -1888,9 +1889,9 @@ Create the output data folders
 
 1. Right click in the mods section of Mod Organizer 2.
 1. Select *All Mods/Create empty mod*.
-1. Name the mod folder.
+1. Name the mod.
 
-Repeat step 1-3 above and create the following mod folders:
+Repeat step 1-3 above and create the following empty mods:
 
 * TextGen_Output
 * DynDOLOD_Output
@@ -1898,7 +1899,7 @@ Repeat step 1-3 above and create the following mod folders:
 * BodySlide _Output
 * Unlimited_Bookshelves_Patch_Generator_Output
 
-Some tools can be set to output data to these folders.
+Some tools can be set to output data to these mods.
 
 1. Click the Executables button at the top of the main Mod Organizer window.
 1. Select the tool to add an argument to.
@@ -1907,10 +1908,12 @@ Some tools can be set to output data to these folders.
 
 Repeat the steps for the tools listed below. Arguments should be seperated by spaces.
 
-* Textgen SE: **-o:[path to Tools folder]\Mod Organizer 2\mods\TextGen_Output** *(typically: -o:C:\Modding\Tools\Mod Organizer 2\mods\TextGen_Output)*
-* Dyndolod SE: **-o:[path to Tools folder]\Mod Organizer 2\mods\DynDOLOD_Output** *(typically: -o:C:\Modding\Tools\Mod Organizer 2\mods\DynDOLOD_Output)*
+* Textgen SE: **-o:C:\Modding\Tools\Mod Organizer 2\mods\TextGen_Output**
+* Dyndolod SE: **-o:C:\Modding\Tools\Mod Organizer 2\mods\DynDOLOD_Output**
 
-To set BodySlide to output data to its output folder:
+Users that deviate from the recommended install paths need to adjust the instructions accordingly.
+
+To set BodySlide to output data to its output mod:
 
 1. Run BodySlide x64 through Mod Organizer
 1. Click *Settings*
