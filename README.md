@@ -774,7 +774,7 @@ Recommendation: 2K
 Install with the following options:
 
 * Options 1: Select nothing
-* Options 2: Select nothing
+* Options 2: Install everything
 * Patches
     * Dawnguard
     * Dragonborn
@@ -1625,6 +1625,7 @@ Install the main version
 #### [Cloaks of the Nords](https://www.nexusmods.com/skyrimspecialedition/mods/8886)
 
 #### [Scout Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/18910)
+This mod needs to be cleaned using the standard cleaning procedure.
 
 #### [Scout Armor SE - Meshes Fix](https://www.nexusmods.com/skyrimspecialedition/mods/26817)
 
