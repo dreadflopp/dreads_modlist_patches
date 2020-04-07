@@ -214,7 +214,7 @@ Close MO2 and run BethINI if it isn't open already.
 
 Use the following settings:
 
-**Basic**
+**Basic tab**
 
 In the presets section:
 
@@ -233,49 +233,15 @@ Use the following settings:
 * VSync: *On*
 * Lock Frame Rate: *On*
 
-**General**
+**View Distance tab**
 
-* Post-Load Update Time: 2000
-
-**Gameplay**
-
-* Over-Encumbered Reminder: 300
-* 1st Person Arrow Tilt-up Angle is: 0.7
-* Make sure 3rd Person Arrow Tilt-up Angle is: 2.5
-* Make sure 1st Person Bolt Tilt-up Angle is: 0.7
-
-**Detail**
-
-* Water
-    * Reflect Trees: *On*
-    * Reflect Objects: *On*
-    * Reflect Land: *On*
-    * Reflect Sky: *On*
-* Decal Quantity: High
-* Godrays: High
-* Field of View: 80.00
-* Particles: 4500
-* Decals: *On*
-* Lens flare: *Off*
-* Depth of Field: *On*
-* Shadows
-    * Shadow Resolution: 2048
-    * Ambient Occlusion: SSAO Full
-    * Shadow Bias: 0.15
-    * Detailed Draw Distance: 2800
-    * Exterior Draw Distance: 8000
-    * Remove shadows: Off
-    * Tree shadows: *On*
-    * Land shadows: *On*
-    * Sun-Shadow Update Time 1
-    * Sun-Shadow Update Threshold: 0.5
-* Snow
-    * Rim Lighting: *On*
-    * Improved Shader: *On*
-    * Sparkles: *On*
-    * Intensity: 0.30
+* Object Fade: 25.0
+* Actor Fade: 20.0
+* Item Fade: 15.0
+* Grass Fade: 18000
+* Light Fade: 50000
     
-Click **Save and Exit** button.
+On the *Basic* tab, click the **Save and Exit** button.
 
 
 # Procedures: Common modding procedures
@@ -1209,8 +1175,6 @@ Choose *Full version - skin with a linen fabric cloth* in the installer.
 #### [Alpine Forest of Whiterun Valley](https://www.nexusmods.com/skyrimspecialedition/mods/18866)
 
 #### [Bent Pines II](https://www.nexusmods.com/skyrimspecialedition/mods/8306)
-
-#### [Immersive Fallen Trees SSE](https://www.nexusmods.com/skyrimspecialedition/mods/8767)
 
 #### [Landscape Fixes For Grass Mods](http://www.nexusmods.com/skyrimspecialedition/mods/9005)
 Install patches for
