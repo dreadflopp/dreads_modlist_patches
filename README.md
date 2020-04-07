@@ -193,6 +193,8 @@ Repeat the steps for the executables listed below, filling in the appropriate da
 ## [BethINI SE](http://www.nexusmods.com/skyrimspecialedition/mods/4875)
 Download extract into its own subfolder of the tools folder.
 
+### Initialization
+
 BethINI needs to be set up to run for the current profile in MO2 and ran to establish solid INIs before beginning the mod installations. To do this:
 
 1. Close MO2 and run BethINI.
@@ -204,18 +206,77 @@ BethINI needs to be set up to run for the current profile in MO2 and ran to esta
     * If the MO path is correct, the INI Path menu will find the user’s profiles in MO2. Select the profile you use in MO.
         * If BethINI does not automatically find the profiles, browse to MO2's Profile folder.
         * For Instance users the profile will be stored in the user's AppData folder (i.e. C:\Users\UserName\AppData\Local\ModOrganizer\SkyrimSE\profiles)
+1. At this time BethINI should restart to grab the correct INIs. Continue to customization.
 
-At this time BethINI should restart to grab the correct INIs. Once it is restarted:
+### Customiztion
 
-1. Return to the Setup tab.
-    * BethINI will be used for multiple games from a single installation, thus users should check the “Always Select Game” box.
-    * To prevent changes to the INIs, check the “Make INIs Read-Only” box. 
-1. Select the Basic tab.
-    * Ensure the Window Resolution matches the system resolution.
-    * Click the Medium profile button (this can be changed at the end of the Guide).
-    * Check the box for “Recommended Tweaks”. 
-1. Now Save and Exit.
-Users now have a minimal setup for the game INIs for testing and running the game during the mod installations. Once all mods have been installed, BethINI will be ran again to complete the INI setup.
+Close MO2 and run BethINI if it isn't open already.
+
+Use the following settings:
+
+**Basic**
+
+In the presets section:
+
+1. Click **Default** button.
+1. Click **High** button.
+1. Click **BethINI Presets** selector.
+1. Make sure **Recommended Tweaks** is checked.
+
+Use the following settings:
+
+* Resolution: set your system resolution
+* Antialiasing: *TAA* (ENB users choose *none*)
+* Windowed Mode: *On*
+* Borderless: *On*
+* FXAA: *On*
+* VSync: *On*
+* Lock Frame Rate: *On*
+
+**General**
+
+* Post-Load Update Time: 2000
+
+**Gameplay**
+
+* Over-Encumbered Reminder: 300
+* 1st Person Arrow Tilt-up Angle is: 0.7
+* Make sure 3rd Person Arrow Tilt-up Angle is: 2.5
+* Make sure 1st Person Bolt Tilt-up Angle is: 0.7
+
+**Detail**
+
+* Water
+    * Reflect Trees: *On*
+    * Reflect Objects: *On*
+    * Reflect Land: *On*
+    * Reflect Sky: *On*
+* Decal Quantity: High
+* Godrays: High
+* Field of View: 80.00
+* Particles: 4500
+* Decals: *On*
+* Lens flare: *Off*
+* Depth of Field: *On*
+* Shadows
+    * Shadow Resolution: 2048
+    * Ambient Occlusion: SSAO Full
+    * Shadow Bias: 0.15
+    * Detailed Draw Distance: 2800
+    * Exterior Draw Distance: 8000
+    * Remove shadows: Off
+    * Tree shadows: *On*
+    * Land shadows: *On*
+    * Sun-Shadow Update Time 1
+    * Sun-Shadow Update Threshold: 0.5
+* Snow
+    * Rim Lighting: *On*
+    * Improved Shader: *On*
+    * Sparkles: *On*
+    * Intensity: 0.30
+    
+Click **Save and Exit** button.
+
 
 # Procedures: Common modding procedures
 
@@ -233,7 +294,7 @@ At any time during the mod installation process LOOT should be used to sort plug
 1. Click the “Apply” button, which has replaced the Sort button at the top.
 1. Close LOOT.
 
-## Standard cleaning procedures
+## Standard cleaning procedure
 
 Some mods, as well as the official vanilla game, contains plugins (.esp-files) or master plugins (.esm-files) that are dirty. LOOT warns you about such plugins. Clean all plugins that LOOT prompts you to clean. To clean a plugin:
 
@@ -2017,46 +2078,5 @@ After closing SSEEdit, the patch will be in Overwrite:
 1. Ensure the DynDOLOD esm and esp files are checked in the right pane.
 1. Sort with LOOT.
 1. Ensure DynDOLOD.esp is the last plugin in the load order.
-
-# BethINI Customization 
-Run BethINI from where it is installed, not through Mod Organizer 2. These are suggested settings:
-
-**Basic**
-Click *Ultra* or *High*. Select *Recommended Tweaks*.
-* Resolution: set your resolution
-* Antialiasing: TSAA (None if using ENB)
-* FXAA: off
-* VSync: On (Off if using ENB)
-
-**General**
-* Background Load Scripting VM: Checked
-* Post-Load Update Time: 2000
-
-**Detail**
-* Water
-    * Reflect Trees: On
-    * Reflect Objects: On
-    * Reflect Land: On
-    * Reflect Sky: On
-* Decal Quantity: High
-* Godrays: High
-* Particles: 4500
-* Decals: On
-* Shadows
-    * Shadow Resolution: 2048
-    * Ambient Occlusion: SSAO Full
-    * Shadow Bias: 0.15
-    * Detailed Draw Distace: 2800
-    * Exterior Draw Distance: 8000
-    * Remove shadows: Off
-    * Tree shadows: On
-    * Land shadows: On
-    * Sun-Shadow Update Time 1
-    * Sun-Shadow Update Threshold: 0.5
-* Snow
-    * Rim Lighting: On
-    * Improved Shader: On
-    * Sparkles: On
-    * Intensity: 0.30
 
 # Mod Configuration (MCM)
