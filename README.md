@@ -661,6 +661,22 @@ Download and install:
 * Bonemold Hotfix
 * Staff of Magnus Hotfix
 
+ **Path Fix**
+
+There is an incorrect file path in Book of Silence which needs to be fixed. If the 4K variant is used these steps can be skipped. The 4K variant must be installed manually and is found in the Book of Silence - Dragonborn DLC module.
+
+1. After all files are installed, double-click on the Book of Silence - Dragonborn DLC mod
+1. Click on the Filetree tab
+1. Expand the file tree textures > actors > dlc02
+1. Right-click on the ash folder and select [Rename]
+1. Type in the name *ashman* and hit Enter/Return on the keyboard to save the new name
+1. Close the window 
+
+**Hide the following files/folders:**
+
+* textures\clothes
+* aMidianborn_Skyforge_Weapons.esp
+
 #### [aMidianBorn Blades Armor SSE Patch](http://www.nexusmods.com/skyrimspecialedition/mods/12963)
 
 #### [aMidianBorn stormcloak officer armour](https://www.nexusmods.com/skyrim/mods/45692)
@@ -2025,6 +2041,8 @@ After closing Nemesis, there will be files in Overwrite:
 1. Close the window.
 1. Ensure the Nemesis_Output mod is active (checked).
 
+Nemesis may have generated a new plugin, *FNIS.esp*. Activate it and sort all plugins using LOOT.
+
 ## Generating Unlimited Bookshelves patch
 
 1. Sort the load order with LOOT
@@ -2047,7 +2065,7 @@ After closing SSEEdit, the patch will be in Overwrite:
 1. Double-click on Overwrite. A window will open.
 1. Drag the file *UnlimitedBookshelvesPatch.esp* from Overwrite to Unlimited_Bookshelves_Patch_Generator_Output.
 1. Close the window.
-1. Ensure the Nemesis_Output mod is active (checked).
+1. Ensure the Unlimited_Bookshelves_Patch_Generator_Output mod is active (checked).
 
 ## DynDOLOD
 
