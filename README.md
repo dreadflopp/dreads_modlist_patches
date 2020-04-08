@@ -979,6 +979,7 @@ Recommended install options:
 * Glow Options: Normal
 * Inferno Flame Color: Freeseia
 * Tile Options: New
+* Size Options: Regular
 * Patch Options: Ember HD
 * Patch Options: Select Nothing
 * Patch Options: Select Nothing
@@ -1396,8 +1397,6 @@ Choose *Eyes Mesh Fix* in the installer.
 
 #### [Modern Brawl Bug Fix](http://www.nexusmods.com/skyrimspecialedition/mods/1473)
 
-#### [Reasonable Movement Speed](http://www.nexusmods.com/skyrimspecialedition/mods/3422)
-
 #### [Skyrim Landscape and Water Fixes](http://www.nexusmods.com/skyrimspecialedition/mods/26138)
 
 In the installer, choose:
@@ -1513,7 +1512,7 @@ Install main file and the 2K horse textures.
 Install *Improved Traps and Mining Makes Noise*.
 
 #### [Lenient Survival](https://www.nexusmods.com/skyrimspecialedition/mods/13087)
-For users of Survival Mode only. Do not install the optional file. A plugin to remove carry weight penalty is found in the guides patches.
+For users of Survival Mode only. Install main file and (optionally) the optional file.
 
 #### [Lock Related Loot](http://www.nexusmods.com/skyrimspecialedition/mods/11342)
 
@@ -1708,8 +1707,6 @@ Install main file and OBIS SE Patrols addon.
 
 #### [Immersive College NPCs](https://www.nexusmods.com/skyrimspecialedition/mods/9252)
 Use the default settings in the installer.
-
-#### [Immersive World Encounters SE](https://www.nexusmods.com/skyrimspecialedition/mods/18330)
 
 #### [Interesting NPCs SE](https://www.nexusmods.com/skyrimspecialedition/mods/29194)
 

@@ -499,24 +499,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="Immersive World Encounters SE">
-							<conditionFlags>
-								<flag name="iwe">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="Immersive Encounters.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
 						<plugin name="Nether's Follower Framework">
 							<conditionFlags>
 								<flag name="nff">On</flag>
@@ -2356,28 +2338,7 @@ Tweaks:
 					</plugins>
 				</group>
 				<group name="Other Tweaks" type="SelectAny">
-					<plugins order="Explicit">
-						<plugin name="Creation Club Survival Mode tweaks">
-							<description>
-								<![CDATA[CC Survial mode reduces carry weight by 150 points. This tweak removes that reduction.]]>
-							</description>
-							<files>
-								<file source="df_ccSurvival-NoReducedCarryWeight.esp" destination="df_ccSurvival-NoReducedCarryWeight.esp" priority="0" />
-							</files>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<flagDependency flag="ccsurvival" value="On"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
+					<plugins order="Explicit">						
 						<plugin name="Experience settings">
 							<description>
 								<![CDATA[This is a settings file for the mod Experience. It enables experience gain from miscellaneous quests and from killing enemies. This also installs a patch for Experience to allow miscellaneous from killing enemies added by other mods included in this modlist.]]>
@@ -2554,15 +2515,6 @@ Tweaks:
 				</dependencies>
 				<files>
 					<file source="df_CuttingRoomFloor-3DNPC.esp" destination="df_CuttingRoomFloor-3DNPC.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="crf" value="On"/>
-					<flagDependency flag="iwe" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_CuttingRoomFloor-ImmersiveEncounters.esp" destination="df_CuttingRoomFloor-ImmersiveEncounters.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
