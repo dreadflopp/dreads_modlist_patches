@@ -1444,6 +1444,8 @@ Download and install the Main File and the GIST - Rustic Soul Gems patch Optiona
 
 ## Gameplay - AI & Combat
 
+#### [Archery Gameplay Overhaul SE](https://www.nexusmods.com/skyrimspecialedition/mods/24296)
+
 #### [Auto Hide Ammo](http://www.nexusmods.com/skyrimspecialedition/mods/1882)
 Install the Simple Auto Unequip Ammo from the Old Files.
 
@@ -1987,7 +1989,7 @@ Once Nemesis is installed, the animation files need to be generated.
 
 1. Sort the load order with LOOT.
 1. Run Nemesis Unlimited Behaviour Engine via Mod Organizer 2.
-1. Check the box adjacent to *Animated Armoury FPA*
+1. Check the boxes adjacent to *Animated Armoury FPA* and *Archery Gameplay Overhaul*.
 1. Click *Update Engine* and wait for the update to finish.
 1. Click *Launch Nemesis Behaviour Engine* and wait for the generation to finish indicated by the message *Behaviour generation complete*.
 1. Close Nemesis.

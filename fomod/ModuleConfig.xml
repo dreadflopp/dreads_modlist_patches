@@ -656,6 +656,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
+						<plugin name="Archery Gameplay Overhaul SE">
+							<conditionFlags>
+								<flag name="ago">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="DSerArcheryGameplayOverhaul.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Realistic AI Detection SE">
 							<conditionFlags>
 								<flag name="raid">On</flag>
@@ -2979,6 +2997,15 @@ Tweaks:
 			<!-- ***************************************************-->
 
 			<!-- Relationship Dialogue Overhaul -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="rdo" value="On"/>
+					<flagDependency flag="ago" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_RelationshipDialogueOverhaul-ArcheryGameplayOverhaul.esp" destination="df_RelationshipDialogueOverhaul-ArcheryGameplayOverhaul.esp" priority="0" />
+				</files>
+			</pattern>
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="rdo" value="On"/>
