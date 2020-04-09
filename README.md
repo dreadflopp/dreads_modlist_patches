@@ -877,8 +877,6 @@ Install options:
 #### [HAGRAVEN](http://www.nexusmods.com/skyrimspecialedition/mods/7679)
 Recommendation: 2K
 
-#### [Hardy Hares](http://www.nexusmods.com/skyrimspecialedition/mods/27366)
-
 #### [HD Executioners Block SE](http://www.nexusmods.com/skyrimspecialedition/mods/22674)
 
 #### [HD Misc](http://www.nexusmods.com/skyrim/mods/3595)
@@ -959,10 +957,6 @@ Hide the following files/folders:
 
 #### [Iconic's Real Hay](http://www.nexusmods.com/skyrimspecialedition/mods/11133)
 Recommendation: 2K alt
-
-#### [Immersive Dragons](http://www.nexusmods.com/skyrimspecialedition/mods/18957)
-
-#### [Immersive Smilodons](http://www.nexusmods.com/skyrimspecialedition/mods/18429)		
 
 #### [Improved closefaced helmets (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/824)
 
@@ -1225,6 +1219,83 @@ Recommendation: *Realistic Wolf Howls more barks than howls*
 #### [Ultra Realistic Bow Shoot Sounds](https://www.nexusmods.com/skyrim/mods/27208)
 
 #### [Ultra Realistic Crossbow Shoot Sounds](https://www.nexusmods.com/skyrim/mods/31274)
+
+## Audiovisual - Creature Skeleton
+
+#### [Absolute Arachnophobia](https://www.nexusmods.com/skyrimspecialedition/mods/24058)
+
+#### [Astonishing Frost Atronachs](https://www.nexusmods.com/skyrimspecialedition/mods/24641)
+
+#### [Astounding Flame Atronachs](https://www.nexusmods.com/skyrimspecialedition/mods/24836)
+
+#### [Bristleback Boars](https://www.nexusmods.com/skyrimspecialedition/mods/22578)
+
+#### [Bullish Bovine](https://www.nexusmods.com/skyrimspecialedition/mods/33888)
+
+#### [Callous Dwemer Centurions](https://www.nexusmods.com/skyrimspecialedition/mods/34395)
+
+#### [Dramatic Deer](https://www.nexusmods.com/skyrimspecialedition/mods/31010)
+
+#### [Dreaded Dwarven Spiders](https://www.nexusmods.com/skyrimspecialedition/mods/27047)
+
+#### [Grandiose Giants](https://www.nexusmods.com/skyrimspecialedition/mods/23889)
+
+#### [Grave Gargoyles](https://www.nexusmods.com/skyrimspecialedition/mods/21907)
+
+#### [Gritty Goats](https://www.nexusmods.com/skyrimspecialedition/mods/26665)
+
+#### [Hardy Hares](http://www.nexusmods.com/skyrimspecialedition/mods/27366)
+
+#### [Heartland Horses](https://www.nexusmods.com/skyrimspecialedition/mods/22083)
+
+#### [Heinous Ash Hoppers](https://www.nexusmods.com/skyrimspecialedition/mods/22409)
+
+#### [Hellish Hounds](https://www.nexusmods.com/skyrimspecialedition/mods/30344)
+
+#### [Honored Hounds](https://www.nexusmods.com/skyrimspecialedition/mods/25563)
+
+#### [Hulking Horkers](https://www.nexusmods.com/skyrimspecialedition/mods/28383)
+
+#### [Immersive Dragons](http://www.nexusmods.com/skyrimspecialedition/mods/18957)
+
+#### [Immersive Smilodons](http://www.nexusmods.com/skyrimspecialedition/mods/18429)
+
+#### [Infamous Ice Wraiths](https://www.nexusmods.com/skyrimspecialedition/mods/29712)
+
+#### [Looming Lurkers](https://www.nexusmods.com/skyrimspecialedition/mods/23122)
+
+#### [Marvelous Mudcrabs](https://www.nexusmods.com/skyrimspecialedition/mods/21685)
+
+#### [Mighty Mammoths](https://www.nexusmods.com/skyrimspecialedition/mods/24237)
+
+#### [Nightmare Chaurus](https://www.nexusmods.com/skyrimspecialedition/mods/21488)
+
+#### [Notorious Netches](https://www.nexusmods.com/skyrimspecialedition/mods/29323)
+
+#### [Riekling Reavers](https://www.nexusmods.com/skyrimspecialedition/mods/22948)
+
+#### [Riekling Roughriders](https://www.nexusmods.com/skyrimspecialedition/mods/22765)
+
+#### [Salty Slaughterfish](https://www.nexusmods.com/skyrimspecialedition/mods/28005)
+
+#### [Savage Bear](https://www.nexusmods.com/skyrimspecialedition/mods/16343)
+
+#### [Sickening Skeevers](https://www.nexusmods.com/skyrimspecialedition/mods/24428)
+
+#### [Sinister Spriggans](https://www.nexusmods.com/skyrimspecialedition/mods/23502)
+
+#### [Supreme Chaurus Hunters](https://www.nexusmods.com/skyrimspecialedition/mods/22263)
+
+#### [Supreme Seekers](https://www.nexusmods.com/skyrimspecialedition/mods/23349)
+
+#### [Supreme Vampire Lords](https://www.nexusmods.com/skyrimspecialedition/mods/19706)
+Install *Supreme Vampire Lords XP32 SE*
+
+#### [Tyrannical Trolls](https://www.nexusmods.com/skyrimspecialedition/mods/23665)
+Install *Tyrannical Trolls (Vanilla Size)*
+
+#### [Wicked Werewolves](https://www.nexusmods.com/skyrimspecialedition/mods/31757)
+Install *Wicked Werewolves SE XP32*.
 
 ## Character Appearance - Female body
 
