@@ -17,11 +17,11 @@ This guide is a STEP build based on the [STEP: Core build](https://www.nexusmods
 
 * Support for the Survival mode from Bethesda Creation Club.
 * HD textures for landscapes, structures and buildings that keeps the vanilla look and feel.
-* Bigger trees for a truly immersive forrest
-* Enhanced visuals with Cathedral Weather, Relighting Skyrim and Luminosity Lighting Overhaul.
 * HD textures for clutter, armors, weapons other items.
+* Bigger trees for a truly immersive forrest.
+* Enhanced visuals with Cathedral Weather, Relighting Skyrim and Luminosity Lighting Overhaul.
 * New unique armors are added to the game.
-* New weapons weapon types with custom animations.
+* New weapons types with custom animations.
 * More adventures with new quests and new lands to visit.
 * Overhauled cities, towns and villages.
 * Expanded character creation with the CBBE female body with realistic presets.
@@ -226,7 +226,7 @@ In the presets section:
 Use the following settings:
 
 * Resolution: set your system resolution
-* Antialiasing: *TAA* (ENB users choose *none*)
+* Antialiasing: *TAA*
 * Windowed Mode: *On*
 * Borderless: *On*
 * FXAA: *On*
@@ -363,8 +363,6 @@ The provided guide patches comes with a neat FOMOD installer that automatically 
 * Cloaks of Skyrim and Winter is coming should be used together or not at all for the patches to work.
 
 Theoretically, you can leave out any mod from your install besides from those mentioned above.
-
-Note that records from the Particle patch is not forwarded since its plugin is obsolete. ENB users should use [ENB Helper](https://www.nexusmods.com/skyrimspecialedition/mods/23174).
 
 ## Extenders
 
@@ -533,6 +531,23 @@ Install loose files.
 #### [No Spinning Death Animation (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/1432)
 Install *No Spinning Death Animation MERGED*
 
+#### [Immersive Animations](https://www.nexusmods.com/skyrimspecialedition/mods/4254)
+In the installer choose:
+
+* Main Module
+* Sneaking
+* Strafe
+* Greatsword Sprint
+* Rogue Stab
+
+#### [Blocking Animation Pack SSE](https://www.nexusmods.com/skyrimspecialedition/mods/4352)
+
+#### [Dual Wield Improved Animation SSE](https://www.nexusmods.com/skyrimspecialedition/mods/5012)
+
+#### [Smooth Running Animations](https://www.nexusmods.com/skyrimspecialedition/mods/15881)
+
+#### [No heavy muscular walk and idle by Scot](https://www.nexusmods.com/skyrimspecialedition/mods/4746)
+
 #### [Smooth Running Animations](http://www.nexusmods.com/skyrimspecialedition/mods/15881)
 
 #### [XP32 Maximum Skeleton Special Extended - XPMSSE](http://www.nexusmods.com/skyrimspecialedition/mods/1988)
@@ -634,7 +649,7 @@ There is an incorrect file path in Book of Silence which needs to be fixed. If t
 1. After all files are installed, double-click on the Book of Silence - Dragonborn DLC mod
 1. Click on the Filetree tab
 1. Expand the file tree textures > actors > dlc02
-1. Right-click on the ash folder and select [Rename]
+1. Right-click on the ash folder and select *Rename*
 1. Type in the name *ashman* and hit Enter/Return on the keyboard to save the new name
 1. Close the window 
 
@@ -2133,3 +2148,41 @@ After closing SSEEdit, the patch will be in Overwrite:
 1. Ensure DynDOLOD.esp is the last plugin in the load order.
 
 # Mod Configuration (MCM)
+
+These are suggested settings. It is recommended to tweak these settings yourself.
+
+## AGO (Archery Gameplay Overhaul)
+
+* Turn off *Arm Fatigue*
+
+## Cathedral Weather
+
+* Turn off *Configuration Spell*
+
+## Farmhouse Chimneys
+
+Under *Mod Support*, turn on support for all Arthmoor's villages. Turn on support for *Helarchen Creek*, *Oakwood* and *Cutting Room Floor*.
+
+## Immersive Hud
+
+Turn on *Key press toggles*.
+
+## Lock Overhaul
+
+Activate the mod
+
+## More Hud
+
+Under *Enemy's Level*, turn off *Show Magicka Meter* and *Show Stamina Meter*.
+
+## OBIS
+
+Enable the mod. Under *Special*, enable *Minotaurs* and *Spiders*.
+
+## OBIS - Patrols
+
+Enable the mod.
+
+## Realistic Water Two
+
+Enable *Blacksmith Forge Water* for *The Fall of Granite Hill, *Kynesgrove* and *Rorikstead*. After Granite Hill has been destroyed, uncheck the option for it.
