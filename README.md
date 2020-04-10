@@ -43,12 +43,10 @@ This guide is a STEP build based on the [STEP: Core build](https://www.nexusmods
 
 ## Almost all mods are optional
 
-All patched mods in this build are optional, except for:
+All mods in this build are optional, except for:
 
 * *Unofficial Skyrim Special Edition Patch*.
 * *Cloaks of Skyrim* and *Winter is Coming*. Use them both or not at all. 
-
-All other mods are optional.
 
 ## What about Weapons Armor Clothing and Clutter Fixes (WACCF) by Kryptopyr?
 
