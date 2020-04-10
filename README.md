@@ -37,13 +37,22 @@ This guide is a STEP build based on the [STEP: Core build](https://www.nexusmods
 ## This build is made to be easy to install
 
 * No LOOT rules, every conflict is resolved with the patches. Run LOOT and you are done.
-* No bashed patch. Every level list conflict is fixed in the patches.
-* No merging of mods. Every patch is esl-flagged to make sure the plugin limit count is not reached.
+* No bashed patch. All level list conflicts are resolved by the patches.
+* No merging of plugins. Every patch is esl-flagged to make sure the plugin limit count is not reached.
 * Advanced FOMOD installer for the patches. No need to choose which patches to use, the installer does the work for you.
+
+## Almost all mods are optional
+
+All patched mods in this build are optional, except for:
+
+* *Unofficial Skyrim Special Edition Patch*.
+* *Cloaks of Skyrim* and *Winter is Coming*. Use them both or not at all. 
+
+All other mods are optional.
 
 ## What about Weapons Armor Clothing and Clutter Fixes (WACCF) by Kryptopyr?
 
-WACCF is a great mod that fixes bugs and inconsitencies among weapons, armors, etc. Even though it has the word fixes in its name, it could have been named Weapons Armor Clothing and Clutter *Overhaul*, because it overhauls the weapon and armor stats and progression. To avoid inconsitencies, all mods that add weapons and armors to the game needs to be checked and eventually rebalanced against WACCF. I have decided that isn't something that I want to do, it is just to much work. There are other mod guides that rebalances quest and weapon mods around WACCF and other overhauls.
+WACCF is a great mod that fixes bugs and inconsitencies among weapons, armors, etc. Even though it has the word fixes in its name, it could have been named Weapons Armor Clothing and Clutter *Overhaul*, because it overhauls the weapon and armor stats and progression. To avoid inconsitencies, all mods that add weapons and armors to the game needs to be checked and eventually rebalanced against WACCF. I have decided that isn't something that I want to do, it is just to much work. That said, I still might add it to the guide at a later time. I have had WACCF installed during development and there are unsupported patches for it in the included *old patches* folder.
 
 # Preparations: Game Installation and modding setup
 
