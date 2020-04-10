@@ -5,7 +5,7 @@ The main version of this guide is on the STEP website. A markdown version of the
 - [Github version of the guide](https://github.com/dreadflopp/dreads_modlist_patches/blob/master/README.md)
 - [The guide section on STEP TBA]()
 
-Visit the [STEP forums](https://forum.step-project.com/topic/14603-dreads-step-se-core-addon/) if you have any questions.
+Visit the [STEP forums](https://forum.step-project.com/topic/14888-dreads-skyrim-build-a-step-build/) if you have any questions, suggestions or other feedback.
 
 # Introduction: Welcome to Dread's Skyrim Build
 
