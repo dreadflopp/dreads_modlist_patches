@@ -555,8 +555,6 @@ In the installer choose:
 
 #### [No heavy muscular walk and idle by Scot](https://www.nexusmods.com/skyrimspecialedition/mods/4746)
 
-#### [Smooth Running Animations](http://www.nexusmods.com/skyrimspecialedition/mods/15881)
-
 #### [XP32 Maximum Skeleton Special Extended - XPMSSE](http://www.nexusmods.com/skyrimspecialedition/mods/1988)
 
 Install the main file using the following options:
