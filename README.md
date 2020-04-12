@@ -1744,10 +1744,16 @@ In the installer, use the default settings.
 
 #### [Bandolier - Bags and Pouches Classic](http://www.nexusmods.com/skyrimspecialedition/mods/2417)
 
+#### [Black Sacrament Armor](https://www.nexusmods.com/skyrimspecialedition/mods/16687)
+Install *Black Sacrament Armour - SSE CBBE BodySlide* and *Black Sacrament Armour - ESL version*. Delete the file *BlackSacramentArmor.esp* (keep *BlackSacramentArmor.esl*).
+
 #### [Cloaks of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/6369)
 Install the main version
 
 #### [Cloaks of the Nords](https://www.nexusmods.com/skyrimspecialedition/mods/8886)
+
+#### [Lustmord Vampire Armor](https://www.nexusmods.com/skyrimspecialedition/mods/16676)
+Install the main file.
 
 #### [Scout Armor SE](https://www.nexusmods.com/skyrimspecialedition/mods/18910)
 This mod needs to be cleaned using the standard cleaning procedure.
@@ -2090,7 +2096,7 @@ Build body and armor meshes using BodySlide following these instructions:
 1. Tick the checkbox *Build Morphs*.
 1. Click the button *Build* to build the body.
 1. Click on the spyglass at the field Group filter and choose *Choose groups*.
-1. Check the following and click ok: *CBBE vanilla outfits, Frankly HD, WTF Wayfare Coat CBBE*.
+1. Check the following and click ok: *Black Sacrament, CBBE vanilla outfits, Frankly HD, Lustmord, WTF Wayfare Coat CBBE*.
 1. Click the button *Batch build…*
 1. Click *build* to build armor meshes.
 1. Make sure no physics options are checked. Check all Frankly options. Click *ok* and close BodySlide.
