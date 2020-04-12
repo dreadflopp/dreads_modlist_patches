@@ -2425,16 +2425,16 @@ Tweaks:
 						</plugin>
 						<plugin name="Higher Bounty Rewards">
 							<description>
-								<![CDATA[Alex's Higher Bounty Rewards lite is a mod that increases the rewrds for certain quests:
+<![CDATA[Alex's Higher Bounty Rewards lite is a mod that increases the rewrds for certain quests:
 
-								- Bandit Camp: 1000 gold
-								- Forsworn Camp: 1500 gold
-								- Giants: 2500 gold
-								- Dragons: 7500 gold
-								
-								Since the mod only alters values in four records in Skyrim.esm, it is impossible to patch without making the mod redundant. These patched plugins therefore replaces the original mod.
-								
-								Please download and endorse the original mod, but do not install it: https://www.nexusmods.com/skyrimspecialedition/mods/11294]]>
+- Bandit Camp: 1000 gold
+- Forsworn Camp: 1500 gold
+- Giants: 2500 gold
+- Dragons: 7500 gold
+
+Since the mod only alters values in four records in Skyrim.esm, it is impossible to patch without making the mod redundant. These patched plugins therefore replaces the original mod.
+
+Please download and endorse the original mod, but do not install it: https://www.nexusmods.com/skyrimspecialedition/mods/11294]]>
 							</description>
 							<conditionFlags>
 								<flag name="hbr">On</flag>
