@@ -1986,6 +1986,9 @@ Install:
 * JS Dragon Claws - Helgen Reborn Patch
 * JS Dragon Claws - Wyrmstooth Patch
 
+#### [kryptopyr's Patch Hub](https://www.nexusmods.com/skyrimspecialedition/mods/19518)
+Install *Book Covers Skyrim __ TCIY* and *Cutting Room Floor __ TCIY*.
+
 #### [Luminosity - A Quality Worldmap Compatibility Patch](https://www.nexusmods.com/skyrimspecialedition/mods/30162)
 
 #### [Moonpath to Elsweyr Sky and Lightning fix](http://www.nexusmods.com/skyrimspecialedition/mods/18683)
