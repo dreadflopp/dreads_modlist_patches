@@ -656,6 +656,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
+						<plugin name="AI Overhaul SSE">
+							<conditionFlags>
+								<flag name="aio">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="AI Overhaul.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Archery Gameplay Overhaul SE">
 							<conditionFlags>
 								<flag name="ago">On</flag>
@@ -1700,6 +1718,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="Dawnstar">
+							<conditionFlags>
+								<flag name="dawnstar">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Dawnstar.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Falskaar">
 							<conditionFlags>
 								<flag name="falskaar">On</flag>
@@ -1747,6 +1783,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="JKs Skyrim_Cutting Room Floor_Patch.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Kynesgrove">
+							<conditionFlags>
+								<flag name="kynesgrove">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Kynesgrove.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -3868,6 +3922,63 @@ Tweaks:
 				</files>
 			</pattern>
 			<!-- *********************************** -->
+
+			<!-- AI OVerhaul -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aio" value="On"/>
+					<flagDependency flag="adamant" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AIOverhaul-Adamant.esp" destination="df_AIOverhaul-Adamant.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aio" value="On"/>
+					<flagDependency flag="cfto" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AIOverhaul-CarriageAndFerryTravelOverhaul.esp" destination="df_AIOverhaul-CarriageAndFerryTravelOverhaul.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aio" value="On"/>
+					<flagDependency flag="cop" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AIOverhaul-ConsistentOlderPeople.esp" destination="df_AIOverhaul-ConsistentOlderPeople.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aio" value="On"/>
+					<flagDependency flag="crf" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AIOverhaul-CuttingRoomFloor.esp" destination="df_AIOverhaul-CuttingRoomFloor.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aio" value="On"/>
+					<flagDependency flag="dawnstar" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AIOverhaul-Dawnstar.esp" destination="df_AIOverhaul-Dawnstar.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aio" value="On"/>
+					<flagDependency flag="kynesgrove" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AIOverhaul-Kynesgrove.esp" destination="df_AIOverhaul-Kynesgrove.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- ************************** -->
 		</patterns>
 	</conditionalFileInstalls>
 </config>

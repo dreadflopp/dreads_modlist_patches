@@ -1535,6 +1535,8 @@ Download and install the Main File and the GIST - Rustic Soul Gems patch Optiona
 
 ## Gameplay - AI & Combat
 
+#### [AI Overhaul SSE](https://www.nexusmods.com/skyrimspecialedition/mods/21654)
+
 #### [Archery Gameplay Overhaul SE](https://www.nexusmods.com/skyrimspecialedition/mods/24296)
 
 #### [Auto Hide Ammo](http://www.nexusmods.com/skyrimspecialedition/mods/1882)
