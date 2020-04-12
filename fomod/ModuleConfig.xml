@@ -914,24 +914,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="Get Snowy">
-							<conditionFlags>
-								<flag name="getsnowy">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="getSnowy.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
 						<plugin name="Guard Dialogue Overhaul">
 							<conditionFlags>
 								<flag name="gdo">On</flag>
@@ -1033,6 +1015,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="Torches Ignite Oil - Shock Edition.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>						
+						<plugin name="Wet And Cold">
+							<conditionFlags>
+								<flag name="wac">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="WetandCold.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -2937,10 +2937,10 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="cathedralweathers" value="On"/>
-					<flagDependency flag="getsnowy" value="On"/>
+					<flagDependency flag="wac" value="On"/>
 				</dependencies>
 				<files>
-					<file source="df_CathedralWeathers-GetSnowy.esp" destination="df_CathedralWeathers-GetSnowy.esp" priority="0" />
+					<file source="df_CathedralWeathers-WetAndCold.esp" destination="df_CathedralWeathers-WetAndCold.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- ***************************************** -->
@@ -3079,6 +3079,15 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_AudioOverhaulSkyrim-LuminousAtronachs.esp" destination="df_AudioOverhaulSkyrim-LuminousAtronachs.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aos" value="On"/>
+					<flagDependency flag="wac" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AudioOverhaulSkyrim-WetAndCold.esp" destination="df_AudioOverhaulSkyrim-WetAndCold.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>

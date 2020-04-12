@@ -1590,12 +1590,6 @@ Install the main file and the Growl patch.
 
 #### [ElSopa - Campfire HD SE](http://www.nexusmods.com/skyrimspecialedition/mods/24511)
 
-#### [Get Snowy (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/22488)
-When installing the mod, untick the following plugins:
-
-* getSnowy_ObsidianWeathers_Patch.esp
-* getSnowy_WnC-Ashes Patch.esp
-
 #### [Go On Ahead](http://www.nexusmods.com/skyrimspecialedition/mods/4779)
 
 #### [Guard Dialogue Overhaul SE](http://www.nexusmods.com/skyrimspecialedition/mods/22075)
@@ -1625,6 +1619,10 @@ Choose the following default settings in the installer.
 #### [Simple Drop Lit Torches SE](http://www.nexusmods.com/skyrimspecialedition/mods/14490)
 
 #### [Torches Ignite Oil](http://www.nexusmods.com/skyrimspecialedition/mods/13226)
+
+#### [Wet And Cold](https://www.nexusmods.com/skyrimspecialedition/mods/644/)
+
+Do not choose any extra options in the installer.
 
 ## Gameplay - Magic & Abilities
 
