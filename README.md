@@ -1986,6 +1986,8 @@ Install:
 * JS Dragon Claws - Helgen Reborn Patch
 * JS Dragon Claws - Wyrmstooth Patch
 
+#### [Luminosity - A Quality Worldmap Compatibility Patch](https://www.nexusmods.com/skyrimspecialedition/mods/30162)
+
 #### [Moonpath to Elsweyr Sky and Lightning fix](http://www.nexusmods.com/skyrimspecialedition/mods/18683)
 
 #### [Unofficial Moonpath to Elsweyr Patch](http://www.nexusmods.com/skyrimspecialedition/mods/15882)
