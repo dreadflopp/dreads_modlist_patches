@@ -1802,6 +1802,15 @@ Install main file and OBIS SE Patrols addon.
 Use the default settings in the installer.
 
 #### [Interesting NPCs SE](https://www.nexusmods.com/skyrimspecialedition/mods/29194)
+Install BSA version. Install the following optional files:
+
+* Interesting NPCs SE - Alternative Locations - Flagged ESL
+* Interesting NPCs SE - Don't Call Me Dragonborn
+* Interesting NPCs SE - Winterhold Mods Compatibility
+* Interesting NPCs SE - AI Overhaul SSE Patch
+* Interesting NPCs SE - Cutting Room Floor SSE Patch
+* Interesting NPCs SE - Karthwasten Patch
+* Interesting NPCs SE - Kynesgrove Patch
 
 #### [Interesting NPCs (3DNPC) character Zora Fairchild's voice boosted](http://www.nexusmods.com/skyrimspecialedition/mods/16090)
 

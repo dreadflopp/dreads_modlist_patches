@@ -2529,15 +2529,6 @@ Tweaks:
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="crf" value="On"/>
-					<flagDependency flag="3dnpc" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_CuttingRoomFloor-3DNPC.esp" destination="df_CuttingRoomFloor-3DNPC.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="crf" value="On"/>
 					<flagDependency flag="inigo" value="On"/>
 				</dependencies>
 				<files>
@@ -2809,15 +2800,6 @@ Tweaks:
 			<!-- ******************************** -->
 
 			<!-- Relighting Skyrim -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="3dnpc" value="On"/>
-					<flagDependency flag="rls" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_3DNPC-RelightingSkyrim.esp" destination="df_3DNPC-RelightingSkyrim.esp" priority="0" />
-				</files>
-			</pattern>
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="rls" value="On"/>
