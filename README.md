@@ -1244,9 +1244,9 @@ Recommendation: *Realistic Wolf Howls more barks than howls*
 
 #### [Absolute Arachnophobia](https://www.nexusmods.com/skyrimspecialedition/mods/24058)
 
-#### [Astonishing Frost Atronachs](https://www.nexusmods.com/skyrimspecialedition/mods/24641)
-
 #### [Astounding Flame Atronachs](https://www.nexusmods.com/skyrimspecialedition/mods/24836)
+
+#### [Astonishing Frost Atronachs](https://www.nexusmods.com/skyrimspecialedition/mods/24641)
 
 #### [Bristleback Boars](https://www.nexusmods.com/skyrimspecialedition/mods/22578)
 
@@ -1544,6 +1544,9 @@ Install the Simple Auto Unequip Ammo from the Old Files.
 
 #### [Better Stealth AI for Followers](http://www.nexusmods.com/skyrimspecialedition/mods/17600)
 
+#### [Blade and Blunt](https://www.nexusmods.com/skyrimspecialedition/mods/34549)
+Install the main file and the optional file.
+
 #### [Follower Trap Safety](http://www.nexusmods.com/skyrimspecialedition/mods/2755)
 
 #### [Realistic AI Detection SE](http://www.nexusmods.com/skyrimspecialedition/mods/2345)
@@ -1694,10 +1697,15 @@ Install *Skyrim Alchemy Fixed*
 
 ## User Interface
 
+#### [A Quality World Map](https://www.nexusmods.com/skyrimspecialedition/mods/5804)
+Install *8.4 A Quality World Map - Classic with Main Roads Only*. This version is the only one that is properly converted from Skyrim LE.
+
 #### [Better Container Controls for SkyUI](http://www.nexusmods.com/skyrimspecialedition/mods/25271)
 Do not install the main file, install the esl optional file only. If you play with a gamepad, skip this mod completely.
 
 #### [Better Dialogue Controls](http://www.nexusmods.com/skyrimspecialedition/mods/1429)
+
+#### [Better Falskaar and Wyrmstooth Map With Roads](https://www.nexusmods.com/skyrim/mods/51339)
 
 #### [Better MessageBox Controls](http://www.nexusmods.com/skyrimspecialedition/mods/1428)
 
