@@ -3437,10 +3437,32 @@ Please download and endorse the original mod, but do not install it: https://www
 			<!-- Unlimited Bookshelves, Improved Closefaced Helmets, Survival Mode -->
 			<pattern>
 				<dependencies operator="And">
-					<flagDependency flag="imp" value="Off"/>
+					<flagDependency flag="ccsurvival" value="Off"/>
+					<flagDependency flag="ubs" value="Off"/>
+					<flagDependency flag="imp" value="On"/>
 				</dependencies>
 				<files>
 					<file source="df_ImprovedClosefacedHelmets-USSEP.esp" destination="df_ImprovedClosefacedHelmets-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ccsurvival" value="Off"/>
+					<flagDependency flag="ubs" value="On"/>
+					<flagDependency flag="imp" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_UnlimitedBookshelves.esp" destination="df_UnlimitedBookshelves.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ccsurvival" value="Off"/>
+					<flagDependency flag="ubs" value="On"/>
+					<flagDependency flag="imp" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_UnlimitedBookshelves-ImprovedClosefacedHelmets.esp" destination="df_UnlimitedBookshelves-ImprovedClosefacedHelmets.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
@@ -3463,18 +3485,17 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_UnlimitedBookshelves-SurvivalModeCC-ImprovedClosefacedHelmets.esp" destination="df_UnlimitedBookshelves-SurvivalModeCC-ImprovedClosefacedHelmets.esp" priority="0" />
 				</files>
 			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="ccsurvival" value="On"/>
-					<flagDependency flag="ubs" value="Off"/>
-					<flagDependency flag="imp" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_ImprovedClosefacedHelmets-SurvivalModeCC.esp" destination="df_ImprovedClosefacedHelmets-SurvivalModeCC.esp" priority="0" />
-				</files>
-			</pattern>
 
 			<!-- Survival Mode -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="campfire" value="On"/>
+					<flagDependency flag="ccsurvival" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_Campfire" destination="df_Campfire" priority="0" />
+				</files>
+			</pattern>
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="campfire" value="On"/>
