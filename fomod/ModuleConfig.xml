@@ -2380,7 +2380,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							<description>
 								<![CDATA[Tweaks:
 - Skills capped at 100, like in the vanilla game
-- Skills level at 50% 
+- Skills level at 50%
 - 5 carry weight gained if stamina is increased when leveling up, like in the vanilla game
 - Legendary skills are turned off]]>
 							</description>
@@ -2475,9 +2475,9 @@ Please download and endorse the original mod, but do not install it: https://www
 								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>											
-						<plugin name="Slower leveling">
+						<plugin name="Slower leveling for Experience">
 							<description>
-								<![CDATA[This edits fXPLevelUpBase and fXPLevelUpMult to slow down character level gain to 50%. It is compatible with the mod Experience and Skyrim skill uncapper. It is recommended to slow down skill gain using one of the uncapper settings provided above or creating a settings file yourself.]]>
+								<![CDATA[This edits fXPLevelUpBase and fXPLevelUpMult to slow down character level gain to 50%. It is recommended to slow down skill gain using one of the uncapper settings provided above or creating a settings file yourself.]]>
 							</description>
 							<files>
 								<file source="df_SlowerLeveling.esp" destination="df_SlowerLeveling.esp" priority="0" />
