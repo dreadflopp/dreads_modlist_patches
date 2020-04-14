@@ -1081,7 +1081,7 @@ Choose *Install Everything* in the installer. Hide or delete the following files
 * textures\clutter\candles
 
 #### [High Poly Project](http://www.nexusmods.com/skyrimspecialedition/mods/12029)
-In the installer, choose install everything but do not install any patches.
+In the installer, choose install everything except the Windhelm throne and the patches.
 
 #### [JS Dragon Claws SE](https://www.nexusmods.com/skyrimspecialedition/mods/1394)
 Recommendation: 2K
