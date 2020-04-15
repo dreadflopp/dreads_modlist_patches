@@ -1854,10 +1854,6 @@ In the installer, choose *Skyrim Special Edition* and the latest game version. C
 * Night time fork halo: Halo dimmer (level 1)
 * Day time fork halo: Halo dim (level 2)
 
-#### [Wonders of Weather (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/13044)
-In the installer, choose core files and *Less Opaque Splashes*.
-
-
 ## Locations - New Structures & Landmarks
 
 #### [Bells of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/10495)
