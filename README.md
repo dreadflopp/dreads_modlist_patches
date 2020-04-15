@@ -1931,6 +1931,8 @@ Install *Solstheim Lighthouse v1.2 ESL* and *HD Raven Rock Brick Texture Replace
 
 #### [JK's Belethor's General Goods.](https://www.nexusmods.com/skyrimspecialedition/mods/33636)
 
+#### [JK's Dragonsreach](https://www.nexusmods.com/skyrimspecialedition/mods/34000)
+
 #### [JK's Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/6289)
 Install main file and the following patches:
 
