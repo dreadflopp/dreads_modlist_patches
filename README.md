@@ -1206,9 +1206,6 @@ Install _Hanging moss removal - partial - the moss around trees -_ mesh edits on
 #### [Realistic Aspen Trees SE](http://www.nexusmods.com/skyrimspecialedition/mods/4423)
 2K recommended. Choose LodGen billboards (doesn't really matter, they will be overwritten by the next mod).
 
-#### [HQ Tree Bark](http://www.nexusmods.com/skyrimspecialedition/mods/6556)
-Choose the options you prefer. Install the Simply Bigger Trees patch.
-
 ## Audiovisual - Sounds & Music
 
 #### [Audio Overhaul for Skyrim SE](http://www.nexusmods.com/skyrimspecialedition/mods/12466)
