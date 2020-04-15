@@ -1206,6 +1206,16 @@ Choose *Full version - skin with a linen fabric cloth* in the installer.
 
 ## Audiovisual - Trees & Vegetation
 
+#### [Enhanced Vanilla Trees SE](https://www.nexusmods.com/skyrimspecialedition/mods/11008)
+In the installer, choose:
+
+* Enhanced Vanilla Meshes
+* Custom Trees (large is recommended)
+* Enhanced Tree Clutter
+* Skyrim Flora Overhaul - Branches: None
+* Alternative Trees: Realistic Aspen Trees
+* Greener Bark Textures: Choose nothing
+
 #### [Alpine Forest of Whiterun Valley](https://www.nexusmods.com/skyrimspecialedition/mods/18866)
 
 #### [Bent Pines II](https://www.nexusmods.com/skyrimspecialedition/mods/8306)
