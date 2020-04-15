@@ -1925,6 +1925,8 @@ Install *Solstheim Lighthouse v1.2 ESL* and *HD Raven Rock Brick Texture Replace
 
 #### [Immersive Dawnguard Dayspring Pass SE](http://www.nexusmods.com/skyrimspecialedition/mods/4126)
 
+#### [JK's Arcadia's Cauldron](https://www.nexusmods.com/skyrimspecialedition/mods/33565)
+
 #### [JK's Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/6289)
 Install main file and the following patches:
 
