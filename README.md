@@ -530,6 +530,25 @@ Recommendation: 2K
 
 #### [Unofficial Material Fix](http://www.nexusmods.com/skyrimspecialedition/mods/21027)
 
+## Level of Detail (LOD)
+
+#### [DynDOLOD Resources](https://www.nexusmods.com/skyrim/mods/59721?)
+
+Download and install *DynDOLOD Resources SE*. Install using the following options:
+
+* Whiterun Exterior
+* Solitude Exterior
+* High Hrothgar Window Glow
+* DLC2 Vvardenfell 3D Plume
+* Desync Birds of Prey
+
+#### [Majestic Mountains - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/11052)
+ 
+Install a LOD file under the Optional Files section that matches the main file you installed earlier in the guide. Make sure you install this as a new mod named *Majestic Mountains LODs* (or another fitting name).
+Install using the following instructions:
+
+* LOD Resolution: 1024 (2-4GB Vram)
+
 ## Audiovisual - Animations & Effects
 
 #### [D13 Faster GET UP STAND UP Animation](http://www.nexusmods.com/skyrimspecialedition/mods/5890)
@@ -1948,28 +1967,6 @@ The installer will automatically choose the correct patches to use.
 
 #### [Lanterns Of Skyrim II](http://www.nexusmods.com/skyrimspecialedition/mods/30817)
 In the installer, choose no addons. Install *the LoS II - SMIM patch*. The installer will automatically select all patches you need.
-
-## Level of Detail (LOD)
-
-#### [DynDOLOD Resources](https://www.nexusmods.com/skyrim/mods/59721?)
-
-Download and install *DynDOLOD Resources SE*. Install using the following options:
-
-* Whiterun Exterior
-* Solitude Exterior
-* High Hrothgar Window Glow
-* DLC2 Vvardenfell 3D Plume
-* Desync Birds of Prey
-
-#### [Majestic Mountains - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/11052)
- 
-Install a LOD file under the Optional Files section that matches the main file you installed earlier in the guide. Make sure you install this as a new mod named *Majestic Mountains LODs* (or another fitting name).
-Install using the following instructions:
-
-* LOD Resolution: 1024 (2-4GB Vram)
-
-#### [Simply Bigger Trees SE](http://www.nexusmods.com/skyrimspecialedition/mods/5281)
-Install the file *BILLBOARDS for Realistic Aspen Trees*. Make sure you install this as a new mod named *Simply Bigger Trees LODs* (or another fitting name).
 
 ## Patches
 
