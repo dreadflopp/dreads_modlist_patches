@@ -15,7 +15,7 @@ This guide is a STEP build based on the [STEP: Core build](https://www.nexusmods
 
 ## What to expect
 
-* Support for the Survival mode from Bethesda Creation Club.
+* Minimalistic survival mode with the mod The Frozen North which uses the same minimalistic and non-intrusive icons as the Creation Club Survival Mode.
 * HD textures for landscapes, structures and buildings that keeps the vanilla look and feel.
 * HD textures for clutter, armors, weapons other items.
 * Bigger trees for a truly immersive forest.
@@ -1613,6 +1613,9 @@ Install the main file and the Growl patch.
 
 #### [ElSopa - Campfire HD SE](http://www.nexusmods.com/skyrimspecialedition/mods/24511)
 
+#### [The Frozen North - Minimalistic survival overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/33068)
+Install the main file *The Frozen North*.
+
 #### [Go On Ahead](http://www.nexusmods.com/skyrimspecialedition/mods/4779)
 
 #### [Guard Dialogue Overhaul SE](http://www.nexusmods.com/skyrimspecialedition/mods/22075)
@@ -1622,9 +1625,6 @@ Install main file and the 2K horse textures.
 
 #### [Improved Traps](http://www.nexusmods.com/skyrimspecialedition/mods/17592)
 Install *Improved Traps and Mining Makes Noise*.
-
-#### [Lenient Survival](https://www.nexusmods.com/skyrimspecialedition/mods/13087)
-For users of Survival Mode only. Install main file and (optionally) the optional file.
 
 #### [Lock Related Loot](http://www.nexusmods.com/skyrimspecialedition/mods/11342)
 
@@ -2004,9 +2004,6 @@ Install *Book Covers Skyrim __ TCIY* and *Cutting Room Floor __ TCIY*.
 #### [Moonpath to Elsweyr Sky and Lightning fix](http://www.nexusmods.com/skyrimspecialedition/mods/18683)
 
 #### [Unofficial Moonpath to Elsweyr Patch](http://www.nexusmods.com/skyrimspecialedition/mods/15882)
-
-#### [Unofficial Skyrim Creation Club Content Patches](http://www.nexusmods.com/skyrimspecialedition/mods/18975)
-Choose the Unofficial Skyrim Survival Patch.
 
 #### [Dread's modlist patches](https://github.com/dreadflopp/dreads_modlist_patches)
 

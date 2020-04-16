@@ -949,25 +949,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>	
-						<plugin name="Lenient Survival">
-							<conditionFlags>
-								<flag name="lenient">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="LenientSurvival.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>					
+						</plugin>						
 						<plugin name="Relationship Dialogue Overhaul">
 							<conditionFlags>
 								<flag name="rdo">On</flag>
@@ -979,24 +961,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="Relationship Dialogue Overhaul.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="Survival Mode from Creation Club">
-							<conditionFlags>
-								<flag name="ccsurvival">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="ccqdrsse001-survivalmode.esl" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -3360,30 +3324,12 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="adamant" value="On"/>
-					<flagDependency flag="ccsurvival" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Adamant-SurvivalModeCC.esp" destination="df_Adamant-SurvivalModeCC.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="adamant" value="On"/>
 					<flagDependency flag="saf" value="On"/>
 				</dependencies>
 				<files>
 					<file source="df_Adamant-SkyrimAlchemyFixed.esp" destination="df_Adamant-SkyrimAlchemyFixed.esp" priority="0" />
 				</files>
-			</pattern>						
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aetherius" value="On"/>
-					<flagDependency flag="ccsurvival" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Aetherius-SurvivalModeCC.esp" destination="df_Aetherius-SurvivalModeCC.esp" priority="0" />
-				</files>
-			</pattern>			
+			</pattern>									
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="mysticism" value="On"/>
@@ -3434,10 +3380,9 @@ Please download and endorse the original mod, but do not install it: https://www
 			</pattern>
 			<!-- *************************** -->
 
-			<!-- Unlimited Bookshelves, Improved Closefaced Helmets, Survival Mode -->
+			<!-- Unlimited Bookshelves, Improved Closefaced Helmets -->
 			<pattern>
 				<dependencies operator="And">
-					<flagDependency flag="ccsurvival" value="Off"/>
 					<flagDependency flag="ubs" value="Off"/>
 					<flagDependency flag="imp" value="On"/>
 				</dependencies>
@@ -3447,7 +3392,6 @@ Please download and endorse the original mod, but do not install it: https://www
 			</pattern>
 			<pattern>
 				<dependencies operator="And">
-					<flagDependency flag="ccsurvival" value="Off"/>
 					<flagDependency flag="ubs" value="On"/>
 					<flagDependency flag="imp" value="Off"/>
 				</dependencies>
@@ -3457,7 +3401,6 @@ Please download and endorse the original mod, but do not install it: https://www
 			</pattern>
 			<pattern>
 				<dependencies operator="And">
-					<flagDependency flag="ccsurvival" value="Off"/>
 					<flagDependency flag="ubs" value="On"/>
 					<flagDependency flag="imp" value="On"/>
 				</dependencies>
@@ -3465,75 +3408,17 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_UnlimitedBookshelves-ImprovedClosefacedHelmets.esp" destination="df_UnlimitedBookshelves-ImprovedClosefacedHelmets.esp" priority="0" />
 				</files>
 			</pattern>
+
+			<!-- Campfire Mode -->
 			<pattern>
 				<dependencies operator="And">
-					<flagDependency flag="ccsurvival" value="On"/>
-					<flagDependency flag="ubs" value="On"/>
-					<flagDependency flag="imp" value="Off"/>
+					<flagDependency flag="campfire" value="On"/>
 				</dependencies>
 				<files>
-					<file source="df_UnlimitedBookshelves-SurvivalModeCC.esp" destination="df_UnlimitedBookshelves-SurvivalModeCC.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="ccsurvival" value="On"/>
-					<flagDependency flag="ubs" value="On"/>
-					<flagDependency flag="imp" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_UnlimitedBookshelves-SurvivalModeCC-ImprovedClosefacedHelmets.esp" destination="df_UnlimitedBookshelves-SurvivalModeCC-ImprovedClosefacedHelmets.esp" priority="0" />
+					<file source="df_Campfire.esp" destination="df_Campfire.esp" priority="0" />
 				</files>
 			</pattern>
 
-			<!-- Survival Mode -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="campfire" value="On"/>
-					<flagDependency flag="ccsurvival" value="Off"/>
-				</dependencies>
-				<files>
-					<file source="df_Campfire" destination="df_Campfire" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="campfire" value="On"/>
-					<flagDependency flag="ccsurvival" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Campfire-SurvivalModeCC.esp" destination="df_Campfire-SurvivalModeCC.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="diseasedescriptions" value="On"/>
-					<flagDependency flag="ccsurvival" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_DiseaseDescriptions-CCSurvivalMode.esp" destination="df_DiseaseDescriptions-CCSurvivalMode.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="mysticism" value="On"/>
-					<flagDependency flag="ccsurvival" value="On"/>
-					<flagDependency flag="lenient" value="Off"/>
-				</dependencies>
-				<files>
-					<file source="df_Mysticism-SurvivalModeCC.esp" destination="df_Mysticism-SurvivalModeCC.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="mysticism" value="On"/>
-					<flagDependency flag="ccsurvival" value="On"/>
-					<flagDependency flag="lenient" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Mysticism-LenientSurvivalModeCC.esp" destination="df_Mysticism-LenientSurvivalModeCC.esp" priority="0" />
-				</files>
-			</pattern>
 			<!-- *************************** -->
 
 			<!-- Ragdoll Paralysis-->
