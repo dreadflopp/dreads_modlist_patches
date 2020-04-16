@@ -985,7 +985,8 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>						
+						</plugin>	
+						<!--					
 						<plugin name="Wet And Cold">
 							<conditionFlags>
 								<flag name="wac">On</flag>
@@ -1004,6 +1005,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						-->
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -2898,6 +2900,7 @@ Please download and endorse the original mod, but do not install it: https://www
 			<!-- ****************************************** -->
 
 			<!-- Cathedral Weathers -->
+			<!--
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="cathedralweathers" value="On"/>
@@ -2907,6 +2910,7 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_CathedralWeathers-WetAndCold.esp" destination="df_CathedralWeathers-WetAndCold.esp" priority="0" />
 				</files>
 			</pattern>
+			-->
 			<!-- ***************************************** -->
 
 			<!-- Butterflies -->			
@@ -3045,6 +3049,7 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_AudioOverhaulSkyrim-LuminousAtronachs.esp" destination="df_AudioOverhaulSkyrim-LuminousAtronachs.esp" priority="0" />
 				</files>
 			</pattern>
+			<!--
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="aos" value="On"/>
@@ -3054,6 +3059,7 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_AudioOverhaulSkyrim-WetAndCold.esp" destination="df_AudioOverhaulSkyrim-WetAndCold.esp" priority="0" />
 				</files>
 			</pattern>
+			-->
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="aos" value="On"/>

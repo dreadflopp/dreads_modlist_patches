@@ -1643,10 +1643,6 @@ Choose the following default settings in the installer.
 
 #### [Torches Ignite Oil](http://www.nexusmods.com/skyrimspecialedition/mods/13226)
 
-#### [Wet And Cold](https://www.nexusmods.com/skyrimspecialedition/mods/644/)
-
-Do not choose any extra options in the installer.
-
 ## Gameplay - Magic & Abilities
 
 #### [Mundus - A Standing Stone Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/33411)
