@@ -1524,8 +1524,8 @@ Choose ESM version
 
 #### [SSE Engine Fixes (skse64 plugin)](http://www.nexusmods.com/skyrimspecialedition/mods/17230)
 
-1. Download and install the (Part 1) Engine Fixes 4.13 for SSE 1.5.97 - skse64 plugin Main File.= in MO.
-1. Download the (Part 2) Engine Fixes - skse64 Preloader and TBB Lib Main File.
+1. Download and install *(Part 1) Engine*
+1. Download *(Part 2) Engine Fixes - skse64 Preloader and TBB Lib*.
 1. Extract the contents of the second archive to the root Skyrim SE directory (i.e. ..\Steam\SteamApps\Common\Skyrim Special Edition\) 
 Once installed open and ensure the EngineFixes.ini file is configured:
 
