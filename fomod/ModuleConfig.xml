@@ -3893,15 +3893,6 @@ Please download and endorse the original mod, but do not install it: https://www
 			<!-- OCW_Obscure's_CollegeofWinterhold -->
 			<pattern>
 				<dependencies operator="And">
-					<flagDependency flag="ocw" value="On"/>
-					<flagDependency flag="saf" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_ObscuresCollegeOfWinterhold-SkyrimAlchemyFixed.esp" destination="df_ObscuresCollegeOfWinterhold-SkyrimAlchemyFixed.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
 					<flagDependency flag="ocw-cell" value="On"/>
 					<flagDependency flag="rw2" value="On"/>
 				</dependencies>
