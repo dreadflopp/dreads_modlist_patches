@@ -2409,6 +2409,7 @@ Please download and endorse the original mod, but do not install it: https://www
 								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
+						<!--
 						<plugin name="No harvestable tree moss">
 							<description>
 								<![CDATA[This is a plugin that should be used with the mod 'No More Hanging Moss'.  'No More Hanging Moss' makes the tree moss invisible while this plugin removes the harvest prompt from the invisible moss.]]>
@@ -2430,6 +2431,7 @@ Please download and endorse the original mod, but do not install it: https://www
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						-->
 						<plugin name="No leveled unique items">
 							<description>
 								<![CDATA[No more low level unique items. Unique items in Skyrim actually exists as different versions with different levels. If you discover an item when your character is at a lower level, you will get a lower level version of that item. This setting removes that feature. From now on you will get the most powerfull version of all unique items you find.]]>
