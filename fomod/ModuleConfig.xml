@@ -2477,31 +2477,6 @@ Please download and endorse the original mod, but do not install it: https://www
 						</plugin>						
 					</plugins>
 				</group>
-				<group name="Fixes" type="SelectAny">
-					<plugins order="Explicit">
-						<plugin name="The Frozen North Fix">
-							<description>
-								<![CDATA[This is a plugin replacer that removes the esl-flag which causes the mod not to start.]]>
-							</description>
-							<files>
-								<file source="TheFrozenNorth.esp" destination="TheFrozenNorth.esp" priority="0" />
-							</files>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="TheFrozenNorth.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
-					</plugins>
-				</group>
 			</optionalFileGroups>
 		</installStep>
 	</installSteps>
