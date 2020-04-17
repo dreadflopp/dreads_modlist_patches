@@ -2484,7 +2484,7 @@ Please download and endorse the original mod, but do not install it: https://www
 								<![CDATA[This is a plugin replacer that removes the esl-flag which causes the mod not to start.]]>
 							</description>
 							<files>
-								<file source="df_TheFrozenNorth-Fix.esp" destination="TheFrozenNorth.esp" priority="0" />
+								<file source="TheFrozenNorth.esp" destination="TheFrozenNorth.esp" priority="0" />
 							</files>
 							<typeDescriptor>
 								<dependencyType>
