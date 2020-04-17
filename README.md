@@ -236,7 +236,7 @@ Use the following settings:
 * Antialiasing: *TAA*
 * Windowed Mode: *On*
 * Borderless: *On*
-* FXAA: *On*
+* FXAA: *Off*
 * VSync: *On*
 * Lock Frame Rate: *On*
 
