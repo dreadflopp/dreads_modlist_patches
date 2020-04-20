@@ -1970,7 +1970,9 @@ The installer auto detects which mods you have installed and automatically choss
 The installer will automatically choose the correct patches to use.
 
 #### [Lanterns Of Skyrim II](http://www.nexusmods.com/skyrimspecialedition/mods/30817)
-In the installer, choose no addons. Install *the LoS II - SMIM patch*. The installer will automatically select all patches you need.
+In the installer, choose no addons. Choose *the LoS II - SMIM patch* in the installer. The installer will automatically select all other patches you need.
+
+Install the optional *Lanterns Of Skyrim II - Midwood Isle patch*
 
 ## Patches
 
