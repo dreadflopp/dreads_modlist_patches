@@ -839,30 +839,25 @@ Recommendation: 2K
 #### [LeanWolf's Better-Shaped Weapons SE](https://www.nexusmods.com/skyrimspecialedition/mods/2017)
 Install with the following options:
 
-* Options 1: Select nothing
-* Options 2: Install everything
-* Patches
-    * Dawnguard
-    * Dragonborn
-    * Glass with refraction
+* All or Custom: Install everything
+* Sheath Options:
+    * Onehanded sheats
+    * Greatsword Sheats
+* Variants and Patches
+    * FrankFamily HD Imperial Armor and Weapons
     * Keeining with refraction
-    * Dawnbreaker options
 * Glass
-    * Glass Weapons: Refractive Glass Weapons
-    * Glass Quivers: Glass Quiver with Refraction
-    * Chillrend Options: Chillrend with Refraction
-* Dawnbreaker
-    * Dawnbreaker Options: Dawnbreaker Elven Sheath
-* Dawnguard
-    * Dragonbone Weapons: Dragonboring Weapons
-    * Dragonbone Quivers: Dragonboring Quiver
-    * More Quivers: Auriel Quivers
-* Dragonborn
-    * Stalhrim Weapons: Stalhrim with Refraction
-    * Stalhrim Quivers: Stalhrim Quiver with Refraction
-    *  Nordic Weapons
-        * Swords
-        * Quivers
+    * Refractive Glass Weapons
+* Stalhrim
+    * Stalhrim with Refraction
+* Dawnbreaker Sheath
+    * Dawnbreaker Sheath Elf
+* Dawnbreaker ENB
+    * Dawnbreaker No ENB
+* Dragonbone Options
+    * DragonBoring Weapons
+* Dual Sheath
+ * No Dual Sheath
         
 #### [Frankly HD Dawnguard Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/19663)
 Recommendation: 2K
