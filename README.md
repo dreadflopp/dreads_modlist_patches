@@ -1588,6 +1588,8 @@ Do not activate this mod yet. Wait until you have left the first cell of Alterna
 
 ## Gameplay - Immersion & Role-playing
 
+#### [Camping Lite (Special Edition)](https://www.nexusmods.com/skyrimspecialedition/mods/2370)
+
 #### [Carriage and Ferry Travel Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/8379)
 >
 #### [Daedric Voices](https://www.nexusmods.com/skyrimspecialedition/mods/32090)
