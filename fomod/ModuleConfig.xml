@@ -842,24 +842,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="Campfire">
-							<conditionFlags>
-								<flag name="campfire">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="Campfire.esm" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
 						<plugin name="Carriage and Ferry Travel Overhaul">
 							<conditionFlags>
 								<flag name="cfto">On</flag>
@@ -3414,16 +3396,6 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_UnlimitedBookshelves-ImprovedClosefacedHelmets.esp" destination="df_UnlimitedBookshelves-ImprovedClosefacedHelmets.esp" priority="0" />
-				</files>
-			</pattern>
-
-			<!-- Campfire Mode -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="campfire" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Campfire.esp" destination="df_Campfire.esp" priority="0" />
 				</files>
 			</pattern>
 

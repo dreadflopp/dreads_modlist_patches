@@ -1588,9 +1588,6 @@ Do not activate this mod yet. Wait until you have left the first cell of Alterna
 
 ## Gameplay - Immersion & Role-playing
 
-#### [Campfire - Complete Camping System](http://www.nexusmods.com/skyrimspecialedition/mods/667)
-Hide or delete the file *SKSE/Plugins/PapyrusUtil.dll*. It is outdated and we need to use the newer one from PapyrusUtil SE.
-
 #### [Carriage and Ferry Travel Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/8379)
 >
 #### [Daedric Voices](https://www.nexusmods.com/skyrimspecialedition/mods/32090)
