@@ -1594,8 +1594,6 @@ Do not activate this mod yet. Wait until you have left the first cell of Alterna
 #### [Campfire - Complete Camping System](http://www.nexusmods.com/skyrimspecialedition/mods/667)
 Hide or delete the file *SKSE/Plugins/PapyrusUtil.dll*. It is outdated and we need to use the newer one from PapyrusUtil SE.
 
-#### [Campfire and Frostfall - Unofficial SSE Update](http://www.nexusmods.com/skyrimspecialedition/mods/17925)
-
 #### [Carriage and Ferry Travel Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/8379)
 >
 #### [Daedric Voices](https://www.nexusmods.com/skyrimspecialedition/mods/32090)
