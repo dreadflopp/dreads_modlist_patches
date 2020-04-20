@@ -1341,7 +1341,7 @@ Install *Wicked Werewolves SE XP32*.
 #### [Caliente’s Beautiful Bodies Enhancer -CBBE-](https://www.nexusmods.com/skyrimspecialedition/mods/198)
 *NSFW warning*
 
-Install the main file, the update file and the optional file ‘CBBE ESL-flagged .esp’.
+Install the main file and the optional file ‘CBBE ESL-flagged .esp’.
 
 In the main installer, choose:
 
