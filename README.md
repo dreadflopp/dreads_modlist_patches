@@ -818,9 +818,6 @@ Install using the following options:
 	* Forges Add-On
 	* Lave Crater Add-On
 
-* Embers HD Compatibility Patches
-	* Campfire
-
 #### [Enhanced Blood Textures SE](http://www.nexusmods.com/skyrimspecialedition/mods/2357)
 Download and install the lite version
 
