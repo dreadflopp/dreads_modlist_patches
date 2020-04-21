@@ -824,9 +824,6 @@ Install using the following options:
 	* Forges Add-On
 	* Lave Crater Add-On
 
-* Embers HD Compatibility Patches
-	* Campfire
-
 #### [Enhanced Blood Textures SE](http://www.nexusmods.com/skyrimspecialedition/mods/2357)
 Download and install the lite version
 
@@ -845,30 +842,25 @@ Recommendation: 2K
 #### [LeanWolf's Better-Shaped Weapons SE](https://www.nexusmods.com/skyrimspecialedition/mods/2017)
 Install with the following options:
 
-* Options 1: Select nothing
-* Options 2: Install everything
-* Patches
-    * Dawnguard
-    * Dragonborn
-    * Glass with refraction
+* All or Custom: Install everything
+* Sheath Options:
+    * Onehanded sheats
+    * Greatsword Sheats
+* Variants and Patches
+    * FrankFamily HD Imperial Armor and Weapons
     * Keeining with refraction
-    * Dawnbreaker options
 * Glass
-    * Glass Weapons: Refractive Glass Weapons
-    * Glass Quivers: Glass Quiver with Refraction
-    * Chillrend Options: Chillrend with Refraction
-* Dawnbreaker
-    * Dawnbreaker Options: Dawnbreaker Elven Sheath
-* Dawnguard
-    * Dragonbone Weapons: Dragonboring Weapons
-    * Dragonbone Quivers: Dragonboring Quiver
-    * More Quivers: Auriel Quivers
-* Dragonborn
-    * Stalhrim Weapons: Stalhrim with Refraction
-    * Stalhrim Quivers: Stalhrim Quiver with Refraction
-    *  Nordic Weapons
-        * Swords
-        * Quivers
+    * Refractive Glass Weapons
+* Stalhrim
+    * Stalhrim with Refraction
+* Dawnbreaker Sheath
+    * Dawnbreaker Sheath Elf
+* Dawnbreaker ENB
+    * Dawnbreaker No ENB
+* Dragonbone Options
+    * DragonBoring Weapons
+* Dual Sheath
+ * No Dual Sheath
         
 #### [Frankly HD Dawnguard Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/19663)
 Recommendation: 2K
@@ -1235,6 +1227,9 @@ Install patches for
 * JK's Skyrim - Towns
 * Arthmoors mods - everything except *Provincial Courier Sevice*
 
+#### [Vanilla HD Tree Branches](https://www.nexusmods.com/skyrimspecialedition/mods/34631)
+Install the main file.
+
 ## Audiovisual - Sounds & Music
 
 #### [Audio Overhaul for Skyrim SE](http://www.nexusmods.com/skyrimspecialedition/mods/12466)
@@ -1347,7 +1342,7 @@ Install *Wicked Werewolves SE XP32*.
 #### [Caliente’s Beautiful Bodies Enhancer -CBBE-](https://www.nexusmods.com/skyrimspecialedition/mods/198)
 *NSFW warning*
 
-Install the main file, the update file and the optional file ‘CBBE ESL-flagged .esp’.
+Install the main file and the optional file ‘CBBE ESL-flagged .esp’.
 
 In the main installer, choose:
 
@@ -1602,10 +1597,7 @@ Do not activate this mod yet. Wait until you have left the first cell of Alterna
 
 ## Gameplay - Immersion & Role-playing
 
-#### [Campfire - Complete Camping System](http://www.nexusmods.com/skyrimspecialedition/mods/667)
-Hide or delete the file *SKSE/Plugins/PapyrusUtil.dll*. It is outdated and we need to use the newer one from PapyrusUtil SE.
-
-#### [Campfire and Frostfall - Unofficial SSE Update](http://www.nexusmods.com/skyrimspecialedition/mods/17925)
+#### [Camping Lite (Special Edition)](https://www.nexusmods.com/skyrimspecialedition/mods/2370)
 
 #### [Carriage and Ferry Travel Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/8379)
 >
@@ -1613,8 +1605,6 @@ Hide or delete the file *SKSE/Plugins/PapyrusUtil.dll*. It is outdated and we ne
 Install the main file and the Growl patch.
 
 #### [Disease Descriptions for the Immersive Adventurer SE](http://www.nexusmods.com/skyrimspecialedition/mods/26992)
-
-#### [ElSopa - Campfire HD SE](http://www.nexusmods.com/skyrimspecialedition/mods/24511)
 
 #### [The Frozen North - Minimalistic survival overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/33068)
 Install the main file *The Frozen North*.
@@ -1981,7 +1971,9 @@ The installer auto detects which mods you have installed and automatically choss
 The installer will automatically choose the correct patches to use.
 
 #### [Lanterns Of Skyrim II](http://www.nexusmods.com/skyrimspecialedition/mods/30817)
-In the installer, choose no addons. Install *the LoS II - SMIM patch*. The installer will automatically select all patches you need.
+In the installer, choose no addons. Choose *the LoS II - SMIM patch* in the installer. The installer will automatically select all other patches you need.
+
+Install the optional *Lanterns Of Skyrim II - Midwood Isle patch*
 
 ## Patches
 
