@@ -1646,6 +1646,12 @@ Choose the following default settings in the installer.
 
 #### [Simple Drop Lit Torches SE](http://www.nexusmods.com/skyrimspecialedition/mods/14490)
 
+#### [Thugs Not Assassins](https://www.nexusmods.com/skyrimspecialedition/mods/34028)
+Install the main file and the following optional files:
+
+* Thugs Not Assassins - Book Covers Skyrim Patch
+* Thugs Not Assassins - Timing Is Everything
+
 #### [Torches Ignite Oil](http://www.nexusmods.com/skyrimspecialedition/mods/13226)
 
 ## Gameplay - Magic & Abilities
