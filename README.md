@@ -1704,6 +1704,8 @@ Choose *Option 1* in the installer (suggestion)
 
 #### [Not So Fast - Main Quest (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/2475)
 
+#### [Save the Icerunner - Lights Out Alternate Routes](https://www.nexusmods.com/skyrimspecialedition/mods/34681)
+
 #### [The Paarthurnax Dilemma](http://www.nexusmods.com/skyrimspecialedition/mods/365)
 
 #### [Timing is Everything SE](http://www.nexusmods.com/skyrimspecialedition/mods/25464)
