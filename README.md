@@ -1591,6 +1591,12 @@ Do not activate this mod yet. Wait until you have left the first cell of Alterna
 
 #### [Ars Metallica - Smithing Enhancement](https://www.nexusmods.com/skyrimspecialedition/mods/321)
 
+#### [Crafting Skills Revamped]
+Download the main file and the following optional files:
+
+* Crafting Skills Revamped - Skyrim Skill Uncapper Patch
+* Potions Restore Over Time
+
 ## Gameplay - Economy & Item Balance
 
 #### [Trade and Barter](http://www.nexusmods.com/skyrimspecialedition/mods/23081)
