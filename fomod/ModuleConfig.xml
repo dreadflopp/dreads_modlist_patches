@@ -3122,7 +3122,7 @@ Please download and endorse the original mod, but do not install it: https://www
 				<files>
 					<file source="df_SaveTheIceRunner-RealisticWaterTwo.esp" destination="df_SaveTheIceRunner-RealisticWaterTwo.esp" priority="0" />
 				</files>
-			</pattern
+			</pattern>
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="stir" value="On"/>
@@ -3131,7 +3131,7 @@ Please download and endorse the original mod, but do not install it: https://www
 				<files>
 					<file source="df_SaveTheIceRunner-TheChoiceIsYours.esp" destination="df_SaveTheIceRunner-TheChoiceIsYours.esp" priority="0" />
 				</files>
-			</pattern>>
+			</pattern>
 			<!-- ********************************************************************************************* -->
 
 			<!-- Audio Overhaul Skyrim -->
