@@ -1728,10 +1728,6 @@ In the installer, choose the optional file *Dark Brotherhood Forever to Miscella
 
 #### [Lock Overhaul (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/14927)
 
-#### [Skyrim Alchemy Fixed](https://www.nexusmods.com/skyrimspecialedition/mods/2262)
-Install *Skyrim Alchemy Fixed*
-
-
 ## User Interface
 
 #### [A Quality World Map](https://www.nexusmods.com/skyrimspecialedition/mods/5804)
