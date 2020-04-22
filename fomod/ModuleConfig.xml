@@ -950,6 +950,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="Spooky Philter of the Phantom">
+							<conditionFlags>
+								<flag name="spookyPOP">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="SpookyPOP.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Torches Ignite Oil - Shock Edition">
 							<conditionFlags>
 								<flag name="tio">On</flag>
@@ -1125,7 +1143,25 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>				
+						</plugin>
+						<plugin name="The Choice is Yours">
+							<conditionFlags>
+								<flag name="tciy">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="TheChoiceIsYours.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>					
 						<plugin name="College of Winterhold The Missing Apprentices Quest Fix">
 							<conditionFlags>
 								<flag name="cow-crffix">On</flag>
@@ -1299,6 +1335,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="The Paarthurnax Dilemma.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Save the Ice Runner">
+							<conditionFlags>
+								<flag name="stir">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="SaveTheIcerunner.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -1720,7 +1774,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="JKs Skyrim Cutting Room Floor Patch">
+						<plugin name="JK's Skyrim Cutting Room Floor Patch">
 							<conditionFlags>
 								<flag name="jk-crf">On</flag>
 							</conditionFlags>
@@ -1731,6 +1785,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="JKs Skyrim_Cutting Room Floor_Patch.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="JK's Dragonsreach">
+							<conditionFlags>
+								<flag name="jksDR">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="JK's Dragonsreach.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -2507,6 +2579,15 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_BetterQuestObjectives-MoreRadiantQuestsForTheCompanions.esp" destination="df_BetterQuestObjectives-MoreRadiantQuestsForTheCompanions.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="bqo" value="On"/>
+					<flagDependency flag="spookyPOP" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_BetterQuestObjectives-SpookyPhilterOfThePhantom.esp" destination="df_BetterQuestObjectives-SpookyPhilterOfThePhantom.esp" priority="0" />
+				</files>
+			</pattern>
 			<!-- ****************************************** -->
 			
 			<!-- JKs Skyrim -->
@@ -3021,6 +3102,36 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_CuttingRoomFloor-RelationshipDialogueOverhaul.esp" destination="df_CuttingRoomFloor-RelationshipDialogueOverhaul.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="jksDR" value="On"/>
+					<flagDependency flag="rdo" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_RelationshipDialogueOverhaul-JKsDragonsReach.esp" destination="df_RelationshipDialogueOverhaul-JKsDragonsReach.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- ********************************************************************************************* -->
+
+			<!-- Save the Ice Runner -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="stir" value="On"/>
+					<flagDependency flag="rw2" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_SaveTheIceRunner-RealisticWaterTwo.esp" destination="df_SaveTheIceRunner-RealisticWaterTwo.esp" priority="0" />
+				</files>
+			</pattern
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="stir" value="On"/>
+					<flagDependency flag="tciy" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_SaveTheIceRunner-TheChoiceIsYours.esp" destination="df_SaveTheIceRunner-TheChoiceIsYours.esp" priority="0" />
+				</files>
+			</pattern>>
 			<!-- ********************************************************************************************* -->
 
 			<!-- Audio Overhaul Skyrim -->
