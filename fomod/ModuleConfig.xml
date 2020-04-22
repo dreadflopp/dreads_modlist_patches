@@ -776,7 +776,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="Ars Metallica - Smithing Enhancementl">
+						<plugin name="Ars Metallica - Smithing Enhancement">
 							<conditionFlags>
 								<flag name="arsmetallica">On</flag>
 							</conditionFlags>
@@ -787,6 +787,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="Ars Metallica.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Crafting Skills Revamped">
+							<conditionFlags>
+								<flag name="csr">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="CraftingRevamped.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -3144,6 +3162,15 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_AudioOverhaulSkyrim-LuminousAtronachs.esp" destination="df_AudioOverhaulSkyrim-LuminousAtronachs.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aos" value="On"/>
+					<flagDependency flag="csr" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AudioOverhaulSkyrim-CraftingRevamped.esp" destination="df_AudioOverhaulSkyrim-CraftingRevamped.esp" priority="0" />
+				</files>
+			</pattern>
 			<!--
 			<pattern>
 				<dependencies operator="And">
@@ -3882,6 +3909,14 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="kagrenac" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ToolsOfKagrenac-USSEP.esp" destination="df_ToolsOfKagrenac-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="kagrenac" value="On"/>
 					<flagDependency flag="forgottencity" value="On"/>
 				</dependencies>
 				<files>
@@ -3919,6 +3954,36 @@ Please download and endorse the original mod, but do not install it: https://www
 				</files>
 			</pattern>
 			<!-- *********************************** -->
+
+			<!-- Crafting Skills Revamped -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="csr" value="On"/>
+					<flagDependency flag="rusticsoulgems" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CraftingRevamped-RusticSoulGems.esp" destination="df_CraftingRevamped-RusticSoulGems.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="csr" value="On"/>
+					<flagDependency flag="daedricvoices" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CraftingRevamped-DaedricVoices.esp" destination="df_CraftingRevamped-DaedricVoices.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="csr" value="On"/>
+					<flagDependency flag="adamant" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CraftingRevamped-Adamant.esp" destination="df_CraftingRevamped-Adamant.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- ************************************ -->
 
 			<!-- AI OVerhaul -->
 			<pattern>
