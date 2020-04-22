@@ -1642,6 +1642,8 @@ Choose the following default settings in the installer.
 
 #### [Relationship Dialogue Overhaul - RDO SE](http://www.nexusmods.com/skyrimspecialedition/mods/1187)
 
+#### [Spooky Philter of the Phantom](https://www.nexusmods.com/skyrimspecialedition/mods/32256)
+
 #### [Simple Drop Lit Torches SE](http://www.nexusmods.com/skyrimspecialedition/mods/14490)
 
 #### [Torches Ignite Oil](http://www.nexusmods.com/skyrimspecialedition/mods/13226)
