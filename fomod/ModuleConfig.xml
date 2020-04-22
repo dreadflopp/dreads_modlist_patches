@@ -1482,25 +1482,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>
-						<plugin name="Skyrim Alchemy Fixed">
-							<conditionFlags>
-								<flag name="saf">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="Skyrim Alchemy Fixed.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>							
+						</plugin>						
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -3448,16 +3430,7 @@ Please download and endorse the original mod, but do not install it: https://www
 
 			<!-- *************************** -->
 
-			<!-- *** Adamant, Mysticism, Aetherius, Mundus *** -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="adamant" value="On"/>
-					<flagDependency flag="saf" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Adamant-SkyrimAlchemyFixed.esp" destination="df_Adamant-SkyrimAlchemyFixed.esp" priority="0" />
-				</files>
-			</pattern>									
+			<!-- *** Adamant, Mysticism, Aetherius, Mundus *** -->								
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="mysticism" value="On"/>
