@@ -1665,6 +1665,8 @@ Install the main file and the Survival patch. Do not install the Audio Overhaul 
 
 ## Gameplay - Quests & Stories
 
+#### [A Lovely Letter Alternate Routes](https://www.nexusmods.com/skyrimspecialedition/mods/21916)
+
 #### [Alternate Start - Live Another Life - SSE](http://www.nexusmods.com/skyrimspecialedition/mods/272)	
 
 #### [The Brotherhood of Old - Open Beta - SSE](http://www.nexusmods.com/skyrimspecialedition/mods/15322)
