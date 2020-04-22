@@ -1131,7 +1131,12 @@ Recommendation: 2K
 Recommendation: 2K-1K
 
 #### [RUSTIC SOULGEMS - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/5785)
-Recommendation: 1K
+Install *RUSTIC SOULGEMS - Special Edition - FOMOD - English Only*.
+
+In the installer, choose:
+
+* 1k Textures (recommended)
+* Sorted + ESL
 
 #### [RUSTIC SPRIGGAN - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/18107)
 Recommendation: 2K
