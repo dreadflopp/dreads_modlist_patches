@@ -856,11 +856,11 @@ Install with the following options:
 * Dawnbreaker Sheath
     * Dawnbreaker Sheath Elf
 * Dawnbreaker ENB
-    * Dawnbreaker No ENB
+    * Choose if you use ENB or not
 * Dragonbone Options
     * DragonBoring Weapons
 * Dual Sheath
- * No Dual Sheath
+    * No Dual Sheath
         
 #### [Frankly HD Dawnguard Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/19663)
 Recommendation: 2K
