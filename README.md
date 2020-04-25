@@ -1161,6 +1161,7 @@ The *Glow* version (1.2) has some issues which should be fixed in later versions
 Download and install the FOMOD Version and install using the STEP option. 
 
 #### [Skyrim SE Improved Puddles](http://www.nexusmods.com/skyrimspecialedition/mods/1462)
+Install *Skyrim SE Improved Puddles FOMOD v1-4 for ENB users*, even if you're not using an ENB.
 Choose *2048x2048 Resolution* and *Skyrim Special Edition (all DLCs)* in the installer
 
 #### [Skyrim SE Skill Interface Re-Texture](http://www.nexusmods.com/skyrimspecialedition/mods/1523)
