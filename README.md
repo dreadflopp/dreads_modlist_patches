@@ -2189,6 +2189,14 @@ After closing SSEEdit, the patch will be in Overwrite:
 1. Open the DynDOLOD_SSE.ini file (i.e., ..\DynDOLOD\Edit Scripts\DynDOLOD\DynDOLOD_SSE.ini)
 1. Set *TreeLOD=0*
 1. Set *TreeFullFallBack=0*. 
+1. Open the DynDOLOD_SSE_childworldlod_Tamriel.txt file (i.e., ..\DynDOLOD\Edit Scripts\DynDOLOD\DynDOLOD_SSE_childworldlod_Tamriel.txt)
+1. Add the following lines:
+    ````
+    JKs Skyrim.esp;00023840;MrkCWextTowerPlatform01
+    JKs Skyrim.esp;00001FA9;MrkCWextTowerPlatform01
+    JKs Skyrim.esp;00002033;MrkCWextTowerPlatform01
+    JKs Skyrim.esp;00001FE3;MrkCWextTowerPlatform01
+    ````
 1. Run DynDOLOD from the MO2 executable drop-down list.
 1. Select all worldspaces.
 1. Ensure the *Candles, FXGlow, Generate static LOD, Windows,* and *High* boxes are checked.
