@@ -1995,6 +1995,20 @@ In the installer, choose no addons. Choose *the LoS II - SMIM patch* in the inst
 
 Install the optional *Lanterns Of Skyrim II - Midwood Isle patch*
 
+## ENB
+
+#### [ENB](http://enbdev.com/download_mod_tesskyrimse.htm)
+Download the latest version by clicking on the version number in the lower left side of the screen. This open a new page that has the download link on the bottom.
+
+Open the downloaded archive and extract the files 'd3d11.dll* and *d3dcompiler_46e.dll* to the main game folder.
+
+#### [ENB Helper SE](https://www.nexusmods.com/skyrimspecialedition/mods/23174)
+
+#### [A Cathedralist's ENB](https://www.nexusmods.com/skyrimspecialedition/mods/25296)
+Download *A Cathedralist's ENB* or *A Cathedralist's ENB - High Quality*. Extract the contents of the downloaded archive to the main game folder.
+
+Download *Reduced Mist Brightness* and install as a normal mod.
+
 ## Patches
 
 #### [Better Dynamic Majestic Mountains](http://www.nexusmods.com/skyrimspecialedition/mods/20102)
