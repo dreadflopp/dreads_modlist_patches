@@ -748,6 +748,40 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			</optionalFileGroups>
 		</installStep>
 
+		
+		<!-- Gameplay - Camping & Survival  -->
+		<installStep name="Gameplay - Camping &amp; Survival">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="ussep" value="On"/>
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Choose" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="The Frozen North">
+							<conditionFlags>
+								<flag name="frozennorth">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="TheFrozenNorth.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>				
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+
 		<!-- Gameplay - Classes & Races  -->
 		<installStep name="Gameplay - Classes &amp; Races">
 			<visible>
@@ -940,24 +974,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="Disease Descriptions.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="The Frozen North">
-							<conditionFlags>
-								<flag name="frozennorth">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="TheFrozenNorth.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>

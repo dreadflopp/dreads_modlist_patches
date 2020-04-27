@@ -1597,6 +1597,23 @@ Choose *Realistic AI Detection 2 SE - Medium Interior Medium Exterior*
 
 #### [Tavern AI fix](http://www.nexusmods.com/skyrimspecialedition/mods/23107)
 
+## Gameplay - Camping & Survival
+
+#### [Camping Lite (Special Edition)](https://www.nexusmods.com/skyrimspecialedition/mods/2370)
+>
+#### [The Frozen North - Minimalistic survival overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/33068)
+Install the main file *The Frozen North*.
+
+To activate the mod in game, go into Skyrims settings menu, choose gameplay and make sure Survival Mode is ticked. If Survival Mode is missing, follow these instructions to remove the esl-tag from the Frozen North plugin:
+
+1. From Mod Organizer 2, run SSEEdit.
+1. The *Module Selection* window opens. Double click on *TheFrozenNorth.esp*.
+1. Allow SSEEdit to load.
+1. Select *TheFrozenNorth.esp* on the left side of the window.
+1. Right click on *Record Flags*on the right side of the window and choose *Edit*.
+1. Untick *ESL* and click *OK*.
+1. Close SSEEdit and choose to save the changes.
+
 ## Gameplay - Classes & Races
 
 #### [Aetherius - A Race Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/26686)
@@ -1626,27 +1643,12 @@ Download the main file and the following optional files:
 
 ## Gameplay - Immersion & Role-playing
 
-#### [Camping Lite (Special Edition)](https://www.nexusmods.com/skyrimspecialedition/mods/2370)
-
 #### [Carriage and Ferry Travel Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/8379)
 >
 #### [Daedric Voices](https://www.nexusmods.com/skyrimspecialedition/mods/32090)
 Install the main file and the Growl patch.
 
 #### [Disease Descriptions for the Immersive Adventurer SE](http://www.nexusmods.com/skyrimspecialedition/mods/26992)
-
-#### [The Frozen North - Minimalistic survival overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/33068)
-Install the main file *The Frozen North*.
-
-To activate the mod in game, go into Skyrims settings menu, choose gameplay and make sure Survival Mode is ticked. If Survival Mode is missing, follow these instructions to remove the esl-tag from the Frozen North plugin:
-
-1. From Mod Organizer 2, run SSEEdit.
-1. The *Module Selection* window opens. Double click on *TheFrozenNorth.esp*.
-1. Allow SSEEdit to load.
-1. Select *TheFrozenNorth.esp* on the left side of the window.
-1. Right click on *Record Flags*on the right side of the window and choose *Edit*.
-1. Untick *ESL* and click *OK*.
-1. Close SSEEdit and choose to save the changes.
 
 #### [Go On Ahead](http://www.nexusmods.com/skyrimspecialedition/mods/4779)
 
