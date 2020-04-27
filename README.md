@@ -576,8 +576,6 @@ In the installer choose:
 
 #### [Dual Wield Improved Animation SSE](https://www.nexusmods.com/skyrimspecialedition/mods/5012)
 
-#### [Smooth Running Animations](https://www.nexusmods.com/skyrimspecialedition/mods/15881)
-
 #### [No heavy muscular walk and idle by Scot](https://www.nexusmods.com/skyrimspecialedition/mods/4746)
 
 #### [XP32 Maximum Skeleton Special Extended - XPMSSE](http://www.nexusmods.com/skyrimspecialedition/mods/1988)
