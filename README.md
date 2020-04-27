@@ -572,6 +572,8 @@ In the installer, choose:
 #### [D13 Faster GET UP STAND UP Animation](http://www.nexusmods.com/skyrimspecialedition/mods/5890)
 Install loose files.
 
+#### [Dynamic Animation Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/33746)
+
 #### [No Spinning Death Animation (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/1432)
 Install *No Spinning Death Animation MERGED*
 
