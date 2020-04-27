@@ -1,0 +1,45 @@
+CurrentWeather("Skyrim.esm"|0x000C8221) OR
+CurrentWeather("Cathedral Weathers.esp"|0x00000808) OR
+CurrentWeather("Cathedral Weathers.esp"|0x0000081B) OR
+CurrentWeather("Cathedral Weathers.esp"|0x0000081C) OR
+CurrentWeather("Vivid WeathersSE.esp"|0x0018F9AF) OR
+CurrentWeather("Vivid WeathersSE.esp"|0x0012DDE8) OR
+CurrentWeather("Vivid WeathersSE.esp"|0x0012DDE7) OR
+CurrentWeather("Vivid WeathersSE.esp"|0x0012DDE6) OR
+CurrentWeather("Vivid WeathersSE.esp"|0x0018BE70) OR
+CurrentWeather("Vivid WeathersSE.esp"|0x0012DDEB) OR
+CurrentWeather("Vivid WeathersSE.esp"|0x0012DDEA) OR
+CurrentWeather("Vivid WeathersSE.esp"|0x0012DDE9) OR
+CurrentWeather("Vivid WeathersSE.esp"|0x0012DDEE) OR
+CurrentWeather("Vivid WeathersSE.esp"|0x0012DDED) OR
+CurrentWeather("Vivid WeathersSE.esp"|0x0012DDEC) OR
+CurrentWeather("Vivid WeathersSE.esp"|0x0016B287) OR
+CurrentWeather("Vivid WeathersSE.esp"|0x0016B286) OR
+CurrentWeather("Vivid WeathersSE.esp"|0x0016BD7C) OR
+CurrentWeather("Vivid WeathersSE.esp"|0x0016B818) OR
+CurrentWeather("Vivid WeathersSE.esp"|0x0016BD7B) OR
+CurrentWeather("Vivid WeathersSE.esp"|0x000036D2) OR
+CurrentWeather("Haze-WeatherSeasonsAtmosphere.esp"|0x00000851) OR
+CurrentWeather("Haze-WeatherSeasonsAtmosphere.esp"|0x000008BF) OR
+CurrentWeather("Haze-WeatherSeasonsAtmosphere.esp"|0x000008C0) OR
+CurrentWeather("Haze-WeatherSeasonsAtmosphere.esp"|0x00000915) OR
+CurrentWeather("Haze-WeatherSeasonsAtmosphere.esp"|0x00000916) OR
+CurrentWeather("Haze-WeatherSeasonsAtmosphere.esp"|0x00000955) OR
+CurrentWeather("Haze-WeatherSeasonsAtmosphere.esp"|0x00000956) OR
+ValueLessThan("Frostfall.esp"|0x000665F9, 0) OR
+HasMagicEffect("Frostbite.esp"|0x00029025) OR
+HasMagicEffect("Frostbite.esp"|0x00029026) OR
+HasMagicEffect("Frostbite.esp"|0x00029027) OR
+HasSpell("Frostbite.esp"|0x00029028) OR
+HasSpell("Frostbite.esp"|0x00029029) OR
+HasSpell("Frostbite.esp"|0x0002902C) OR
+HasSpell("TheFrozenNorth.esp"|0x00000826) OR
+HasSpell("TheFrozenNorth.esp"|0x00000802) OR
+HasSpell("TheFrozenNorth.esp"|0x00000803) OR
+HasSpell("ccqdrsse001-survivalmode.esl"|0x00000891) OR
+HasSpell("ccqdrsse001-survivalmode.esl"|0x0000086D) OR
+HasSpell("ccqdrsse001-survivalmode.esl"|0x00000870) OR
+HasSpell("ccqdrsse001-survivalmode.esl"|0x00000871) AND
+NOT HasKeyword("Skyrim.esm"|0x00013796) AND
+NOT IsInInterior() AND
+Random(0.5)

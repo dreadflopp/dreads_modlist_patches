@@ -120,6 +120,39 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			</optionalFileGroups>
 		</installStep>
 
+		<!-- Audiovisual - Animations & Effects -->
+		<installStep name="Audiovisual - Animations &amp; Effects">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="ussep" value="On"/>
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Choose" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="EVG Conditional Idles - Full install or Modular with cold animation">
+							<conditionFlags>
+								<flag name="evg-cold">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="meshes\actors\character\animations\DynamicAnimationReplacer\_CustomConditions\2125\_conditions.txt" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+
 		<!-- Audiovisual - Models & Textures -->
 		<installStep name="Audiovisual - Models &amp; Textures">
 			<visible>
@@ -907,6 +940,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="Disease Descriptions.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="The Frozen North">
+							<conditionFlags>
+								<flag name="frozennorth">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="TheFrozenNorth.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -4050,6 +4101,18 @@ Please download and endorse the original mod, but do not install it: https://www
 				</files>
 			</pattern>
 			<!-- ************************** -->
+
+			<!-- EVG Conditional idles -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="evg-cold" value="On"/>
+					<flagDependency flag="frozennorth" value="On"/>
+				</dependencies>
+				<files>
+					<file source="EVG Conditional Idles Tweaks\2125\_conditions.txt" destination="meshes\actors\character\animations\DynamicAnimationReplacer\_CustomConditions\2125\_conditions.txt" priority="0" />
+				</files>
+			</pattern>
+			<!-- **************************-->
 
 			<!-- ENB -->
 			<pattern>
