@@ -557,6 +557,18 @@ Install using the following instructions:
 
 ## Audiovisual - Animations & Effects
 
+#### [360 Walk and Run Plus](https://www.nexusmods.com/skyrimspecialedition/mods/7446)
+In the installer, choose:
+* Male
+    * Male: 360 + cloak
+    * Head Direction: Face towards the direction of movement
+* Female
+    * Female: 360 + cloak
+    * Head Direction: Face towards the direction of movement
+    * BBP Option: BBP Off
+* Optional Patch: Choose nothing.
+* Common: 360 swimming
+
 #### [D13 Faster GET UP STAND UP Animation](http://www.nexusmods.com/skyrimspecialedition/mods/5890)
 Install loose files.
 
