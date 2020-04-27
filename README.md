@@ -1552,6 +1552,8 @@ Install the main file and the patch for SMIM.
 
 ## Gameplay - General
 
+#### [Better Jumping SE](https://www.nexusmods.com/skyrimspecialedition/mods/18967)
+
 #### [GIST - Genuinely Intelligent Soul Trap SE](http://www.nexusmods.com/skyrimspecialedition/mods/15755)
 Download and install the Main File and the GIST - Rustic Soul Gems patch Optional File. 
 
