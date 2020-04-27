@@ -2045,6 +2045,12 @@ To download, click the button *Clone or download* and choose *download zip*.
 
 The fomod installer will automatically select all mods you use. Select the tweaks you want to use.
 
+If you have chosen to install ENB tweaks, these will have to be manually moved to the main game folder.
+
+1. In Mod Organizer 2, right click on the just installed mod, *Dread's modlist patches*, and choose to open in explorer.
+1. In the explorer window, navigate to *ENB Tweaks* and then to the chosen ENB preset.
+1. Move the file *enbseries.ini* and the folder *enbseries* to the main game folder, overwriting the files installed by the ENB.
+
 ## Utilities
 
 #### [BodySlide and Outfit Studio](https://www.nexusmods.com/skyrimspecialedition/mods/201)

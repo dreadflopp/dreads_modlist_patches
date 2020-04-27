@@ -2394,6 +2394,42 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 						</plugin>
 					</plugins>
 				</group>
+				<group name="ENB Tweaks" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="A Cathedralist's ENB">
+							<description>
+								<![CDATA[Choose this if you use A Cathedralist's ENB with the default quality preset.
+These tweaks are edits to the settings files for A Cathedralist's ENB. It tweaks point lighting making all light sources emit more light. It is highly recommended since some light sources seems to produce almost no light using the default settings combined with the lighting mods in the guide.]]>
+							</description>
+							<conditionFlags>
+								<flag name="enb">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Recommended"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="A Cathedralist's ENB - High Quality">
+							<description>
+								<![CDATA[Choose this if you use A Cathedralist's ENB with the high quality preset.
+These tweaks are edits to the settings files for A Cathedralist's ENB. It tweaks point lighting making all light sources emit more light. It is highly recommended since some light sources seems to produce almost no light using the default settings combined with the lighting mods in the guide.]]>
+							</description>
+							<conditionFlags>
+								<flag name="enb-high">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<type name="Recommended"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="None">
+							<description>
+								<![CDATA[Choose this if you do not use an ENB or do not want the tweaked ENB settings files.]]>
+							</description>
+							<typeDescriptor>
+								<type name="Recommended"/>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
 				<group name="Uncapper settings" type="SelectExactlyOne">
 					<plugins order="Explicit">
 						<plugin name="Slower skill gain">
@@ -4011,6 +4047,47 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_AIOverhaul-Kynesgrove.esp" destination="df_AIOverhaul-Kynesgrove.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- ************************** -->
+
+			<!-- ENB -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="enb" value="On"/>
+				</dependencies>
+				<files>
+					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Ash.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Ash.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Clear_1.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Clear_1.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Clear_2.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Clear_2.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Clear_Special.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Clear_Special.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Cloudy_1.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Cloudy_1.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Cloudy_2.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Cloudy_2.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Cloudy_Special.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Cloudy_Special.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Fog.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Fog.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Rain_2.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Rain_2.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Rain.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Rain.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Snow.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Snow.ini" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="enb-high" value="On"/>
+				</dependencies>
+				<files>
+					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Ash.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Ash.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Clear_1.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Clear_1.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Clear_2.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Clear_2.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Clear_Special.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Clear_Special.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Cloudy_1.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Cloudy_1.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Cloudy_2.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Cloudy_2.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Cloudy_Special.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Cloudy_Special.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Fog.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Fog.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Rain_2.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Rain_2.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Rain.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Rain.ini" priority="0" />
+					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Snow.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Snow.ini" priority="0" />
 				</files>
 			</pattern>
 			<!-- ************************** -->
