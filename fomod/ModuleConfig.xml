@@ -2581,28 +2581,7 @@ Tweaks:
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>
-						<plugin name="EVG">
-							<description>
-								<![CDATA[This tweak removes the carry weight penalty from the Creation Club Survival Mode.]]>
-							</description>
-							<conditionFlags>
-								<flag name="nocarryweightpenalty">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="ccqdrsse001-survivalmode.esl" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>				
+						</plugin>			
 						<plugin name="Experience settings">
 							<description>
 								<![CDATA[This is a settings file for the mod Experience. It enables experience gain from miscellaneous quests and from killing enemies. This also installs a patch for Experience to allow miscellaneous from killing enemies added by other mods included in this modlist.]]>
@@ -4282,41 +4261,41 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="enb" value="On"/>
-				</dependencies>
+				<\dependencies>
 				<files>
-					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Ash.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Ash.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Clear_1.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Clear_1.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Clear_2.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Clear_2.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Clear_Special.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Clear_Special.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Cloudy_1.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Cloudy_1.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Cloudy_2.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Cloudy_2.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Cloudy_Special.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Cloudy_Special.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Fog.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Fog.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Rain_2.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Rain_2.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Rain.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Rain.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Snow.ini" destination="ENB Tweaks/A Cathedralist's ENB/enbseries/Weather/Snow.ini" priority="0" />
-				</files>
-			</pattern>
+					<file source="ENB Tweaks\A Cathedralist's ENB\enbseries.ini" destination="ENB Tweaks\A Cathedralist's ENB\enbseries.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Ash.ini" destination="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Ash.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Clear_1.ini" destination="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Clear_1.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Clear_2.ini" destination="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Clear_2.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Clear_Special.ini" destination="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Clear_Special.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Cloudy_1.ini" destination="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Cloudy_1.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Cloudy_2.ini" destination="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Cloudy_2.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Cloudy_Special.ini" destination="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Cloudy_Special.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Fog.ini" destination="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Fog.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Rain_2.ini" destination="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Rain_2.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Rain.ini" destination="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Rain.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Snow.ini" destination="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Snow.ini" priority="0" />
+				<\files>
+			<\pattern>
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="enb-high" value="On"/>
-				</dependencies>
+				<\dependencies>
 				<files>
-					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Ash.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Ash.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Clear_1.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Clear_1.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Clear_2.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Clear_2.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Clear_Special.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Clear_Special.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Cloudy_1.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Cloudy_1.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Cloudy_2.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Cloudy_2.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Cloudy_Special.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Cloudy_Special.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Fog.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Fog.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Rain_2.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Rain_2.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Rain.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Rain.ini" priority="0" />
-					<file source="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Snow.ini" destination="ENB Tweaks/A Cathedralist's ENB - High Quality/enbseries/Weather/Snow.ini" priority="0" />
-				</files>
-			</pattern>
+					<file source="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries.ini" destination="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Ash.ini" destination="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Ash.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Clear_1.ini" destination="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Clear_1.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Clear_2.ini" destination="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Clear_2.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Clear_Special.ini" destination="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Clear_Special.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Cloudy_1.ini" destination="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Cloudy_1.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Cloudy_2.ini" destination="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Cloudy_2.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Cloudy_Special.ini" destination="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Cloudy_Special.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Fog.ini" destination="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Fog.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Rain_2.ini" destination="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Rain_2.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Rain.ini" destination="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Rain.ini" priority="0" />
+					<file source="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Snow.ini" destination="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Snow.ini" priority="0" />
+				<\files>
+			<\pattern>
 			<!-- ************************** -->
 		</patterns>
 	</conditionalFileInstalls>
