@@ -574,6 +574,9 @@ Install loose files.
 
 #### [Dynamic Animation Replacer](https://www.nexusmods.com/skyrimspecialedition/mods/33746)
 
+#### [EVG Conditional Idles](https://www.nexusmods.com/skyrimspecialedition/mods/34006)
+Choose full install in the installer. The modular install is also supported.
+
 #### [No Spinning Death Animation (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/1432)
 Install *No Spinning Death Animation MERGED*
 
