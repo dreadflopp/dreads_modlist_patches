@@ -4261,7 +4261,7 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="enb" value="On"/>
-				<\dependencies>
+				</dependencies>
 				<files>
 					<file source="ENB Tweaks\A Cathedralist's ENB\enbseries.ini" destination="ENB Tweaks\A Cathedralist's ENB\enbseries.ini" priority="0" />
 					<file source="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Ash.ini" destination="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Ash.ini" priority="0" />
@@ -4275,12 +4275,12 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Rain_2.ini" destination="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Rain_2.ini" priority="0" />
 					<file source="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Rain.ini" destination="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Rain.ini" priority="0" />
 					<file source="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Snow.ini" destination="ENB Tweaks\A Cathedralist's ENB\enbseries\Weather\Snow.ini" priority="0" />
-				<\files>
-			<\pattern>
+				</files>
+			</pattern>
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="enb-high" value="On"/>
-				<\dependencies>
+				</dependencies>
 				<files>
 					<file source="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries.ini" destination="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries.ini" priority="0" />
 					<file source="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Ash.ini" destination="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Ash.ini" priority="0" />
@@ -4294,8 +4294,8 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Rain_2.ini" destination="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Rain_2.ini" priority="0" />
 					<file source="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Rain.ini" destination="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Rain.ini" priority="0" />
 					<file source="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Snow.ini" destination="ENB Tweaks\A Cathedralist's ENB - High Quality\enbseries\Weather\Snow.ini" priority="0" />
-				<\files>
-			<\pattern>
+				</files>
+			</pattern>
 			<!-- ************************** -->
 		</patterns>
 	</conditionalFileInstalls>
