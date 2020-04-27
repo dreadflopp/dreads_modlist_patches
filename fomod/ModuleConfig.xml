@@ -40,6 +40,9 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="bqo">Off</flag>	
 								<flag name="radiantblocker">Off</flag>	
 								<flag name="hbr">Off</flag>	
+								<flag name="ccsurvival">Off</flag>
+								<flag name="mundus">Off</flag>		
+								<flag name="lenient">Off</flag>										
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
@@ -759,6 +762,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
+						<plugin name="Creation Club Survival Mode">
+							<conditionFlags>
+								<flag name="ccsurvival">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="ccqdrsse001-survivalmode.esl" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>	
 						<plugin name="The Frozen North">
 							<conditionFlags>
 								<flag name="frozennorth">On</flag>
@@ -776,7 +797,25 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>				
+						</plugin>	
+						<plugin name="Lenient Survival">
+							<conditionFlags>
+								<flag name="lenient">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="LenientSurvival.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>			
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -2533,7 +2572,28 @@ Tweaks:
 					</plugins>
 				</group>
 				<group name="Other Tweaks" type="SelectAny">
-					<plugins order="Explicit">						
+					<plugins order="Explicit">		
+						<plugin name="Creation Club Survival Mode - No carry weight penalty">
+							<description>
+								<![CDATA[This tweak removes the carry weight penalty from the Creation Club Survival Mode.]]>
+							</description>
+							<conditionFlags>
+								<flag name="nocarryweightpenalty">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="ccqdrsse001-survivalmode.esl" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>				
 						<plugin name="Experience settings">
 							<description>
 								<![CDATA[This is a settings file for the mod Experience. It enables experience gain from miscellaneous quests and from killing enemies. This also installs a patch for Experience to allow miscellaneous from killing enemies added by other mods included in this modlist.]]>
@@ -2566,29 +2626,6 @@ Please download and endorse the original mod, but do not install it: https://www
 								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
-						<!--
-						<plugin name="No harvestable tree moss">
-							<description>
-								<![CDATA[This is a plugin that should be used with the mod 'No More Hanging Moss'.  'No More Hanging Moss' makes the tree moss invisible while this plugin removes the harvest prompt from the invisible moss.]]>
-							</description>
-							<conditionFlags>
-								<flag name="nomoss">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="SimplyBiggerTreesSE.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
-						-->
 						<plugin name="No leveled unique items">
 							<description>
 								<![CDATA[No more low level unique items. Unique items in Skyrim actually exists as different versions with different levels. If you discover an item when your character is at a lower level, you will get a lower level version of that item. This setting removes that feature. From now on you will get the most powerfull version of all unique items you find.]]>
@@ -3589,6 +3626,7 @@ Please download and endorse the original mod, but do not install it: https://www
 				<dependencies operator="And">
 					<flagDependency flag="ubs" value="Off"/>
 					<flagDependency flag="imp" value="On"/>
+					<flagDependency flag="ccsurvival" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_ImprovedClosefacedHelmets-USSEP.esp" destination="df_ImprovedClosefacedHelmets-USSEP.esp" priority="0" />
@@ -3598,6 +3636,7 @@ Please download and endorse the original mod, but do not install it: https://www
 				<dependencies operator="And">
 					<flagDependency flag="ubs" value="On"/>
 					<flagDependency flag="imp" value="Off"/>
+					<flagDependency flag="ccsurvival" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_UnlimitedBookshelves.esp" destination="df_UnlimitedBookshelves.esp" priority="0" />
@@ -3607,9 +3646,41 @@ Please download and endorse the original mod, but do not install it: https://www
 				<dependencies operator="And">
 					<flagDependency flag="ubs" value="On"/>
 					<flagDependency flag="imp" value="On"/>
+					<flagDependency flag="ccsurvival" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_UnlimitedBookshelves-ImprovedClosefacedHelmets.esp" destination="df_UnlimitedBookshelves-ImprovedClosefacedHelmets.esp" priority="0" />
+				</files>
+			</pattern>
+
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ubs" value="Off"/>
+					<flagDependency flag="imp" value="On"/>
+					<flagDependency flag="ccsurvival" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ImprovedClosefacedHelmets-SurvivalModeCC.esp" destination="df_ImprovedClosefacedHelmets-SurvivalModeCC.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ubs" value="On"/>
+					<flagDependency flag="imp" value="Off"/>
+					<flagDependency flag="ccsurvival" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_UnlimitedBookshelves-SurvivalModeCC.esp" destination="df_UnlimitedBookshelves-SurvivalModeCC.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ubs" value="On"/>
+					<flagDependency flag="imp" value="On"/>
+					<flagDependency flag="ccsurvival" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_UnlimitedBookshelves-SurvivalModeCC-ImprovedClosefacedHelmets.esp" destination="df_UnlimitedBookshelves-SurvivalModeCC-ImprovedClosefacedHelmets.esp" priority="0" />
 				</files>
 			</pattern>
 
@@ -4128,6 +4199,74 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="EVG Conditional Idles Tweaks\2125\_conditions.txt" destination="meshes\actors\character\animations\DynamicAnimationReplacer\_CustomConditions\2125\_conditions.txt" priority="0" />
 				</files>
 			</pattern>
+			<!-- **************************-->
+
+			<!-- Survival mode -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="adamant" value="On"/>
+					<flagDependency flag="ccsurvival" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_Adamant-SurvivalModeCC.esp" destination="df_Adamant-SurvivalModeCC.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aetherius" value="On"/>	
+					<flagDependency flag="ccsurvival" value="On"/>				
+				</dependencies>
+				<files>
+					<file source="df_Aetherius-SurvivalModeCC.esp" destination="df_Aetherius-SurvivalModeCC.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="nocarryweightpenalty" value="On"/>	
+					<flagDependency flag="mundus" value="Off"/>				
+				</dependencies>
+				<files>
+					<file source="df_CCSurvival-NoCarryWeightPenalty.esp" destination="df_CCSurvival-NoCarryWeightPenalty.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="nocarryweightpenalty" value="On"/>	
+					<flagDependency flag="mundus" value="On"/>				
+				</dependencies>
+				<files>
+					<file source="df_Mundus-CCSurvival-NoCarryWeightPenalty.esp" destination="df_Mundus-CCSurvival-NoCarryWeightPenalty.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="diseasedescriptions" value="On"/>	
+					<flagDependency flag="ccsurvival" value="On"/>				
+				</dependencies>
+				<files>
+					<file source="df_DiseaseDescriptions-CCSurvivalMode.esp" destination="df_DiseaseDescriptions-CCSurvivalMode.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="mysticism" value="On"/>	
+					<flagDependency flag="ccsurvival" value="On"/>	
+					<flagDependency flag="lenient" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_Mysticism-LenientSurvivalModeCC.esp" destination="df_Mysticism-LenientSurvivalModeCC.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="mysticism" value="On"/>	
+					<flagDependency flag="ccsurvival" value="On"/>	
+					<flagDependency flag="lenient" value="Off"/>	
+				</dependencies>
+				<files>
+					<file source="df_Mysticism-SurvivalModeCC.esp" destination="df_Mysticism-SurvivalModeCC.esp" priority="0" />
+				</files>
+			</pattern>			
 			<!-- **************************-->
 
 			<!-- ENB -->
