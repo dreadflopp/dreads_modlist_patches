@@ -123,39 +123,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			</optionalFileGroups>
 		</installStep>
 
-		<!-- Audiovisual - Animations & Effects -->
-		<installStep name="Audiovisual - Animations &amp; Effects">
-			<visible>
-				<dependencies operator="And">
-					<flagDependency flag="ussep" value="On"/>
-				</dependencies>
-			</visible>
-			<optionalFileGroups order="Explicit">
-				<group name="Choose" type="SelectAny">
-					<plugins order="Explicit">
-						<plugin name="EVG Conditional Idles - Full install or Modular with cold animation">
-							<conditionFlags>
-								<flag name="evg-cold">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="meshes\actors\character\animations\DynamicAnimationReplacer\_CustomConditions\2125\_conditions.txt" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
-					</plugins>
-				</group>
-			</optionalFileGroups>
-		</installStep>
-
 		<!-- Audiovisual - Models & Textures -->
 		<installStep name="Audiovisual - Models &amp; Textures">
 			<visible>
@@ -2571,9 +2538,51 @@ Tweaks:
 						</plugin>
 					</plugins>
 				</group>
-				<group name="Other Tweaks" type="SelectAny">
+				<group name="Other Tweaks and Fixes" type="SelectAny">
 					<plugins order="Explicit">		
 						<plugin name="Creation Club Survival Mode - No carry weight penalty">
+							<description>
+								<![CDATA[This tweak removes the carry weight penalty from the Creation Club Survival Mode.]]>
+							</description>
+							<conditionFlags>
+								<flag name="nocarryweightpenalty">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="ccqdrsse001-survivalmode.esl" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="EVG Conditional Idles - The Frozen North fix">
+							<description>
+								<![CDATA[This fix makes EVG conditional idles compatible with the Frozen North.]]>
+							</description>
+							<conditionFlags>
+								<flag name="evg-cold">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="TheFrozenNorth.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="EVG">
 							<description>
 								<![CDATA[This tweak removes the carry weight penalty from the Creation Club Survival Mode.]]>
 							</description>
