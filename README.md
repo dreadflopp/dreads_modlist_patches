@@ -15,7 +15,7 @@ This guide is a STEP build based on the [STEP: Core build](https://www.nexusmods
 
 ## What to expect
 
-* Minimalistic survival mode with the mod The Frozen North which uses the same minimalistic and non-intrusive icons as the Creation Club Survival Mode.
+* Minimalistic survival mode with Creation Club Survival Mode or the mod The Frozen North which uses the same minimalistic and non-intrusive icons as the Creation Club Survival Mode does.
 * HD textures for landscapes, structures and buildings that keeps the vanilla look and feel.
 * HD textures for clutter, armors, weapons other items.
 * Bigger trees for a truly immersive forest.
@@ -1598,10 +1598,13 @@ Choose *Realistic AI Detection 2 SE - Medium Interior Medium Exterior*
 #### [Tavern AI fix](http://www.nexusmods.com/skyrimspecialedition/mods/23107)
 
 ## Gameplay - Camping & Survival
+The user can choose to use the offical Creation Club Survival Mode or the minimalistic mod The Frozen North.
 
 #### [Camping Lite (Special Edition)](https://www.nexusmods.com/skyrimspecialedition/mods/2370)
 >
 #### [The Frozen North - Minimalistic survival overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/33068)
+Do not use this mod if you use Creation Club Survival Mode.
+
 Install the main file *The Frozen North*.
 
 To activate the mod in game, go into Skyrims settings menu, choose gameplay and make sure Survival Mode is ticked. If Survival Mode is missing, follow these instructions to remove the esl-tag from the Frozen North plugin:
@@ -1613,6 +1616,11 @@ To activate the mod in game, go into Skyrims settings menu, choose gameplay and 
 1. Right click on *Record Flags*on the right side of the window and choose *Edit*.
 1. Untick *ESL* and click *OK*.
 1. Close SSEEdit and choose to save the changes.
+
+#### [Lenient Survival](https://www.nexusmods.com/skyrimspecialedition/mods/13087)
+Only use this mod if you use Creation Club Survival Mode.
+
+Install the main file, the english version.
 
 ## Gameplay - Classes & Races
 
