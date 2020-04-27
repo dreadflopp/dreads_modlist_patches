@@ -2066,6 +2066,11 @@ Install *Book Covers Skyrim __ TCIY* and *Cutting Room Floor __ TCIY*.
 
 #### [Unofficial Moonpath to Elsweyr Patch](http://www.nexusmods.com/skyrimspecialedition/mods/15882)
 
+#### [Unofficial Skyrim Creation Club Content Patch](https://www.nexusmods.com/skyrimspecialedition/mods/18975)
+Only use this mod if you use the Creation Club Survival Mode.
+
+In the installer, choose the default option. The installer will identify the mods you use.
+
 #### [Dread's modlist patches](https://github.com/dreadflopp/dreads_modlist_patches)
 
 To download, click the button *Clone or download* and choose *download zip*.
