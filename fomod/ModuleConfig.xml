@@ -1181,6 +1181,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
+						<plugin name="A Lovely Letter Alternate Routes">
+							<conditionFlags>
+								<flag name="lovelyletter">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="LovelyLetter.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Alternate Start - Live Another Life">
 							<conditionFlags>
 								<flag name="alternatestart">On</flag>
@@ -2089,6 +2107,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="Fall of Granite Hill.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Ivarstead">
+							<conditionFlags>
+								<flag name="ivarstead">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Ivarstead.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -4197,6 +4233,51 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_AIOverhaul-Kynesgrove.esp" destination="df_AIOverhaul-Kynesgrove.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aio" value="On"/>
+					<flagDependency flag="3dnpc" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AIOverhaul-3DNPC.esp" destination="df_AIOverhaul-3DNPC.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aio" value="On"/>
+					<flagDependency flag="lovelyletter" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AIOverhaul-ALovelyLetter.esp" destination="df_AIOverhaul-ALovelyLetter.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aio" value="On"/>
+					<flagDependency flag="cloaks" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AIOverhaul-CloaksOfSkyrim.esp" destination="df_AIOverhaul-CloaksOfSkyrim.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aio" value="On"/>
+					<flagDependency flag="dragonbridge" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AIOverhaul-DragonBridge.esp" destination="df_AIOverhaul-DragonBridge.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aio" value="On"/>
+					<flagDependency flag="ivarstead" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AIOverhaul-Ivarstead.esp" destination="df_AIOverhaul-Ivarstead.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- ************************** -->
