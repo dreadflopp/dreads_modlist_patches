@@ -1535,7 +1535,7 @@ In the installer, choose:
 * Main Plugin: 1. ESM
 * Patches: Relighting Skyrim
 * Walkway Wall FIX: Walkway Wall FIX SMIM
-* Missing Lights Fix
+* Missing Lights Fix 
 
 #### [Skyrim Project Optimization SE](http://www.nexusmods.com/skyrimspecialedition/mods/14084)
 Choose ESM version
