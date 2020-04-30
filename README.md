@@ -1592,7 +1592,7 @@ Install the main file and the optional file.
 #### [Follower Trap Safety](http://www.nexusmods.com/skyrimspecialedition/mods/2755)
 
 #### [Realistic AI Detection SE](http://www.nexusmods.com/skyrimspecialedition/mods/2345)
-Choose *Realistic AI Detection 2 SE - Medium Interior Medium Exterior*
+Choose *Realistic AI Detection 2 SE - Lite*
 
 #### [Run For Your Lives (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/2272)
 

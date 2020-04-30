@@ -696,24 +696,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="Realistic AI Detection SE">
-							<conditionFlags>
-								<flag name="raid">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="Realistic AI Detection 2 SE - Medium Interior, Medium Exterior.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -4035,41 +4017,19 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="tweakscore" value="On"/>
-					<flagDependency flag="raid" value="Off"/>
 					<flagDependency flag="aetherius" value="Off"/>					
 				</dependencies>
 				<files>
 					<file source="df_STEPTweaks.esp" destination="df_STEPTweaks.esp" priority="0" />
 				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="raid" value="On"/>
-					<flagDependency flag="tweakscore" value="On"/>
-					<flagDependency flag="aetherius" value="Off"/>	
-				</dependencies>
-				<files>
-					<file source="df_STEPTweaks-RealisticAI.esp" destination="df_STEPTweaks-RealisticAI.esp" priority="0" />
-				</files>
-			</pattern>
+			</pattern>		
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="tweakscore" value="On"/>
-					<flagDependency flag="raid" value="Off"/>
 					<flagDependency flag="aetherius" value="On"/>					
 				</dependencies>
 				<files>
 					<file source="df_STEPTweaks-Aetherius.esp" destination="df_STEPTweaks-Aetherius.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="raid" value="On"/>
-					<flagDependency flag="tweakscore" value="On"/>
-					<flagDependency flag="aetherius" value="On"/>	
-				</dependencies>
-				<files>
-					<file source="df_STEPTweaks-RealisticAI-Aetherius.esp" destination="df_STEPTweaks-RealisticAI-Aetherius.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- *************************** -->	
