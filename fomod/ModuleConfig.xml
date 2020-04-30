@@ -42,7 +42,8 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="hbr">Off</flag>	
 								<flag name="ccsurvival">Off</flag>
 								<flag name="mundus">Off</flag>		
-								<flag name="lenient">Off</flag>										
+								<flag name="lenient">Off</flag>	
+								<flag name="jks">Off</flag>									
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
@@ -1865,6 +1866,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="JK's Skyrim">
+							<conditionFlags>
+								<flag name="jks">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="JKs Skyrim.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="JK's Skyrim Cutting Room Floor Patch">
 							<conditionFlags>
 								<flag name="jk-crf">On</flag>
@@ -3201,11 +3220,32 @@ Please download and endorse the original mod, but do not install it: https://www
 				<dependencies operator="And">
 					<flagDependency flag="landscapeandwaterfixes" value="On"/>
 					<flagDependency flag="3dnpc" value="On"/>
+					<flagDependency flag="jks" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_3DNPC-LandscapeAndWaterFixes.esp" destination="df_3DNPC-LandscapeAndWaterFixes.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="landscapeandwaterfixes" value="On"/>
+					<flagDependency flag="3dnpc" value="On"/>
+					<flagDependency flag="jks" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_3DNPC-LandscapeAndWaterFixes-JksSkyrim.esp" destination="df_3DNPC-LandscapeAndWaterFixes-JksSkyrim.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="landscapeandwaterfixes" value="On"/>
+					<flagDependency flag="crf" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_LandscapeAndWaterFixes-CuttingRoomFloor" destination="df_LandscapeAndWaterFixes-CuttingRoomFloor" priority="0" />
+				</files>
+			</pattern>
+		
 			<!-- ********************************************* -->
 
 			<!-- Majestic Mountains -->
