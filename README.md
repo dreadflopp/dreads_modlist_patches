@@ -1670,9 +1670,6 @@ Install *Improved Traps and Mining Makes Noise*.
 
 #### [Lock Related Loot](http://www.nexusmods.com/skyrimspecialedition/mods/11342)
 
-#### [Nether's Follower Framework](http://www.nexusmods.com/skyrimspecialedition/mods/18076)
-Choose the following default settings in the installer.
-
 #### [No Lockpick Activate (SKSE) - Updated](http://www.nexusmods.com/skyrimspecialedition/mods/26790)
 
 #### [Point The Way (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/352)
@@ -1899,6 +1896,9 @@ Install BSA version and the hotfix. Install the following optional files:
 Install main file and patches for *Moon and Star* and *Moonpath to Elsweyr*.
 
 #### [INIGO](http://www.nexusmods.com/skyrimspecialedition/mods/1461)
+
+#### [Nether's Follower Framework](http://www.nexusmods.com/skyrimspecialedition/mods/18076)
+Choose the default settings in the installer.
 
 ## Audiovisual - Lighting & Weather
 
