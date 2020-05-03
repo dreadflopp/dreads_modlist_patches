@@ -518,13 +518,16 @@ Install the main file.
 * Install the update file, choosing to merge as well.
 
 #### [Majestic Mountains - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/11052)
-Install a main file, choose the version you like the most. A matching LOD will be installed later.
+Install a main file, choose the version you like the most.
 
 **Main installer:**
 * Snow Mountain Type: Snow Mountain New version ESL
 * Optionals: Moss Rocks ESL Version
 * Sun Direction (choose one or none): None
-* Compatibility Patches: SMIM
+
+Install *Lod Pack for DynDoLod (all versions)* under the Optional Files section. Install using the following instructions:
+
+* LOD Textures: Choose LOD Textures that matches the main version.
 
 #### [Cathedral landscapes](https://www.nexusmods.com/skyrimspecialedition/mods/21954)
 In the installer, choose:
