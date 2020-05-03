@@ -83,24 +83,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="Majestic Mountains">
-							<conditionFlags>
-								<flag name="majesticmountains">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="MajesticMountains.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
 						<plugin name="Static Mesh Improvement Mod">
 							<conditionFlags>
 								<flag name="smim">On</flag>
@@ -3228,18 +3210,6 @@ Please download and endorse the original mod, but do not install it: https://www
 			</pattern>
 		
 			<!-- ********************************************* -->
-
-			<!-- Majestic Mountains -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="majesticmountains" value="On"/>
-					<flagDependency flag="pilgrimsdelight" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_MajesticMountains-PilgrimsDelight.esp" destination="df_MajesticMountains-PilgrimsDelight.esp" priority="0" />
-				</files>
-			</pattern>		
-			<!-- *********************************** -->
 
 			<!-- Class Overhaul Reimagined -->	
 			<pattern>
