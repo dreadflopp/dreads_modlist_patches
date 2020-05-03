@@ -549,17 +549,6 @@ Recommendation: 2K
 
 #### [Unofficial Material Fix](http://www.nexusmods.com/skyrimspecialedition/mods/21027)
 
-## Level of Detail (LOD)
-
-
-
-#### [Majestic Mountains - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/11052)
- 
-Install a LOD file under the Optional Files section that matches the main file you installed earlier in the guide. Make sure you install this as a new mod named *Majestic Mountains LODs* (or another fitting name).
-Install using the following instructions:
-
-* LOD Resolution: 1024 (2-4GB Vram)
-
 ## Audiovisual - Animations & Effects
 
 #### [360 Walk and Run Plus](https://www.nexusmods.com/skyrimspecialedition/mods/7446)
