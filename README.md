@@ -2239,11 +2239,6 @@ Nemesis may have generated a new plugin, *FNIS.esp*. Activate it and sort all pl
 
 After closing SSEEdit, the patch will be in Overwrite:
 
-1. Right-click Overwrite and select Create Mod
-1. Name it *Unlimited Bookshelves Patch* and click *ok*.
-    - This will create a new mod listing in the left pane for the FNIS SE generated files. 
-1. Check the new mod entry to enable it.
-
 1. Double-click on Overwrite. A window will open.
 1. Drag the file *UnlimitedBookshelvesPatch.esp* from Overwrite to Unlimited_Bookshelves_Patch_Generator_Output.
 1. Close the window.
