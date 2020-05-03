@@ -512,6 +512,16 @@ Install the main file.
 
 #### [Cathedral - Plants](http://www.nexusmods.com/skyrimspecialedition/mods/26104)
 
+#### [DynDOLOD Resources](https://www.nexusmods.com/skyrim/mods/59721?)
+
+Download and install *DynDOLOD Resources SE*. Install using the following options:
+
+* Whiterun Exterior
+* Solitude Exterior
+* High Hrothgar Window Glow
+* DLC2 Vvardenfell 3D Plume
+* Desync Birds of Prey
+
 #### [Skyrim Realistic Overhaul](http://www.moddb.com/mods/skyrim-realistic-overhaul)
 
 * Install Part 1-3, choosing to merge the files when asked.
@@ -541,15 +551,7 @@ Recommendation: 2K
 
 ## Level of Detail (LOD)
 
-#### [DynDOLOD Resources](https://www.nexusmods.com/skyrim/mods/59721?)
 
-Download and install *DynDOLOD Resources SE*. Install using the following options:
-
-* Whiterun Exterior
-* Solitude Exterior
-* High Hrothgar Window Glow
-* DLC2 Vvardenfell 3D Plume
-* Desync Birds of Prey
 
 #### [Majestic Mountains - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/11052)
  
