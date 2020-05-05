@@ -81,7 +81,7 @@ c:\
 
 ````
 
-**Common folders refered to in this guide**
+**Common folders referred to in this guide**
 
 * Tools folder: c:\Modding\Tools\
 * Main game folder: c:\Modding\Tools\Steam\Steamapps\common\Skyrim Special Edition
@@ -91,7 +91,7 @@ c:\
 
 ## [Creation Kit](http://download.cdp.bethesda.net/BethesdaNetLauncher_Setup.exe)
 
-The Creation Kit is needed to convert plugins made for Skyrim to work with Skyrim Special Edition. The convertion is very simple and basically just means to open a plugin in the creation kit and resave it. The link above goes to the Bethesda Launcher install file. Installation of the Creation Kit will be done using the Bethesda Launcher.
+The Creation Kit is needed to convert plugins made for Skyrim to work with Skyrim Special Edition. The conversion is very simple and basically just means to open a plugin in the creation kit and resave it. The link above goes to the Bethesda Launcher install file. Installation of the Creation Kit will be done using the Bethesda Launcher.
 
 1. Download and install the Bethesda.net Launcher
 1. Run the Launcher and sign in (create an account if you don't have one).
@@ -137,6 +137,10 @@ Download extract into its own subfolder of the tools folder.
 ## [Unlimited Bookshelves Patch Generator](https://www.nexusmods.com/skyrimspecialedition/mods/19160)
 This is a script for SSEEdit. Unzip the archive and place the content in the SSEEdit script folder (i.e. ..Modding/Tools/SSEEdit/Scripts/).
 
+## [xLodGen](https://forum.step-project.com/topic/13451-xlodgen-terrain-lod-beta-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal/)
+Download xLODGen using the download link in the first post. Extract the downloaded archive into its own subfolder of the tools folder.
+
+
 ## [Mod Organizer 2](http://www.nexusmods.com/skyrimspecialedition/mods/6194)
 Download the *archive* version and extract into its own subfolder of the tools folder. Name the subfolder *Mod Organizer 2*.
 
@@ -159,7 +163,7 @@ To prevent backup and cache files from SSEEdit ending up in the overwrite folder
 1. Right click in the mods section of Mod Organizer 2.
 1. Select *All Mods/Create empty mod*.
 1. Name the mod *SSEEdit Cache*.
-1. Repeat the above steps to create another empty mod but name it *SSEEdit Backups* insead.
+1. Repeat the above steps to create another empty mod but name it *SSEEdit Backups* instead.
 
 ### Adding executables
 
@@ -177,13 +181,7 @@ All tools except BethINI should be launched through MO2. MO2 may have auto-detec
 Repeat the steps for the executables listed below, filling in the appropriate data. The titles are suggestions.
 
 **Tools**
-* SSEEdit
-    * Title: SSEEdit
-	* Executable: SSEEdit.exe
-	* Arguments: 
-        * -IKnowWhatImDoing
-        * -B:"c:\Modding\Tools\Mod Organizer 2\mods\SSEEdit Backups"
-        * -C:"c:\Modding\Tools\Mod Organizer 2\mods\SSEEdit Cache"
+
 * DynDOLOD SE
     * Title: DynDOLOD SE
 	* Executable: DynDOLOD64.exe
@@ -192,6 +190,18 @@ Repeat the steps for the executables listed below, filling in the appropriate da
     * Title: LOOT
 	* Executable: LOOT.exe
 	* Arguments: --game="Skyrim Special Edition"
+* SSEEdit
+    * Title: SSEEdit
+	* Executable: SSEEdit.exe
+	* Arguments: 
+        * -IKnowWhatImDoing
+        * -B:"c:\Modding\Tools\Mod Organizer 2\mods\SSEEdit Backups"
+        * -C:"c:\Modding\Tools\Mod Organizer 2\mods\SSEEdit Cache"
+* SSELODGen
+    * Title: SSELODGen
+    * Executable: xLODGen64.exe
+    * Arguments:
+        * -lodgen -sse
 * SSEEdit Quick Auto Clean (installed with SSEEdit)
     * Title: SSEEdit Quick Auto Clean
 	* Executable: SSEEditQuickAutoClean.exe
@@ -2166,6 +2176,7 @@ Repeat the steps for the tools listed below. Arguments should be seperated by sp
 
 * Textgen SE: **-o:C:\Modding\Tools\Mod Organizer 2\mods\TextGen_Output**
 * Dyndolod SE: **-o:C:\Modding\Tools\Mod Organizer 2\mods\DynDOLOD_Output**
+* SSELODGen: **-o:"C:\Modding\xLODGen\xLODGen_Output\"**
 
 Users that deviate from the recommended install paths need to adjust the instructions accordingly.
 
@@ -2246,7 +2257,7 @@ After closing SSEEdit, the patch will be in Overwrite:
 1. Close the window.
 1. Ensure the Unlimited_Bookshelves_Patch_Generator_Output mod is active (checked).
 
-## DynDOLOD
+## Generating LOD files
 
 ### Run TextGen
 
