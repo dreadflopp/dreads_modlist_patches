@@ -522,32 +522,6 @@ Install the main file.
 
 #### [Cathedral - Plants](http://www.nexusmods.com/skyrimspecialedition/mods/26104)
 
-#### [Skyrim Realistic Overhaul](http://www.moddb.com/mods/skyrim-realistic-overhaul)
-
-* Install Part 1-3, choosing to merge the files when asked.
-* Install the update file, choosing to merge as well.
-
-#### [Majestic Mountains - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/11052)
-Install a main file, choose the version you like the most. A matching LOD will be installed later.
-
-**Main installer:**
-* Snow Mountain Type: Snow Mountain New version ESL
-* Optionals: Moss Rocks ESL Version
-* Sun Direction (choose one or none): None
-* Compatibility Patches: SMIM
-
-#### [Cathedral landscapes](https://www.nexusmods.com/skyrimspecialedition/mods/21954)
-In the installer, choose:
-* Full Install, Brown Tundra
-* Blended Roads
-
-#### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
-Recommendation: 2K
-
-#### [Unofficial Material Fix](http://www.nexusmods.com/skyrimspecialedition/mods/21027)
-
-## Level of Detail (LOD)
-
 #### [DynDOLOD Resources](https://www.nexusmods.com/skyrim/mods/59721?)
 
 Download and install *DynDOLOD Resources SE*. Install using the following options:
@@ -558,12 +532,44 @@ Download and install *DynDOLOD Resources SE*. Install using the following option
 * DLC2 Vvardenfell 3D Plume
 * Desync Birds of Prey
 
-#### [Majestic Mountains - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/11052)
- 
-Install a LOD file under the Optional Files section that matches the main file you installed earlier in the guide. Make sure you install this as a new mod named *Majestic Mountains LODs* (or another fitting name).
-Install using the following instructions:
+#### [Skyrim Realistic Overhaul](http://www.moddb.com/mods/skyrim-realistic-overhaul)
 
-* LOD Resolution: 1024 (2-4GB Vram)
+* Install Part 1-3, choosing to merge the files when asked.
+* Install the update file, choosing to merge as well.
+
+#### [Majestic Mountains - Cathedral Concept](https://www.nexusmods.com/skyrimspecialedition/mods/11052)
+Install a main file, choose the version you like the most.
+
+**Main installer:**
+
+* Snow Mountain Type: Snow Mountain New version ESL
+* Optionals: Moss Rocks ESL Version
+* Sun Direction (choose one or none): None
+
+Install *Lod Pack for DynDoLod (all versions)* under the Optional Files section. Install using the following instructions:
+
+**LOD installer**
+
+* LOD Textures: Choose LOD Textures that matches the main version.
+
+**Manual Fix**
+To fix Large Reg Bugs:
+
+1. Run xEdit from Mod Organizer 2.
+1. Double click MajesticMountains_Moss.esp.
+1. Once xEdit is done loading, expand the tree for the plugin above and select File Header.
+1. Double-click on the Record Flags (sorted) row and check ESM. At this point both ESM and ESL should be checked. 
+1. Close xEdit, saving the plugin. 
+
+#### [Cathedral landscapes](https://www.nexusmods.com/skyrimspecialedition/mods/21954)
+In the installer, choose:
+* Full Install, Brown Tundra
+* Blended Roads
+
+#### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
+Recommendation: 2K
+
+#### [Unofficial Material Fix](http://www.nexusmods.com/skyrimspecialedition/mods/21027)
 
 ## Audiovisual - Animations & Effects
 
@@ -1121,9 +1127,6 @@ Choose *Install Everything* in the installer. Hide or delete the following files
 * meshes\furniture\enchantingworkstation.nif
 * meshes\loadscreenart\loadscreenenchantingworkbench.nif
 * textures\clutter\candles
-
-#### [High Poly Project](http://www.nexusmods.com/skyrimspecialedition/mods/12029)
-In the installer, choose install everything except the Windhelm throne and the patches.
 
 #### [JS Dragon Claws SE](https://www.nexusmods.com/skyrimspecialedition/mods/1394)
 Recommendation: 2K
@@ -2246,11 +2249,6 @@ Nemesis may have generated a new plugin, *FNIS.esp*. Activate it and sort all pl
 1. When the scipt is finished, close SSEEdit and make sure that the new patch is saved.
 
 After closing SSEEdit, the patch will be in Overwrite:
-
-1. Right-click Overwrite and select Create Mod
-1. Name it *Unlimited Bookshelves Patch* and click *ok*.
-    - This will create a new mod listing in the left pane for the FNIS SE generated files. 
-1. Check the new mod entry to enable it.
 
 1. Double-click on Overwrite. A window will open.
 1. Drag the file *UnlimitedBookshelvesPatch.esp* from Overwrite to Unlimited_Bookshelves_Patch_Generator_Output.
