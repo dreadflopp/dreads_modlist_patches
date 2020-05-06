@@ -1089,7 +1089,6 @@ Recommendation: 2K
 Download and install the Ultimate HD Torch by rheadude compatible file. 
 
 #### [Not Really HD Display Case](http://www.nexusmods.com/skyrim/mods/3693)
-#### [Not Really HD Keys](http://www.nexusmods.com/skyrim/mods/2875)
 
 #### [Pilgrims Delight](http://www.nexusmods.com/skyrimspecialedition/mods/3273)
 
