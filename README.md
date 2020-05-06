@@ -2283,10 +2283,10 @@ Make sure that all LOD Generation texture mods are activated and that the load o
 1. Ensure only the Terrain LOD box is checked.
 1. Use the following settings:
 
-    ![url=https://postimg.cc/Jstdkvpx](https://i.postimg.cc/Jstdkvpx/LOD16.png)
-    ![url=https://postimg.cc/QHfyVhJV](https://i.postimg.cc/QHfyVhJV/LOD32.png[/img)
-    ![url=https://postimg.cc/xqy7DKkv](https://i.postimg.cc/xqy7DKkv/LOD4.png)
-    ![url=https://postimg.cc/D8vN28st](https://i.postimg.cc/D8vN28st/LOD8.png)
+    [![LOD4.png](https://i.postimg.cc/zD91h78c/LOD4.png)](https://postimg.cc/xqy7DKkv)
+    [![LOD8.png](https://i.postimg.cc/HsX19MLs/LOD8.png)](https://postimg.cc/D8vN28st)
+    [![LOD16.png](https://i.postimg.cc/T3c8ZXmz/LOD16.png)](https://postimg.cc/Jstdkvpx)
+    [![LOD32.png](https://i.postimg.cc/W1VLW4Dm/LOD32.png)](https://postimg.cc/QHfyVhJV)
 
 1. Click *Generate* to run the process. This will take ~30 minutes. 
 1. Once the LOD generation complete message has appeared, close xLODGen.
