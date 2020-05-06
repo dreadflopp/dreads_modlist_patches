@@ -546,12 +546,6 @@ Install a main file, choose the version you like the most.
 * Optionals: Moss Rocks ESL Version
 * Sun Direction (choose one or none): None
 
-Install *Lod Pack for DynDoLod (all versions)* under the Optional Files section. Install using the following instructions:
-
-**LOD installer**
-
-* LOD Textures: Choose LOD Textures that matches the main version.
-
 **Manual Fix**
 To fix Large Reg Bugs:
 
@@ -2141,7 +2135,17 @@ Download latest SSE version and install as a normal mod.
 1. A dialog box opens asking for a name of the executable. Accept the default name by clicking *OK*.
 
 ## Level Of Detail
-The mods in this section will be deactivated once LOD has been generated.
+*The mods in this section will be deactivated once LOD has been generated.*
+
+#### [Majestic Mountains - Cathedral Concept LODS](https://www.nexusmods.com/skyrimspecialedition/mods/11052)
+
+Install *Lod Pack for DynDoLod (all versions)* under the Optional Files section. 
+**Do not merge with the Majestic Mountains main file that was installed in the Foundational Mods section.** 
+Install using the following instructions:
+
+**LOD installer**
+
+* LOD Textures: Choose LOD Textures that matches the main version.
 
 # Post Installation: Final steps
 
