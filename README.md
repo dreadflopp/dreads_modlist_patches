@@ -81,7 +81,7 @@ c:\
 
 ````
 
-**Common folders refered to in this guide**
+**Common folders referred to in this guide**
 
 * Tools folder: c:\Modding\Tools\
 * Main game folder: c:\Modding\Tools\Steam\Steamapps\common\Skyrim Special Edition
@@ -91,7 +91,7 @@ c:\
 
 ## [Creation Kit](http://download.cdp.bethesda.net/BethesdaNetLauncher_Setup.exe)
 
-The Creation Kit is needed to convert plugins made for Skyrim to work with Skyrim Special Edition. The convertion is very simple and basically just means to open a plugin in the creation kit and resave it. The link above goes to the Bethesda Launcher install file. Installation of the Creation Kit will be done using the Bethesda Launcher.
+The Creation Kit is needed to convert plugins made for Skyrim to work with Skyrim Special Edition. The conversion is very simple and basically just means to open a plugin in the creation kit and resave it. The link above goes to the Bethesda Launcher install file. Installation of the Creation Kit will be done using the Bethesda Launcher.
 
 1. Download and install the Bethesda.net Launcher
 1. Run the Launcher and sign in (create an account if you don't have one).
@@ -137,6 +137,10 @@ Download extract into its own subfolder of the tools folder.
 ## [Unlimited Bookshelves Patch Generator](https://www.nexusmods.com/skyrimspecialedition/mods/19160)
 This is a script for SSEEdit. Unzip the archive and place the content in the SSEEdit script folder (i.e. ..Modding/Tools/SSEEdit/Scripts/).
 
+## [xLodGen](https://forum.step-project.com/topic/13451-xlodgen-terrain-lod-beta-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal/)
+Download xLODGen using the download link in the first post. Extract the downloaded archive into its own subfolder of the tools folder.
+
+
 ## [Mod Organizer 2](http://www.nexusmods.com/skyrimspecialedition/mods/6194)
 Download the *archive* version and extract into its own subfolder of the tools folder. Name the subfolder *Mod Organizer 2*.
 
@@ -159,7 +163,7 @@ To prevent backup and cache files from SSEEdit ending up in the overwrite folder
 1. Right click in the mods section of Mod Organizer 2.
 1. Select *All Mods/Create empty mod*.
 1. Name the mod *SSEEdit Cache*.
-1. Repeat the above steps to create another empty mod but name it *SSEEdit Backups* insead.
+1. Repeat the above steps to create another empty mod but name it *SSEEdit Backups* instead.
 
 ### Adding executables
 
@@ -177,13 +181,7 @@ All tools except BethINI should be launched through MO2. MO2 may have auto-detec
 Repeat the steps for the executables listed below, filling in the appropriate data. The titles are suggestions.
 
 **Tools**
-* SSEEdit
-    * Title: SSEEdit
-	* Executable: SSEEdit.exe
-	* Arguments: 
-        * -IKnowWhatImDoing
-        * -B:"c:\Modding\Tools\Mod Organizer 2\mods\SSEEdit Backups"
-        * -C:"c:\Modding\Tools\Mod Organizer 2\mods\SSEEdit Cache"
+
 * DynDOLOD SE
     * Title: DynDOLOD SE
 	* Executable: DynDOLOD64.exe
@@ -192,6 +190,18 @@ Repeat the steps for the executables listed below, filling in the appropriate da
     * Title: LOOT
 	* Executable: LOOT.exe
 	* Arguments: --game="Skyrim Special Edition"
+* SSEEdit
+    * Title: SSEEdit
+	* Executable: SSEEdit.exe
+	* Arguments: 
+        * -IKnowWhatImDoing
+        * -B:"c:\Modding\Tools\Mod Organizer 2\mods\SSEEdit Backups"
+        * -C:"c:\Modding\Tools\Mod Organizer 2\mods\SSEEdit Cache"
+* xLODGen
+    * Title: xLODGen
+    * Executable: xLODGen64.exe
+    * Arguments:
+        * -lodgen -sse
 * SSEEdit Quick Auto Clean (installed with SSEEdit)
     * Title: SSEEdit Quick Auto Clean
 	* Executable: SSEEditQuickAutoClean.exe
@@ -535,12 +545,6 @@ Install a main file, choose the version you like the most.
 * Snow Mountain Type: Snow Mountain New version ESL
 * Optionals: Moss Rocks ESL Version
 * Sun Direction (choose one or none): None
-
-Install *Lod Pack for DynDoLod (all versions)* under the Optional Files section. Install using the following instructions:
-
-**LOD installer**
-
-* LOD Textures: Choose LOD Textures that matches the main version.
 
 **Manual Fix**
 To fix Large Reg Bugs:
@@ -2130,6 +2134,28 @@ Download latest SSE version and install as a normal mod.
 1. Right click on *Nemesis_Engine\Nemesis Unlimited Behavior Engine.exe* and choose *Add as Executable*.
 1. A dialog box opens asking for a name of the executable. Accept the default name by clicking *OK*.
 
+## LOD Generation textures
+*The mods in this section will be deactivated once LOD has been generated.*
+
+#### [Cathedral landscapes LOD generation textures](https://www.nexusmods.com/skyrimspecialedition/mods/21954)
+Install *LODGEN Textures for v3*.
+
+**Do not merge with the Cathedral landscapes main file that was installed in the Foundational Mods section.** 
+
+#### [Majestic Mountains - Cathedral Concept LOD generation textures](https://www.nexusmods.com/skyrimspecialedition/mods/11052)
+Install *Lod Pack for DynDoLod (all versions)* under the Optional Files section. 
+
+**Do not merge with the Majestic Mountains main file that was installed in the Foundational Mods section.** 
+
+Install using the following instructions:
+
+**LOD installer**
+
+* LOD Textures: Choose LOD Textures that matches the main version.
+
+#### [SSE-Terrain-Tamriel](https://forum.step-project.com/topic/13451-xlodgen-terrain-lod-beta-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal/)
+Download the recommended optional *SSE-Terrain-Tamriel.esm* listed at the end of the first post. Create an empty mod in Mod Organizer 2 and place the downloaded file inside.
+
 # Post Installation: Final steps
 
 ## Create output data listings
@@ -2152,11 +2178,13 @@ Create the output data folders
 
 Repeat step 1-3 above and create the following empty mods:
 
+* BodySlide _Output
+* Nemesis_Output
+* Unlimited_Bookshelves_Patch_Generator_Output
+* xLODGen_Output
 * TextGen_Output
 * DynDOLOD_Output
-* Nemesis_Output
-* BodySlide _Output
-* Unlimited_Bookshelves_Patch_Generator_Output
+* Occlusion_Data
 
 Some tools can be set to output data to these mods.
 
@@ -2169,6 +2197,7 @@ Repeat the steps for the tools listed below. Arguments should be seperated by sp
 
 * Textgen SE: **-o:C:\Modding\Tools\Mod Organizer 2\mods\TextGen_Output**
 * Dyndolod SE: **-o:C:\Modding\Tools\Mod Organizer 2\mods\DynDOLOD_Output**
+* xLODGen: **-o:"C:\Modding\xLODGen\xLODGen_Output\"**
 
 Users that deviate from the recommended install paths need to adjust the instructions accordingly.
 
@@ -2239,17 +2268,35 @@ Nemesis may have generated a new plugin, *FNIS.esp*. Activate it and sort all pl
 
 After closing SSEEdit, the patch will be in Overwrite:
 
-1. Right-click Overwrite and select Create Mod
-1. Name it *Unlimited Bookshelves Patch* and click *ok*.
-    - This will create a new mod listing in the left pane for the FNIS SE generated files. 
-1. Check the new mod entry to enable it.
-
 1. Double-click on Overwrite. A window will open.
 1. Drag the file *UnlimitedBookshelvesPatch.esp* from Overwrite to Unlimited_Bookshelves_Patch_Generator_Output.
 1. Close the window.
 1. Ensure the Unlimited_Bookshelves_Patch_Generator_Output mod is active (checked).
 
-## DynDOLOD
+## Generating LOD files
+
+### xLODGen - Terrain
+Make sure that all LOD Generation texture mods are activated and that the load order is sorted with LOOT.
+
+1. Run xLODGen from the MO2 executable drop-down list.
+1. Select all worldspaces.
+1. Ensure only the Terrain LOD box is checked.
+1. Use the following settings:
+
+    ![url=https://postimg.cc/Jstdkvpx](https://i.postimg.cc/Jstdkvpx/LOD16.png)
+    ![url=https://postimg.cc/QHfyVhJV](https://i.postimg.cc/QHfyVhJV/LOD32.png[/img)
+    ![url=https://postimg.cc/xqy7DKkv](https://i.postimg.cc/xqy7DKkv/LOD4.png)
+    ![url=https://postimg.cc/D8vN28st](https://i.postimg.cc/D8vN28st/LOD8.png)
+
+1. Click *Generate* to run the process. This will take ~30 minutes. 
+1. Once the LOD generation complete message has appeared, close xLODGen.
+
+The generated files needs to be manually moved to the output folder. Cut and paste the files from the LOD generation output folder(... \Modding\Tools\xLODGen\xLODGen_Output\) to the empty mod folder *xLODGen_Output*.
+
+Deactivate the following mods:
+
+    * Cathedral landscapes LOD generation textures
+    * SSE-Terrain-Tamriel
 
 ### Run TextGen
 
@@ -2286,6 +2333,25 @@ After closing SSEEdit, the patch will be in Overwrite:
 1. Ensure the DynDOLOD esm and esp files are checked in the right pane.
 1. Sort with LOOT.
 1. Ensure DynDOLOD.esp is the last plugin in the load order.
+
+Deactivate the following mods:
+
+* Majestic Mountains - Cathedral Concept LOD generation textures
+
+### xLODGen - Occlusion
+
+1. Run xLODGen from the MO2 executable drop-down list.
+1. Select everything in Select Worldspace(s).
+1. Ensure only the *Occlusion* box is checked.
+ocess.
+1. Once the completed message has appeared, close xLODGen.
+
+After closing xLODGen, the occlusion data will be in Overwrite:
+
+1. Double-click on Overwrite. A window will open.
+1. Drag the file *Occlusion.esp* from Overwrite to *Occlusion_Data*.
+1. Close the window.
+1. Ensure the *Occlusion_Data* mod is active (checked).
 
 # Mod Configuration (MCM)
 
