@@ -613,9 +613,6 @@ Install loose files.
 #### [EVG Conditional Idles](https://www.nexusmods.com/skyrimspecialedition/mods/34006)
 Choose full install in the installer. The modular install is also supported.
 
-#### [No Spinning Death Animation (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/1432)
-Install *No Spinning Death Animation MERGED*
-
 #### [Immersive Animations](https://www.nexusmods.com/skyrimspecialedition/mods/4254)
 In the installer choose:
 
