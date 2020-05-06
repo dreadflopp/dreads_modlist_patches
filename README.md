@@ -2137,15 +2137,21 @@ Download latest SSE version and install as a normal mod.
 ## Level Of Detail
 *The mods in this section will be deactivated once LOD has been generated.*
 
-#### [Majestic Mountains - Cathedral Concept LODS](https://www.nexusmods.com/skyrimspecialedition/mods/11052)
-
+#### [Majestic Mountains - Cathedral Concept LOD generation textures](https://www.nexusmods.com/skyrimspecialedition/mods/11052)
 Install *Lod Pack for DynDoLod (all versions)* under the Optional Files section. 
+
 **Do not merge with the Majestic Mountains main file that was installed in the Foundational Mods section.** 
+
 Install using the following instructions:
 
 **LOD installer**
 
 * LOD Textures: Choose LOD Textures that matches the main version.
+
+#### [Cathedral landscapes LOD generation textures](https://www.nexusmods.com/skyrimspecialedition/mods/21954)
+Install *LODGEN Textures for v3*.
+
+**Do not merge with the Cathedral landscapes main file that was installed in the Foundational Mods section.** 
 
 # Post Installation: Final steps
 
