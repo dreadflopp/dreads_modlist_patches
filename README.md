@@ -2175,6 +2175,7 @@ Create the output data folders
 
 Repeat step 1-3 above and create the following empty mods:
 
+* SSELODGen_Output
 * TextGen_Output
 * DynDOLOD_Output
 * Nemesis_Output
@@ -2192,7 +2193,7 @@ Repeat the steps for the tools listed below. Arguments should be seperated by sp
 
 * Textgen SE: **-o:C:\Modding\Tools\Mod Organizer 2\mods\TextGen_Output**
 * Dyndolod SE: **-o:C:\Modding\Tools\Mod Organizer 2\mods\DynDOLOD_Output**
-* SSELODGen: **-o:"C:\Modding\xLODGen\xLODGen_Output\"**
+* SSELODGen: **-o:"C:\Modding\xLODGen\SSELODGen_Output_Output\"**
 
 Users that deviate from the recommended install paths need to adjust the instructions accordingly.
 
