@@ -1093,6 +1093,9 @@ Download and install the Ultimate HD Torch by rheadude compatible file.
 
 #### [Pilgrims Delight](http://www.nexusmods.com/skyrimspecialedition/mods/3273)
 
+#### [Rally's Hanging Moss](https://www.nexusmods.com/skyrimspecialedition/mods/33225)
+Recommendation: *Rallys Hanging Moss - Desaturated*.
+
 #### [Rally's Hooks and Saws](http://www.nexusmods.com/skyrimspecialedition/mods/32652)
 Choose one main file, the version with shine is recommended. Fomod recommendation is *default*.
 
