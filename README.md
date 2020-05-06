@@ -1097,7 +1097,7 @@ Download and install the Ultimate HD Torch by rheadude compatible file.
 Recommendation: *Rallys Hanging Moss - Desaturated*.
 
 #### [Rally's Hooks and Saws](http://www.nexusmods.com/skyrimspecialedition/mods/32652)
-Choose one main file, the version with shine is recommended. Fomod recommendation is *default*.
+Choose one main file, *Rallys Hooks and Saws* is recommended. Fomod recommendation is *rusty*.
 
 #### [Rally's Instruments HQ](http://www.nexusmods.com/skyrimspecialedition/mods/28193)
 Recommendation: Rallys Instruments HQ - Version 2 Vanilla Lute
