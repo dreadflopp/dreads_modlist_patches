@@ -156,14 +156,35 @@ Download the *archive* version and extract into its own subfolder of the tools f
 1. The last prompt will ask if MO can handle .NXM links from the browser. Allow it to do so.
 1. MO2 is now set up and ready to use.
 
-### Create mod listings for SSEEdit
+### Create mod listings for output data
 
-To prevent backup and cache files from SSEEdit ending up in the overwrite folder, mixing with other files you might want to keep track of, it is advised to create two empty mod listingss in MO2 for these two types of files:
+To prevent output ending up in the overwrite folder, mixing with other files you might want to keep track of, it is advised to create empty mod listings in MO2 for these types of files. 
+
+Create a seperator to keep things tidy:
+
+1. Right click in the mods section of Mod Organizer 2.
+1. Select *All Mods/Create Seperator*.
+1. Name the seperator *Output Data*.
+
+Create the output data folders:
 
 1. Right click in the mods section of Mod Organizer 2.
 1. Select *All Mods/Create empty mod*.
-1. Name the mod *SSEEdit Cache*.
-1. Repeat the above steps to create another empty mod but name it *SSEEdit Backups* instead.
+1. Name the mod.
+
+Repeat the steps, creating the following mod listings:
+
+* SSEEdit Cache
+* SSEEdit Backups
+* BodySlide _Output
+* Nemesis_Output
+* Unlimited_Bookshelves_Patch_Generator_Output
+* xLODGen_Output
+* TextGen_Output
+* DynDOLOD_Output
+* Occlusion_Data
+
+Some tools can be set to output data to these mod listings while other tools ouput data will have to be manually moved after each run. 
 
 ### Adding executables
 
@@ -174,18 +195,20 @@ All tools except BethINI should be launched through MO2. MO2 may have auto-detec
 1. Click the Executables button at the top of the main Mod Organizer window.
 1. In the Title field type name of the tool.
 1. In the Binary field either type the path to the tools executable file or browse for it by selecting the ... button (i.e. ..Modding\Tools\[tool-folder]\[tool].exe).
-1. Input arguments in the Argument field.
+1. Input arguments in the Argument field. Arguments should be seperated by spaces.
 1. Check the Use Application’s Icon for shortcuts box.
 1. Click the Apply button.
 
-Repeat the steps for the executables listed below, filling in the appropriate data. The titles are suggestions.
+Repeat the steps for the executables listed below, filling in the appropriate data. The titles are suggestions. Users that deviate from the recommended install paths need to adjust the arguments accordingly.
 
 **Tools**
 
 * DynDOLOD SE
     * Title: DynDOLOD SE
 	* Executable: DynDOLOD64.exe
-	* Arguments: -SSE                         
+	* Arguments: 
+        * -SSE
+        * -o:C:\Modding\Tools\Mod Organizer 2\mods\DynDOLOD_Output                   
 * LOOT
     * Title: LOOT
 	* Executable: LOOT.exe
@@ -201,7 +224,8 @@ Repeat the steps for the executables listed below, filling in the appropriate da
     * Title: xLODGen
     * Executable: xLODGen64.exe
     * Arguments:
-        * -lodgen -sse
+        * -sse
+        * -o:"C:\Modding\xLODGen\xLODGen_Output\"
 * SSEEdit Quick Auto Clean (installed with SSEEdit)
     * Title: SSEEdit Quick Auto Clean
 	* Executable: SSEEditQuickAutoClean.exe
@@ -209,7 +233,9 @@ Repeat the steps for the executables listed below, filling in the appropriate da
 * TexGen SE (installed with DynDOLOD)
     * Title: TexGen SE
 	* Executable: TexGen64.exe
-	* Arguments: -SSE                           |
+	* Arguments: 
+        * -SSE
+        * -o:C:\Modding\Tools\Mod Organizer 2\mods\TextGen_Output                         |
 
 *Note that you need to check that that the paths for SSEEdits backup and cache folders in the given arguments are valid for your install.*
 
@@ -2125,6 +2151,15 @@ Download and install as a normal mod.
 1. Right click on *CalienteTools\BodySlide\BodySlide x64.exe* and choose *Add as Executable*.
 1. A dialog box opens asking for a name of the executable. Accept the default name by clicking *OK*.
 
+**To set BodySlide to output data to its output mod:**
+
+1. Run BodySlide x64 through Mod Organizer
+1. Click *Settings*
+1. Click *Advanced*
+1. Click *Browse* and browse to the *BodySlide _Output* folder.
+1. Click *Select folder*
+1. Click *OK* and close BodySlide
+
 #### [Nemesis](https://github.com/ShikyoKira/Project-New-Reign---Nemesis-Main/releases)
 Download latest SSE version and install as a normal mod.
 
@@ -2157,58 +2192,6 @@ Install using the following instructions:
 Download the recommended optional *SSE-Terrain-Tamriel.esm* listed at the end of the first post. Create an empty mod in Mod Organizer 2 and place the downloaded file inside.
 
 # Post Installation: Final steps
-
-## Create output data listings
-
-Some tools used during the post installation steps outputs data. To keep the data seperated, output mod listings will be created.
-
-**Instructions to create output data mods**
-
-Create a seperator to keep things tidy:
-
-1. Right click in the mods section of Mod Organizer 2.
-1. Select *All Mods/Create Seperator*.
-1. Name the seperator *Output Data*.
-
-Create the output data folders
-
-1. Right click in the mods section of Mod Organizer 2.
-1. Select *All Mods/Create empty mod*.
-1. Name the mod.
-
-Repeat step 1-3 above and create the following empty mods:
-
-* BodySlide _Output
-* Nemesis_Output
-* Unlimited_Bookshelves_Patch_Generator_Output
-* xLODGen_Output
-* TextGen_Output
-* DynDOLOD_Output
-* Occlusion_Data
-
-Some tools can be set to output data to these mods.
-
-1. Click the Executables button at the top of the main Mod Organizer window.
-1. Select the tool to add an argument to.
-1. Input argument in the Argument field.
-1. Click the Apply button.
-
-Repeat the steps for the tools listed below. Arguments should be seperated by spaces.
-
-* Textgen SE: **-o:C:\Modding\Tools\Mod Organizer 2\mods\TextGen_Output**
-* Dyndolod SE: **-o:C:\Modding\Tools\Mod Organizer 2\mods\DynDOLOD_Output**
-* xLODGen: **-o:"C:\Modding\xLODGen\xLODGen_Output\"**
-
-Users that deviate from the recommended install paths need to adjust the instructions accordingly.
-
-To set BodySlide to output data to its output mod:
-
-1. Run BodySlide x64 through Mod Organizer
-1. Click *Settings*
-1. Click *Advanced*
-1. Click *Browse* and browse to the *BodySlide _Output* folder.
-1. Click *Select folder*
-1. Click *OK* and close BodySlide
 
 ## Sorting and cleaning the new load order
 
@@ -2304,7 +2287,7 @@ Deactivate the following mods:
 1. Keep the default output location and and choose one of the follow two options:
     1. Option 1: Keep the default settings. This is for the average system.
     1. Option 2: Users who have the a bit more performance room, change the *LOD Texture Size* to *512*. This will result in higher resolution LOD textures. 
-1. Once the option has been chosen click Start.
+1. Once the option has been chosen click Start. This will take ~20 minutes. 
 1. Once the completed message has appeared, click *Save & Exit*.
 1. Right click any mod in Mod Organizer 2 and choose *All Mods/Refresh*.
 1. Ensure the TexGen_Output mod is active (checked).
