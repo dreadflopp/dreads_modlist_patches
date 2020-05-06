@@ -235,9 +235,9 @@ Repeat the steps for the executables listed below, filling in the appropriate da
 	* Executable: TexGen64.exe
 	* Arguments: 
         * -SSE
-        * -o:C:\Modding\Tools\Mod Organizer 2\mods\TextGen_Output                         |
+        * -o:C:\Modding\Tools\Mod Organizer 2\mods\TextGen_Output
 
-*Note that you need to check that that the paths for SSEEdits backup and cache folders in the given arguments are valid for your install.*
+*Note that you need to check that that the paths in the given arguments are valid for your install.*
 
 ## [BethINI SE](http://www.nexusmods.com/skyrimspecialedition/mods/4875)
 Download extract into its own subfolder of the tools folder.
@@ -2192,6 +2192,9 @@ Install using the following instructions:
 Download the recommended optional *SSE-Terrain-Tamriel.esm* listed at the end of the first post. Create an empty mod in Mod Organizer 2 and place the downloaded file inside.
 
 # Post Installation: Final steps
+
+## Output data
+Move all outpout data mods and the output data seperator, placing them last in the install order.
 
 ## Sorting and cleaning the new load order
 
