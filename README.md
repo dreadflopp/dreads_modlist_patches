@@ -912,6 +912,8 @@ Install with the following options:
     * DragonBoring Weapons
 * Dual Sheath
     * No Dual Sheath
+
+#### [Masque of Argonian Vile SSE](https://www.nexusmods.com/skyrimspecialedition/mods/26908)
         
 #### [Frankly HD Dawnguard Armor and Weapons](https://www.nexusmods.com/skyrimspecialedition/mods/19663)
 Recommendation: 2K
