@@ -197,8 +197,8 @@ Repeat the steps for the executables listed below, filling in the appropriate da
         * -IKnowWhatImDoing
         * -B:"c:\Modding\Tools\Mod Organizer 2\mods\SSEEdit Backups"
         * -C:"c:\Modding\Tools\Mod Organizer 2\mods\SSEEdit Cache"
-* SSELODGen
-    * Title: SSELODGen
+* xLODGen
+    * Title: xLODGen
     * Executable: xLODGen64.exe
     * Arguments:
         * -lodgen -sse
@@ -2181,9 +2181,10 @@ Repeat step 1-3 above and create the following empty mods:
 * BodySlide _Output
 * Nemesis_Output
 * Unlimited_Bookshelves_Patch_Generator_Output
-* SSELODGen_Output
+* xLODGen_Output
 * TextGen_Output
 * DynDOLOD_Output
+* Occlusion_Data
 
 Some tools can be set to output data to these mods.
 
@@ -2196,7 +2197,7 @@ Repeat the steps for the tools listed below. Arguments should be seperated by sp
 
 * Textgen SE: **-o:C:\Modding\Tools\Mod Organizer 2\mods\TextGen_Output**
 * Dyndolod SE: **-o:C:\Modding\Tools\Mod Organizer 2\mods\DynDOLOD_Output**
-* SSELODGen: **-o:"C:\Modding\xLODGen\SSELODGen_Output_Output\"**
+* xLODGen: **-o:"C:\Modding\xLODGen\xLODGen_Output\"**
 
 Users that deviate from the recommended install paths need to adjust the instructions accordingly.
 
@@ -2274,7 +2275,28 @@ After closing SSEEdit, the patch will be in Overwrite:
 
 ## Generating LOD files
 
-### SSELODGen - Terrain
+### xLODGen - Terrain
+Make sure that all LOD Generation texture mods are activated and that the load order is sorted with LOOT.
+
+1. Run xLODGen from the MO2 executable drop-down list.
+1. Select all worldspaces.
+1. Ensure only the Terrain LOD box is checked.
+1. Use the following settings:
+
+    ![url=https://postimg.cc/Jstdkvpx](https://i.postimg.cc/Jstdkvpx/LOD16.png)
+    ![url=https://postimg.cc/QHfyVhJV](https://i.postimg.cc/QHfyVhJV/LOD32.png[/img)
+    ![url=https://postimg.cc/xqy7DKkv](https://i.postimg.cc/xqy7DKkv/LOD4.png)
+    ![url=https://postimg.cc/D8vN28st](https://i.postimg.cc/D8vN28st/LOD8.png)
+
+1. Click *Generate* to run the process. This will take ~30 minutes. 
+1. Once the LOD generation complete message has appeared, close xLODGen.
+
+The generated files needs to be manually moved to the output folder. Cut and paste the files from the LOD generation output folder(... \Modding\Tools\xLODGen\xLODGen_Output\) to the empty mod folder *xLODGen_Output*.
+
+Deactivate the following mods:
+
+    * Cathedral landscapes LOD generation textures
+    * SSE-Terrain-Tamriel
 
 ### Run TextGen
 
@@ -2311,6 +2333,25 @@ After closing SSEEdit, the patch will be in Overwrite:
 1. Ensure the DynDOLOD esm and esp files are checked in the right pane.
 1. Sort with LOOT.
 1. Ensure DynDOLOD.esp is the last plugin in the load order.
+
+Deactivate the following mods:
+
+* Majestic Mountains - Cathedral Concept LOD generation textures
+
+### xLODGen - Occlusion
+
+1. Run xLODGen from the MO2 executable drop-down list.
+1. Select everything in Select Worldspace(s).
+1. Ensure only the *Occlusion* box is checked.
+ocess.
+1. Once the completed message has appeared, close xLODGen.
+
+After closing xLODGen, the occlusion data will be in Overwrite:
+
+1. Double-click on Overwrite. A window will open.
+1. Drag the file *Occlusion.esp* from Overwrite to *Occlusion_Data*.
+1. Close the window.
+1. Ensure the *Occlusion_Data* mod is active (checked).
 
 # Mod Configuration (MCM)
 
