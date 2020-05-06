@@ -1189,7 +1189,7 @@ Install *RUSTIC SOULGEMS - Special Edition - FOMOD - English Only*.
 In the installer, choose:
 
 * 1k Textures (recommended)
-* Sorted + ESL
+* Sorted + ESL + GIST Patch
 
 #### [RUSTIC SPRIGGAN - Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/18107)
 Recommendation: 2K
