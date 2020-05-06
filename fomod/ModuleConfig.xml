@@ -314,6 +314,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="Rustic Soul Gems (sorted ESL GIST version)">
+							<conditionFlags>
+								<flag name="rusticsoulgemsgist">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="RUSTIC SOULGEMS - Sorted - ESL - GIST.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Skyrim SE Improved Puddles">
 							<conditionFlags>
 								<flag name="improvedpuddles">On</flag>
@@ -2941,16 +2959,6 @@ Please download and endorse the original mod, but do not install it: https://www
 			</pattern>
 			<!-- ************************************* -->
 
-			<!-- Soul Gems-->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="rusticsoulgems" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_RusticSoulGemsSortedEsl-USSEP.esp" destination="df_RusticSoulGemsSortedEsl-USSEP.esp" priority="0" />
-				</files>
-			</pattern>
-			<!-- ************************************* -->
 
 			<!-- Bent Pines - Fall of Granite Hill -->
 			<pattern>
@@ -4120,6 +4128,15 @@ Please download and endorse the original mod, but do not install it: https://www
 			<!-- *********************************** -->
 
 			<!-- Crafting Skills Revamped -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="csr" value="On"/>
+					<flagDependency flag="rusticsoulgemsgist" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CraftingRevamped-RusticSoulGems-Gist.esp" destination="df_CraftingRevamped-RusticSoulGems-Gist.esp" priority="0" />
+				</files>
+			</pattern>
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="csr" value="On"/>
