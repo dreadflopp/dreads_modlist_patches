@@ -1061,7 +1061,7 @@ Recommended install options:
 * Main Installation: Core Files
 * Resolution Options: Lite
 * Glow Options: Normal
-* Inferno Flame Color: Freeseia
+* Inferno Flame Color: Yellow
 * Tile Options: New
 * Size Options: Regular
 * Patch Options: Ember HD
