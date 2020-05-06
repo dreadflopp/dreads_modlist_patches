@@ -859,6 +859,9 @@ Recommendation: red 1k
 #### [ElSopa HD - Dirt Blast SE](http://www.nexusmods.com/skyrimspecialedition/mods/22342)
 Recommendation: 2K
 
+#### [ElSopa - HD Keys SE](https://www.nexusmods.com/skyrimspecialedition/mods/32707)
+Recommendation: red 1k
+
 #### [Embers HD](http://www.nexusmods.com/skyrimspecialedition/mods/14368)
 Install using the following options:
 
