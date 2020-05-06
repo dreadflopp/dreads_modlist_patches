@@ -2140,6 +2140,9 @@ Download latest SSE version and install as a normal mod.
 1. Right click on *Nemesis_Engine\Nemesis Unlimited Behavior Engine.exe* and choose *Add as Executable*.
 1. A dialog box opens asking for a name of the executable. Accept the default name by clicking *OK*.
 
+## Level Of Detail
+The mods in this section will be deactivated once LOD has been generated.
+
 # Post Installation: Final steps
 
 ## Create output data listings
