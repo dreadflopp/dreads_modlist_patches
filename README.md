@@ -502,7 +502,7 @@ Choose custom install in the installer and choose the following:
 * Dungeons Cliffs Snow Skirts: Snow Blending ESP (Recommended)
 * Dwemer Animated Lifts: Dwemer Animated Lifts
 * Dwemer Clutter: Dwemer Clutter
-* Farmhouse Woven Fence: Woven Fence Dense Grey (NOTE: If heavy flickering occurs with the fences, either disable or a different option.)
+* Farmhouse Woven Fence: Woven Fence Less Flicker (Recommended).
 * Food: Improved Food
 * Food - Tomato Style: Default Heirloom
 * Furniture Chests: Improved Furniture Chests
@@ -513,7 +513,7 @@ Choose custom install in the installer and choose the following:
 * Hearthfires Stuff: Hearthfires Stuff
 * Human Skull Fixes: Human Skull Fixes
 * Imperial Jail: Improved Imperial Jail (Recommended)
-* Jewelry Rings: Jewelry Rings CCO Remade or Jewelcraft
+* Jewelry Rings: Jewelry Rings vanilla
 * Lanterns: Lanterns
 * Nordic Tables and Benches: Nordic Tables and Benches
 * Orc Longhouse: Orc Longhouse
