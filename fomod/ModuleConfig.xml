@@ -45,7 +45,8 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="lenient">Off</flag>	
 								<flag name="jks">Off</flag>
 								<flag name="kagrenac">Off</flag>	
-								<flag name="forgottencity">Off</flag>								
+								<flag name="forgottencity">Off</flag>	
+								<flag name="tradebarter">Off</flag>																
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
@@ -1614,7 +1615,45 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>					
+						</plugin>
+						<plugin name="Dawnguard Arsenal">
+							<conditionFlags>
+								<flag name="ia">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="dawnguardarsenal"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="DawnguardArsenal.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<!--
+						<plugin name="Immersive Armors">
+							<conditionFlags>
+								<flag name="ia">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Hothtrooper44_ArmorCompilation.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						-->			
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -4269,6 +4308,104 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_AIOverhaul-Ivarstead.esp" destination="df_AIOverhaul-Ivarstead.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- ************************** -->
+
+			<!-- Immersive Armors -->
+			<!--
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ia" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ImmersiveArmors-USSEP.esp" destination="df_ImmersiveArmors-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ia" value="On"/>
+					<flagDependency flag="cloaks" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_Cloaks-ImmersiveArmors.esp" destination="df_Cloaks-ImmersiveArmors.esp" priority="0" />
+				</files>
+			</pattern>
+			-->
+			<!-- ************************** -->
+			
+			<!-- Dawnguard Arsenal -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="dawnguardarsenal" value="On"/>
+					<flagDependency flag="mysticism" value="On"/>
+					<flagDependency flag="adamant" value="On"/>
+					<flagDependency flag="tradebarter" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_Adamant-DawnguardArsenal.esp" destination="df_Adamant-DawnguardArsenal.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="dawnguardarsenal" value="On"/>
+					<flagDependency flag="mysticism" value="On"/>
+					<flagDependency flag="adamant" value="On"/>
+					<flagDependency flag="tradebarter" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_Adamant-TradeAndBarter-DawnguardArsenal.esp" destination="df_Adamant-TradeAndBarter-DawnguardArsenal.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="dawnguardarsenal" value="On"/>
+					<flagDependency flag="mysticism" value="On"/>
+					<flagDependency flag="adamant" value="Off"/>
+					<flagDependency flag="tradebarter" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_Mysticism-DawnguardArsenal.esp" destination="df_Mysticism-DawnguardArsenal.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="dawnguardarsenal" value="On"/>
+					<flagDependency flag="mysticism" value="On"/>
+					<flagDependency flag="adamant" value="Off"/>
+					<flagDependency flag="tradebarter" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_Mysticism-TradeAndBarter-DawnguardArsenal.esp" destination="df_Mysticism-TradeAndBarter-DawnguardArsenal.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="dawnguardarsenal" value="On"/>
+					<flagDependency flag="mysticism" value="Off"/>
+					<flagDependency flag="adamant" value="Off"/>
+					<flagDependency flag="tradebarter" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_TradeAndBarter-DawnguardArsenal.esp" destination="df_TradeAndBarter-DawnguardArsenal.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="dawnguardarsenal" value="On"/>
+					<flagDependency flag="ha" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_DawnguardArsenal-HeavyArmory.esp" destination="df_DawnguardArsenal-HeavyArmory.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="dawnguardarsenal" value="On"/>
+					<flagDependency flag="cloaks" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_DawnguardArsenal-Cloaks.esp" destination="df_DawnguardArsenal-Cloaks.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- ************************** -->

@@ -1849,6 +1849,9 @@ Install the main version
 
 #### [Cloaks of the Nords](https://www.nexusmods.com/skyrimspecialedition/mods/8886)
 
+#### [Dawnguard Arsenal SSE](https://www.nexusmods.com/skyrimspecialedition/mods/25094)
+Install both the main and the optional file.
+
 #### [Lustmord Vampire Armor](https://www.nexusmods.com/skyrimspecialedition/mods/16676)
 Install the main file.
 
