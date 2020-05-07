@@ -1618,11 +1618,11 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 						</plugin>
 						<plugin name="Dawnguard Arsenal">
 							<conditionFlags>
-								<flag name="ia">On</flag>
+								<flag name="dawnguardarsenal">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
-									<defaultType name="dawnguardarsenal"/>
+									<defaultType name="Optional"/>
 									<patterns>
 										<pattern>
 											<dependencies operator="And">
