@@ -2027,6 +2027,7 @@ Install *Solstheim Lighthouse v1.2 ESL* and *HD Raven Rock Brick Texture Replace
 #### [JK's Arcadia's Cauldron](https://www.nexusmods.com/skyrimspecialedition/mods/33565)
 
 #### [JK's The Bannered Mare.](https://www.nexusmods.com/skyrimspecialedition/mods/33845)
+Install the main file and *JK's The Bannered Mare - Skyrim Project Optimization patch*.
 
 #### [JK's Belethor's General Goods.](https://www.nexusmods.com/skyrimspecialedition/mods/33636)
 
