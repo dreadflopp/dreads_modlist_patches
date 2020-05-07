@@ -1700,7 +1700,7 @@ Install the main file and the Growl patch.
 Install main file and the 2K horse textures.
 
 #### [Improved Traps](http://www.nexusmods.com/skyrimspecialedition/mods/17592)
-Install *Improved Traps and Mining Makes Noise*.
+Install *Improved Traps*.
 
 #### [Lock Related Loot](http://www.nexusmods.com/skyrimspecialedition/mods/11342)
 
