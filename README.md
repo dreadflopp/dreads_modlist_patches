@@ -1624,8 +1624,6 @@ Install the Simple Auto Unequip Ammo from the Old Files.
 #### [Blade and Blunt](https://www.nexusmods.com/skyrimspecialedition/mods/34549)
 Install the main file and the optional file.
 
-#### [Follower Trap Safety](http://www.nexusmods.com/skyrimspecialedition/mods/2755)
-
 #### [Realistic AI Detection SE](http://www.nexusmods.com/skyrimspecialedition/mods/2345)
 Choose *Realistic AI Detection 2 SE - Lite*
 
