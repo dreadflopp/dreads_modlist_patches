@@ -43,7 +43,9 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="ccsurvival">Off</flag>
 								<flag name="mundus">Off</flag>		
 								<flag name="lenient">Off</flag>	
-								<flag name="jks">Off</flag>									
+								<flag name="jks">Off</flag>
+								<flag name="kagrenac">Off</flag>	
+								<flag name="forgottencity">Off</flag>								
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
@@ -2973,6 +2975,18 @@ Please download and endorse the original mod, but do not install it: https://www
 
 			<!-- ********************************** -->
 
+			<!-- Moon And Star -->	
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="mas" value="On"/>
+					<flagDependency flag="rw2" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_MoonAndStar-USSEP.esp" destination="df_MoonAndStar-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- ********************************** -->
+
 			<!-- Realistic Water Two -->
 			<pattern>
 				<dependencies operator="And">
@@ -2989,7 +3003,7 @@ Please download and endorse the original mod, but do not install it: https://www
 					<flagDependency flag="mas" value="On"/>
 				</dependencies>
 				<files>
-					<file source="df_RW2-MoonAndStar.esp" destination="df_RW2-MoonAndStar.esp" priority="0" />
+					<file source="df_MoonAndStar-USSEP-RW2.esp" destination="df_MoonAndStar-USSEP-RW2.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
@@ -3229,17 +3243,6 @@ Please download and endorse the original mod, but do not install it: https://www
 				</files>
 			</pattern>
 			<!-- ************************************* -->	
-
-			<!-- Moon And Star -->	
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="mas" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_MoonAndStar.esp" destination="df_MoonAndStar.esp" priority="0" />
-				</files>
-			</pattern>
-			<!-- ********************************** -->
 
 			<!-- Daedric Voices -->
 			<pattern>
@@ -4081,9 +4084,19 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="kagrenac" value="On"/>
+					<flagDependency flag="forgottencity" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_ToolsOfKagrenac-USSEP.esp" destination="df_ToolsOfKagrenac-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="kagrenac" value="Off"/>
+					<flagDependency flag="forgottencity" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ForgottenCity-USSEP.esp" destination="df_ForgottenCity-USSEP.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
@@ -4094,15 +4107,7 @@ Please download and endorse the original mod, but do not install it: https://www
 				<files>
 					<file source="df_ToolsOfKagrenac-ForgottenCity.esp" destination="df_ToolsOfKagrenac-ForgottenCity.esp" priority="0" />
 				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="forgottencity" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_ForgottenCity-USSEP.esp" destination="df_ForgottenCity-USSEP.esp" priority="0" />
-				</files>
-			</pattern>
+			</pattern>			
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="kagrenac" value="On"/>
