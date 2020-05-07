@@ -1119,8 +1119,6 @@ Hide the following files/folders:
 #### [Realistic Water Two (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/2182)
 Choose no optional textures. Choose extended ambiance and patches for *Landscape Fixes for Grass Mods*,  *Falskaar* and *Wyrmstooth*.
 
-#### [Red Dog's Smaller Realistic Ice Spike and Ice Spear](http://www.nexusmods.com/skyrimspecialedition/mods/25519)
-
 #### [Remove Small Rocks](http://www.nexusmods.com/skyrimspecialedition/mods/8733)
 
 #### [Rens HD Shrines (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/13572)
