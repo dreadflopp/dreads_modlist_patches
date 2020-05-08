@@ -1959,6 +1959,7 @@ In the installer, choose *Skyrim Special Edition* and the latest game version. C
 ## Locations - New Structures & Landmarks
 
 #### [Bells of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/10495)
+In the installer, choose to install the JK's Skyrim patch.
 
 #### [Cutting Room Floor](http://www.nexusmods.com/skyrimspecialedition/mods/276)
 
