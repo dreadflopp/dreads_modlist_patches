@@ -1030,7 +1030,25 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>						
+						</plugin>	
+						<plugin name="Ragdoll Paralysis Redux SE">
+							<conditionFlags>
+								<flag name="paralyze">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Paralyze.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>					
 						<plugin name="Relationship Dialogue Overhaul">
 							<conditionFlags>
 								<flag name="rdo">On</flag>
@@ -4364,6 +4382,15 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_CraftingRevamped-Adamant.esp" destination="df_CraftingRevamped-Adamant.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="csr" value="On"/>
+					<flagDependency flag="paralyze" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CraftingRevamped-RagdollParalysis.esp" destination="df_CraftingRevamped-RagdollParalysis.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- ************************************ -->
