@@ -1895,6 +1895,9 @@ In the installer, 2K is recommended.
 
 #### [Ruin's Edge](http://www.nexusmods.com/skyrimspecialedition/mods/12792)
 
+#### [Silver Arrows](https://www.nexusmods.com/skyrimspecialedition/mods/24287)
+Download and install *Silver Arrows - Ars Metallica Crafting*.
+
 #### [The Staff Of Sheogorath](http://www.nexusmods.com/skyrimspecialedition/mods/14468)
 
 #### [Unique Uniques SE](https://www.nexusmods.com/skyrimspecialedition/mods/3334)

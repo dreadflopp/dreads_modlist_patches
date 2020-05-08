@@ -46,7 +46,9 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="jks">Off</flag>
 								<flag name="kagrenac">Off</flag>	
 								<flag name="forgottencity">Off</flag>	
-								<flag name="tradebarter">Off</flag>																
+								<flag name="tradebarter">Off</flag>
+								<flag name="silverarrows">Off</flag>	
+								<flag name="ha">Off</flag>														
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
@@ -1747,6 +1749,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="Silver Arrows">
+							<conditionFlags>
+								<flag name="silverarrows">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Silver_Arrows.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Staff of Shegorath">
 							<conditionFlags>
 								<flag name="staffofshegorath">On</flag>
@@ -3100,6 +3120,58 @@ Please download and endorse the original mod, but do not install it: https://www
 			</pattern>
 			<!-- ************************************* -->
 
+			<!-- Silver Arrows-->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="tradebarter" value="On"/>
+					<flagDependency flag="silverarrows" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_HeavyArmory-TradeAndBarter.esp" destination="df_HeavyArmory-TradeAndBarter.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="tradebarter" value="Off"/>
+					<flagDependency flag="silverarrows" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_SilverArrows-HeavyArmory.esp" destination="df_SilverArrows-HeavyArmory.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="tradebarter" value="On"/>
+					<flagDependency flag="silverarrows" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_SilverArrows-HeavyArmory-TradeAndBarter.esp" destination="df_SilverArrows-HeavyArmory-TradeAndBarter.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ha" value="Off"/>
+					<flagDependency flag="tradebarter" value="On"/>
+					<flagDependency flag="silverarrows" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_SilverArrows-TradeAndBarter.esp" destination="df_SilverArrows-TradeAndBarter.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="dawnguardarsenal" value="On"/>
+					<flagDependency flag="silverarrows" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_SilverArrows-DawnguardArsenal.esp" destination="df_SilverArrows-DawnguardArsenal.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- ************************************* -->
+
 			<!-- Trade And Barter -->
 			<pattern>
 				<dependencies operator="And">
@@ -3109,16 +3181,7 @@ Please download and endorse the original mod, but do not install it: https://www
 				<files>
 					<file source="df_TradeAndBarter-Keldnar.esp" destination="df_TradeAndBarter-Keldnar.esp" priority="0" />
 				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="ha" value="On"/>
-					<flagDependency flag="tradebarter" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_HeavyArmory-TradeAndBarter.esp" destination="df_HeavyArmory-TradeAndBarter.esp" priority="0" />
-				</files>
-			</pattern>
+			</pattern>			
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="mysticism" value="On"/>
