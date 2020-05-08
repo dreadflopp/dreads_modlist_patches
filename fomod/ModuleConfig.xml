@@ -1296,6 +1296,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
+						</plugin>	
+						<plugin name="Clockwork">
+							<conditionFlags>
+								<flag name="clockwork">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Clockwork.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
 						</plugin>					
 						<plugin name="College of Winterhold The Missing Apprentices Quest Fix">
 							<conditionFlags>
@@ -3852,6 +3870,15 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_Mysticism-USSEP.esp" destination="df_Mysticism-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="adamant" value="On"/>
+					<flagDependency flag="clockwork" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_Adamant-Clockwork.esp" destination="df_Adamant-Clockwork.esp" priority="0" />
 				</files>
 			</pattern>			
 			<!-- *************************** -->
