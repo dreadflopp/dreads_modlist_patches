@@ -1616,6 +1616,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="Common Clothes and Armors">
+							<conditionFlags>
+								<flag name="ccaa">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Common Clothes and Armors.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Dawnguard Arsenal">
 							<conditionFlags>
 								<flag name="dawnguardarsenal">On</flag>
@@ -2849,6 +2867,15 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_CuttingRoomFloor-Inigo.esp" destination="df_CuttingRoomFloor-Inigo.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="crf" value="On"/>
+					<flagDependency flag="ccaa" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CuttingRoomFloor-CommonClothesAndArmor.esp" destination="df_CuttingRoomFloor-CommonClothesAndArmor.esp" priority="0" />
+				</files>
+			</pattern>
 			<!-- ************************************** -->	
 
 			<!-- Dragons --> 
@@ -2998,8 +3025,16 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_OBIS-DiverseSkyrim.esp" destination="df_OBIS-DiverseSkyrim.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ccaa" value="On"/>
+					<flagDependency flag="obis" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_OBIS-CommonClothesAndArmor.esp" destination="df_OBIS-CommonClothesAndArmor.esp" priority="0" />
+				</files>
+			</pattern>
 			<!-- ************************************* -->
-
 
 			<!-- Bent Pines - Fall of Granite Hill -->
 			<pattern>

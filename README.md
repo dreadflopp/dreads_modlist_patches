@@ -1852,6 +1852,9 @@ Install the main version
 
 #### [Cloaks of the Nords](https://www.nexusmods.com/skyrimspecialedition/mods/8886)
 
+#### [Common Clothes and Armors](https://www.nexusmods.com/skyrimspecialedition/mods/21305)
+Install the main file
+
 #### [Dawnguard Arsenal SSE](https://www.nexusmods.com/skyrimspecialedition/mods/25094)
 Install both the main and the optional file.
 
