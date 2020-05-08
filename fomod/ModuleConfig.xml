@@ -48,7 +48,9 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="forgottencity">Off</flag>	
 								<flag name="tradebarter">Off</flag>
 								<flag name="silverarrows">Off</flag>	
-								<flag name="ha">Off</flag>														
+								<flag name="ha">Off</flag>		
+								<flag name="dawnguardarsenal">Off</flag>
+								<flag name="dawnguardhoods">Off</flag>												
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
@@ -3120,7 +3122,7 @@ Please download and endorse the original mod, but do not install it: https://www
 			</pattern>
 			<!-- ************************************* -->
 
-			<!-- Silver Arrows-->
+			<!-- Silver Arrows Dawnguard Hoods Dawnguard Arsenal-->
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="ha" value="On"/>
@@ -3163,11 +3165,51 @@ Please download and endorse the original mod, but do not install it: https://www
 			</pattern>
 			<pattern>
 				<dependencies operator="And">
+					<flagDependency flag="dawnguardhoods" value="Off"/>
 					<flagDependency flag="dawnguardarsenal" value="On"/>
 					<flagDependency flag="silverarrows" value="On"/>
 				</dependencies>
 				<files>
 					<file source="df_SilverArrows-DawnguardArsenal.esp" destination="df_SilverArrows-DawnguardArsenal.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="dawnguardhoods" value="On"/>
+					<flagDependency flag="dawnguardarsenal" value="On"/>
+					<flagDependency flag="silverarrows" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_DawnguardHoods-DawnguardArsenal.esp" destination="df_DawnguardHoods-DawnguardArsenal.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="dawnguardhoods" value="On"/>
+					<flagDependency flag="dawnguardarsenal" value="Off"/>
+					<flagDependency flag="silverarrows" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_DawnguardHoods-SilverArrows.esp" destination="df_DawnguardHoods-SilverArrows.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="dawnguardhoods" value="On"/>
+					<flagDependency flag="dawnguardarsenal" value="On"/>
+					<flagDependency flag="silverarrows" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_DawnguardHoods-SilverArrows-DawnguardArsenal.esp" destination="df_DawnguardHoods-SilverArrows-DawnguardArsenal.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="dawnguardhoods" value="On"/>
+					<flagDependency flag="dgbetterentrance" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ImmersiveDayspringPass-DawnguardHoods.esp" destination="df_ImmersiveDayspringPass-DawnguardHoods.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- ************************************* -->

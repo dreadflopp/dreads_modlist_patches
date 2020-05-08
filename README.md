@@ -1858,6 +1858,9 @@ Install the main file
 #### [Dawnguard Arsenal SSE](https://www.nexusmods.com/skyrimspecialedition/mods/25094)
 Install both the main and the optional file.
 
+#### [Dawnguard Hoods](https://www.nexusmods.com/skyrimspecialedition/mods/35209
+)Install the main file. Delete the plugin *Dawnguard Hoods + WACCF.esp*.
+
 #### [Lustmord Vampire Armor](https://www.nexusmods.com/skyrimspecialedition/mods/16676)
 Install the main file.
 
