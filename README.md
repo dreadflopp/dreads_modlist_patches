@@ -1999,6 +1999,7 @@ Install *Solstheim Lighthouse v1.2 ESL* and *HD Raven Rock Brick Texture Replace
 #### [Ivarstead](https://www.nexusmods.com/skyrimspecialedition/mods/349)
 
 #### [Keld-Nar](https://www.nexusmods.com/skyrimspecialedition/mods/14353)
+Install the main file and the Clockwork patch.
 
 #### [Kynesgrove](https://www.nexusmods.com/skyrimspecialedition/mods/351)
 
