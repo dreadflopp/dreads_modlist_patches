@@ -1745,6 +1745,8 @@ Install the main file and the Survival patch. Do not install the Audio Overhaul 
 
 #### [Clockwork (SSE)](http://www.nexusmods.com/skyrimspecialedition/mods/4155)
 
+#### [Cutting Room Floor](http://www.nexusmods.com/skyrimspecialedition/mods/276)
+
 #### [Dawnguard and Clan Volkihar Epilogues](http://www.nexusmods.com/skyrimspecialedition/mods/12098)
 
 #### [The Forgotten City](http://www.nexusmods.com/skyrimspecialedition/mods/1179)
@@ -1781,10 +1783,11 @@ Choose *Option 1* in the installer (suggestion)
 #### [Timing is Everything SE](http://www.nexusmods.com/skyrimspecialedition/mods/25464)
 Install the FISS version.
 
+#### [The Tools of Kagrenac](https://www.nexusmods.com/skyrimspecialedition/mods/14168)
+
 #### [Even Better Quest Objectives](http://www.nexusmods.com/skyrimspecialedition/mods/159)
 In the installer, choose the optional file *Dark Brotherhood Forever to Miscellaneous Quests*. Let the installer choose the rest of the patches.
 
-#### [The Tools of Kagrenac](https://www.nexusmods.com/skyrimspecialedition/mods/14168)
 
 ## Gameplay - Skills & Perks
 
@@ -1960,8 +1963,6 @@ In the installer, choose *Skyrim Special Edition* and the latest game version. C
 
 #### [Bells of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/10495)
 In the installer, choose to install the JK's Skyrim patch.
-
-#### [Cutting Room Floor](http://www.nexusmods.com/skyrimspecialedition/mods/276)
 
 #### [Northern Marsh Bridges](https://www.nexusmods.com/skyrimspecialedition/mods/9107/)
 
