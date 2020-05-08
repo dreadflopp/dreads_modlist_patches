@@ -1692,8 +1692,6 @@ Install the main file and the Growl patch.
 
 #### [Disease Descriptions for the Immersive Adventurer SE](http://www.nexusmods.com/skyrimspecialedition/mods/26992)
 
-#### [Go On Ahead](http://www.nexusmods.com/skyrimspecialedition/mods/4779)
-
 #### [Guard Dialogue Overhaul SE](http://www.nexusmods.com/skyrimspecialedition/mods/22075)
 
 #### [Immersive Horses](https://www.nexusmods.com/skyrimspecialedition/mods/13402)
