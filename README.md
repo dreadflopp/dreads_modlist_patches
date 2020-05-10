@@ -1371,6 +1371,8 @@ Recommendation: *Realistic Wolf Howls more barks than howls*
 
 #### [Supreme Chaurus Hunters](https://www.nexusmods.com/skyrimspecialedition/mods/22263)
 
+#### [Supreme Dwemer Spheres](https://www.nexusmods.com/skyrimspecialedition/mods/35769)
+
 #### [Supreme Seekers](https://www.nexusmods.com/skyrimspecialedition/mods/23349)
 
 #### [Supreme Vampire Lords](https://www.nexusmods.com/skyrimspecialedition/mods/19706)
