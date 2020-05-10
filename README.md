@@ -572,15 +572,6 @@ Install a main file, choose the version you like the most.
 * Optionals: Moss Rocks ESL Version
 * Sun Direction (choose one or none): None
 
-**Manual Fix**
-To fix Large Reg Bugs:
-
-1. Run xEdit from Mod Organizer 2.
-1. Double click MajesticMountains_Moss.esp.
-1. Once xEdit is done loading, expand the tree for the plugin above and select File Header.
-1. Double-click on the Record Flags (sorted) row and check ESM. At this point both ESM and ESL should be checked. 
-1. Close xEdit, saving the plugin. 
-
 #### [Cathedral landscapes](https://www.nexusmods.com/skyrimspecialedition/mods/21954)
 In the installer, choose:
 * Full Install, Brown Tundra
