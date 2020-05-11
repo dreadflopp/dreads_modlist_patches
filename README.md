@@ -2274,7 +2274,7 @@ After closing SSEEdit, the patch will be in Overwrite:
 Make sure that all LOD Generation texture mods are activated and that the load order is sorted with LOOT.
 
 1. Run xLODGen from the MO2 executable drop-down list.
-1. Select all worldspaces.
+1. Select all worldspaces except the *Midwood Isle* or *Lastendell* worldspaces.
 1. Ensure only the Terrain LOD box is checked.
 1. Use the following settings:
 
@@ -2319,7 +2319,7 @@ Deactivate the following mods:
     JKs Skyrim.esp;00001FE3;MrkCWextTowerPlatform01
     ````
 1. Run DynDOLOD from the MO2 executable drop-down list.
-1. Select all worldspaces.
+1. Select all worldspaces except the *Midwood Isle* or *Lastendell* worldspaces.
 1. Ensure the *Candles, FXGlow, Generate static LOD, Windows,* and *High* boxes are checked.
 1. Keep the default Output location and settings, click *High preset* button, and run it. This takes ~40 minutes.
 1. Once the completed message has appeared, click Save & Exit.
