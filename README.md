@@ -1634,15 +1634,7 @@ Do not use this mod if you use Creation Club Survival Mode.
 
 Install the main file *The Frozen North*.
 
-To activate the mod in game, go into Skyrims settings menu, choose gameplay and make sure Survival Mode is ticked. If Survival Mode is missing, follow these instructions to remove the esl-tag from the Frozen North plugin:
-
-1. From Mod Organizer 2, run SSEEdit.
-1. The *Module Selection* window opens. Double click on *TheFrozenNorth.esp*.
-1. Allow SSEEdit to load.
-1. Select *TheFrozenNorth.esp* on the left side of the window.
-1. Right click on *Record Flags*on the right side of the window and choose *Edit*.
-1. Untick *ESL* and click *OK*.
-1. Close SSEEdit and choose to save the changes.
+To activate the mod in game, go into Skyrims settings menu, choose gameplay and make sure Survival Mode is ticked.
 
 #### [Lenient Survival](https://www.nexusmods.com/skyrimspecialedition/mods/13087)
 Only use this mod if you use Creation Club Survival Mode.
