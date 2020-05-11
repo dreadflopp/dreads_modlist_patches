@@ -2387,3 +2387,9 @@ Enable the mod.
 ## Realistic Water Two
 
 Enable *Blacksmith Forge Water* for *The Fall of Granite Hill, *Kynesgrove* and *Rorikstead*. After Granite Hill has been destroyed, uncheck the option for it.
+
+## Trade and Barter
+
+Users of *Adamant* needs to adjust the settings of *Trade And Barter* to mimic those from *Adamant*
+
+Under *Merchant Inventory*, set *Increased Gold After Investment* to *1000 gold* and *Master Trader* to *2000 gold*.
