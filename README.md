@@ -2288,10 +2288,23 @@ Make sure that all LOD Generation texture mods are activated and that the load o
 
 The generated files needs to be manually moved to the output folder. Cut and paste the files from the LOD generation output folder(... \Modding\Tools\xLODGen\xLODGen_Output\) to the empty mod folder *xLODGen_Output*.
 
+Some files needs to be deleted to solve a conflict with *Better Falskaar and Wyrmstooth Map With Roads*. This conflict can also be solved by moving the mod *Better Falskaar and Wyrmstooth Map With Roads*, placing it after *xLODGen_Output*.
+
+Delete the following files to solve the conflict:
+
+```
+xLODGen_Output\textures\terrain\wyrmstoothworld\wyrmstoothworld.32.-32.-32.dds
+xLODGen_Output\textures\terrain\wyrmstoothworld\wyrmstoothworld.32.-32.0.dds
+xLODGen_Output\textures\terrain\wyrmstoothworld\wyrmstoothworld.32.0.-32.dds
+xLODGen_Output\textures\terrain\wyrmstoothworld\wyrmstoothworld.32.0.0.dds
+xLODGen_Output\textures\terrain\falskaar\falskaar.32.-32.-32.dds
+xLODGen_Output\textures\terrain\falskaar\falskaar.32.0.-32.dds
+```
+
 Deactivate the following mods:
 
-    * Cathedral landscapes LOD generation textures
-    * SSE-Terrain-Tamriel
+* Cathedral landscapes LOD generation textures
+* SSE-Terrain-Tamriel
 
 ### Run TextGen
 
