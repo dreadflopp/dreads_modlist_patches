@@ -2293,6 +2293,10 @@ Deactivate the following mods:
     * Cathedral landscapes LOD generation textures
     * SSE-Terrain-Tamriel
 
+### Move Maps
+
+For roads to show correctly on the map, you must now move both A Quality World Map and Better Falskaar and Wyrmstooth Map With Roads underneath xLODGen_Output in the left pane of MO2.
+
 ### Run TextGen
 
 1. Run TexGen from the MO2 executable drop-down list.
