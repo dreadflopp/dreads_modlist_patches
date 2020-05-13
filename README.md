@@ -2375,6 +2375,16 @@ These are suggested settings. It is recommended to tweak these settings yourself
 
 * Turn off *Configuration Spell*
 
+## Easy Wheel Menu
+
+Under *Available Funstions*, turn off functions for mods not installed in this guide:
+
+* Dovahkiin's Relax
+* Hearthfire Multi Kid Adoption
+* Simple Action
+
+Under *Configuration*, change the Wheel Layout. Most of the default entries in the wheel layout are for mods not installed in this guide. To fix this, remove all entries by selecting each one followed by pressing **r** on the keyboard. This should clear all entries one at a time. When all entries are cleared, add the ones you want by clicking on an empty entry.
+
 ## Farmhouse Chimneys
 
 Under *Mod Support*, turn on support for all Arthmoor's villages. Turn on support for *Helarchen Creek*, *Oakwood* and *Cutting Room Floor*.
