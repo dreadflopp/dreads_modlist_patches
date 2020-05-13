@@ -1796,6 +1796,8 @@ Do not install the main file, install the esl optional file only. If you play wi
 
 #### [Easy Wheelmenu - SSE Conversion](https://www.nexusmods.com/skyrimspecialedition/mods/22934)
 
+#### [Easy Wheelmenu for Nether's Follower Framework](https://www.nexusmods.com/skyrimspecialedition/mods/27534)
+
 #### [Font Overhaul - Natural Typefaces for Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/2880)
 
 #### [Immersive HUD - iHUD Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/12440)
