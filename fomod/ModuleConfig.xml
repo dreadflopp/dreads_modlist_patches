@@ -2779,7 +2779,7 @@ Tweaks:
 						</plugin>			
 						<plugin name="Experience settings">
 							<description>
-								<![CDATA[This is a settings file for the mod Experience. It enables experience gain from miscellaneous quests and from killing enemies. This also installs a patch for Experience to allow miscellaneous from killing enemies added by other mods included in this modlist.]]>
+								<![CDATA[This is a settings file for the mod Experience. It enables experience gain from miscellaneous quests and from killing enemies. This also installs a patch for Experience to allow experience gain from killing enemies added by other mods included in this modlist.]]>
 							</description>
 							<files>
 								<file source="SKSE\Plugins\Experience.ini" destination="SKSE\Plugins\Experience.ini" priority="0" />
