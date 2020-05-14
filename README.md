@@ -1658,7 +1658,7 @@ Do not activate this mod yet. Wait until you have left the first cell of Alterna
 
 #### [Ars Metallica - Smithing Enhancement](https://www.nexusmods.com/skyrimspecialedition/mods/321)
 
-#### [Crafting Skills Revamped]
+#### [Crafting Skills Revamped](https://www.nexusmods.com/skyrimspecialedition/mods/25418)
 Download the main file and the following optional files:
 
 * Crafting Skills Revamped - Skyrim Skill Uncapper Patch
