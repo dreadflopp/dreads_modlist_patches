@@ -940,25 +940,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			</visible>
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
-					<plugins order="Explicit">
-						<plugin name="Carriage and Ferry Travel Overhaul">
-							<conditionFlags>
-								<flag name="cfto">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="CFTO.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>						
+					<plugins order="Explicit">					
 						<plugin name="Daedric Voices">
 							<conditionFlags>
 								<flag name="daedricvoices">On</flag>
@@ -4047,15 +4029,6 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="radiantblocker" value="On"/>
-					<flagDependency flag="cfto" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_TacticalValtheimRadiantBlocker-CarriageFerryTravelOverhaul.esp" destination="df_TacticalValtheimRadiantBlocker-CarriageFerryTravelOverhaul.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="radiantblocker" value="On"/>
 					<flagDependency flag="paarthurnaxdilemma" value="On"/>
 				</dependencies>
 				<files>
@@ -4430,15 +4403,6 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_AIOverhaul-Adamant.esp" destination="df_AIOverhaul-Adamant.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aio" value="On"/>
-					<flagDependency flag="cfto" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_AIOverhaul-CarriageAndFerryTravelOverhaul.esp" destination="df_AIOverhaul-CarriageAndFerryTravelOverhaul.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
