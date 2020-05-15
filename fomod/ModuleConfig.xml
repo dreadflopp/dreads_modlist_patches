@@ -4744,6 +4744,14 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_FrozenNorth-Growl.esp" destination="df_FrozenNorth-Growl.esp" priority="0" />
 				</files>
 			</pattern>	
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="frozennorth" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_USSEP-SurvivalWarmthRatings.esl" destination="df_USSEP-SurvivalWarmthRatings.esl" priority="0" />
+				</files>
+			</pattern>	
 			<!-- **************************-->
 
 			<!-- ENB -->
