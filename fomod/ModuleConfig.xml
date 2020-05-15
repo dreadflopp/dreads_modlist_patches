@@ -2127,6 +2127,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="Midwood Isle Alternative Ship Location">
+							<conditionFlags>
+								<flag name="midwoodislealt">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="MI Ship Loc Patch.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Immersive Dawnguard Dayspring Pass SE">
 							<conditionFlags>
 								<flag name="dgbetterentrance">On</flag>
@@ -4276,6 +4294,15 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_MidwoodIsle_USSEP.esp" destination="df_MidwoodIsle_USSEP.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="midwoodislealt" value="On"/>
+					<flagDependency flag="stir" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_SaveTheIceRunner-MidwoodIsleAltShipLocation.esp" destination="df_SaveTheIceRunner-MidwoodIsleAltShipLocation.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- *************************** -->

@@ -1975,6 +1975,7 @@ Install *Solstheim Lighthouse v1.2 ESL* and *HD Raven Rock Brick Texture Replace
 #### [Falskaar](http://www.nexusmods.com/skyrimspecialedition/mods/2057)
 
 #### [Midwood Isle SE](https://www.nexusmods.com/skyrimspecialedition/mods/28120)
+Install the main file and the optional *Solitude Ship Alternative Location Patch*
 
 #### [Wyrmstooth SSE](https://archive.org/details/wyrmstooth1.18SSE)
 
