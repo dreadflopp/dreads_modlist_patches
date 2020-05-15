@@ -1680,6 +1680,9 @@ Install the main file and the Growl patch.
 
 #### [Guard Dialogue Overhaul SE](http://www.nexusmods.com/skyrimspecialedition/mods/22075)
 
+#### [Honed Metal - SSE](https://www.nexusmods.com/skyrimspecialedition/mods/12885)
+Install main file and Adamant patch.
+
 #### [Immersive Horses](https://www.nexusmods.com/skyrimspecialedition/mods/13402)
 Install main file and the 2K horse textures.
 
