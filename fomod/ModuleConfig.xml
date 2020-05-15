@@ -940,7 +940,25 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			</visible>
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
-					<plugins order="Explicit">					
+					<plugins order="Explicit">	
+						<plugin name="Convenient Carriages">
+							<conditionFlags>
+								<flag name="ccarriages">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Convenient Carriages.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>				
 						<plugin name="Daedric Voices">
 							<conditionFlags>
 								<flag name="daedricvoices">On</flag>
@@ -4665,6 +4683,29 @@ Please download and endorse the original mod, but do not install it: https://www
 				</files>
 			</pattern>			
 			<!-- **************************-->
+
+			<!-- Convenient Carriages -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ccarriages" value="On"/>	
+					<flagDependency flag="shorsstone" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_ConvenientCarriages-ShorsStone.esp" destination="df_ConvenientCarriages-ShorsStone.esp" priority="0" />
+				</files>
+			</pattern>	
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ccarriages" value="On"/>	
+					<flagDependency flag="lffgm" value="On"/>	
+					<flagDependency flag="jks" value="On"/>	
+					<flagDependency flag="dawnstar" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_ConvenientCarriages-LandscapeForGrassModsJKs-Dawnstar.esp" destination="df_ConvenientCarriages-LandscapeForGrassModsJKs-Dawnstar.esp" priority="0" />
+				</files>
+			</pattern>	
+			<!-- *************************************** -->
 
 			<!-- Frozen North -->
 			<pattern>
