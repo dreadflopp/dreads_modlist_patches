@@ -2041,7 +2041,6 @@ Install main file and the following patches:
 
 * JK's Skyrim - Arthmoor's Patch Pack
     * Choose individual patches and let the installer choose patches for you.
-* JK's Skyrim - Carriage and Ferry Travel (CFTO) Patch
 * JK's Skyrim - Clockwork Patch
 * JK's Skyrim - Realistic Water Two Patch
 * JK's Skyrim - Thunderchild Patch
