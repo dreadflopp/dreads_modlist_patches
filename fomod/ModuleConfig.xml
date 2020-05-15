@@ -266,6 +266,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
+						</plugin>
+						<plugin name="Masque of Argonian Vile SSE">
+							<conditionFlags>
+								<flag name="moav">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="ClavicusArgonianMasque" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
 						</plugin>						
 						<plugin name="Pilgrims Delight">
 							<conditionFlags>
@@ -4753,6 +4771,17 @@ Please download and endorse the original mod, but do not install it: https://www
 				</files>
 			</pattern>	
 			<!-- **************************-->
+
+			<!-- Masque Of Argonian Vile -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="moav" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_MasqueOfArgonianVile-USSEP.esp" destination="df_MasqueOfArgonianVile-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- *********************************-->
 
 			<!-- ENB -->
 			<pattern>
