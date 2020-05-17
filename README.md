@@ -2114,6 +2114,24 @@ Choose
 * Fast Travel Addon
 * Unique Region Names Addon
 
+#### [JK's Interiors Patch Collectoin](https://www.nexusmods.com/skyrimspecialedition/mods/35910)
+In the installer, choose:
+
+* JK's Arcadia's Cauldron
+    * AI Overhaul SSE
+    * Unofficial Skyrim Special Edition Patch
+* JK's Belethor's General Goods
+    * AI Overhaul SSE
+* JK's Dragonreach
+    * AI Overhaul SSE
+    * Relationship Dialogue Overhaul
+* JK's The Drunken Huntsman
+    * Unofficial Skyrim Special Edition Patch
+* Jk's Sleeping Giant Inn
+    * Interesting NPCs
+    * AI Overhaul SSE
+    * Skyrim Project Optimization
+
 #### [JS Dragon Claws - Patches](https://www.nexusmods.com/skyrimspecialedition/mods/23833)
 Install:
 
