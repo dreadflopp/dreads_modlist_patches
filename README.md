@@ -2045,6 +2045,9 @@ Install main file and the following patches:
 * JK's Skyrim - Realistic Water Two Patch
 * JK's Skyrim - Thunderchild Patch
 
+#### [JK's Sleeping Giant Inn](https://www.nexusmods.com/skyrimspecialedition/mods/35806)
+Install the main file
+
 #### [Smooth Shores](http://www.nexusmods.com/skyrimspecialedition/mods/10624)
 
 #### [Tactical Valtheim SSE](https://www.nexusmods.com/skyrimspecialedition/mods/9101)
