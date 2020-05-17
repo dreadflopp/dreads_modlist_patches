@@ -2036,24 +2036,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="JK's Dragonsreach">
-							<conditionFlags>
-								<flag name="jksDR">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="JK's Dragonsreach.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
 						<plugin name="Kynesgrove">
 							<conditionFlags>
 								<flag name="kynesgrove">On</flag>
@@ -3560,15 +3542,7 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_CuttingRoomFloor-RelationshipDialogueOverhaul.esp" destination="df_CuttingRoomFloor-RelationshipDialogueOverhaul.esp" priority="0" />
 				</files>
 			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="jksDR" value="On"/>
-					<flagDependency flag="rdo" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_RelationshipDialogueOverhaul-JKsDragonsReach.esp" destination="df_RelationshipDialogueOverhaul-JKsDragonsReach.esp" priority="0" />
-				</files>
-			</pattern>
+			
 			<!-- ********************************************************************************************* -->
 
 			<!-- Save the Ice Runner -->
