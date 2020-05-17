@@ -277,7 +277,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									<patterns>
 										<pattern>
 											<dependencies operator="And">
-												<fileDependency file="ClavicusArgonianMasque" state="Active"/>
+												<fileDependency file="ClavicusArgonianMasque.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
