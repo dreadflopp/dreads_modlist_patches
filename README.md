@@ -1670,8 +1670,7 @@ Download the main file and the following optional files:
 
 ## Gameplay - Immersion & Role-playing
 
-#### [Convenient Carriages](https://www.nexusmods.com/skyrimspecialedition/mods/12693)
-Install the main file. The installer will automatically select all installed mods. Make sure to select *Helgen Reborn*, as that mod isn't installed yet.
+#### [Carriage and Ferry Travel Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/8379)
 
 #### [Daedric Voices](https://www.nexusmods.com/skyrimspecialedition/mods/32090)
 Install the main file and the Growl patch.

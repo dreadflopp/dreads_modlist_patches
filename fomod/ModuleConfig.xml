@@ -958,10 +958,9 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			</visible>
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
-					<plugins order="Explicit">	
-						<plugin name="Convenient Carriages">
+					<plugin name="Carriage and Ferry Travel Overhaul">
 							<conditionFlags>
-								<flag name="ccarriages">On</flag>
+								<flag name="cfto">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
@@ -969,7 +968,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									<patterns>
 										<pattern>
 											<dependencies operator="And">
-												<fileDependency file="Convenient Carriages.esp" state="Active"/>
+												<fileDependency file="CFTO.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -4098,6 +4097,15 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_TacticalValtheimRadiantBlocker-TimingIsEverything.esp" destination="df_TacticalValtheimRadiantBlocker-TimingIsEverything.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="radiantblocker" value="On"/>
+					<flagDependency flag="cfto" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_TacticalValtheimRadiantBlocker-CarriageFerryTravelOverhaul.esp" destination="df_TacticalValtheimRadiantBlocker-CarriageFerryTravelOverhaul.esp" priority="0" />
+				</files>
+			</pattern>
 			<!-- *********************************** -->
 
 			<!-- Cloaks-->
@@ -4549,6 +4557,15 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_AIOverhaul-Ivarstead.esp" destination="df_AIOverhaul-Ivarstead.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aio" value="On"/>
+					<flagDependency flag="cfto" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AIOverhaul-CarriageAndFerryTravelOverhaul.esp" destination="df_AIOverhaul-CarriageAndFerryTravelOverhaul.esp" priority="0" />
+				</files>
+			</pattern>
 			<!-- ************************** -->
 
 			<!-- Immersive Armors -->
@@ -4728,29 +4745,6 @@ Please download and endorse the original mod, but do not install it: https://www
 				</files>
 			</pattern>			
 			<!-- **************************-->
-
-			<!-- Convenient Carriages -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="ccarriages" value="On"/>	
-					<flagDependency flag="shorsstone" value="On"/>	
-				</dependencies>
-				<files>
-					<file source="df_ConvenientCarriages-ShorsStone.esp" destination="df_ConvenientCarriages-ShorsStone.esp" priority="0" />
-				</files>
-			</pattern>	
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="ccarriages" value="On"/>	
-					<flagDependency flag="lffgm" value="On"/>	
-					<flagDependency flag="jks" value="On"/>	
-					<flagDependency flag="dawnstar" value="On"/>	
-				</dependencies>
-				<files>
-					<file source="df_ConvenientCarriages-LandscapeForGrassModsJKs-Dawnstar.esp" destination="df_ConvenientCarriages-LandscapeForGrassModsJKs-Dawnstar.esp" priority="0" />
-				</files>
-			</pattern>	
-			<!-- *************************************** -->
 
 			<!-- Frozen North -->
 			<pattern>
