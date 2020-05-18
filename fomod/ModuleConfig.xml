@@ -4925,5 +4925,6 @@ Please download and endorse the original mod, but do not install it: https://www
 				</files>
 			</pattern>
 			<!-- ************************** -->
+			</patterns>
 	</conditionalFileInstalls>
 </config>
