@@ -278,7 +278,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									<patterns>
 										<pattern>
 											<dependencies operator="And">
-												<fileDependency file="ClavicusArgonianMasque" state="Active"/>
+												<fileDependency file="ClavicusArgonianMasque.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -977,7 +977,8 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			</visible>
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
-					<plugin name="Carriage and Ferry Travel Overhaul">
+					<plugins order="Explicit">
+						<plugin name="Carriage and Ferry Travel Overhaul">
 							<conditionFlags>
 								<flag name="cfto">On</flag>
 							</conditionFlags>
@@ -994,7 +995,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>				
+						</plugin>
 						<plugin name="Daedric Voices">
 							<conditionFlags>
 								<flag name="daedricvoices">On</flag>
