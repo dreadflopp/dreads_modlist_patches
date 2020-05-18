@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SliderGroups>
+    <Group name="Scout Armor">
+        <Member name="Scout Armor - Boots"/>
+        <Member name="Scout Armor - Cuirass"/>
+        <Member name="Scout Armor - Gauntlets"/>
+    </Group>
+    <Group name="CBBE">
+        <Member name="CBBE Body"/>
+        <Member name="CBBE Body Physics"/>
+        <Member name="CBBE Body Special"/>
+        <Member name="CBBE Feet"/>
+        <Member name="CBBE Hands"/>
+        <Member name="CBBE Hands Beast"/>
+        <Member name="CBBE NeverNude"/>
+        <Member name="CBBE NeverNude Physics"/>
+        <Member name="CBBE Underwear"/>
+        <Member name="CBBE Underwear Physics"/>
+        <Member name="Scout Armor - Boots"/>
+        <Member name="Scout Armor - Cuirass"/>
+        <Member name="Scout Armor - Gauntlets"/>
+    </Group>
+</SliderGroups>

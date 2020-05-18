@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<SliderSetInfo version="1">
+	<SliderSet name="Scout Armor - Boots">
+		<DataFolder>Scout Armor</DataFolder>
+		<SourceFile>Scout Armor - Boots.nif</SourceFile>
+		<OutputPath>meshes\armor\scout\f</OutputPath>
+		<OutputFile GenWeights="true">scoutboots</OutputFile>
+		<Shape target="Shoes">Shoes</Shape>
+		<Slider name="AnkleSize" invert="false" small="100" big="0">
+			<Data name="ShoesAnkleSize" target="Shoes" local="true">Scout Armor - Boots.osd\ShoesAnkleSize</Data>
+		</Slider>
+		<Slider name="CalfSize" invert="false" small="0" big="0">
+			<Data name="ShoesCalfSize" target="Shoes" local="true">Scout Armor - Boots\ShoesCalfSize</Data>
+		</Slider>
+		<Slider name="CalfSmooth" invert="false" small="0" big="0">
+			<Data name="ShoesCalfSmooth" target="Shoes" local="true">Scout Armor - Boots\ShoesCalfSmooth</Data>
+		</Slider>
+		<Slider name="ChubbyLegs" invert="false" small="0" big="0">
+			<Data name="ShoesChubbyLegs" target="Shoes" local="true">Scout Armor - Boots\ShoesChubbyLegs</Data>
+		</Slider>
+		<Slider name="KneeHeight" invert="false" small="0" big="0">
+			<Data name="ShoesKneeHeight" target="Shoes" local="true">Scout Armor - Boots.osd\ShoesKneeHeight</Data>
+		</Slider>
+		<Slider name="KneeShape" invert="false" small="0" big="0">
+			<Data name="ShoesKneeShape" target="Shoes" local="true">Scout Armor - Boots.osd\ShoesKneeShape</Data>
+		</Slider>
+		<Slider name="LegShapeClassic" invert="false" small="0" big="0">
+			<Data name="ShoesLegShapeClassic" target="Shoes" local="true">Scout Armor - Boots.osd\ShoesLegShapeClassic</Data>
+		</Slider>
+		<Slider name="LegsThin" invert="false" small="0" big="0">
+			<Data name="ShoesLegsThin" target="Shoes" local="true">Scout Armor - Boots.osd\ShoesLegsThin</Data>
+		</Slider>
+		<Slider name="MuscleLegs" invert="false" small="0" big="0">
+			<Data name="ShoesMuscleLegs" target="Shoes" local="true">Scout Armor - Boots.osd\ShoesMuscleLegs</Data>
+		</Slider>
+		<Slider name="Thighs" invert="false" small="0" big="0">
+			<Data name="ShoesThighs" target="Shoes" local="true">Scout Armor - Boots.osd\ShoesThighs</Data>
+		</Slider>
+		<Slider name="7B Lower" invert="false" small="0" big="0">
+			<Data name="Shoes7B Lower" target="Shoes" local="true">Scout Armor - Boots.osd\Shoes7B Lower</Data>
+		</Slider>
+		<Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+			<Data name="ShoesVanillaSSEHi" target="Shoes" local="true">Scout Armor - Boots.osd\ShoesVanillaSSEHi</Data>
+		</Slider>
+		<Slider name="VanillaSSELo" invert="false" small="0" big="0">
+			<Data name="ShoesVanillaSSELo" target="Shoes" local="true">Scout Armor - Boots.osd\ShoesVanillaSSELo</Data>
+		</Slider>
+		<Slider name="OldBaseShape" invert="false" small="0" big="0">
+			<Data name="ShoesOldBaseShape" target="Shoes" local="true">Scout Armor - Boots.osd\ShoesOldBaseShape</Data>
+		</Slider>
+	</SliderSet>
+	<SliderSet name="Scout Armor - Gauntlets">
+		<DataFolder>Scout Armor</DataFolder>
+		<SourceFile>Scout Armor - Gauntlets.nif</SourceFile>
+		<OutputPath>meshes\armor\scout\f</OutputPath>
+		<OutputFile GenWeights="true">scoutgauntlets</OutputFile>
+		<Shape target="Gauntlets">Gauntlets</Shape>
+		<Slider name="Arms" invert="false" small="0" big="0">
+			<Data name="GauntletsArms" target="Gauntlets" local="true">Scout Armor - Gauntlets.osd\GauntletsArms</Data>
+		</Slider>
+		<Slider name="BigTorso" invert="false" small="0" big="0">
+			<Data name="GauntletsBigTorso" target="Gauntlets" local="true">Scout Armor - Gauntlets.osd\GauntletsBigTorso</Data>
+		</Slider>
+		<Slider name="ChubbyArms" invert="false" small="0" big="0">
+			<Data name="GauntletsChubbyArms" target="Gauntlets" local="true">Scout Armor - Gauntlets.osd\GauntletsChubbyArms</Data>
+		</Slider>
+		<Slider name="ForearmSize" invert="false" small="0" big="0">
+			<Data name="GauntletsForearmSize" target="Gauntlets" local="true">Scout Armor - Gauntlets.osd\GauntletsForearmSize</Data>
+		</Slider>
+		<Slider name="MuscleArms" invert="false" small="0" big="0">
+			<Data name="GauntletsMuscleArms" target="Gauntlets" local="true">Scout Armor - Gauntlets.osd\GauntletsMuscleArms</Data>
+		</Slider>
+		<Slider name="ShoulderWidth" invert="false" small="0" big="0">
+			<Data name="GauntletsShoulderWidth" target="Gauntlets" local="true">Scout Armor - Gauntlets.osd\GauntletsShoulderWidth</Data>
+		</Slider>
+		<Slider name="WristSize" invert="false" small="100" big="0">
+			<Data name="GauntletsWristSize" target="Gauntlets" local="true">Scout Armor - Gauntlets.osd\GauntletsWristSize</Data>
+		</Slider>
+		<Slider name="7B Upper" invert="false" small="0" big="0">
+			<Data name="Gauntlets7B Upper" target="Gauntlets" local="true">Scout Armor - Gauntlets.osd\Gauntlets7B Upper</Data>
+		</Slider>
+		<Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+			<Data name="GauntletsVanillaSSEHi" target="Gauntlets" local="true">Scout Armor - Gauntlets.osd\GauntletsVanillaSSEHi</Data>
+		</Slider>
+		<Slider name="VanillaSSELo" invert="false" small="0" big="0">
+			<Data name="GauntletsVanillaSSELo" target="Gauntlets" local="true">Scout Armor - Gauntlets.osd\GauntletsVanillaSSELo</Data>
+		</Slider>
+	</SliderSet>
+	<SliderSet name="Scout Armor - Cuirass">
+		<DataFolder>Scout Armor</DataFolder>
+		<SourceFile>Scout Armor - Cuirass.nif</SourceFile>
+		<OutputPath>meshes\armor\scout\f</OutputPath>
+		<OutputFile GenWeights="true">scoutarmor</OutputFile>
+		<Shape target="BladesArmorLowF">BladesArmorLowF</Shape>
+		<Slider name="AnkleSize" invert="false" small="100" big="0">
+			<Data name="BladesArmorLowFAnkleSize" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFAnkleSize</Data>
+		</Slider>
+		<Slider name="AppleCheeks" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFAppleCheeks" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFAppleCheeks</Data>
+		</Slider>
+		<Slider name="Arms" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFArms" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFArms</Data>
+		</Slider>
+		<Slider name="Back" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBack" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBack</Data>
+		</Slider>
+		<Slider name="BackArch" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBackArch" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBackArch</Data>
+		</Slider>
+		<Slider name="Belly" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBelly" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBelly</Data>
+		</Slider>
+		<Slider name="BigBelly" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBigBelly" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBigBelly</Data>
+		</Slider>
+		<Slider name="BigButt" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBigButt" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBigButt</Data>
+		</Slider>
+		<Slider name="BigTorso" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBigTorso" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBigTorso</Data>
+		</Slider>
+		<Slider name="BreastCenter" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBreastCenter" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBreastCenter</Data>
+		</Slider>
+		<Slider name="BreastCenterBig" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBreastCenterBig" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBreastCenterBig</Data>
+		</Slider>
+		<Slider name="BreastFlatness2" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBreastFlatness2" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBreastFlatness2</Data>
+		</Slider>
+		<Slider name="BreastFlatness" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBreastFlatness" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBreastFlatness</Data>
+		</Slider>
+		<Slider name="BreastGravity2" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBreastGravity2" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBreastGravity2</Data>
+		</Slider>
+		<Slider name="BreastHeight" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBreastHeight" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBreastHeight</Data>
+		</Slider>
+		<Slider name="BreastPerkiness" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBreastPerkiness" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBreastPerkiness</Data>
+		</Slider>
+		<Slider name="Breasts" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBreasts" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBreasts</Data>
+		</Slider>
+		<Slider name="BreastsFantasy" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBreastsFantasy" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBreastsFantasy</Data>
+		</Slider>
+		<Slider name="BreastsGone" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBreastsGone" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBreastsGone</Data>
+		</Slider>
+		<Slider name="BreastsNewSH" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBreastsNewSH" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBreastsNewSH</Data>
+		</Slider>
+		<Slider name="BreastsSmall" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBreastsSmall" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBreastsSmall</Data>
+		</Slider>
+		<Slider name="BreastsSmall2" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBreastsSmall2" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBreastsSmall2</Data>
+		</Slider>
+		<Slider name="BreastsTogether" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBreastsTogether" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBreastsTogether</Data>
+		</Slider>
+		<Slider name="BreastTopSlope" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBreastTopSlope" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBreastTopSlope</Data>
+		</Slider>
+		<Slider name="BreastWidth" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBreastWidth" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBreastWidth</Data>
+		</Slider>
+		<Slider name="Butt" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFButt" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFButt</Data>
+		</Slider>
+		<Slider name="ButtClassic" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFButtClassic" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFButtClassic</Data>
+		</Slider>
+		<Slider name="ButtCrack" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFButtCrack" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFButtCrack</Data>
+		</Slider>
+		<Slider name="ButtShape2" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFButtShape2" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFButtShape2</Data>
+		</Slider>
+		<Slider name="ButtSmall" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFButtSmall" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFButtSmall</Data>
+		</Slider>
+		<Slider name="CalfSize" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFCalfSize" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFCalfSize</Data>
+		</Slider>
+		<Slider name="CalfSmooth" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFCalfSmooth" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFCalfSmooth</Data>
+		</Slider>
+		<Slider name="ChestDepth" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFChestDepth" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFChestDepth</Data>
+		</Slider>
+		<Slider name="ChestWidth" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFChestWidth" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFChestWidth</Data>
+		</Slider>
+		<Slider name="ChubbyArms" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFChubbyArms" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFChubbyArms</Data>
+		</Slider>
+		<Slider name="ChubbyButt" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFChubbyButt" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFChubbyButt</Data>
+		</Slider>
+		<Slider name="ChubbyLegs" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFChubbyLegs" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFChubbyLegs</Data>
+		</Slider>
+		<Slider name="ChubbyWaist" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFChubbyWaist" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFChubbyWaist</Data>
+		</Slider>
+		<Slider name="CrotchBack" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFCrotchBack" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFCrotchBack</Data>
+		</Slider>
+		<Slider name="DoubleMelon" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFDoubleMelon" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFDoubleMelon</Data>
+		</Slider>
+		<Slider name="ForearmSize" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFForearmSize" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFForearmSize</Data>
+		</Slider>
+		<Slider name="Groin" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFGroin" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFGroin</Data>
+		</Slider>
+		<Slider name="HipBone" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFHipBone" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFHipBone</Data>
+		</Slider>
+		<Slider name="HipForward" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFHipForward" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFHipForward</Data>
+		</Slider>
+		<Slider name="Hips" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFHips" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFHips</Data>
+		</Slider>
+		<Slider name="HipUpperWidth" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFHipUpperWidth" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFHipUpperWidth</Data>
+		</Slider>
+		<Slider name="KneeHeight" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFKneeHeight" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFKneeHeight</Data>
+		</Slider>
+		<Slider name="KneeShape" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFKneeShape" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFKneeShape</Data>
+		</Slider>
+		<Slider name="LegShapeClassic" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFLegShapeClassic" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFLegShapeClassic</Data>
+		</Slider>
+		<Slider name="LegsThin" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFLegsThin" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFLegsThin</Data>
+		</Slider>
+		<Slider name="MuscleAbs" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFMuscleAbs" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFMuscleAbs</Data>
+		</Slider>
+		<Slider name="MuscleArms" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFMuscleArms" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFMuscleArms</Data>
+		</Slider>
+		<Slider name="MuscleButt" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFMuscleButt" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFMuscleButt</Data>
+		</Slider>
+		<Slider name="MuscleLegs" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFMuscleLegs" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFMuscleLegs</Data>
+		</Slider>
+		<Slider name="MusclePecs" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFMusclePecs" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFMusclePecs</Data>
+		</Slider>
+		<Slider name="NeckSeam" invert="false" small="100" big="0" hidden="true">
+			<Data name="BladesArmorLowFNeckSeam" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFNeckSeam</Data>
+		</Slider>
+		<Slider name="NippleDown" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFNippleDown" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFNippleDown</Data>
+		</Slider>
+		<Slider name="NipplePerkiness" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFNipplePerkiness" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFNipplePerkiness</Data>
+		</Slider>
+		<Slider name="NipplePerkManga" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFNipplePerkManga" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFNipplePerkManga</Data>
+		</Slider>
+		<Slider name="NippleUp" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFNippleUp" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFNippleUp</Data>
+		</Slider>
+		<Slider name="PregnancyBelly" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFPregnancyBelly" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFPregnancyBelly</Data>
+		</Slider>
+		<Slider name="PushUp" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFPushUp" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFPushUp</Data>
+		</Slider>
+		<Slider name="RibsProminance" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFRibsProminance" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFRibsProminance</Data>
+		</Slider>
+		<Slider name="RoundAss" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFRoundAss" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFRoundAss</Data>
+		</Slider>
+		<Slider name="ShoulderSmooth" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFShoulderSmooth" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFShoulderSmooth</Data>
+		</Slider>
+		<Slider name="ShoulderTweak" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFShoulderTweak" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFShoulderTweak</Data>
+		</Slider>
+		<Slider name="ShoulderWidth" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFShoulderWidth" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFShoulderWidth</Data>
+		</Slider>
+		<Slider name="SlimThighs" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFSlimThighs" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFSlimThighs</Data>
+		</Slider>
+		<Slider name="Thighs" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFThighs" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFThighs</Data>
+		</Slider>
+		<Slider name="TummyTuck" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFTummyTuck" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFTummyTuck</Data>
+		</Slider>
+		<Slider name="Waist" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFWaist" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFWaist</Data>
+		</Slider>
+		<Slider name="WaistHeight" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFWaistHeight" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFWaistHeight</Data>
+		</Slider>
+		<Slider name="WideWaistLine" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFWideWaistLine" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFWideWaistLine</Data>
+		</Slider>
+		<Slider name="WristSize" invert="false" small="100" big="0">
+			<Data name="BladesArmorLowFWristSize" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFWristSize</Data>
+		</Slider>
+		<Slider name="7B Lower" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowF7B Lower" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowF7B Lower</Data>
+		</Slider>
+		<Slider name="7B Upper" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowF7B Upper" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowF7B Upper</Data>
+		</Slider>
+		<Slider name="VanillaSSEHi" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFVanillaSSEHi" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFVanillaSSEHi</Data>
+		</Slider>
+		<Slider name="VanillaSSELo" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFVanillaSSELo" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFVanillaSSELo</Data>
+		</Slider>
+		<Slider name="OldBaseShape" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFOldBaseShape" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFOldBaseShape</Data>
+		</Slider>
+		<Slider name="BreastsNewSHSymmetry" invert="false" small="0" big="0">
+			<Data name="BladesArmorLowFBreastsNewSHSymmetry" target="BladesArmorLowF" local="true">Scout Armor - Cuirass.osd\BladesArmorLowFBreastsNewSHSymmetry</Data>
+		</Slider>
+	</SliderSet>
+</SliderSetInfo>
