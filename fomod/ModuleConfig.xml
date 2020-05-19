@@ -2992,6 +2992,30 @@ Please download and endorse the original mod, but do not install it: https://www
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="Lustmord Tweaks">
+							<description>
+								<![CDATA[Tweaks for consistency:
+
+* Bolt damage lowered and bolt price raised to match stats from Faction Crossbows.
+* Explosive bolts recipe altered to match the one from Faction Crossbows]]>
+							</description>
+							<conditionFlags>
+								<flag name="lustmordtweaks">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="LustmordVampireArmor.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Scout Armor Tweaks">
 							<description>
 								<![CDATA[Tweaks for consistency:
@@ -4955,6 +4979,17 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_MasqueOfArgonianVile-USSEP.esp" destination="df_MasqueOfArgonianVile-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- *********************************-->
+
+			<!-- Lustmord -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="lustmordtweaks" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_LustmordTweaks.esp" destination="df_LustmordTweaks.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- *********************************-->
