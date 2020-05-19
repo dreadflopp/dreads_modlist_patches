@@ -1844,6 +1844,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="DX Faction Crossbows SE">
+							<conditionFlags>
+								<flag name="factioncrossbows">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Faction Crossbows.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Heavy Armory - New Weapons">
 							<description>
 								<![CDATA[If both Heavy Armory and Animated Armoury are checked, a patch will be installed that rebalances Animated Armoury and Heavy Armoury against both each other as well as against vanilla Skyrim. The Halbards from Heavy Armory, which are shorter than Halbards from Animated Armory, will be renamed to Pole Axes (which is a real thing). The new animations from Animated Armoury will be applied to the new weapons from Heavy Armory, thus fixing some visual problems of some of Heavy Armory's new weapon types that used vanilla animations.]]>
@@ -4054,6 +4072,15 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_ArsMetallica-StaticMeshImprovementMod.esp" destination="df_ArsMetallica-StaticMeshImprovementMod.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="arsmetallica" value="On"/>
+					<flagDependency flag="factioncrossbows" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_FactionCrossbows-ArsMetallica.esp" destination="df_FactionCrossbows-ArsMetallica.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
