@@ -2957,6 +2957,9 @@ Please download and endorse the original mod, but do not install it: https://www
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Scout Armor BodySlides">
+							<description>
+								<![CDATA[This installs BodySlides to build CBBE compatible meshes for Scout Armor. Since Scout Armor uses Blades Armor meshes I could build these BodySlides by simply modifying the CBBE Blades Asrmor BodySlides.]]>
+							</description>
 							<conditionFlags>
 								<flag name="scoutarmorbs">On</flag>
 							</conditionFlags>
