@@ -53,7 +53,8 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="dawnguardhoods">Off</flag>		
 								<flag name="arsmetallica">Off</flag>		
 								<flag name="scoutarmortweaks">Off</flag>
-								<flag name="scoutarmor">Off</flag>								
+								<flag name="scoutarmor">Off</flag>	
+								<flag name="blacksacramenttweaks">Off</flag>							
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
@@ -1674,7 +1675,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
-					<plugin name="Bandolier - Bags and Pouches Classic">
+						<plugin name="Bandolier - Bags and Pouches Classic">
 							<conditionFlags>
 								<flag name="bandolier">On</flag>
 							</conditionFlags>
@@ -1685,6 +1686,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="Dr_Bandolier.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Black Sacrament">
+							<conditionFlags>
+								<flag name="blacksacrament">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="BlackSacramentArmor.esl" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -2911,6 +2930,32 @@ Please download and endorse the original mod, but do not install it: https://www
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>	
+						<plugin name="Black Sacrament Tweaks">
+							<description>
+								<![CDATA[Tweaks for consistency:
+
+* All armor pieces has reduced armor rating to match Nightingale armor.
+* All weapons has reduced stats to match Ebony weapons.
+* All weapons crafting and tempering recipes are modified to include ebony.
+* Compatibility with Ars Metallica, if that mod is used.]]>
+							</description>
+							<conditionFlags>
+								<flag name="blacksacramenttweaks">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="BlackSacramentArmor.esl" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Scout Armor Tweaks">
 							<description>
 								<![CDATA[Tweaks for consistency:
@@ -4858,6 +4903,40 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_MasqueOfArgonianVile-USSEP.esp" destination="df_MasqueOfArgonianVile-USSEP.esp" priority="0" />
 				</files>
 			</pattern>
+			<!-- *********************************-->
+
+			<!-- Black Sacrament  -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="blacksacrament" value="On"/>
+					<flagDependency flag="blacksacramenttweaks" value="Off"/>	
+					<flagDependency flag="arsmetallica" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_BlackSacrament-ArsMetallica.esp" destination="df_BlackSacrament-ArsMetallica.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="blacksacrament" value="On"/>
+					<flagDependency flag="blacksacramenttweaks" value="On"/>	
+					<flagDependency flag="arsmetallica" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_BlackSacramentTweaks.esp" destination="df_BlackSacramentTweaks.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="blacksacrament" value="On"/>
+					<flagDependency flag="blacksacramenttweaks" value="On"/>	
+					<flagDependency flag="arsmetallica" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_BlackSacramentTweaks-ArsMetallica.esp" destination="df_BlackSacramentTweaks-ArsMetallica.esp" priority="0" />
+				</files>
+			</pattern>
+
 			<!-- *********************************-->
 
 			<!-- Scout Armor -->

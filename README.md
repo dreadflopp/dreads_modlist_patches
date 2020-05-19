@@ -1834,6 +1834,7 @@ In the installer, use the default settings.
 
 #### [Black Sacrament Armor](https://www.nexusmods.com/skyrimspecialedition/mods/16687)
 Install *Black Sacrament Armour - SSE CBBE BodySlide* and *Black Sacrament Armour - ESL version*. Delete the file *BlackSacramentArmor.esp* (keep *BlackSacramentArmor.esl*).
+Some optional tweaks are available in this guides patches to make this armor less overpowered. Even so, it is still possible to combine armor pieces in a way that should be considered cheating since it applies armor rating twice, for example using a barette, a hood and a cowl. Each piece applies an armor rating equivalent to a helmet but can be used together.
 
 #### [Cloaks of Skyrim](http://www.nexusmods.com/skyrimspecialedition/mods/6369)
 Install the main version
