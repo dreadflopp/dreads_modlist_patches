@@ -1790,6 +1790,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						-->	
+						<plugin name="Lustmord Vampire Armor">
+							<conditionFlags>
+								<flag name="lustmord">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="LustmordVampireArmor.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Scout Armor">
 							<conditionFlags>
 								<flag name="scoutarmor">On</flag>
@@ -4078,6 +4096,15 @@ Please download and endorse the original mod, but do not install it: https://www
 				<dependencies operator="And">
 					<flagDependency flag="arsmetallica" value="On"/>
 					<flagDependency flag="factioncrossbows" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_FactionCrossbows-ArsMetallica.esp" destination="df_FactionCrossbows-ArsMetallica.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="arsmetallica" value="On"/>
+					<flagDependency flag="lustmord" value="On"/>
 				</dependencies>
 				<files>
 					<file source="df_FactionCrossbows-ArsMetallica.esp" destination="df_FactionCrossbows-ArsMetallica.esp" priority="0" />
