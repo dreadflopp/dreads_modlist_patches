@@ -2971,7 +2971,10 @@ Please download and endorse the original mod, but do not install it: https://www
 								<![CDATA[Tweaks for consistency:
 
 * All armor pieces has reduced armor rating to match Nightingale armor.
-* All weapons has reduced stats to match Ebony weapons.
+* All weapons has reduced stats to match Ebony weapons with the following elterations
+	* The tanto matches the stats for a dagger but has slightly less reach, does less damage but is lighter and much faster.
+	* The nijato is a one handed sword that is a little faster and lighter and does slightly less damage.
+	* The nodachi is a two handed sword with slightly less reach and. It does less damage but is lighter and much faster.
 * All weapons crafting and tempering recipes are modified to include ebony.
 * Compatibility with Ars Metallica, if that mod is used.]]>
 							</description>
