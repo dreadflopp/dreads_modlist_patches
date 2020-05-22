@@ -1805,6 +1805,9 @@ Do not install the main file, install the esl optional file only. If you play wi
 
 #### [Immersive HUD - iHUD Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/12440)
 
+#### [Interface Hard Coded Key Tweaks](https://www.nexusmods.com/skyrim/mods/88)
+Choose one of the Main files.
+
 #### [Lore-Based Loading Screens (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/1185)
 
 #### [MoreHUD Inventory Edition](http://www.nexusmods.com/skyrimspecialedition/mods/18619)
