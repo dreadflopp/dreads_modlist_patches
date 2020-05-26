@@ -2966,6 +2966,22 @@ Please download and endorse the original mod, but do not install it: https://www
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>	
+										
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+
+		<!-- Consistency Patches -->
+		<installStep name="BodySlConsistency Patchesides">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="ussep" value="On"/>
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Choose" type="SelectAny">
+					<plugins order="Explicit">
 						<plugin name="Black Sacrament Tweaks">
 							<description>
 								<![CDATA[Tweaks for consistency:
@@ -3073,7 +3089,7 @@ Please download and endorse the original mod, but do not install it: https://www
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>				
+						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
