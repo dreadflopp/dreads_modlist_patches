@@ -699,7 +699,7 @@ Download and install:
         * Savior's hide: Savior's Hide
         * Helm of Yngol
         * Mace of Molag Bal
-        * Mehrunez Razor
+        * Mehrune's Razor
         * Volendrung
         * Tsun's Armor
         * Ebony Mail: Ebony Mail - Black
@@ -708,23 +708,8 @@ Download and install:
 * aMidianBorn book of silence_WEAPONS
     * Install all weapons
 
-* Bonemold Hotfix
-* Staff of Magnus Hotfix
-
- **Path Fix**
-
-There is an incorrect file path in Book of Silence which needs to be fixed. If the 4K variant is used these steps can be skipped. The 4K variant must be installed manually and is found in the Book of Silence - Dragonborn DLC module.
-
-1. After all files are installed, double-click on the Book of Silence - Dragonborn DLC mod
-1. Click on the Filetree tab
-1. Expand the file tree textures > actors > dlc02
-1. Right-click on the ash folder and select *Rename*
-1. Type in the name *ashman* and hit Enter/Return on the keyboard to save the new name
-1. Close the window 
-
 **Hide the following files/folders:**
 
-* textures\clothes
 * aMidianborn_Skyforge_Weapons.esp
 
 #### [aMidianBorn Blades Armor SSE Patch](http://www.nexusmods.com/skyrimspecialedition/mods/12963)
