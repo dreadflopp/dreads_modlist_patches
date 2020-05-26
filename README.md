@@ -1108,7 +1108,7 @@ Hide the following files/folders:
 #### [Realistic HD Woodcutter's Axe Remastered](http://www.nexusmods.com/skyrimspecialedition/mods/20239)
 
 #### [Realistic Water Two (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/2182)
-Choose no optional textures. Choose extended ambiance and patches for *Landscape Fixes for Grass Mods*,  *Falskaar* and *Wyrmstooth*.
+Choose no optional textures. Choose extended ambiance.
 
 #### [Remove Small Rocks](http://www.nexusmods.com/skyrimspecialedition/mods/8733)
 
@@ -2146,6 +2146,16 @@ Install *Book Covers Skyrim __ TCIY* and *Cutting Room Floor __ TCIY*.
 #### [Luminosity - A Quality Worldmap Compatibility Patch](https://www.nexusmods.com/skyrimspecialedition/mods/30162)
 
 #### [Moonpath to Elsweyr Sky and Lightning fix](http://www.nexusmods.com/skyrimspecialedition/mods/18683)
+
+#### [Realistic Water Two Patch Hub](https://www.nexusmods.com/skyrimspecialedition/mods/35744)
+Install the following patches:
+
+    * Falskaar Patch
+    * Landscape Fixes for Grass Mods Patch
+    * Luminosity Lighting Overhaul Patch
+    * Oakwood Patch
+    * Telengard Patch
+    * Wyrmstooth Patch
 
 #### [Unofficial Moonpath to Elsweyr Patch](http://www.nexusmods.com/skyrimspecialedition/mods/15882)
 
