@@ -2843,7 +2843,7 @@ Tweaks:
 - Legendary skills are turned off]]>
 							</description>
 							<files>
-								<file source="Uncapper ini alternatives/50% leveling + no grinding/SkyrimUncapper.ini" destination="SKSE\Plugins\SkyrimUncapper.ini" priority="0" />
+								<file source="Uncapper ini alternatives\50% leveling + no grinding\SkyrimUncapper.ini" destination="SKSE\Plugins\SkyrimUncapper.ini" priority="0" />
 							</files>
 							<typeDescriptor>
 								<type name="Recommended"/>
@@ -4143,7 +4143,7 @@ Please download and endorse the original mod, but do not install it: https://www
 					<flagDependency flag="lustmord" value="On"/>
 				</dependencies>
 				<files>
-					<file source="df_FactionCrossbows-ArsMetallica.esp" destination="df_FactionCrossbows-ArsMetallica.esp" priority="0" />
+					<file source="df_Lustmord-ArsMetallica.esp" destination="df_Lustmord-ArsMetallica.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
