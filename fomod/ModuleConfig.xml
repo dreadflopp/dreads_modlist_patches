@@ -3048,7 +3048,32 @@ Please download and endorse the original mod, but do not install it: https://www
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>					
+						</plugin>		
+						<plugin name="Talos Housecarl Armor Pack">
+							<description>
+								<![CDATA[Tweaks for consistency:
+
+* All capes are considered to be clothing instead of armor and armor rating is set to 0.
+* Both weapons are considered to be be nordic instead of steel and has their stats and recipes altered to reflect this.
+* The one handed hammer has its stats changed to match the maul from Heavy Armory.]]>
+							</description>
+							<conditionFlags>
+								<flag name="housecarltweaks">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="TalosHousecarl.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>				
 					</plugins>
 				</group>
 			</optionalFileGroups>
