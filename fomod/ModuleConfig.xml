@@ -2973,7 +2973,7 @@ Please download and endorse the original mod, but do not install it: https://www
 		</installStep>
 
 		<!-- Consistency Patches -->
-		<installStep name="BodySlConsistency Patchesides">
+		<installStep name="Consistency Patches">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="ussep" value="On"/>
@@ -5132,6 +5132,17 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="Scout Armor Tweaks\meshes\armor\scout\f\scoutcapeland_1.nif" destination="meshes\armor\scout\f\scoutcapeland_1.nif" priority="0" />
 					<file source="Scout Armor Tweaks\meshes\armor\scout\f\scoutcapesnow_0.nif" destination="meshes\armor\scout\f\scoutcapesnow_0.nif" priority="0" />
 					<file source="Scout Armor Tweaks\meshes\armor\scout\f\scoutcapesnow_1.nif" destination="meshes\armor\scout\f\scoutcapesnow_1.nif" priority="0" />
+				</files>
+			</pattern>
+			<!-- *********************************-->
+
+			<!-- Talos Housecarl -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="housecarltweaks" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_TalosHousecarlTweaks.esp" destination="df_TalosHousecarlTweaks.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- *********************************-->
