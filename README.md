@@ -1802,7 +1802,25 @@ Choose the light master version.
 #### [Smaller Vanilla Cursors SE](http://www.nexusmods.com/skyrimspecialedition/mods/20617)
 
 #### [Undiscovered Means Unknown - Map Markers](https://www.nexusmods.com/skyrimspecialedition/mods/9762)
-In the installer, use the default settings.
+In the installer, choose:
+
+* Both the compass and the map
+* Do you wish for the player's location to be marked on the map?
+    * Yes
+* Have you installed SkyUI
+    * Yes
+* Have you installed a HUD-altering mod
+    * No
+* Have you installed the mod Customizable UI Replacer
+    * No
+* Font choice
+    * Vanilla Font
+* Colored map markers
+    * Default
+* Do you wish for enemies to be visible in the compass?
+    * Yes
+* UMU Variants
+    * a Question Mark in a Rhombus
 
 #### [UIExtensions](https://www.nexusmods.com/skyrimspecialedition/mods/17561)
 
