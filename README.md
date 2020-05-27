@@ -1655,6 +1655,7 @@ Download the main file and the following optional files:
 ## Gameplay - Immersion & Role-playing
 
 #### [Carriage and Ferry Travel Overhaul](http://www.nexusmods.com/skyrimspecialedition/mods/8379)
+Install the main file and the Dawnstar by Arthmoor Patch.
 
 #### [Daedric Voices](https://www.nexusmods.com/skyrimspecialedition/mods/32090)
 Install the main file and the Growl patch.
