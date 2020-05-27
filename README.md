@@ -2259,7 +2259,7 @@ Build body and armor meshes using BodySlide following these instructions:
 1. Tick the checkbox *Build Morphs*.
 1. Click the button *Build* to build the body.
 1. Click on the spyglass at the field Group filter and choose *Choose groups*.
-1. Check the following and click ok: *Black Sacrament, CBBE vanilla outfits, Frankly HD, Lustmord, WTF Wayfare Coat CBBE*.
+1. Check the following and click ok: *Black Sacrament, CBBE vanilla outfits, Frankly HD, Lustmord, Scout Armor, WTF Wayfare Coat CBBE*.
 1. Click the button *Batch build…*
 1. Click *build* to build armor meshes.
 1. Make sure no physics options are checked. Check all Frankly options. Click *ok* and close BodySlide.
