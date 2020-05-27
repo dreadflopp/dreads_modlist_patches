@@ -1261,9 +1261,6 @@ Install patches for
 * JK's Skyrim - Towns
 * Arthmoors mods - everything except *Provincial Courier Sevice*
 
-#### [Vanilla HD Tree Branches](https://www.nexusmods.com/skyrimspecialedition/mods/34631)
-Install the main file.
-
 ## Audiovisual - Sounds & Music
 
 #### [Audio Overhaul for Skyrim SE](http://www.nexusmods.com/skyrimspecialedition/mods/12466)
