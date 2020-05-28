@@ -1592,6 +1592,7 @@ Download and install the Main File.
 #### [AI Overhaul SSE](https://www.nexusmods.com/skyrimspecialedition/mods/21654)
 
 #### [Archery Gameplay Overhaul SE](https://www.nexusmods.com/skyrimspecialedition/mods/24296)
+Install the main file and the nemesis patch. When installing the nemesis patch, make sure to set the folder named *Data* as data directory. Mod Organizer will show a warning saying that there is *no game data on top level*. Ignore this warning.
 
 #### [Auto Hide Ammo](http://www.nexusmods.com/skyrimspecialedition/mods/1882)
 Install the Simple Auto Unequip Ammo from the Old Files.
