@@ -1876,7 +1876,7 @@ Install main file and the patch for Cloaks of Skyrim.
 ## Items – Weapons
 
 #### [Animated Armoury - New Weapons with animations SSE Version](https://www.nexusmods.com/skyrimspecialedition/mods/15394)
-Download main file and update file.
+Download main file and update file. After installation, delete NewArmoury.bsa and NewArmoury.bsl.
 
 #### [Artifacts - The Tournament of the ten Bloods](https://www.nexusmods.com/skyrimspecialedition/mods/15264)
 In the installer, 2K is recommended.
