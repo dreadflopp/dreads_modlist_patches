@@ -1264,7 +1264,7 @@ Install patches for
 ## Audiovisual - Sounds & Music
 
 #### [Audio Overhaul for Skyrim SE](http://www.nexusmods.com/skyrimspecialedition/mods/12466)
-Do not install any patches. Delete the SKSE folder after installation.
+Do not install any patches.
 
 #### [Better Animal Footsteps](https://www.nexusmods.com/skyrim/mods/24805)
 Choose to install all footstep sounds. Do not install any patches.
