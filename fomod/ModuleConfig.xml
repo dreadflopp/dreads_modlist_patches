@@ -1842,9 +1842,10 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Animated Armoury">
+						<!--
 							<description>
 								<![CDATA[If both Heavy Armory and Animated Armoury are checked, a patch will be installed that rebalances Animated Armoury and Heavy Armoury against both each other as well as against vanilla Skyrim. The Halbards from Heavy Armory, which are shorter than Halbards from Animated Armory, will be renamed to Pole Axes (which is a real thing). The new animations from Animated Armoury will be applied to the new weapons from Heavy Armory, thus fixing some visual problems of some of Heavy Armory's new weapon types that used vanilla animations.]]>
-							</description>
+							</description>-->
 							<conditionFlags>
 								<flag name="animatedarmoury">On</flag>
 							</conditionFlags>
@@ -4509,7 +4510,8 @@ Please download and endorse the original mod, but do not install it: https://www
 			</pattern>
 			<!-- *************************** -->	
 
-			<!--Heavy Armory, Animated Armoury -->			
+			<!--Heavy Armory, Animated Armoury -->
+			<!--	
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="ha" value="On"/>
@@ -4519,6 +4521,8 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_AnimatedArmory-HeavyArmory.esp" destination="df_AnimatedArmory-HeavyArmory.esp" priority="0" />
 				</files>
 			</pattern>
+			
+			-->	
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="dgbetterentrance" value="On"/>
@@ -4526,6 +4530,62 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_AnimatedArmoury-ImmersiveDayspringPass.esp" destination="df_AnimatedArmoury-ImmersiveDayspringPass.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="arsmetallica" value="On"/>	
+					<flagDependency flag="ha" value="Off"/>				
+				</dependencies>
+				<files>
+					<file source="df_AnimatedArmoury-ArsMetallica.esp" destination="df_AnimatedArmoury-ArsMetallica.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="arsmetallica" value="On"/>	
+					<flagDependency flag="ha" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_HeavyArmory-AnimatedAmoury-ArsMetallica.esp" destination="df_HeavyArmory-AnimatedAmoury-ArsMetallica.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="arsmetallica" value="Off"/>	
+					<flagDependency flag="ha" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_HeavyArmory-AnimatedArmoury.esp" destination="df_HeavyArmory-AnimatedArmoury.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="mysticism" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_AnimatedArmoury-USSEP.esp" destination="df_AnimatedArmoury-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="mysticism" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_Mysticism-AnimatedArmoury.esp" destination="df_Mysticism-AnimatedArmoury.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ha" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_HeavyArmory.esp" destination="df_HeavyArmory.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- *************************** -->	
