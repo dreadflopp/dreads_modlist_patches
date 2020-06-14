@@ -4528,7 +4528,7 @@ Please download and endorse the original mod, but do not install it: https://www
 			</pattern>
 			<!-- *************************** -->	
 
-			<!--Heavy Armory, Animated Armoury -->
+			<!--Heavy Armory, Animated Armoury, Dawnguard Arsenal -->
 			<!--	
 			<pattern>
 				<dependencies operator="And">
@@ -4554,7 +4554,7 @@ Please download and endorse the original mod, but do not install it: https://www
 				<dependencies operator="And">
 					<flagDependency flag="animatedarmoury" value="On"/>
 					<flagDependency flag="arsmetallica" value="On"/>	
-					<flagDependency flag="ha" value="Off"/>				
+					<flagDependency flag="ha" value="Off"/>								
 				</dependencies>
 				<files>
 					<file source="df_AnimatedArmoury-ArsMetallica.esp" destination="df_AnimatedArmoury-ArsMetallica.esp" priority="0" />
@@ -4565,6 +4565,7 @@ Please download and endorse the original mod, but do not install it: https://www
 					<flagDependency flag="animatedarmoury" value="On"/>
 					<flagDependency flag="arsmetallica" value="On"/>	
 					<flagDependency flag="ha" value="On"/>	
+					<flagDependency flag="dawnguardarsenal" value="Off"/>	
 				</dependencies>
 				<files>
 					<file source="df_HeavyArmory-AnimatedAmoury-ArsMetallica.esp" destination="df_HeavyArmory-AnimatedAmoury-ArsMetallica.esp" priority="0" />
@@ -4575,9 +4576,42 @@ Please download and endorse the original mod, but do not install it: https://www
 					<flagDependency flag="animatedarmoury" value="On"/>
 					<flagDependency flag="arsmetallica" value="Off"/>	
 					<flagDependency flag="ha" value="On"/>	
+					<flagDependency flag="dawnguardarsenal" value="Off"/>	
 				</dependencies>
 				<files>
 					<file source="df_HeavyArmory-AnimatedArmoury.esp" destination="df_HeavyArmory-AnimatedArmoury.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="arsmetallica" value="On"/>	
+					<flagDependency flag="ha" value="On"/>	
+					<flagDependency flag="dawnguardarsenal" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_DawnguardArsenal-HeavyArmory-AnimatedArmoury-ArsMetallica.esp" destination="df_DawnguardArsenal-HeavyArmory-AnimatedArmoury-ArsMetallica.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="arsmetallica" value="Off"/>	
+					<flagDependency flag="ha" value="On"/>	
+					<flagDependency flag="dawnguardarsenal" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_DawnguardArsenal-HeavyArmory-AnimatedArmoury.esp" destination="df_DawnguardArsenal-HeavyArmory-AnimatedArmoury.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="ha" value="Off"/>	
+					<flagDependency flag="dawnguardarsenal" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_DawnguardArsenal-AnimatedArmoury.esp" destination="df_DawnguardArsenal-AnimatedArmoury.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
