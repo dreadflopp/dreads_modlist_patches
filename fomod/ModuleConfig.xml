@@ -1762,6 +1762,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									<patterns>
 										<pattern>
 											<dependencies operator="And">
+												<fileDependency file="Dawnguard Hoods.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Dawnguard Hoods">
+							<conditionFlags>
+								<flag name="dawnguardhoods">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
 												<fileDependency file="DawnguardArsenal.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
