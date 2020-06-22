@@ -4124,10 +4124,11 @@ Please download and endorse the original mod, but do not install it: https://www
 
 			<!-- *************************** -->
 
-			<!-- *** Adamant, Mysticism, Aetherius, Mundus *** -->								
+			<!-- *** Adamant, Mysticism, Aetherius, Mundus *** -->						
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="mysticism" value="On"/>
+					<flagDependency flag="adamant" value="Off"/>
 					<flagDependency flag="crf" value="On"/>
 				</dependencies>
 				<files>
@@ -4141,6 +4142,15 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_Mysticism-USSEP.esp" destination="df_Mysticism-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="adamant" value="On"/>
+					<flagDependency flag="crf" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_Adamant-CuttingRoomFloor.esp" destination="df_Adamant-CuttingRoomFloor.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
