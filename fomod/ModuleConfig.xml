@@ -750,7 +750,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			</optionalFileGroups>
 		</installStep>
 
-		
 		<!-- Gameplay - Camping & Survival  -->
 		<installStep name="Gameplay - Camping &amp; Survival">
 			<visible>
@@ -1843,7 +1842,43 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>		
+						</plugin>	
+						<plugin name="Talos Housecarl Armor Pack">
+							<conditionFlags>
+								<flag name="taloshousecarl">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="TalosHousecarl.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Volkihar Knight - Vampire Armor">
+							<conditionFlags>
+								<flag name="volkiharknight">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Volkihar Knight.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>	
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -2199,24 +2234,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="OCW_Obscure's_CollegeofWinterhold.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="Obscure's College of Winterhold Cell Settings">
-							<conditionFlags>
-								<flag name="ocw-cell">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="OCW_CellSettings.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -4177,14 +4194,62 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="arsmetallica" value="On"/>
+					<flagDependency flag="animatedarmoury" value="Off"/>
 					<flagDependency flag="ha" value="On"/>
 				</dependencies>
 				<files>
 					<file source="df_HeavyArmory-ArsMetallica.esp" destination="df_HeavyArmory-ArsMetallica.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="arsmetallica" value="On"/>	
+					<flagDependency flag="ha" value="Off"/>								
+				</dependencies>
+				<files>
+					<file source="df_AnimatedArmoury-ArsMetallica.esp" destination="df_AnimatedArmoury-ArsMetallica.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="arsmetallica" value="On"/>	
+					<flagDependency flag="ha" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_HeavyArmory-AnimatedAmoury-ArsMetallica.esp" destination="df_HeavyArmory-AnimatedAmoury-ArsMetallica.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="arsmetallica" value="On"/>
+					<flagDependency flag="dawnguardhoods" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_DawnguardHoods-ArsMetallica.esp" destination="df_DawnguardHoods-ArsMetallica.esp" priority="0" />
+				</files>
+			</pattern>			
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="arsmetallica" value="On"/>
+					<flagDependency flag="taloshousecarl" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_TalosHousecarl-ArsMetallica.esp" destination="df_TalosHousecarl-ArsMetallica.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="arsmetallica" value="On"/>
+					<flagDependency flag="volkiharknight" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_VolkiharKnight-ArsMetallica.esp" destination="df_VolkiharKnight-ArsMetallica.esp" priority="0" />
+				</files>
+			</pattern>
 			<!-- *************************** -->
-
+			
 			<!-- Unlimited Bookshelves, Improved Closefaced Helmets -->
 			<pattern>
 				<dependencies operator="And">
@@ -4549,34 +4614,11 @@ Please download and endorse the original mod, but do not install it: https://www
 				<files>
 					<file source="df_AnimatedArmoury-ImmersiveDayspringPass.esp" destination="df_AnimatedArmoury-ImmersiveDayspringPass.esp" priority="0" />
 				</files>
-			</pattern>
+			</pattern>			
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="animatedarmoury" value="On"/>
-					<flagDependency flag="arsmetallica" value="On"/>	
-					<flagDependency flag="ha" value="Off"/>								
-				</dependencies>
-				<files>
-					<file source="df_AnimatedArmoury-ArsMetallica.esp" destination="df_AnimatedArmoury-ArsMetallica.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="animatedarmoury" value="On"/>
-					<flagDependency flag="arsmetallica" value="On"/>	
 					<flagDependency flag="ha" value="On"/>	
-					<flagDependency flag="dawnguardarsenal" value="Off"/>	
-				</dependencies>
-				<files>
-					<file source="df_HeavyArmory-AnimatedAmoury-ArsMetallica.esp" destination="df_HeavyArmory-AnimatedAmoury-ArsMetallica.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="animatedarmoury" value="On"/>
-					<flagDependency flag="arsmetallica" value="Off"/>	
-					<flagDependency flag="ha" value="On"/>	
-					<flagDependency flag="dawnguardarsenal" value="Off"/>	
 				</dependencies>
 				<files>
 					<file source="df_HeavyArmory-AnimatedArmoury.esp" destination="df_HeavyArmory-AnimatedArmoury.esp" priority="0" />
@@ -4585,18 +4627,6 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="animatedarmoury" value="On"/>
-					<flagDependency flag="arsmetallica" value="On"/>	
-					<flagDependency flag="ha" value="On"/>	
-					<flagDependency flag="dawnguardarsenal" value="On"/>	
-				</dependencies>
-				<files>
-					<file source="df_DawnguardArsenal-HeavyArmory-AnimatedArmoury-ArsMetallica.esp" destination="df_DawnguardArsenal-HeavyArmory-AnimatedArmoury-ArsMetallica.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="animatedarmoury" value="On"/>
-					<flagDependency flag="arsmetallica" value="Off"/>	
 					<flagDependency flag="ha" value="On"/>	
 					<flagDependency flag="dawnguardarsenal" value="On"/>	
 				</dependencies>
@@ -4683,18 +4713,6 @@ Please download and endorse the original mod, but do not install it: https://www
 				</files>
 			</pattern>
 			<!-- *************************** -->
-
-			<!-- OCW_Obscure's_CollegeofWinterhold -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="ocw-cell" value="On"/>
-					<flagDependency flag="rw2" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_ObscureCollegeOfWinterholdCellSettings-RealisticWaterTwo.esp" destination="df_ObscureCollegeOfWinterholdCellSettings-RealisticWaterTwo.esp" priority="0" />
-				</files>
-			</pattern>
-			<!-- *********************************** -->
 
 			<!-- Tools of Kagrenac, Forgotten City -->
 			<pattern>
@@ -5156,8 +5174,8 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="scoutarmor" value="On"/>
-					<flagDependency flag="scoutarmortweaks" value="Off"/>	
 					<flagDependency flag="arsmetallica" value="Off"/>
+					<flagDependency flag="scoutarmortweaks" value="Off"/>	
 				</dependencies>
 				<files>
 					<file source="df_ScoutArmor.esp" destination="df_ScoutArmor.esp" priority="0" />
