@@ -624,7 +624,6 @@ In the installer choose:
 Install the main file using the following options:
 
 * Skeleton
-	* Meshes: Skeleton meshes
 	* Animation Rig Map: Physics Extensions
 
 * Character Creation
@@ -1600,7 +1599,7 @@ Install the Simple Auto Unequip Ammo from the Old Files.
 #### [Better Stealth AI for Followers](http://www.nexusmods.com/skyrimspecialedition/mods/17600)
 
 #### [Blade and Blunt](https://www.nexusmods.com/skyrimspecialedition/mods/34549)
-Install the main file and the optional file.
+Install the main file.
 
 #### [Realistic AI Detection SE](http://www.nexusmods.com/skyrimspecialedition/mods/2345)
 Choose *Realistic AI Detection 2 SE - Lite*
