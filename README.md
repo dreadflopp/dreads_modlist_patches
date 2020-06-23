@@ -1664,6 +1664,9 @@ Install the main file and the Growl patch.
 
 #### [Guard Dialogue Overhaul SE](http://www.nexusmods.com/skyrimspecialedition/mods/22075)
 
+#### [High-Level Loot Rarified](https://www.nexusmods.com/skyrimspecialedition/mods/10821)
+Install the main file. Select everything in the installer.
+
 #### [Honed Metal - SSE](https://www.nexusmods.com/skyrimspecialedition/mods/12885)
 Install main file and Adamant patch.
 

@@ -54,7 +54,14 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="arsmetallica">Off</flag>		
 								<flag name="scoutarmortweaks">Off</flag>
 								<flag name="scoutarmor">Off</flag>	
-								<flag name="blacksacramenttweaks">Off</flag>							
+								<flag name="blacksacramenttweaks">Off</flag>	 
+								<flag name="hllr-aa">Off</flag>		
+								<flag name="hllr-ha">Off</flag>	
+								<flag name="hllr-core">Off</flag>		
+								<flag name="hllr-tweaks">Off</flag>					
+								<flag name="animatedarmoury">Off</flag>
+								<flag name="animatedarmoury">Off</flag>
+								<flag name="aa-ha-tweaks">Off</flag>
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
@@ -949,6 +956,78 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
+						<plugin name="High-Level Loot Rarified - Core">
+							<conditionFlags>
+								<flag name="hllr-core">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="High-level Loot Rarified.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="High-Level Loot Rarified - Animated Armoury Addon">
+							<conditionFlags>
+								<flag name="hllr-aa">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="High-level Loot Rarified - Animated Armoury Addon.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="High-Level Loot Rarified - Heavy Armory Addon">
+							<conditionFlags>
+								<flag name="hllr-ha">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="High-level Loot Rarified - Heavy Armory Addon.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="High-Level Loot Rarified - Animated Armoury and Heavy Armory tweaks">
+							<conditionFlags>
+								<flag name="hllr-tweaks">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Animated Armory - Heavy Armory tweaks.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Trade and Barter">
 							<conditionFlags>
 								<flag name="tradebarter">On</flag>
@@ -3135,6 +3214,44 @@ Please download and endorse the original mod, but do not install it: https://www
 			</optionalFileGroups>
 		</installStep>
 
+		<!-- Consistency Patches 2 -->
+		<installStep name="Consistency Patches continued">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="ussep" value="On"/>
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="hllr-tweaks" value="Off"/>
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Choose" type="SelectAny">
+					<plugins order="Explicit">
+						<plugin name="Animated Armoury - Heavy Armory Tweaks">
+							<description>
+								<![CDATA[This is a consistency tweak for Animated Armoury and Heavy Armory. It is created using a scipt by Wheredidit run: https://www.nexusmods.com/skyrimspecialedition/mods/19547
+
+The tweak includes the following changes:
+
+- Rebalancing of Animated Armoury and Heavy Armoury against both each other as well as against vanilla Skyrim. 
+- The Halbards from Heavy Armory, which are shorter than Halbards from Animated Armory, will be renamed to Pole Axes (which is a real thing). 
+- The new animations from Animated Armoury will be applied to the new weapons from Heavy Armory]]>								
+							</description>
+							<conditionFlags>
+								<flag name="aa-ha-tweaks">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Recommended"/>									
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+
+
 		<!-- BodySlides -->
 		<installStep name="BodySlides">
 			<visible>
@@ -3167,6 +3284,230 @@ Please download and endorse the original mod, but do not install it: https://www
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+		
+		<!-- HLLR checks -->
+		<installStep name="High-Level Loot Rarified installation check">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="ussep" value="On"/>
+					<flagDependency flag="hllr-aa" value="On"/>
+					<flagDependency flag="hllr-ha" value="On"/>	
+					<fileDependency file="HLLR - Animated Armoury and Heavy Armoury Patch.esp" state="Missing"/>				
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Choose" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="HLLR - Animated Armoury and Heavy Armoury Patch is missing">
+							<description>
+								<![CDATA[HLLR - Animated Armoury and Heavy Armoury Patch is missing. Please review your High-Level Loot Rarified installation and make sure all relevant patches are installed.]]>
+							</description>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Recommended"/>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>						
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+
+		<installStep name="High-Level Loot Rarified installation check">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="ussep" value="On"/>
+					<flagDependency flag="hllr-aa" value="On"/>
+					<flagDependency flag="hllr-ha" value="On"/>	
+					<flagDependency flag="hllr-tweaks" value="On"/>	
+					<fileDependency file="Animated Armory - Heavy Armory tweaks.esp" state="Missing"/>				
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Choose" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="Animated Armory - Heavy Armory tweaks is missing">
+							<description>
+								<![CDATA[Animated Armory - Heavy Armory tweaks is missing. Please review your High-Level Loot Rarified installation and make sure all relevant patches and tweaks are installed.]]>
+							</description>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Recommended"/>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>						
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+
+		<installStep name="High-Level Loot Rarified installation check">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="ussep" value="On"/>
+					<flagDependency flag="hllr-aa" value="On"/>
+					<flagDependency flag="hllr-ha" value="Off"/>	
+					<flagDependency flag="arsmetallica" value="On"/>	
+					<fileDependency file="HLLR - Animated Armory - Ars Metallica Patch.esp" state="Missing"/>				
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Choose" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="HLLR - Animated Armory - Ars Metallica Patch is missing">
+							<description>
+								<![CDATA[HLLR - Animated Armory - Ars Metallica Patch is missing. Please review your High-Level Loot Rarified installation and make sure all relevant patches and tweaks are installed.]]>
+							</description>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Recommended"/>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>						
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+
+		<installStep name="High-Level Loot Rarified installation check">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="ussep" value="On"/>
+					<flagDependency flag="hllr-aa" value="Off"/>
+					<flagDependency flag="hllr-ha" value="On"/>	
+					<flagDependency flag="arsmetallica" value="On"/>	
+					<fileDependency file="HLLR - Heavy Armory - Ars Metallica Patch.esp" state="Missing"/>				
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Choose" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="HLLR - Heavy Armory - Ars Metallica Patch is missing">
+							<description>
+								<![CDATA[HLLR - Heavy Armory - Ars Metallica Patch is missing. Please review your High-Level Loot Rarified installation and make sure all relevant patches and tweaks are installed.]]>
+							</description>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Recommended"/>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>						
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+
+		<installStep name="High-Level Loot Rarified installation check">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="ussep" value="On"/>
+					<flagDependency flag="hllr-aa" value="On"/>
+					<flagDependency flag="hllr-ha" value="On"/>	
+					<flagDependency flag="arsmetallica" value="On"/>	
+					<fileDependency file="HLLR - Animated Armory and Heavy Armory - Ars Metallica Patch.esp" state="Missing"/>				
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Choose" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="HLLR - Animated Armory and Heavy Armory - Ars Metallica Patch is missing">
+							<description>
+								<![CDATA[HLLR - Animated Armory and Heavy Armory - Ars Metallica Patch is missing. Please review your High-Level Loot Rarified installation and make sure all relevant patches and tweaks are installed.]]>
+							</description>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Recommended"/>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>						
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+
+		<installStep name="High-Level Loot Rarified installation check">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="ussep" value="On"/>
+					<flagDependency flag="hllr-aa" value="On"/>
+					<flagDependency flag="hllr-ha" value="off"/>	
+					<flagDependency flag="dawnguardarsenal" value="On"/>	
+					<fileDependency file="HLLR - Animated Armoury and Dawnguard Arsenal Patch.esp" state="Missing"/>				
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Choose" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="HLLR - Animated Armoury and Dawnguard Arsenal Patch is missing">
+							<description>
+								<![CDATA[HLLR - Animated Armoury and Dawnguard Arsenal Patch is missing. Please review your High-Level Loot Rarified installation and make sure all relevant patches and tweaks are installed.]]>
+							</description>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Recommended"/>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>						
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+
+		<installStep name="High-Level Loot Rarified installation check">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="ussep" value="On"/>
+					<flagDependency flag="hllr-aa" value="Off"/>
+					<flagDependency flag="hllr-ha" value="on"/>	
+					<flagDependency flag="dawnguardarsenal" value="On"/>	
+					<fileDependency file="HLLR - Heavy Armoury and Dawnguard Arsenal Patch.esp" state="Missing"/>				
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Choose" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="HLLR - Heavy Armoury and Dawnguard Arsenal Patch is missing">
+							<description>
+								<![CDATA[HLLR - Heavy Armoury and Dawnguard Arsenal Patch is missing. Please review your High-Level Loot Rarified installation and make sure all relevant patches and tweaks are installed.]]>
+							</description>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Recommended"/>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>						
+					</plugins>
+				</group>
+			</optionalFileGroups>
+		</installStep>
+
+		<installStep name="High-Level Loot Rarified installation check">
+			<visible>
+				<dependencies operator="And">
+					<flagDependency flag="ussep" value="On"/>
+					<flagDependency flag="hllr-aa" value="On"/>
+					<flagDependency flag="hllr-ha" value="on"/>	
+					<flagDependency flag="dawnguardarsenal" value="On"/>	
+					<fileDependency file="HLLR - Animated Armoury Heavy Armory and Dawnguard Arsenal Patch.esp" state="Missing"/>				
+				</dependencies>
+			</visible>
+			<optionalFileGroups order="Explicit">
+				<group name="Choose" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="HLLR - Animated Armoury Heavy Armory and Dawnguard Arsenal Patch is missing">
+							<description>
+								<![CDATA[HLLR - Animated Armoury Heavy Armory and Dawnguard Arsenal Patch is missing. Please review your High-Level Loot Rarified installation and make sure all relevant patches and tweaks are installed.]]>
+							</description>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Recommended"/>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>						
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -4206,6 +4547,7 @@ Please download and endorse the original mod, but do not install it: https://www
 					<flagDependency flag="arsmetallica" value="On"/>
 					<flagDependency flag="animatedarmoury" value="Off"/>
 					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="hllr-ha" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_HeavyArmory-ArsMetallica.esp" destination="df_HeavyArmory-ArsMetallica.esp" priority="0" />
@@ -4215,7 +4557,8 @@ Please download and endorse the original mod, but do not install it: https://www
 				<dependencies operator="And">
 					<flagDependency flag="animatedarmoury" value="On"/>
 					<flagDependency flag="arsmetallica" value="On"/>	
-					<flagDependency flag="ha" value="Off"/>								
+					<flagDependency flag="ha" value="Off"/>		
+					<flagDependency flag="hllr-aa" value="Off"/>						
 				</dependencies>
 				<files>
 					<file source="df_AnimatedArmoury-ArsMetallica.esp" destination="df_AnimatedArmoury-ArsMetallica.esp" priority="0" />
@@ -4226,6 +4569,8 @@ Please download and endorse the original mod, but do not install it: https://www
 					<flagDependency flag="animatedarmoury" value="On"/>
 					<flagDependency flag="arsmetallica" value="On"/>	
 					<flagDependency flag="ha" value="On"/>	
+					<flagDependency flag="hllr-aa" value="Off"/>	
+					<flagDependency flag="hllr-ha" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_HeavyArmory-AnimatedAmoury-ArsMetallica.esp" destination="df_HeavyArmory-AnimatedAmoury-ArsMetallica.esp" priority="0" />
@@ -4629,6 +4974,8 @@ Please download and endorse the original mod, but do not install it: https://www
 				<dependencies operator="And">
 					<flagDependency flag="animatedarmoury" value="On"/>
 					<flagDependency flag="ha" value="On"/>	
+					<flagDependency flag="hllr-aa" value="Off"/>	
+					<flagDependency flag="hllr-ha" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_HeavyArmory-AnimatedArmoury.esp" destination="df_HeavyArmory-AnimatedArmoury.esp" priority="0" />
@@ -4639,6 +4986,8 @@ Please download and endorse the original mod, but do not install it: https://www
 					<flagDependency flag="animatedarmoury" value="On"/>
 					<flagDependency flag="ha" value="On"/>	
 					<flagDependency flag="dawnguardarsenal" value="On"/>	
+					<flagDependency flag="hllr-aa" value="Off"/>	
+					<flagDependency flag="hllr-ha" value="Off"/>	
 				</dependencies>
 				<files>
 					<file source="df_DawnguardArsenal-HeavyArmory-AnimatedArmoury.esp" destination="df_DawnguardArsenal-HeavyArmory-AnimatedArmoury.esp" priority="0" />
@@ -4649,6 +4998,7 @@ Please download and endorse the original mod, but do not install it: https://www
 					<flagDependency flag="animatedarmoury" value="On"/>
 					<flagDependency flag="ha" value="Off"/>	
 					<flagDependency flag="dawnguardarsenal" value="On"/>	
+					<flagDependency flag="hllr-aa" value="Off"/>	
 				</dependencies>
 				<files>
 					<file source="df_DawnguardArsenal-AnimatedArmoury.esp" destination="df_DawnguardArsenal-AnimatedArmoury.esp" priority="0" />
@@ -5008,6 +5358,7 @@ Please download and endorse the original mod, but do not install it: https://www
 				<dependencies operator="And">
 					<flagDependency flag="dawnguardarsenal" value="On"/>
 					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="hllr-ha" value="Off"/>	
 				</dependencies>
 				<files>
 					<file source="df_DawnguardArsenal-HeavyArmory.esp" destination="df_DawnguardArsenal-HeavyArmory.esp" priority="0" />
