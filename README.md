@@ -711,8 +711,6 @@ Download and install the optional files:
 
 * aMidianborn_Skyforge_Weapons.esp
 
-#### [aMidianBorn Blades Armor SSE Patch](http://www.nexusmods.com/skyrimspecialedition/mods/12963)
-
 #### [aMidianBorn stormcloak officer armour](https://www.nexusmods.com/skyrim/mods/45692)
 
 #### [Arri's Snow Elf Ruins Retexture Special Edition](http://www.nexusmods.com/skyrimspecialedition/mods/7292)
