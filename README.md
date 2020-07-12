@@ -656,9 +656,9 @@ Install the main file using the following options:
 * Style: Standard
 * Plugin option: Frost mesh patch (esl-tagged)
 
-#### [aMidianBorn Book of Silence](https://www.nexusmods.com/skyrim/mods/24909)
+#### [aMidianBorn Book of Silence SE](https://www.nexusmods.com/skyrimspecialedition/mods/35382)
 
-Download and install:
+Download and install the optional files:
 
 * aMidianBorn book of silence_ARMORS
     * Custom
