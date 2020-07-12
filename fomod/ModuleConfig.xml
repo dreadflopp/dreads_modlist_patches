@@ -2988,28 +2988,7 @@ Tweaks:
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>
-						<plugin name="EVG Conditional Idles - The Frozen North fix">
-							<description>
-								<![CDATA[This fix makes EVG conditional idles compatible with the Frozen North.]]>
-							</description>
-							<conditionFlags>
-								<flag name="evg-cold">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="TheFrozenNorth.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>			
+						</plugin>		
 						<plugin name="Experience settings">
 							<description>
 								<![CDATA[This is a settings file for the mod Experience. It enables experience gain from miscellaneous quests and from killing enemies. This also installs a patch for Experience to allow experience gain from killing enemies added by other mods included in this modlist.]]>
@@ -5374,18 +5353,6 @@ The tweak includes the following changes:
 				</files>
 			</pattern>
 			<!-- ************************** -->
-
-			<!-- EVG Conditional idles -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="evg-cold" value="On"/>
-					<flagDependency flag="frozennorth" value="On"/>
-				</dependencies>
-				<files>
-					<file source="EVG Conditional Idles Tweaks\2125\_conditions.txt" destination="meshes\actors\character\animations\DynamicAnimationReplacer\_CustomConditions\2125\_conditions.txt" priority="0" />
-				</files>
-			</pattern>
-			<!-- **************************-->
 
 			<!-- Survival mode -->
 			<pattern>

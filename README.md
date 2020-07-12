@@ -1543,7 +1543,6 @@ Choose *Eyes Mesh Fix* in the installer.
 In the installer, choose:
 
 * Base Fixed Meshes: Base Meshes
-* Main Plugin: 1. ESM
 * Patches: Relighting Skyrim
 * Walkway Wall FIX: Walkway Wall FIX SMIM
 * Missing Lights Fix 
@@ -2152,6 +2151,7 @@ Install *Book Covers Skyrim __ TCIY* and *Cutting Room Floor __ TCIY*.
 #### [Luminosity - A Quality Worldmap Compatibility Patch](https://www.nexusmods.com/skyrimspecialedition/mods/30162)
 
 #### [Moonpath to Elsweyr Sky and Lightning fix](http://www.nexusmods.com/skyrimspecialedition/mods/18683)
+Download and install *Moonpath Sky and Lighting fix - main file*
 
 #### [Realistic Water Two Patch Hub](https://www.nexusmods.com/skyrimspecialedition/mods/35744)
 Install the following patches:
