@@ -62,6 +62,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="animatedarmoury">Off</flag>
 								<flag name="animatedarmoury">Off</flag>
 								<flag name="aa-ha-tweaks">Off</flag>
+								<flag name="diversity">Off</flag>
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
@@ -3560,35 +3561,6 @@ The tweak includes the following changes:
 
 			<!-- ************************* -->
 
-			<!-- Cutting Room Floor -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="crf" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_CuttingRoomFloor.esp" destination="df_CuttingRoomFloor.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="crf" value="On"/>
-					<flagDependency flag="inigo" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_CuttingRoomFloor-Inigo.esp" destination="df_CuttingRoomFloor-Inigo.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="crf" value="On"/>
-					<flagDependency flag="ccaa" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_CuttingRoomFloor-CommonClothesAndArmor.esp" destination="df_CuttingRoomFloor-CommonClothesAndArmor.esp" priority="0" />
-				</files>
-			</pattern>
-			<!-- ************************************** -->	
-
 			<!-- Dragons --> 
 			<pattern>		
 				<dependencies operator="And">
@@ -3966,15 +3938,6 @@ The tweak includes the following changes:
 				</dependencies>
 				<files>
 					<file source="df_BookCoversSkyrim-USSEP.esp" destination="df_BookCoversSkyrim-USSEP.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="bcs" value="On"/>
-					<flagDependency flag="crf" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_BookCoversSkyrim-CuttingRoomFloor.esp" destination="df_BookCoversSkyrim-CuttingRoomFloor.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
@@ -4891,21 +4854,6 @@ The tweak includes the following changes:
 			
 			<!-- *************************** -->
 
-			<!-- Cutting Room Floor -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="cloaks" value="On"/>
-					<flagDependency flag="crf" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Cloaks-CuttingRoomFloor.esp" destination="df_Cloaks-CuttingRoomFloor.esp" priority="0" />
-				</files>
-			</pattern>
-
-			<!-- *************************** -->
-
-			<!-- *************************** -->			
-
 			<!-- Tweaks -->
 			<pattern>
 				<dependencies operator="And">
@@ -5152,6 +5100,67 @@ The tweak includes the following changes:
 				</files>
 			</pattern>
 			<!-- ************************************ -->
+
+			<!-- Cutting Room Floor -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="crf" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CuttingRoomFloor.esp" destination="df_CuttingRoomFloor.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="crf" value="On"/>
+					<flagDependency flag="inigo" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CuttingRoomFloor-Inigo.esp" destination="df_CuttingRoomFloor-Inigo.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="crf" value="On"/>
+					<flagDependency flag="ccaa" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CuttingRoomFloor-CommonClothesAndArmor.esp" destination="df_CuttingRoomFloor-CommonClothesAndArmor.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="cloaks" value="On"/>
+					<flagDependency flag="crf" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_Cloaks-CuttingRoomFloor.esp" destination="df_Cloaks-CuttingRoomFloor.esp" priority="0" />
+				</files>
+			</pattern>			
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="bcs" value="On"/>
+					<flagDependency flag="crf" value="On"/>
+					<flagDependency flag="diversity" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_BookCoversSkyrim-CuttingRoomFloor.esp" destination="df_BookCoversSkyrim-CuttingRoomFloor.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- ************************************** -->	
+
+			<!-- Diversity -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="bcs" value="On"/>
+					<flagDependency flag="crf" value="On"/>
+					<flagDependency flag="diversity" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_Diversity-BookCoversSkyrim-CuttingRoomFloor.esp" destination="df_Diversity-BookCoversSkyrim-CuttingRoomFloor.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- ************************************** -->	
 
 			<!-- AI OVerhaul -->
 			<pattern>

@@ -1922,7 +1922,6 @@ Use the default settings in the installer.
 #### [Interesting NPCs SE](https://www.nexusmods.com/skyrimspecialedition/mods/29194)
 Install BSA version and the hotfix. Install the following optional files:
 
-* Interesting NPCs SE - AI Overhaul SSE Patch
 * Interesting NPCs SE - Alternative Locations - Flagged ESL
 * Interesting NPCs SE - Cutting Room Floor SSE Patch
 * Interesting NPCs SE - Don't Call Me Dragonborn
