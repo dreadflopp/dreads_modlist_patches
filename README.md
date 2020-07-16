@@ -576,7 +576,12 @@ Install a main file, choose the version you like the most.
 In the installer, choose:
 * Full Install, Brown Tundra
 * Blended Roads
+<!--
+#### [Diversity - A Character Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/5291)
+This mod needs to be cleaned using the standard cleaning procedure.
 
+Download and install the vanilla hair edition. Please note that *Diversity* is dependent on *Cutting Room Floor*. This means that you can not use *Diversity* without using *Cutting Room Floor* too.
+-->
 #### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
 Recommendation: 2K
 
@@ -1922,7 +1927,6 @@ Use the default settings in the installer.
 #### [Interesting NPCs SE](https://www.nexusmods.com/skyrimspecialedition/mods/29194)
 Install BSA version and the hotfix. Install the following optional files:
 
-* Interesting NPCs SE - AI Overhaul SSE Patch
 * Interesting NPCs SE - Alternative Locations - Flagged ESL
 * Interesting NPCs SE - Cutting Room Floor SSE Patch
 * Interesting NPCs SE - Don't Call Me Dragonborn
