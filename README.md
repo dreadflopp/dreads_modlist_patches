@@ -577,6 +577,11 @@ In the installer, choose:
 * Full Install, Brown Tundra
 * Blended Roads
 
+#### [Diversity - A Character Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/5291)
+This mod needs to be cleaned using the standard cleaning procedure.
+
+Download and install the vanilla hair edition. Please note that *Diversity* is dependent on *Cutting Room Floor*. This means that you can not use *Diversity* without using *Cutting Room Floor* too.
+
 #### [RUSTIC CLOTHING - Special Edition](https://www.nexusmods.com/skyrimspecialedition/mods/4703)
 Recommendation: 2K
 
@@ -1406,11 +1411,6 @@ Install the loose version
 
 #### [Coverkhajiits (SE)](http://www.nexusmods.com/skyrim/mods/5941)
 Install both main files
-
-#### [Diversity - A Character Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/5291)
-This mod needs to be cleaned using the standard cleaning procedure.
-
-Download and install the vanilla hair edition. Please note that *Diversity* is dependent on *Cutting Room Floor*. This means that you can not use *Diversity* without using *Cutting Room Floor* too.
 
 #### [FAR - Forgotten Argonian Roots (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/1704)
 The mod is not packaged correctly for mod managers. To install:
