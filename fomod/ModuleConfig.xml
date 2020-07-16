@@ -544,6 +544,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<!--
 						<plugin name="Diversity - A Character Overhaul">
 							<conditionFlags>
 								<flag name="diversity">On</flag>
@@ -562,6 +563,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						-->
 						<plugin name="DIVERSE SKYRIM SSE">
 							<conditionFlags>
 								<flag name="diverse">On</flag>
