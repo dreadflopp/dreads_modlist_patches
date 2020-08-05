@@ -1769,6 +1769,7 @@ In the installer, choose the optional file *Dark Brotherhood Forever to Miscella
 ## Gameplay - Skills & Perks
 
 #### [Adamant - A Perk Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/30191)
+If this mod is updated midgame from 3.x to 4.x, use [Ish's Respec Mod](https://www.nexusmods.com/skyrimspecialedition/mods/1960) to reclaim your perk points before updating. Ish's Respec Mod adds a potion to vendors that can be added to your inventory using the console. Use the [help](https://skyrimcommands.com/command/help) command in the console to find the item id for the potion, *Draught of Fate Unwound*. Use the [additem](https://skyrimcommands.com/command/additem) command to add the potion to your inventory.
 
 #### [Lock Overhaul (SE)](http://www.nexusmods.com/skyrimspecialedition/mods/14927)
 
