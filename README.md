@@ -609,6 +609,8 @@ Install loose files.
 #### [EVG Conditional Idles](https://www.nexusmods.com/skyrimspecialedition/mods/34006)
 Choose full install in the installer. The modular install is also supported.
 
+The beta version is untested but should work without any patches. I recommend the main version unless you want to test and provide feedback to the mod author.
+
 #### [Immersive Animations](https://www.nexusmods.com/skyrimspecialedition/mods/4254)
 In the installer choose:
 
