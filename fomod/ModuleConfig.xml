@@ -4461,7 +4461,7 @@ The tweak includes the following changes:
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="adamant" value="On"/>
-					<flagDependency flag="clockwork" value="Off"/>
+					<flagDependency flag="clockwork" value="On"/>
 				</dependencies>
 				<files>
 					<file source="df_Adamant-Clockwork.esp" destination="df_Adamant-Clockwork.esp" priority="0" />
