@@ -1255,13 +1255,12 @@ Download and install *Enhanced Vanilla Trees SE - Alternative Trees*. In the ins
 #### [Bent Pines II](https://www.nexusmods.com/skyrimspecialedition/mods/8306)
 
 #### [Landscape Fixes For Grass Mods](http://www.nexusmods.com/skyrimspecialedition/mods/9005)
-Install patches for
+Install patches forInstall main file and patches for:
 
-* Alternate Start - Live Anothe Life
 * Helgen Reborn
 * Moon And Star
 * JK's Skyrim - Towns
-* Arthmoors mods - everything except *Provincial Courier Sevice*
+* Patches for Arthmoor's Town add-ons - everything except *Provincial Courier Sevice*
 
 ## Audiovisual - Sounds & Music
 
