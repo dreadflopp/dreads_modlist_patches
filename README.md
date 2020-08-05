@@ -2124,7 +2124,7 @@ Choose
 * Unique Region Names Addon
 
 #### [JK's Interiors Patch Collectoin](https://www.nexusmods.com/skyrimspecialedition/mods/35910)
-In the installer, choose:
+Download and install the main file. In the installer, choose:
 
 * JK's Arcadia's Cauldron
     * AI Overhaul SSE
