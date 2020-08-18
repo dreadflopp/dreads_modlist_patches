@@ -2058,6 +2058,8 @@ Install main file and the following patches:
 #### [JK's Sleeping Giant Inn](https://www.nexusmods.com/skyrimspecialedition/mods/35806)
 Install the main file
 
+#### [Manor Roads](https://www.nexusmods.com/skyrimspecialedition/mods/24715)
+
 #### [Smooth Shores](http://www.nexusmods.com/skyrimspecialedition/mods/10624)
 
 #### [Tactical Valtheim SSE](https://www.nexusmods.com/skyrimspecialedition/mods/9101)
