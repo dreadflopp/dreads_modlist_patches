@@ -1546,7 +1546,7 @@ Choose *Eyes Mesh Fix* in the installer.
 
 In the installer, choose:
 
-* Base Fixed Meshes: Base Meshes
+* Main Files: Main plugin, meshes and scripts
 * Patches: Relighting Skyrim
 * Walkway Wall FIX: Walkway Wall FIX SMIM
 * Missing Lights Fix 
@@ -1561,11 +1561,12 @@ Choose ESM version
 1. Download and install *(Part 1) Engine*
 1. Download *(Part 2) Engine Fixes - skse64 Preloader and TBB Lib*.
 1. Extract the contents of the second archive to the root Skyrim SE directory (i.e. ..\Steam\SteamApps\Common\Skyrim Special Edition\) 
-Once installed open and ensure the EngineFixes.ini file is configured:
+Once installed open and ensure the *EngineFixes.toml* file is configured:
 
 ```
 [Patches]
 RegularQuicksaves = true
+WaterflowSpeed = 16.0
 ```
 
 Leave the remainder of the settings at their defaults, unless the changes are known and desired.
