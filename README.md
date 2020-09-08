@@ -825,8 +825,8 @@ Recommendation: 2K full option
 #### [DRAUGR](http://www.nexusmods.com/skyrimspecialedition/mods/5848)
 Recommendation: 2K
 
-#### [DROPS](http://www.nexusmods.com/skyrim/mods/63991)
-Install DROPS v1 Optional File. In the installer, choose the *512 x* texture and no alternate textures.
+#### [DROPS SE](https://www.nexusmods.com/skyrimspecialedition/mods/38458)
+Install *DROPS v3 x512*.
 
 #### [Dust Effects by HHaleyy](http://www.nexusmods.com/skyrimspecialedition/mods/2407)
 
