@@ -972,7 +972,7 @@ Hide the following files:
 * textures\_byoh\clutter\resources\StoneQuarry01_N.dds
 * textures\_byoh\clutter\resources\StoneQuarry01_P.dds 
 
-#### [High-Res Dartwing (Dragonfly) Texture](http://www.nexusmods.com/skyrim/mods/62809)
+#### [High-Res Dartwing (Dragonfly) Texture](https://www.nexusmods.com/skyrimspecialedition/mods/37668)
 
 #### [High Quality Food and Ingredients SE](http://www.nexusmods.com/skyrimspecialedition/mods/10897)
 
