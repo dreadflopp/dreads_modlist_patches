@@ -1884,7 +1884,7 @@ Install main file and the patch for Cloaks of Skyrim.
 Download and install the optional file *Animated Armoury - Plugin Levled List Version* and the update file. After installation, delete NewArmoury.bsa and NewArmoury.bsl.
 
 #### [Artifacts - The Tournament of the ten Bloods](https://www.nexusmods.com/skyrimspecialedition/mods/15264)
-In the installer, 2K is recommended.
+Install the main file and the hotfix. In the installer, 2K is recommended.
 
 #### [Faction Crossbows SE](http://www.nexusmods.com/skyrimspecialedition/mods/4047)
 
