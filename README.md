@@ -2401,6 +2401,12 @@ Deactivate the following mods:
 1. Select everything in Select Worldspace(s).
 1. Ensure only the *Occlusion* box is checked.
 ocess.
+1. Use the following settings:
+    * Quality: 3
+    * Height: 100
+    * Radius: 100
+    * Mode: -Flat +Borders 
+1. Click *Generate*.
 1. Once the completed message has appeared, close xLODGen.
 
 After closing xLODGen, the occlusion data will be in Overwrite:
