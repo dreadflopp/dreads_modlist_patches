@@ -1909,7 +1909,10 @@ Install main file
 #### [Arena - An Encounter Zone Overhaul](https://www.nexusmods.com/skyrimspecialedition/mods/33487)
 
 #### [Deadly Dragons](http://www.nexusmods.com/skyrimspecialedition/mods/23723)
-Choose Loremonger version with patches for Diverse Dragons, Splender Dragons and Wyrmstooth.
+Install the main file, choose Loremonger version. Install the patches. In the patches installer, choose: 
+
+* Diverse Dragons and Splendor Dragons Loremonger
+* Wyrmstooth
 
 #### [Diverse Dragons Collection SE](http://www.nexusmods.com/skyrimspecialedition/mods/695)
 
