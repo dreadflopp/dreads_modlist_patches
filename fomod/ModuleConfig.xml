@@ -2788,24 +2788,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="Splender Dragons">
-							<conditionFlags>
-								<flag name="splenderdragons">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="ogSplendorDragons.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -3591,15 +3573,6 @@ The tweak includes the following changes:
 				</dependencies>
 				<files>
 					<file source="df_DeadlyDragons-BrotherhoodOfOld.esp" destination="df_DeadlyDragons-BrotherhoodOfOld.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="deadlydragons" value="On"/>
-					<flagDependency flag="splenderdragons" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_DeadlyDragons-SplenderDragons.esp" destination="df_DeadlyDragons-SplenderDragons.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
