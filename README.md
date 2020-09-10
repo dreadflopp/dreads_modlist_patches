@@ -1204,8 +1204,6 @@ Choose the 2k versions of textures, big and small stars. Hide or delete all file
 * Textures/sky/skyrimconstellations02.dds
 * Textures/sky/skystars.dds
 
-#### [Smooth Sky mesh - SSE](http://www.nexusmods.com/skyrimspecialedition/mods/18350)
-
 #### [Stalhrim](http://www.nexusmods.com/skyrimspecialedition/mods/9447)
 Recommendation: 2K
 
