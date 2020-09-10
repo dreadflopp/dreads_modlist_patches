@@ -2323,14 +2323,14 @@ After closing SSEEdit, the patch will be in Overwrite:
 Make sure that all LOD Generation texture mods are activated and that the load order is sorted with LOOT.
 
 1. Run xLODGen from the MO2 executable drop-down list.
-1. Select all worldspaces except the *Midwood Isle* or *Lastendell* worldspaces.
-1. Ensure only the Terrain LOD box is checked.
+1. Select all worldspaces except the *Midwood Isle* and *Lastendell* worldspaces.
+1. Ensure that only the Terrain LOD box is checked in the right pane.
 1. Use the following settings:
 
-    [![LOD4.png](https://i.postimg.cc/zD91h78c/LOD4.png)](https://postimg.cc/xqy7DKkv)
-    [![LOD8.png](https://i.postimg.cc/HsX19MLs/LOD8.png)](https://postimg.cc/D8vN28st)
-    [![LOD16.png](https://i.postimg.cc/T3c8ZXmz/LOD16.png)](https://postimg.cc/Jstdkvpx)
-    [![LOD32.png](https://i.postimg.cc/W1VLW4Dm/LOD32.png)](https://postimg.cc/QHfyVhJV)
+    [![LOD4.png](https://i.postimg.cc/Fd32rhLp/LOD4.png)](https://postimg.cc/Fd32rhLp)
+    [![LOD8.png](https://i.postimg.cc/QKqw7SSW/LOD8.png)](https://postimg.cc/QKqw7SSW)
+    [![LOD16.png](https://i.postimg.cc/sGzb1bPr/LOD16.png)](https://postimg.cc/sGzb1bPr)
+    [![LOD32.png](https://i.postimg.cc/nMtLvz0H/LOD32.png)](https://postimg.cc/nMtLvz0H)
 
 1. Click *Generate* to run the process. This will take ~30 minutes. 
 1. Once the LOD generation complete message has appeared, close xLODGen.
