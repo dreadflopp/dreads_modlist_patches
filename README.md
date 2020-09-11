@@ -57,7 +57,7 @@ All mods in this build are optional, except for:
 
 ### Github and Changelog
 
-To see a changelog, check the commit history of the [Github version](https://github.com/dreadflopp/dreads_modlist_patches/blob/master/README.md) of the guide. If you are unfamilliar with Git and Github, read the following section.
+To see a changelog, check the [commit history](https://github.com/dreadflopp/dreads_modlist_patches/commits/master) of the [Github version](https://github.com/dreadflopp/dreads_modlist_patches/blob/master/README.md) of the guide. If you are unfamilliar with Git and Github, read the following section.
 
 Git is a system for version control used during software development. A project that is version controlled using git is called a repository. A repository may have different branches, which are different development versions of the software. Branches may be merged, commonly into the master branch. I will only use the master branch. Saving file changes to git is called to commit. Git tracks all commits and lets you revert to previous commits. Github is a cloud based repository. I synchronize my local repository against Github. When users download the repository as a zip-file, it can be installed using Mod Organizer 2's fomod-installer (i.e. how you usually install mods). I am not providing a changelog since the commit history works as a changelog. To see the commit history in Github, make sure you are viewing the code tab and click on xxx commits (where xxx is a number) or click on [this link](https://github.com/dreadflopp/dreads_modlist_patches/commits/master).
 
