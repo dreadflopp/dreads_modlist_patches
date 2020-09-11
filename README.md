@@ -2382,9 +2382,10 @@ Deactivate the following mods:
     JKs Skyrim.esp;00001FE3;MrkCWextTowerPlatform01
     ````
 1. Run DynDOLOD from the MO2 executable drop-down list.
-1. Select all worldspaces except the *Midwood Isle* or *Lastendell* worldspaces.
+1. Select all worldspaces except the *Midwood Isle* and *Lastendell* worldspaces.
 1. Ensure the *Candles, FXGlow, Generate static LOD, Windows,* and *High* boxes are checked.
-1. Keep the default Output location and settings, click *High preset* button, and run it. This takes ~40 minutes.
+1. Click the *High preset* button
+1. Click *OK* to generate LOD's. This takes ~40 minutes.
 1. Once the completed message has appeared, click Save & Exit.
 1. Right click any mod in Mod Organizer 2 and choose *All Mods/Refresh*.
 1. Ensure the DynDOLOD Output mod is active (checked).
