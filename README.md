@@ -2,9 +2,10 @@
 
 **Where to find Dread's Skyrim Build**
 
-The main version of this guide is on the STEP website. A markdown version of the guide can be found on Github and is included with the patches.
+The main version of this guide is on Github Pages. A pure markdown version of the guide is also available and is included with the patches.
 
-- [Github version of the guide](https://github.com/dreadflopp/dreads_modlist_patches/blob/master/README.md)
+- [Github Pages version of the guide](https://dreadflopp.github.io/dreads_modlist_patches/)
+- [Github markdown (readme) version of the guide](https://github.com/dreadflopp/dreads_modlist_patches/blob/master/README.md)
 
 Visit the [STEP forums](https://forum.step-project.com/topic/14888-dreads-skyrim-build-a-step-build/) if you have any questions, suggestions or other feedback.
 
