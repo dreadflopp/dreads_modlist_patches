@@ -5,7 +5,6 @@
 The main version of this guide is on the STEP website. A markdown version of the guide can be found on Github and is included with the patches.
 
 - [Github version of the guide](https://github.com/dreadflopp/dreads_modlist_patches/blob/master/README.md)
-- [The guide section on STEP TBA]()
 
 Visit the [STEP forums](https://forum.step-project.com/topic/14888-dreads-skyrim-build-a-step-build/) if you have any questions, suggestions or other feedback.
 
