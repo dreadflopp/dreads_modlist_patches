@@ -2333,7 +2333,7 @@ Make sure that all LOD Generation texture mods are activated and that the load o
     [![LOD16.png](https://i.postimg.cc/sGzb1bPr/LOD16.png)](https://postimg.cc/sGzb1bPr)
     [![LOD32.png](https://i.postimg.cc/nMtLvz0H/LOD32.png)](https://postimg.cc/nMtLvz0H)
 
-1. Click *Generate* to run the process. This will take ~30 minutes. 
+1. Click *Generate* to run the process. This will take ~50 minutes. 
 1. Once the LOD generation complete message has appeared, close xLODGen.
 
 The generated files needs to be manually moved to the output folder. Cut and paste the files from the LOD generation output folder(... \Modding\Tools\xLODGen\xLODGen_Output\) to the empty mod folder *xLODGen_Output*.
