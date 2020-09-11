@@ -1,3 +1,5 @@
+{::options toc_levels="1..2" /}
+
 **Where to find Dread's Skyrim Build**
 
 The main version of this guide is on the STEP website. A markdown version of the guide can be found on Github and is included with the patches.
@@ -7,13 +9,18 @@ The main version of this guide is on the STEP website. A markdown version of the
 
 Visit the [STEP forums](https://forum.step-project.com/topic/14888-dreads-skyrim-build-a-step-build/) if you have any questions, suggestions or other feedback.
 
+# Table of Contents
+{:.no_toc}
+* Table of Contents is visible on Github pages only
+{:toc}
+
 # Introduction: Welcome to Dread's Skyrim Build
 
 This guide is a STEP build based on the [STEP: Core build](https://www.nexusmods.com/skyrimspecialedition/mods/31054). The STEP team has built a base with mods that enhances and fixes Skyrim without breaking the vanilla look and feel. This guides further enhances Skyrim, adds to it and alters elements of it in several ways. 
 
 **The mods featured in this build are chosen to be immersive and realistic. Realistic in a fantasy setting means believable. The mods should feel like they expand or enhances vanilla Skyrim, like they could have been there from the beginning.**
 
-## What to expect
+### What to expect
 
 * Minimalistic survival mode with Creation Club Survival Mode or the mod The Frozen North which uses the same minimalistic and non-intrusive icons as the Creation Club Survival Mode does.
 * HD textures for landscapes, structures and buildings that keeps the vanilla look and feel.
@@ -34,27 +41,27 @@ This guide is a STEP build based on the [STEP: Core build](https://www.nexusmods
 * New, tougher bandits and dragons.
 * New NPC's and followers.
 
-## This build is made to be easy to install
+### This build is made to be easy to install
 
 * No LOOT rules, every conflict is resolved with the patches. Run LOOT and you are done.
 * No bashed patch. All level list conflicts are resolved by the patches.
 * No merging of plugins. Every patch is esl-flagged to make sure the plugin limit count is not reached.
 * Advanced FOMOD installer for the patches. No need to choose which patches to use, the installer does the work for you.
 
-## Almost all mods are optional
+### Almost all mods are optional
 
 All mods in this build are optional, except for:
 
 * *Unofficial Skyrim Special Edition Patch*.
 * *Cloaks of Skyrim* and *Winter is Coming*. Use them both or not at all.
 
-## Github and Changelog
+### Github and Changelog
 
 To see a changelog, check the commit history of the [Github version](https://github.com/dreadflopp/dreads_modlist_patches/blob/master/README.md) of the guide. If you are unfamilliar with Git and Github, read the following section.
 
 Git is a system for version control used during software development. A project that is version controlled using git is called a repository. A repository may have different branches, which are different development versions of the software. Branches may be merged, commonly into the master branch. I will only use the master branch. Saving file changes to git is called to commit. Git tracks all commits and lets you revert to previous commits. Github is a cloud based repository. I synchronize my local repository against Github. When users download the repository as a zip-file, it can be installed using Mod Organizer 2's fomod-installer (i.e. how you usually install mods). I am not providing a changelog since the commit history works as a changelog. To see the commit history in Github, make sure you are viewing the code tab and click on xxx commits (where xxx is a number) or click on [this link](https://github.com/dreadflopp/dreads_modlist_patches/commits/master).
 
-## What about Weapons Armor Clothing and Clutter Fixes (WACCF) by Kryptopyr?
+### What about Weapons Armor Clothing and Clutter Fixes (WACCF) by Kryptopyr?
 
 WACCF is a great mod that fixes bugs and inconsitencies among weapons, armors, etc. Even though it has the word fixes in its name, it could have been named Weapons Armor Clothing and Clutter *Overhaul*, because it overhauls the weapon and armor stats and progression. To avoid inconsitencies, all mods that add weapons and armors to the game needs to be checked and eventually rebalanced against WACCF. I have decided that isn't something that I want to do, it is just to much work. That said, I still might add it to the guide at a later time. I have had WACCF installed during development and there are unsupported patches for it in the included *old patches* folder.
 
@@ -2422,15 +2429,15 @@ After closing xLODGen, the occlusion data will be in Overwrite:
 
 These are suggested settings. It is recommended to tweak these settings yourself.
 
-## AGO (Archery Gameplay Overhaul)
+### AGO (Archery Gameplay Overhaul)
 
 * Turn off *Arm Fatigue*
 
-## Cathedral Weather
+### Cathedral Weather
 
 * Turn off *Configuration Spell*
 
-## Easy Wheel Menu
+### Easy Wheel Menu
 
 Under *Available Funstions*, turn off functions for mods not installed in this guide:
 
@@ -2440,35 +2447,35 @@ Under *Available Funstions*, turn off functions for mods not installed in this g
 
 Under *Configuration*, change the Wheel Layout. Most of the default entries in the wheel layout are for mods not installed in this guide. To fix this, remove all entries by selecting each one followed by pressing **r** on the keyboard. This should clear all entries one at a time. When all entries are cleared, add the ones you want by clicking on an empty entry.
 
-## Farmhouse Chimneys
+### Farmhouse Chimneys
 
 Under *Mod Support*, turn on support for all Arthmoor's villages. Turn on support for *Helarchen Creek*, *Oakwood* and *Cutting Room Floor*.
 
-## Immersive Hud
+### Immersive Hud
 
 Turn on *Key press toggles*.
 
-## Lock Overhaul
+### Lock Overhaul
 
 Activate the mod
 
-## More Hud
+### More Hud
 
 Under *Enemy's Level*, turn off *Show Magicka Meter* and *Show Stamina Meter*.
 
-## OBIS
+### OBIS
 
 Enable the mod. Under *Special*, enable *Minotaurs* and *Spiders*.
 
-## OBIS - Patrols
+### OBIS - Patrols
 
 Enable the mod.
 
-## Realistic Water Two
+### Realistic Water Two
 
 Enable *Blacksmith Forge Water* for *The Fall of Granite Hill, *Kynesgrove* and *Rorikstead*. After Granite Hill has been destroyed, uncheck the option for it.
 
-## Trade and Barter
+### Trade and Barter
 
 Users of *Adamant* needs to adjust the settings of *Trade And Barter* to mimic those from *Adamant*
 
