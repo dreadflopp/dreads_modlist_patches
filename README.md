@@ -2193,9 +2193,9 @@ In the installer, choose to install nothing except:
     * Lucien - Fully Voiced Follower
     * JK's Skyrim
 
-#### [Dread's modlist patches](https://github.com/dreadflopp/dreads_modlist_patches)
+#### [Dread's modlist patches](https://github.com/dreadflopp/dreads_modlist_patches/archive/master.zip)
 
-To download, click the button *Clone or download* and choose *download zip*.
+To download, click the link above or download from Github by clicking the button *Clone or download* and choose *download zip*.
 
 The fomod installer will automatically select all mods you use. Select the tweaks you want to use.
 
