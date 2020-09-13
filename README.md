@@ -1,4 +1,6 @@
-{::options toc_levels="1..2" /}
+---
+layout: home
+---
 
 **Where to find Dread's Skyrim Build**
 
@@ -8,11 +10,6 @@ The main version of this guide is on Github Pages. A pure markdown version of th
 - [Github markdown (readme) version of the guide](https://github.com/dreadflopp/dreads_modlist_patches/blob/master/README.md)
 
 Visit the [STEP forums](https://forum.step-project.com/topic/14888-dreads-skyrim-build-a-step-build/) if you have any questions, suggestions or other feedback.
-
-# Table of Contents
-{:.no_toc}
-* Table of Contents is visible on Github pages only
-{:toc}
 
 # Introduction: Welcome to Dread's Skyrim Build
 
