@@ -1,6 +1,9 @@
 ---
 permalink: index.html
-layout: home
+author_profile: false
+sidebar:
+  nav: "sidebar"
+layout: single
 ---
 
 **Where to find Dread's Skyrim Build**
@@ -12,7 +15,8 @@ The main version of this guide is on Github Pages. A pure markdown version of th
 
 Visit the [STEP forums](https://forum.step-project.com/topic/14888-dreads-skyrim-build-a-step-build/) if you have any questions, suggestions or other feedback.
 
-# Introduction: Welcome to Dread's Skyrim Build
+# Introduction
+#### Welcome to Dread's Skyrim Build
 
 This guide is a STEP build based on the [STEP: Core build](https://www.nexusmods.com/skyrimspecialedition/mods/31054). The STEP team has built a base with mods that enhances and fixes Skyrim without breaking the vanilla look and feel. This guides further enhances Skyrim, adds to it and alters elements of it in several ways. 
 
@@ -63,7 +67,8 @@ Git is a system for version control used during software development. A project 
 
 WACCF is a great mod that fixes bugs and inconsitencies among weapons, armors, etc. Even though it has the word fixes in its name, it could have been named Weapons Armor Clothing and Clutter *Overhaul*, because it overhauls the weapon and armor stats and progression. To avoid inconsitencies, all mods that add weapons and armors to the game needs to be checked and eventually rebalanced against WACCF. I have decided that isn't something that I want to do, it is just to much work. That said, I still might add it to the guide at a later time. I have had WACCF installed during development and there are unsupported patches for it in the included *old patches* folder.
 
-# Preparations: Game Installation and modding setup
+# Preparations
+#### Game Installation and modding setup
 
 Follow the [system setup guide](https://wiki.step-project.com/Guide:SystemSetupGuide). The system setup guide ensures that all game files are fresh and prompts you to create a basic modding folder structure to install tools into. This guide uses the folder structure from the system setup guide in its instructions. Users that deviates from the system setup guide needs to be aware of this and adjust the instructions accordingly to their installation and modding paths.
 
@@ -92,7 +97,8 @@ c:\
 * Main game folder: c:\Modding\Tools\Steam\Steamapps\common\Skyrim Special Edition
 * Data folder: c:\Modding\Tools\Steam\Steamapps\common\Skyrim Special Edition\Data
 
-# Tools: Tool Installation and setup
+# Tools
+#### Tool Installation and setup
 
 ## [Creation Kit](http://download.cdp.bethesda.net/BethesdaNetLauncher_Setup.exe)
 
@@ -298,7 +304,8 @@ Use the following settings:
 On the *Basic* tab, click the **Save and Exit** button.
 
 
-# Procedures: Common modding procedures
+# Procedures
+#### Common modding procedures
 
 ## Using Mod Organizer 2
 
@@ -401,7 +408,8 @@ At this point, the Bethesda masters should be cleaned and the mod list order sho
 1. DLC: Dragonborn.esm
 1. Cleaned Vanilla Masters
 
-# Mod Installation: The mod list
+# Mod Installation
+#### The mod list
 
 Some things needs to be considered before installing the mods:
 
@@ -2250,7 +2258,8 @@ Install using the following instructions:
 ### [SSE-Terrain-Tamriel](https://forum.step-project.com/topic/13451-xlodgen-terrain-lod-beta-for-fnv-fo3-fo4-fo4vr-tes5-sse-tes5vr-enderal/)
 Download the recommended optional *SSE-Terrain-Tamriel.esm* listed at the end of the first post. Create an empty mod in Mod Organizer 2 and place the downloaded file inside.
 
-# Post Installation: Final steps
+# Post Installation
+#### Final steps
 
 ## Output data
 Move all outpout data mods and the output data seperator, placing them last in the install order.
@@ -2418,7 +2427,8 @@ After closing xLODGen, the occlusion data will be in Overwrite:
 1. Close the window.
 1. Ensure the *Occlusion_Data* mod is active (checked).
 
-# Mod Configuration (MCM)
+# MCM
+#### Mod Configuration
 
 These are suggested settings. It is recommended to tweak these settings yourself.
 
