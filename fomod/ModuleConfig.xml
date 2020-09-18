@@ -3802,17 +3802,6 @@ The tweak includes the following changes:
 			</pattern>
 			<!-- ***************************** -->
 
-			<!-- No Hanging Moss-->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="nomoss" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_noHangingMossOnTrees.esp" destination="df_noHangingMossOnTrees.esp" priority="0" />
-				</files>
-			</pattern>
-			<!-- ******************************** -->
-
 			<!-- Relighting Skyrim -->
 			<pattern>
 				<dependencies operator="And">
