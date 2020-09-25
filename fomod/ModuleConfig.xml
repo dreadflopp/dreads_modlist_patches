@@ -632,24 +632,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="Critters ain't Snithches">
-							<conditionFlags>
-								<flag name="cas">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="CrittersAintSnitches.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
 						<plugin name="Ragdoll Paralysis">
 							<conditionFlags>
 								<flag name="paralyze">On</flag>
@@ -3593,15 +3575,6 @@ The tweak includes the following changes:
 				</dependencies>
 				<files>
 					<file source="df_Falskaar.esp" destination="df_Falskaar.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="falskaar" value="On"/>
-					<flagDependency flag="cas" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Falskaar-CrittersAintSnitches.esp" destination="df_Falskaar-CrittersAintSnitches.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
