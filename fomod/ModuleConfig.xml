@@ -632,6 +632,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="NARC Remade - No Animals Report Crimes for Skyrim SE">
+							<conditionFlags>
+								<flag name="narc">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="NARC SE for Vanilla.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Ragdoll Paralysis">
 							<conditionFlags>
 								<flag name="paralyze">On</flag>
@@ -5538,6 +5556,63 @@ The tweak includes the following changes:
 					<file source="df_USSEP-SurvivalWarmthRatings.esl" destination="df_USSEP-SurvivalWarmthRatings.esl" priority="0" />
 				</files>
 			</pattern>	
+			<!-- **************************-->
+
+			<!-- NARC -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="narc" value="On"/>	
+					<flagDependency flag="deadlydragons" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_NARC-DeadlyDragons.esp" destination="df_NARC-DeadlyDragons.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="narc" value="On"/>	
+					<flagDependency flag="falskaar" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_NARC-Falskaar.esp" destination="df_NARC-Falskaar.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="narc" value="On"/>	
+					<flagDependency flag="forgottencity" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_NARC-ForgottenCity.esp" destination="df_NARC-ForgottenCity.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="narc" value="On"/>	
+					<flagDependency flag="graycowl" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_NARC-GrayCowlOfNocturnal.esp" destination="df_NARC-GrayCowlOfNocturnal.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="narc" value="On"/>	
+					<flagDependency flag="immersivehorses" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_NARC-ImmersiveHorses.esp" destination="df_NARC-ImmersiveHorses.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="narc" value="On"/>	
+					<flagDependency flag="obis" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_NARC-OBIS.esp" destination="df_NARC-OBIS.esp" priority="0" />
+				</files>
+			</pattern>
 			<!-- **************************-->
 
 			<!-- Masque Of Argonian Vile -->
