@@ -5174,6 +5174,17 @@ The tweak includes the following changes:
 			</pattern>
 			<pattern>
 				<dependencies operator="And">
+					<flagDependency flag="aio" value="On"/>
+					<flagDependency flag="diversity" value="Off"/>
+					<flagDependency flag="cop" value="On"/>
+					<flagDependency flag="dragonbridge" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AIOverhaul-DragonBridge.esp" destination="df_AIOverhaul-DragonBridge.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
 					<flagDependency flag="aio" value="Off"/>
 					<flagDependency flag="diversity" value="On"/>
 					<flagDependency flag="cop" value="Off"/>
@@ -5217,7 +5228,18 @@ The tweak includes the following changes:
 					<flagDependency flag="3dnpc" value="On"/>
 				</dependencies>
 				<files>
-					<file source="df_AIOverhaul-3DNPC.esp" destination="df_AIOverhaul-DragonBridge.esp" priority="0" />
+					<file source="df_AIOverhaul-3DNPC.esp" destination="df_AIOverhaul-3DNPC.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aio" value="On"/>
+					<flagDependency flag="diversity" value="Off"/>
+					<flagDependency flag="cop" value="On"/>
+					<flagDependency flag="3dnpc" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AIOverhaul-3DNPC.esp" destination="df_AIOverhaul-3DNPC.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
@@ -5262,6 +5284,17 @@ The tweak includes the following changes:
 					<flagDependency flag="aio" value="On"/>
 					<flagDependency flag="diversity" value="Off"/>
 					<flagDependency flag="cop" value="Off"/>
+					<flagDependency flag="cloaks" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AIOverhaul-Cloaks.esp" destination="df_AIOverhaul-Cloaks.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aio" value="On"/>
+					<flagDependency flag="diversity" value="Off"/>
+					<flagDependency flag="cop" value="On"/>
 					<flagDependency flag="cloaks" value="On"/>
 				</dependencies>
 				<files>
