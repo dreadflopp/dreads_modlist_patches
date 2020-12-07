@@ -13,57 +13,60 @@
 IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these patches.]]>
 							</description>
 							<conditionFlags>
-								<flag name="ussep">On</flag>
-								<flag name="crf">Off</flag>
-								<flag name="brotherhoodofold">Off</flag>
-								<flag name="aos">Off</flag>
-								<flag name="uu">Off</flag>
-								<flag name="rls">Off</flag>
-								<flag name="blt">Off</flag>
-								<flag name="smoothshores">Off</flag>
-								<flag name="landscapeandwaterfixes">Off</flag>
-								<flag name="raid">Off</flag>
-								<flag name="obis">Off</flag>
-								<flag name="adamant">Off</flag>
-								<flag name="mysticism">Off</flag>
-								<flag name="graycowl">Off</flag>
 								<flag name="3dnpc">Off</flag>	
-								<flag name="moonpath">Off</flag>	
-								<flag name="wyrmstooth">Off</flag>	
-								<flag name="bandolier">Off</flag>	
-								<flag name="cloaks">Off</flag>	
+								<flag name="aa-ha-tweaks">Off</flag>
+								<flag name="adamant">Off</flag>
 								<flag name="aetherius">Off</flag>	
-								<flag name="lenient">Off</flag>	
-								<flag name="rw2">Off</flag>
-								<flag name="oap">Off</flag>	
-								<flag name="imp">Off</flag>	
+								<flag name="aio">Off</flag>
+								<flag name="animatedarmoury">Off</flag>
+								<flag name="animatedarmoury">Off</flag>
+								<flag name="aos">Off</flag>
+								<flag name="arsmetallica">Off</flag>		
+								<flag name="bandolier">Off</flag>	
+								<flag name="blacksacramenttweaks">Off</flag>	 
+								<flag name="blt">Off</flag>
 								<flag name="bqo">Off</flag>	
-								<flag name="radiantblocker">Off</flag>	
-								<flag name="hbr">Off</flag>	
+								<flag name="brotherhoodofold">Off</flag>
 								<flag name="ccsurvival">Off</flag>
-								<flag name="mundus">Off</flag>		
-								<flag name="lenient">Off</flag>	
-								<flag name="jks">Off</flag>
-								<flag name="kagrenac">Off</flag>	
-								<flag name="forgottencity">Off</flag>	
-								<flag name="tradebarter">Off</flag>
-								<flag name="ha">Off</flag>		
+								<flag name="cloaks">Off</flag>	
+								<flag name="cop">Off</flag>
+								<flag name="crf">Off</flag>
 								<flag name="dawnguardarsenal">Off</flag>
 								<flag name="dawnguardhoods">Off</flag>		
-								<flag name="arsmetallica">Off</flag>		
-								<flag name="scoutarmortweaks">Off</flag>
-								<flag name="scoutarmor">Off</flag>	
-								<flag name="blacksacramenttweaks">Off</flag>	 
-								<flag name="hllr-aa">Off</flag>		
-								<flag name="hllr-ha">Off</flag>	
-								<flag name="hllr-core">Off</flag>		
-								<flag name="hllr-tweaks">Off</flag>					
-								<flag name="animatedarmoury">Off</flag>
-								<flag name="animatedarmoury">Off</flag>
-								<flag name="aa-ha-tweaks">Off</flag>
 								<flag name="diversity">Off</flag>
-								<flag name="aio">Off</flag>
-								<flag name="cop">Off</flag>
+								<flag name="forgottencity">Off</flag>	
+								<flag name="graycowl">Off</flag>
+								<flag name="ha">Off</flag>		
+								<flag name="hbr">Off</flag>	
+								<flag name="hllr-aa">Off</flag>		
+								<flag name="hllr-core">Off</flag>		
+								<flag name="hllr-ha">Off</flag>	
+								<flag name="hllr-tweaks">Off</flag>					
+								<flag name="ice-qt">Off</flag>
+								<flag name="imp">Off</flag>	
+								<flag name="jks">Off</flag>
+								<flag name="kagrenac">Off</flag>	
+								<flag name="landscapeandwaterfixes">Off</flag>
+								<flag name="lenient">Off</flag>	
+								<flag name="lenient">Off</flag>	
+								<flag name="mcwt-ii">Off</flag>
+								<flag name="mcwt-ii-bqo">Off</flag>
+								<flag name="moonpath">Off</flag>	
+								<flag name="mundus">Off</flag>		
+								<flag name="mysticism">Off</flag>
+								<flag name="oap">Off</flag>	
+								<flag name="obis">Off</flag>
+								<flag name="radiantblocker">Off</flag>	
+								<flag name="raid">Off</flag>
+								<flag name="rls">Off</flag>
+								<flag name="rw2">Off</flag>
+								<flag name="scoutarmor">Off</flag>	
+								<flag name="scoutarmortweaks">Off</flag>
+								<flag name="smoothshores">Off</flag>
+								<flag name="tradebarter">Off</flag>
+								<flag name="ussep">On</flag>
+								<flag name="uu">Off</flag>
+								<flag name="wyrmstooth">Off</flag>	
 							</conditionFlags>
 							<typeDescriptor>
 								<dependencyType>
@@ -1528,7 +1531,25 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>						
+						</plugin>		
+						<plugin name="Improved College Entry - Questline Tweaks">
+							<conditionFlags>
+								<flag name="ice-qt">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="CollegeEntry.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>				
 						<plugin name="Improved Companions - Questline Tweaks">
 							<conditionFlags>
 								<flag name="ic-qt">On</flag>
@@ -1547,6 +1568,42 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="Misc. College of Winterhold Tweaks - Inescapable Insights">
+							<conditionFlags>
+								<flag name="mcwt-ii">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="MCWT_InescapableInsights.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Misc. College of Winterhold Tweaks - Inescapable Insights BQO version">
+							<conditionFlags>
+								<flag name="mcwt-ii-bqo">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="MCWT_InescapableInsights_EBQO.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>						
 						<plugin name="Moon and Star">
 							<conditionFlags>
 								<flag name="mas">On</flag>
@@ -4527,7 +4584,7 @@ The tweak includes the following changes:
 					<flagDependency flag="radiantblocker" value="On"/>
 				</dependencies>
 				<files>
-					<file source="df_HigherBountyRewards-TacticalValtheimRadiantExclusions-BetterQuestObjectives.esp" destination="df_HigherBountyRewards-TacticalValtheimRadiantExclusions-BetterQuestObjectives.esp" priority="0" />
+					<file source="df_TacticalValtheimRadiantBlocker-HigherBountyRewards-BetterQuestObjectives.esp" destination="df_TacticalValtheimRadiantBlocker-HigherBountyRewards-BetterQuestObjectives.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
@@ -4547,7 +4604,7 @@ The tweak includes the following changes:
 					<flagDependency flag="radiantblocker" value="On"/>
 				</dependencies>
 				<files>
-					<file source="df_HigherBountyRewards-TacticalValtheimRadiantExclusions.esp" destination="df_HigherBountyRewards-TacticalValtheimRadiantExclusions.esp" priority="0" />
+					<file source="df_TacticalValtheimRadiantBlocker-HigherBountyRewards.esp" destination="df_TacticalValtheimRadiantBlocker-HigherBountyRewards.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
@@ -4560,19 +4617,147 @@ The tweak includes the following changes:
 					<file source="df_HigherBountyRewards.esp" destination="df_HigherBountyRewards.esp" priority="0" />
 				</files>
 			</pattern>
-			<!-- ******************************* -->
-
-			<!-- Tactical Valtheim -->	
 			<pattern>
 				<dependencies operator="And">
-					<flagDependency flag="radiantblocker" value="On"/>
-					<flagDependency flag="bqo" value="On"/>
 					<flagDependency flag="hbr" value="Off"/>
+					<flagDependency flag="bqo" value="On"/>
+					<flagDependency flag="radiantblocker" value="On"/>
 				</dependencies>
 				<files>
 					<file source="df_TacticalValtheimRadiantBlocker-BetterQuestObjectives.esp" destination="df_TacticalValtheimRadiantBlocker-BetterQuestObjectives.esp" priority="0" />
 				</files>
 			</pattern>
+			<!-- *************************** -->
+
+			<!-- Higher Bounty Rewards, Tactical Valtheim, MCWT, MGR21 -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="mcwt-ii" value="On"/>
+					<flagDependency flag="mcwt-ii-bqo" value="Off"/>
+					<flagDependency flag="bqo" value="Off"/>
+					<flagDependency flag="ice-qt" value="On"/>
+					<flagDependency flag="radiantblocker" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_MCWTInescapableInsights-ImprovedCollegeEntry.esp" destination="df_MCWTInescapableInsights-ImprovedCollegeEntry.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="mcwt-ii" value="On"/>
+					<flagDependency flag="mcwt-ii-bqo" value="Off"/>
+					<flagDependency flag="bqo" value="Off"/>
+					<flagDependency flag="ice-qt" value="Off"/>
+					<flagDependency flag="radiantblocker" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_TacticalValtheimRadiantBlocker-MCWTInescapableInsights.esp" destination="df_TacticalValtheimRadiantBlocker-MCWTInescapableInsights.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="mcwt-ii" value="On"/>
+					<flagDependency flag="mcwt-ii-bqo" value="Off"/>
+					<flagDependency flag="bqo" value="Off"/>
+					<flagDependency flag="ice-qt" value="On"/>
+					<flagDependency flag="radiantblocker" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_TacticalValtheimRadiantBlocker-MCWTInescapableInsights-ImprovedCollegeEntry.esp" destination="df_TacticalValtheimRadiantBlocker-MCWTInescapableInsights-ImprovedCollegeEntry.esp" priority="0" />
+				</files>
+			</pattern>
+
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="mcwt-ii" value="Off"/>
+					<flagDependency flag="mcwt-ii-bqo" value="On"/>
+					<flagDependency flag="bqo" value="On"/>
+					<flagDependency flag="ice-qt" value="On"/>
+					<flagDependency flag="radiantblocker" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_MCWTInescapableInsightsBQO-ImprovedCollegeEntry.esp" destination="df_MCWTInescapableInsightsBQO-ImprovedCollegeEntry.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="mcwt-ii" value="Off"/>
+					<flagDependency flag="mcwt-ii-bqo" value="On"/>
+					<flagDependency flag="bqo" value="On"/>
+					<flagDependency flag="ice-qt" value="Off"/>
+					<flagDependency flag="radiantblocker" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_TacticalValtheimRadiantBlocker-MCWTInescapableInsightsBQO.esp" destination="df_TacticalValtheimRadiantBlocker-MCWTInescapableInsightsBQO.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="mcwt-ii" value="Off"/>
+					<flagDependency flag="mcwt-ii-bqo" value="On"/>
+					<flagDependency flag="bqo" value="On"/>
+					<flagDependency flag="ice-qt" value="On"/>
+					<flagDependency flag="radiantblocker" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_TacticalValtheimRadiantBlocker-MCWTInescapableInsightsBQO-ImprovedCollegeEntry.esp" destination="df_TacticalValtheimRadiantBlocker-MCWTInescapableInsightsBQO-ImprovedCollegeEntry.esp" priority="0" />
+				</files>
+			</pattern>
+
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="mcwt-ii" value="Off"/>
+					<flagDependency flag="mcwt-ii-bqo" value="Off"/>
+					<flagDependency flag="bqo" value="On"/>
+					<flagDependency flag="ice-qt" value="On"/>
+					<flagDependency flag="radiantblocker" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_ImprovedCollegeEntry-BetterQuestObjectives.esp" destination="df_ImprovedCollegeEntry-BetterQuestObjectives.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="mcwt-ii" value="Off"/>
+					<flagDependency flag="mcwt-ii-bqo" value="Off"/>
+					<flagDependency flag="bqo" value="On"/>
+					<flagDependency flag="ice-qt" value="Off"/>
+					<flagDependency flag="radiantblocker" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_TacticalValtheimRadiantBlocker-BetterQuestObjectivesComplement.esp" destination="df_TacticalValtheimRadiantBlocker-BetterQuestObjectivesComplement.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="mcwt-ii" value="Off"/>
+					<flagDependency flag="mcwt-ii-bqo" value="Off"/>
+					<flagDependency flag="bqo" value="On"/>
+					<flagDependency flag="ice-qt" value="On"/>
+					<flagDependency flag="radiantblocker" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_TacticalValtheimRadiantBlocker-BetterQuestObjectives-ImprovedCollegeEntry.esp" destination="df_TacticalValtheimRadiantBlocker-BetterQuestObjectives-ImprovedCollegeEntry.esp" priority="0" />
+				</files>
+			</pattern>
+
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="mcwt-ii" value="Off"/>
+					<flagDependency flag="mcwt-ii-bqo" value="Off"/>
+					<flagDependency flag="bqo" value="Off"/>
+					<flagDependency flag="ice-qt" value="On"/>
+					<flagDependency flag="radiantblocker" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_TacticalValtheimRadiantBlocker-ImprovedCollegeEntry.esp" destination="df_TacticalValtheimRadiantBlocker-ImprovedCollegeEntry.esp" priority="0" />
+				</files>
+			</pattern>
+
+			<!-- ******************************* -->
+
+			<!-- Tactical Valtheim -->	
+			
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="radiantblocker" value="On"/>
