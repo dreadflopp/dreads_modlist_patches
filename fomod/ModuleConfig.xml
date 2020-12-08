@@ -3640,6 +3640,15 @@ The tweak includes the following changes:
 					<file source="df_DeadlyDragons-ShorsStone.esp" destination="df_DeadlyDragons-ShorsStone.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="deadlydragons" value="On"/>
+					<flagDependency flag="wyrmstooth" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_DeadlyDragons-Wyrmstooth.esp" destination="df_DeadlyDragons-Wyrmstooth.esp" priority="0" />
+				</files>
+			</pattern>
 
 			<!-- ************************************ -->
 
