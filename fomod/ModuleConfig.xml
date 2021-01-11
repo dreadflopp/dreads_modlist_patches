@@ -138,25 +138,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			</visible>
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
-					<plugins order="Explicit">						
-						<plugin name="Better Dynamic Snow">
-							<conditionFlags>
-								<flag name="bds">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="Better Dynamic Snow.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
+					<plugins order="Explicit">
 						<plugin name="Book Covers Skyrim - Lost Library">
 							<conditionFlags>
 								<flag name="lostlibrary">On</flag>
@@ -3880,16 +3862,6 @@ The tweak includes the following changes:
 			</pattern>
 			<!-- ********************************* -->
 
-			<!-- Better Dynamic Snow -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="bds" value="On"/>
-					<flagDependency flag="windhelmlighthouse" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_BetterDynamicSnow-WindhelmLighthouse.esp" destination="df_BetterDynamicSnow-WindhelmLighthouse.esp" priority="0" />
-				</files>
-			</pattern>
 			<!-- ********************************* -->
 
 			<!-- Book Covers Skyrim-->
