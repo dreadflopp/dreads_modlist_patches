@@ -97,8 +97,8 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			</optionalFileGroups>
 		</installStep>
 
-		<!-- Foundational Mods -->
-		<installStep name="Foundational Mods">
+		<!-- Foundation -->
+		<installStep name="Foundation">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="ussep" value="On"/>
@@ -130,8 +130,8 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			</optionalFileGroups>
 		</installStep>
 
-		<!-- Audiovisual - Models & Textures -->
-		<installStep name="Audiovisual - Models &amp; Textures">
+		<!-- Models & Textures -->
+		<installStep name="Models &amp; Textures">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="ussep" value="On"/>
@@ -140,6 +140,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
+						<plugin name="Bent Pines II">
+							<conditionFlags>
+								<flag name="bentpines">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="BentPines.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Book Covers Skyrim - Lost Library">
 							<conditionFlags>
 								<flag name="lostlibrary">On</flag>
@@ -397,41 +415,8 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			</optionalFileGroups>
 		</installStep>
 
-		<!-- Audiovisual - Trees & Vegetation -->
-		<installStep name="Audiovisual - Trees &amp; Vegetation">
-			<visible>
-				<dependencies operator="And">
-					<flagDependency flag="ussep" value="On"/>
-				</dependencies>
-			</visible>
-			<optionalFileGroups order="Explicit">
-				<group name="Choose" type="SelectAny">
-					<plugins order="Explicit">
-						<plugin name="Bent Pines II">
-							<conditionFlags>
-								<flag name="bentpines">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="BentPines.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
-					</plugins>
-				</group>
-			</optionalFileGroups>
-		</installStep>
-
-		<!-- Audiovisual - Sounds & Music -->
-		<installStep name="Audiovisual - Sounds &amp; Music">
+		<!-- Sounds & Music -->
+		<installStep name="Sounds &amp; Music">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="ussep" value="On"/>
@@ -2676,8 +2661,8 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			</optionalFileGroups>
 		</installStep>
 
-		<!-- Audiovisual - Lighting & Weather -->
-		<installStep name="Audiovisual - Lighting &amp; Weather">
+		<!-- Lighting & Weather -->
+		<installStep name="Lighting &amp; Weather">
 			<visible>
 				<dependencies operator="And">
 					<flagDependency flag="ussep" value="On"/>
