@@ -34,6 +34,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="dawnguardarsenal">Off</flag>
 								<flag name="dawnguardhoods">Off</flag>		
 								<flag name="diversity">Off</flag>
+								<flag name="factionfixes">Off</flag>
 								<flag name="forgottencity">Off</flag>	
 								<flag name="graycowl">Off</flag>
 								<flag name="ha">Off</flag>		
@@ -752,6 +753,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="DSerArcheryGameplayOverhaul.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>						
+						<plugin name="Faction Fixes SE">
+							<conditionFlags>
+								<flag name="factionfixes">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Faction_Fixes_Vanilla.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -5757,7 +5776,7 @@ The tweak includes the following changes:
 			</pattern>	
 			<!-- **************************-->
 
-			<!-- NARC -->
+			<!-- NARC & Faction Fixes-->
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="narc" value="On"/>	
@@ -5807,11 +5826,43 @@ The tweak includes the following changes:
 				<dependencies operator="And">
 					<flagDependency flag="narc" value="On"/>	
 					<flagDependency flag="obis" value="On"/>	
+					<flagDependency flag="factionfixes" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_NARC-OBIS.esp" destination="df_NARC-OBIS.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="narc" value="On"/>	
+					<flagDependency flag="obis" value="Off"/>	
+					<flagDependency flag="factionfixes" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_NARC-FactionFixes.esp" destination="df_NARC-FactionFixes.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="narc" value="Off"/>	
+					<flagDependency flag="obis" value="On"/>	
+					<flagDependency flag="factionfixes" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_OBIS-FactionFixes.esp" destination="df_OBIS-FactionFixes.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="narc" value="On"/>	
+					<flagDependency flag="obis" value="On"/>	
+					<flagDependency flag="factionfixes" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_NARC-OBIS-FactionFixes.esp" destination="df_NARC-OBIS-FactionFixes.esp" priority="0" />
+				</files>
+			</pattern>
+
 			<!-- **************************-->
 
 			<!-- Masque Of Argonian Vile -->
