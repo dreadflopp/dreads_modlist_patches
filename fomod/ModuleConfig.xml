@@ -19,7 +19,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="aetherius">Off</flag>	
 								<flag name="aio">Off</flag>
 								<flag name="animatedarmoury">Off</flag>
-								<flag name="animatedarmoury">Off</flag>
 								<flag name="aos">Off</flag>
 								<flag name="arsmetallica">Off</flag>		
 								<flag name="bandolier">Off</flag>	
@@ -39,6 +38,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="graycowl">Off</flag>
 								<flag name="ha">Off</flag>		
 								<flag name="hbr">Off</flag>	
+								<flag name="hearthfirextd">Off</flag>
 								<flag name="hllr-aa">Off</flag>		
 								<flag name="hllr-core">Off</flag>		
 								<flag name="hllr-ha">Off</flag>	
@@ -63,6 +63,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="rw2">Off</flag>
 								<flag name="scoutarmor">Off</flag>	
 								<flag name="scoutarmortweaks">Off</flag>
+								<flag name="silverarrows">Off</flag>
 								<flag name="smoothshores">Off</flag>
 								<flag name="tradebarter">Off</flag>
 								<flag name="ussep">On</flag>
@@ -2117,6 +2118,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="Silver Arrows">
+							<conditionFlags>
+								<flag name="silverarrows">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Silver_Arrows.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Staff of Shegorath">
 							<conditionFlags>
 								<flag name="staffofshegorath">On</flag>
@@ -2204,7 +2223,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>	
-
 						<plugin name="Cutting Room Floor">
 							<conditionFlags>
 								<flag name="crf">On</flag>
@@ -2270,6 +2288,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="Falskaar - Boat Location.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Hearthfire Extended">
+							<conditionFlags>
+								<flag name="hearthfirextd">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="hearthfireextended.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -3807,15 +3843,6 @@ The tweak includes the following changes:
 			<!-- ************************************* -->
 
 			<!-- Trade And Barter -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="ha" value="On"/>
-					<flagDependency flag="tradebarter" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_HeavyArmory-TradeAndBarter.esp" destination="df_HeavyArmory-TradeAndBarter.esp" priority="0" />
-				</files>
-			</pattern>
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="tradebarter" value="On"/>
@@ -5849,6 +5876,273 @@ The tweak includes the following changes:
 			</pattern>
 
 			<!-- **************************-->
+
+			<!-- Caravan chest patches -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="silverarrows" value="Off"/>
+					<flagDependency flag="tradebarter" value="Off"/>
+					<flagDependency flag="hearthfirextd" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_AA-HA.esp" destination="df_caravanChest_AA-HA.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="ha" value="Off"/>
+					<flagDependency flag="silverarrows" value="On"/>
+					<flagDependency flag="tradebarter" value="Off"/>
+					<flagDependency flag="hearthfirextd" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_AA-SA.esp" destination="df_caravanChest_AA-SA.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="ha" value="Off"/>
+					<flagDependency flag="silverarrows" value="Off"/>
+					<flagDependency flag="tradebarter" value="On"/>
+					<flagDependency flag="hearthfirextd" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_AA-TAB.esp" destination="df_caravanChest_AA-TAB.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="ha" value="Off"/>
+					<flagDependency flag="silverarrows" value="Off"/>
+					<flagDependency flag="tradebarter" value="Off"/>
+					<flagDependency flag="hearthfirextd" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_AA-HE.esp" destination="df_caravanChest_AA-HE.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="silverarrows" value="On"/>
+					<flagDependency flag="tradebarter" value="Off"/>
+					<flagDependency flag="hearthfirextd" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_AA-HA-SA.esp" destination="df_caravanChest_AA-HA-SA.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="silverarrows" value="Off"/>
+					<flagDependency flag="tradebarter" value="On"/>
+					<flagDependency flag="hearthfirextd" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_AA-HA-TAB.esp" destination="df_caravanChest_AA-HA-TAB.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="silverarrows" value="Off"/>
+					<flagDependency flag="tradebarter" value="Off"/>
+					<flagDependency flag="hearthfirextd" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_AA-HA-HE.esp" destination="df_caravanChest_AA-HA-HE.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="silverarrows" value="On"/>
+					<flagDependency flag="tradebarter" value="On"/>
+					<flagDependency flag="hearthfirextd" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_AA-HA-SA-TAB.esp" destination="df_caravanChest_AA-HA-SA-TAB.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="silverarrows" value="On"/>
+					<flagDependency flag="tradebarter" value="Off"/>
+					<flagDependency flag="hearthfirextd" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_AA-HA-SA-HE.esp" destination="df_caravanChest_AA-HA-SA-HE.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="silverarrows" value="On"/>
+					<flagDependency flag="tradebarter" value="On"/>
+					<flagDependency flag="hearthfirextd" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_AA-HA-SA-TAB-HE.esp" destination="df_caravanChest_AA-HA-SA-TAB-HE.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="Off"/>
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="silverarrows" value="On"/>
+					<flagDependency flag="tradebarter" value="Off"/>
+					<flagDependency flag="hearthfirextd" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_HA-SA.esp" destination="df_caravanChest_HA-SA.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="Off"/>
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="silverarrows" value="Off"/>
+					<flagDependency flag="tradebarter" value="On"/>
+					<flagDependency flag="hearthfirextd" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_HA-TAB.esp" destination="df_caravanChest_HA-TAB.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="Off"/>
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="silverarrows" value="Off"/>
+					<flagDependency flag="tradebarter" value="Off"/>
+					<flagDependency flag="hearthfirextd" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_HA-HE.esp" destination="df_caravanChest_HA-HE.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="Off"/>
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="silverarrows" value="On"/>
+					<flagDependency flag="tradebarter" value="On"/>
+					<flagDependency flag="hearthfirextd" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_HA-SA-TAB.esp" destination="df_caravanChest_HA-SA-TAB.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="Off"/>
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="silverarrows" value="On"/>
+					<flagDependency flag="tradebarter" value="Off"/>
+					<flagDependency flag="hearthfirextd" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_HA-SA-HE.esp" destination="df_caravanChest_HA-SA-HE.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="Off"/>
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="silverarrows" value="On"/>
+					<flagDependency flag="tradebarter" value="On"/>
+					<flagDependency flag="hearthfirextd" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_HA-SA-TAB-HE.esp" destination="df_caravanChest_HA-SA-TAB-HE.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="Off"/>
+					<flagDependency flag="ha" value="Off"/>
+					<flagDependency flag="silverarrows" value="On"/>
+					<flagDependency flag="tradebarter" value="On"/>
+					<flagDependency flag="hearthfirextd" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_SA-TAB.esp" destination="df_caravanChest_SA-TAB.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="Off"/>
+					<flagDependency flag="ha" value="Off"/>
+					<flagDependency flag="silverarrows" value="On"/>
+					<flagDependency flag="tradebarter" value="Off"/>
+					<flagDependency flag="hearthfirextd" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_SA-HE.esp" destination="df_caravanChest_SA-HE.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="Off"/>
+					<flagDependency flag="ha" value="Off"/>
+					<flagDependency flag="silverarrows" value="On"/>
+					<flagDependency flag="tradebarter" value="On"/>
+					<flagDependency flag="hearthfirextd" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_SA-TAB-HE.esp" destination="df_caravanChest_SA-TAB-HE.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="Off"/>
+					<flagDependency flag="ha" value="Off"/>
+					<flagDependency flag="silverarrows" value="Off"/>
+					<flagDependency flag="tradebarter" value="On"/>
+					<flagDependency flag="hearthfirextd" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_TAB-HE.esp" destination="df_caravanChest_TAB-HE.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="On"/>
+					<flagDependency flag="ha" value="Off"/>
+					<flagDependency flag="silverarrows" value="Off"/>
+					<flagDependency flag="tradebarter" value="Off"/>
+					<flagDependency flag="hearthfirextd" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_AA.esp" destination="df_caravanChest_AA.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="animatedarmoury" value="Off"/>
+					<flagDependency flag="ha" value="On"/>
+					<flagDependency flag="silverarrows" value="Off"/>
+					<flagDependency flag="tradebarter" value="Off"/>
+					<flagDependency flag="hearthfirextd" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_caravanChest_HA.esp" destination="df_caravanChest_HA.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- *********************************-->
 
 			<!-- Masque Of Argonian Vile -->
 			<pattern>
