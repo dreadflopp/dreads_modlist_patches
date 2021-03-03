@@ -159,6 +159,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="Better Dynamic Snow">
+							<conditionFlags>
+								<flag name="bds">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Better Dynamic Snow SE.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Book Covers Skyrim - Lost Library">
 							<conditionFlags>
 								<flag name="lostlibrary">On</flag>
@@ -206,6 +224,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="DeadlySpellImpacts.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Elemental Staffs">
+							<conditionFlags>
+								<flag name="elementalstaffs">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Elemental_Staffs.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -564,6 +600,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="nwsFollowerFramework.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Simple Children - FaceGen plugin">
+							<conditionFlags>
+								<flag name="simplechildren">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="FacegenForKids.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -1797,6 +1851,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="Adamant.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>	
+						<plugin name="Manbeast - A Werewolf Overhaul">
+							<conditionFlags>
+								<flag name="manbeast">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Manbeast.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -3891,6 +3963,15 @@ The tweak includes the following changes:
 					<file source="df_RelightingSkyrim-LanternsOfSkyrimII.esp" destination="df_RelightingSkyrim-LanternsOfSkyrimII.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="luminosity" value="On"/>
+					<flagDependency flag="rls" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_RelightingSkyrim-Luminosity.esp" destination="df_RelightingSkyrim-Luminosity.esp" priority="0" />
+				</files>
+			</pattern>
 			<!-- ********************************* -->
 
 			<!-- ********************************* -->
@@ -3945,6 +4026,14 @@ The tweak includes the following changes:
 				</files>
 			</pattern>
 			-->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="cathedralweathers" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CathedralWeathers.esp" destination="df_CathedralWeathers.esp" priority="0" />
+				</files>
+			</pattern>
 			<!-- ***************************************** -->
 
 			<!-- Butterflies -->			
@@ -3965,6 +4054,15 @@ The tweak includes the following changes:
 				</dependencies>
 				<files>
 					<file source="df_SmoothShores.esp" destination="df_SmoothShores.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="smoothshores" value="On"/>
+					<flagDependency flag="bds" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_SmoothShores-BetterDynamicSnow.esp" destination="df_SmoothShores-BetterDynamicSnow.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- ********************************** -->
@@ -4007,6 +4105,26 @@ The tweak includes the following changes:
 					<file source="df_LandscapeAndWaterFixes-CuttingRoomFloor.esp" destination="df_LandscapeAndWaterFixes-CuttingRoomFloor.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="landscapeandwaterfixes" value="On"/>
+					<flagDependency flag="bds" value="On"/>
+					<flagDependency flag="jks" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_LandscapeAndWaterFixes-BetterDynamicSnow.esp" destination="df_LandscapeAndWaterFixes-BetterDynamicSnow.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="landscapeandwaterfixes" value="On"/>
+					<flagDependency flag="bds" value="On"/>
+					<flagDependency flag="jks" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_LandscapeAndWaterFixes-BetterDynamicSnoew-JKsSkyrim.esp" destination="df_LandscapeAndWaterFixes-BetterDynamicSnoew-JKsSkyrim.esp" priority="0" />
+				</files>
+			</pattern>
 		
 			<!-- ********************************************* -->
 
@@ -4028,6 +4146,15 @@ The tweak includes the following changes:
 				</dependencies>
 				<files>
 					<file source="df_DaedricVoices-USSEP.esp" destination="df_DaedricVoices-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="daedricvoices" value="On"/>
+					<flagDependency flag="manbeast" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_DaedricVoices-Manbeast.esp" destination="df_DaedricVoices-Manbeast.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- ***************************************************-->
@@ -5239,6 +5366,24 @@ The tweak includes the following changes:
 					<file source="df_BookCoversSkyrim-CuttingRoomFloor.esp" destination="df_BookCoversSkyrim-CuttingRoomFloor.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="bds" value="On"/>
+					<flagDependency flag="crf" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CuttingRoomFloor-BetterDynamicSnow.esp" destination="df_CuttingRoomFloor-BetterDynamicSnow.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="elementalstaffs" value="On"/>
+					<flagDependency flag="crf" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CuttingRoomFloor-ElementalStaffs.esp" destination="df_CuttingRoomFloor-ElementalStaffs.esp" priority="0" />
+				</files>
+			</pattern>
 			<!-- ************************************** -->	
 
 			<!-- Diversity -->
@@ -5599,6 +5744,26 @@ The tweak includes the following changes:
 					<file source="df_AIOverhaul-CarriageAndFerryTravelOverhaul.esp" destination="df_AIOverhaul-CarriageAndFerryTravelOverhaul.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aio" value="On"/>
+					<flagDependency flag="simplechildren" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AIOverhaul-FacegenForKids.esp" destination="df_AIOverhaul-FacegenForKids.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="aio" value="On"/>
+					<flagDependency flag="rdo" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_AIOverhaul-RelationshipDialogueOverhaul.esp" destination="df_AIOverhaul-RelationshipDialogueOverhaul.esp" priority="0" />
+				</files>
+			</pattern>
+			
+			
 			<!-- ************************** -->
 
 			<!-- Immersive Armors -->
@@ -5789,6 +5954,14 @@ The tweak includes the following changes:
 			<!-- **************************-->
 
 			<!-- NARC & Faction Fixes-->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="factionfixes" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_FactionFixes-USSEP.esp" destination="df_FactionFixes-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="narc" value="On"/>	
