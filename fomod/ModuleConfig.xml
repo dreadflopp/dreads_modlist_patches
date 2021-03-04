@@ -884,24 +884,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="Growl">
-							<conditionFlags>
-								<flag name="growl">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="Growl - Werebeasts of Skyrim.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -5769,15 +5751,6 @@ The tweak includes the following changes:
 			<!-- **************************-->
 
 			<!-- Frozen North -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="frozennorth" value="On"/>	
-					<flagDependency flag="growl" value="On"/>	
-				</dependencies>
-				<files>
-					<file source="df_FrozenNorth-Growl.esp" destination="df_FrozenNorth-Growl.esp" priority="0" />
-				</files>
-			</pattern>	
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="frozennorth" value="On"/>	
