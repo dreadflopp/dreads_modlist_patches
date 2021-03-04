@@ -4618,6 +4618,15 @@ The tweak includes the following changes:
 					<file source="df_VolkiharKnight-ArsMetallica.esp" destination="df_VolkiharKnight-ArsMetallica.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="arsmetallica" value="On"/>
+					<flagDependency flag="adamant" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_Adamant-ArsMetallica.esp" destination="df_Adamant-ArsMetallica.esp" priority="0" />
+				</files>
+			</pattern>
 			<!-- *************************** -->
 			
 			<!-- Unlimited Bookshelves, Improved Closefaced Helmets -->
