@@ -3204,7 +3204,7 @@ Please download and endorse the original mod, but do not install it: https://www
 								<![CDATA[Tweaks for consistency:
 
 * All armor pieces has reduced armor rating to match Nightingale armor.
-* All weapons has reduced stats to match Ebony weapons with the following elterations
+* All weapons has reduced stats to match Ebony weapons with the following alterations
 	* The tanto matches the stats for a dagger but has slightly less reach, does less damage but is lighter and much faster.
 	* The nijato is a one handed sword that is a little faster and lighter and does slightly less damage.
 	* The nodachi is a two handed sword with slightly less reach and. It does less damage but is lighter and much faster.
@@ -3362,7 +3362,7 @@ The tweak includes the following changes:
 					<plugins order="Explicit">
 						<plugin name="Scout Armor BodySlides">
 							<description>
-								<![CDATA[This installs BodySlides to build CBBE compatible meshes for Scout Armor. Since Scout Armor uses Blades Armor meshes I could build these BodySlides by simply modifying the CBBE Blades Asrmor BodySlides.]]>
+								<![CDATA[This installs BodySlides to build CBBE compatible meshes for Scout Armor. Since Scout Armor uses Blades Armor meshes I could build these BodySlides by simply modifying the CBBE Blades Armor BodySlides.]]>
 							</description>
 							<conditionFlags>
 								<flag name="scoutarmorbs">On</flag>
