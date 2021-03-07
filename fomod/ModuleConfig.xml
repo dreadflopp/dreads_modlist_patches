@@ -4517,7 +4517,16 @@ The tweak includes the following changes:
 				<files>
 					<file source="df_Adamant-Clockwork.esp" destination="df_Adamant-Clockwork.esp" priority="0" />
 				</files>
-			</pattern>			
+			</pattern>	
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="mysticism" value="On"/>
+					<flagDependency flag="hearthfirextd" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_Mysticism-HerthfireExtended.esp" destination="df_Mysticism-HerthfireExtended.esp" priority="0" />
+				</files>
+			</pattern>	
 			<!-- *************************** -->
 
 			<!-- Ars Metallica -->
