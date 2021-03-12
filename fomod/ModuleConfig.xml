@@ -1199,6 +1199,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>	
+						<plugin name="Lock Related Loot">
+							<conditionFlags>
+								<flag name="lockrelatedloot">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="LockRelatedLoot.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Ragdoll Paralysis Redux SE">
 							<conditionFlags>
 								<flag name="paralyze">On</flag>
@@ -3679,6 +3697,18 @@ The tweak includes the following changes:
 
 			<!-- ************************* -->
 
+			<!-- The Brotherhood of Old -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="brotherhoodofold" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_TheBrotherhoodOfOld-USSEP.esp" destination="df_TheBrotherhoodOfOld-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
+
+			<!-- ************************* -->
+
 			<!-- Dragons --> 
 			<pattern>		
 				<dependencies operator="And">
@@ -3904,24 +3934,6 @@ The tweak includes the following changes:
 				</dependencies>
 				<files>
 					<file source="df_TradeAndBarter-Keldnar.esp" destination="df_TradeAndBarter-Keldnar.esp" priority="0" />
-				</files>
-			</pattern>			
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="mysticism" value="On"/>
-					<flagDependency flag="tradebarter" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Mysticism-TradeAndBarter.esp" destination="df_Mysticism-TradeAndBarter.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="adamant" value="On"/>
-					<flagDependency flag="tradebarter" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Adamant-TradeAndBarter.esp" destination="df_Adamant-TradeAndBarter.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- ***************************** -->
@@ -4715,6 +4727,18 @@ The tweak includes the following changes:
 			</pattern>
 			<!-- *************************** -->
 
+			<!-- Wyrmstooth-->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="wyrmstooth" value="On"/>
+					<flagDependency flag="thunderchild" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_Wyrmstooth-Thunderchild.esp" destination="df_Wyrmstooth-Thunderchild.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- *************************** -->
+
 			<!-- Higher Bounty Rewards -->
 			<pattern>
 				<dependencies operator="And">
@@ -5216,6 +5240,15 @@ The tweak includes the following changes:
 				</dependencies>
 				<files>
 					<file source="df_CastleVolkiharRebuilt-RelightingSkyrim.esp" destination="df_CastleVolkiharRebuilt-RelightingSkyrim.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="volkiharrebuilt" value="On"/>
+					<flagDependency flag="rdo" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CastleVoliharRebuilt-RelationshipDialogueOverhaul.esp" destination="df_CastleVoliharRebuilt-RelationshipDialogueOverhaul.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- *************************** -->
@@ -5788,7 +5821,29 @@ The tweak includes the following changes:
 			-->
 			<!-- ************************** -->
 			
-			<!-- Dawnguard Arsenal -->
+			<!-- Dawnguard Arsenal -->						
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="mysticism" value="On"/>
+					<flagDependency flag="adamant" value="Off"/>
+					<flagDependency flag="tradebarter" value="On"/>
+					<flagDependency flag="dawnguardarsenal" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_Mysticism-TradeAndBarter.esp" destination="df_Mysticism-TradeAndBarter.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="adamant" value="On"/>
+					<flagDependency flag="mysticism" value="On"/>
+					<flagDependency flag="tradebarter" value="On"/>
+					<flagDependency flag="dawnguardarsenal" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_Adamant-TradeAndBarter.esp" destination="df_Adamant-TradeAndBarter.esp" priority="0" />
+				</files>
+			</pattern>
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="dawnguardarsenal" value="On"/>
@@ -5940,6 +5995,17 @@ The tweak includes the following changes:
 				</dependencies>
 				<files>
 					<file source="df_USSEP-SurvivalWarmthRatings.esl" destination="df_USSEP-SurvivalWarmthRatings.esl" priority="0" />
+				</files>
+			</pattern>	
+			<!-- **************************-->
+
+			<!-- Lock related Loot -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="lockrelatedloot" value="On"/>	
+				</dependencies>
+				<files>
+					<file source="df_LockRelatedLoot-USSEP.esp" destination="df_LockRelatedLoot-USSEP.esp" priority="0" />
 				</files>
 			</pattern>	
 			<!-- **************************-->
