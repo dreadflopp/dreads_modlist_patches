@@ -30,6 +30,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="cloaks">Off</flag>	
 								<flag name="cop">Off</flag>
 								<flag name="crf">Off</flag>
+								<flag name="csr">Off</flag>
 								<flag name="dawnguardarsenal">Off</flag>
 								<flag name="dawnguardhoods">Off</flag>		
 								<flag name="diversity">Off</flag>
@@ -242,6 +243,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="Elemental_Staffs.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Embers HD">
+							<conditionFlags>
+								<flag name="embers">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="EmbersHD.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -2421,6 +2440,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="JK's The Winking Skeever">
+							<conditionFlags>
+								<flag name="jk-tws">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="JK's The Winking Skeever.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Kynesgrove">
 							<conditionFlags>
 								<flag name="kynesgrove">On</flag>
@@ -2688,7 +2725,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<!--
 						<plugin name="Oakwood">
 							<conditionFlags>
 								<flag name="oakwood">On</flag>
@@ -2707,7 +2743,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						-->
 						<plugin name="Shor's Stone">
 							<conditionFlags>
 								<flag name="shorsstone">On</flag>
@@ -2744,7 +2779,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<!--
 						<plugin name="Telengard">
 							<conditionFlags>
 								<flag name="telengard">On</flag>
@@ -2763,7 +2797,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						-->
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -3902,6 +3935,37 @@ The tweak includes the following changes:
 					<file source="df_MoonAndStar-USSEP-RW2.esp" destination="df_MoonAndStar-USSEP-RW2.esp" priority="0" />
 				</files>
 			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="rw2" value="On"/>
+					<flagDependency flag="oakwood" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_RealisticWaterTwo-Oakwood.esp" destination="df_RealisticWaterTwo-Oakwood.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="rw2" value="On"/>
+					<flagDependency flag="telengard" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_RealisticWaterTwo-Telengard.esp" destination="df_RealisticWaterTwo-Telengard.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- ************************************* -->
+
+			<!-- Embers HD -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="rw2" value="Off"/>
+					<flagDependency flag="oakwood" value="On"/>
+					<flagDependency flag="embers" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_Oakwood-EmbersHD.esp" destination="df_Oakwood-EmbersHD.esp" priority="0" />
+				</files>
+			</pattern>
 			<!-- ************************************* -->
 
 			<!-- Dawnguard Hoods Dawnguard Arsenal -->
@@ -4137,9 +4201,19 @@ The tweak includes the following changes:
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="daedricvoices" value="On"/>
+					<flagDependency flag="csr" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_DaedricVoices-USSEP.esp" destination="df_DaedricVoices-USSEP.esp" priority="0" />
+				</files>
+			</pattern>			
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="csr" value="On"/>
+					<flagDependency flag="daedricvoices" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_CraftingRevamped-DaedricVoices.esp" destination="df_CraftingRevamped-DaedricVoices.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
@@ -4444,13 +4518,31 @@ The tweak includes the following changes:
 			</pattern>
 			<!--******************************************************************************* -->
 
-			<!-- *** Luminosity patches *** -->
+			<!-- *** Luminosity patches *** -->jk-tws
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="luminosity" value="On"/>
 				</dependencies>
 				<files>
 					<file source="df_Luminosity-USSEP.esp" destination="df_Luminosity-USSEP.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="luminosity" value="On"/>
+					<flagDependency flag="jk-tws" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_JKsTheWinkingSkeever-Luminosity.esp" destination="df_JKsTheWinkingSkeever-Luminosity.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="luminosity" value="On"/>
+					<flagDependency flag="rw2" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_Luminosity-RealisticWaterTwo.esp" destination="df_Luminosity-RealisticWaterTwo.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
@@ -5322,15 +5414,6 @@ The tweak includes the following changes:
 				</dependencies>
 				<files>
 					<file source="df_CraftingRevamped-RusticSoulGems.esp" destination="df_CraftingRevamped-RusticSoulGems.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="csr" value="On"/>
-					<flagDependency flag="daedricvoices" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_CraftingRevamped-DaedricVoices.esp" destination="df_CraftingRevamped-DaedricVoices.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
