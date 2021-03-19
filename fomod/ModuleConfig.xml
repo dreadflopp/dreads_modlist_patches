@@ -1008,6 +1008,24 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="More Craftable Equipment">
+							<conditionFlags>
+								<flag name="mce">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="MoreCraftableEquipment.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -3101,37 +3119,49 @@ These tweaks are edits to the settings files for A Cathedralist's ENB. It resets
 						</plugin>
 					</plugins>
 				</group>
-				<group name="Uncapper settings" type="SelectExactlyOne">
+				<group name="MCM settings" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="Slower skill gain">
+						<plugin name="Radiant Requirements settings">
 							<description>
-								<![CDATA[Tweaks:
-- Skills capped at 100, like in the vanilla game
-- Skills level at 50%
-- 5 carry weight gained if stamina is increased when leveling up, like in the vanilla game
-- Legendary skills are turned off]]>
+								<![CDATA[Radiant Requirement default settings tweaked to match encounter zones from Arena.]]>
 							</description>
 							<files>
-								<file source="SKSE\Plugins\SkyrimUncapper.ini" destination="SKSE\Plugins\SkyrimUncapper.ini" priority="0" />
+								<file source="RadiantRequirements.json" destination="RadiantRequirements.json" priority="0" />
 							</files>
 							<typeDescriptor>
-								<type name="Recommended"/>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="RadiantRequirements.esp" state="Active"/>
+												<fileDependency file="Arena.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="Slower skill gain without grinding">
+						<plugin name="Timing is Everything settings">
 							<description>
-								<![CDATA[This is a custom Skyrim Uncapper settings and my personal preference. It is recommended to tweak the Uncapper settings yourselves.
-Tweaks:
-- Skills capped at 100
-- Skills level at 50% speed except smithing, alchemy and pickpocket which level at 200% speed
-- 5 carry weight gained if stamina is increased when leveling up, like in vanilla
-- Legendary skills are turned off]]>
+								<![CDATA[Recommended Timing is Everything profile.]]>
 							</description>
 							<files>
-								<file source="Uncapper ini alternatives\50% leveling + no grinding\SkyrimUncapper.ini" destination="SKSE\Plugins\SkyrimUncapper.ini" priority="0" />
+								<file source="SKSE\Plugins\FISS\TimingIsEverythingPresets.xml" destination="SKSE\Plugins\FISS\TimingIsEverythingPresets.xml" priority="0" />
 							</files>
 							<typeDescriptor>
-								<type name="Recommended"/>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="TimingIsEverything.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 					</plugins>
@@ -3189,6 +3219,31 @@ Please download and endorse the original mod, but do not install it: https://www
 							</conditionFlags>
 							<typeDescriptor>
 								<type name="Recommended"/>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="More Crafting Equipment - Cloaks consistency tweaks">
+							<description>
+								<![CDATA[Tweaks:
+- The spinning wheel from Cloaks of Skyrim can no longer be used to craft linen cloaks. It can only be used to craft threads.
+- All cloaks from Cloaks of Skyrim is crafted using the loom from More Craftable Equipment.
+- The recipes for Cloaks from Cloaks of Skyrim now uses thread instead of leather of linen wraps.]]>
+							</description>
+							<files>
+								<file source="df_MoreCraftableEquipment-Cloaks.esp" destination="df_MoreCraftableEquipment-Cloaks" priority="0" />
+							</files>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="MoreCraftableEquipment.esp" state="Active"/>
+												<fileDependency file="Cloaks.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
 							</typeDescriptor>
 						</plugin>
 						<plugin name="No leveled unique items">
@@ -4028,6 +4083,15 @@ The tweak includes the following changes:
 				</dependencies>
 				<files>
 					<file source="df_RelightingSkyrim-Luminosity.esp" destination="df_RelightingSkyrim-Luminosity.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="3dnpc" value="On"/>
+					<flagDependency flag="rls" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_3DNPC-RelightingSkyrim.esp" destination="df_3DNPC-RelightingSkyrim.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- ********************************* -->
@@ -5432,6 +5496,27 @@ The tweak includes the following changes:
 				</dependencies>
 				<files>
 					<file source="df_CraftingRevamped-RagdollParalysis.esp" destination="df_CraftingRevamped-RagdollParalysis.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- ************************************ -->
+
+			<!-- More Craftable Equipment -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="mce" value="On"/>
+					<flagDependency flag="bqo" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_MoreCraftableEquipment-BetterQuestObjectives.esp" destination="df_MoreCraftableEquipment-BetterQuestObjectives.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="mce" value="On"/>
+					<flagDependency flag="crf" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_MoreCraftableEquipment-CuttingRoomFloor.esp" destination="df_MoreCraftableEquipment-CuttingRoomFloor.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- ************************************ -->
