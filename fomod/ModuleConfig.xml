@@ -14,7 +14,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</description>
 							<conditionFlags>
 								<flag name="3dnpc">Off</flag>	
-								<flag name="aa-ha-tweaks">Off</flag>
 								<flag name="adamant">Off</flag>
 								<flag name="aetherius">Off</flag>	
 								<flag name="aio">Off</flag>
@@ -3220,32 +3219,7 @@ Please download and endorse the original mod, but do not install it: https://www
 							<typeDescriptor>
 								<type name="Recommended"/>
 							</typeDescriptor>
-						</plugin>
-						<plugin name="More Crafting Equipment - Cloaks consistency tweaks">
-							<description>
-								<![CDATA[Tweaks:
-- The spinning wheel from Cloaks of Skyrim can no longer be used to craft linen cloaks. It can only be used to craft threads.
-- All cloaks from Cloaks of Skyrim is crafted using the loom from More Craftable Equipment.
-- The recipes for Cloaks from Cloaks of Skyrim now uses thread instead of leather of linen wraps.]]>
-							</description>
-							<files>
-								<file source="df_MoreCraftableEquipment-Cloaks.esp" destination="df_MoreCraftableEquipment-Cloaks" priority="0" />
-							</files>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="MoreCraftableEquipment.esp" state="Active"/>
-												<fileDependency file="Cloaks.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
+						</plugin>						
 						<plugin name="No leveled unique items">
 							<description>
 								<![CDATA[No more low level unique items. Unique items in Skyrim actually exists as different versions with different levels. If you discover an item when your character is at a lower level, you will get a lower level version of that item. This setting removes that feature. From now on you will get the most powerfull version of all unique items you find.]]>
@@ -3308,14 +3282,13 @@ Please download and endorse the original mod, but do not install it: https://www
 						<plugin name="Black Sacrament Tweaks">
 							<description>
 								<![CDATA[Tweaks for consistency:
-
-* All armor pieces has reduced armor rating to match Nightingale armor.
-* All weapons has reduced stats to match Ebony weapons with the following alterations
-	* The tanto matches the stats for a dagger but has slightly less reach, does less damage but is lighter and much faster.
-	* The nijato is a one handed sword that is a little faster and lighter and does slightly less damage.
-	* The nodachi is a two handed sword with slightly less reach and. It does less damage but is lighter and much faster.
-* All weapons crafting and tempering recipes are modified to include ebony.
-* Compatibility with Ars Metallica, if that mod is used.]]>
+- All armor pieces has reduced armor rating to match Nightingale armor.
+- All weapons has reduced stats to match Ebony weapons
+- The tanto matches the stats for a dagger but has slightly less reach, does less damage but is lighter and much faster.
+- The nijato is a one handed sword that is a little faster and lighter and does slightly less damage.
+- The nodachi is a two handed sword with slightly less reach. It does less damage but is lighter and much faster.
+- All weapons crafting and tempering recipes are modified to include ebony.
+- Compatibility with Ars Metallica, if that mod is used.]]>
 							</description>
 							<conditionFlags>
 								<flag name="blacksacramenttweaks">On</flag>
@@ -3337,9 +3310,8 @@ Please download and endorse the original mod, but do not install it: https://www
 						<plugin name="Lustmord Tweaks">
 							<description>
 								<![CDATA[Tweaks for consistency:
-
-* Bolt damage lowered and bolt price raised to match stats from Faction Crossbows.
-* Explosive bolts recipe altered to match the one from Faction Crossbows]]>
+- Bolt damage lowered and bolt price raised to match stats from Faction Crossbows.
+- Explosive bolts recipe altered to match the one from Faction Crossbows]]>
 							</description>
 							<conditionFlags>
 								<flag name="lustmordtweaks">On</flag>
@@ -3358,18 +3330,43 @@ Please download and endorse the original mod, but do not install it: https://www
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="More Crafting Equipment - Cloaks consistency tweaks">
+							<description>
+								<![CDATA[Tweaks:
+- The spinning wheel from Cloaks of Skyrim can no longer be used to craft linen cloaks. It can only be used to craft threads.
+- All cloaks from Cloaks of Skyrim is crafted using the loom from More Craftable Equipment.
+- The recipes for Cloaks from Cloaks of Skyrim now uses thread instead of leather of linen wraps.]]>
+							</description>
+							<files>
+								<file source="df_MoreCraftableEquipment-Cloaks.esp" destination="df_MoreCraftableEquipment-Cloaks.esp" priority="0" />
+							</files>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="MoreCraftableEquipment.esp" state="Active"/>
+												<fileDependency file="Cloaks.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Scout Armor Tweaks">
 							<description>
 								<![CDATA[Tweaks for consistency:
 
-* Scout Arrows stats are changed to match nordic Arrows.
-* Weapons stats are modified to match nordic steel.
-* All weapons crafting and tempering recipes are modified to match thoose of nordic steel.
-* Capes moved from slot 35 to slot 40 and 46. Capes now uses the same slots as Cloaks of Skyrim and Winter is Coming does. 
-* Capes are no longer considered to be made of dragonscale.
-* Armor is given keywords to work consistent with the survival mode.
-* Changes from Unofficial Skyrim Special Edition Patch are applied.
-* Compatibility with Ars Metallica, if that mod is used.]]>
+- Scout Arrows stats are changed to match nordic Arrows.
+- Weapons stats are modified to match nordic steel.
+- All weapons crafting and tempering recipes are modified to match thoose of nordic steel.
+- Capes moved from slot 35 to slot 40 and 46. Capes now uses the same slots as Cloaks of Skyrim and Winter is Coming does. 
+- Capes are no longer considered to be made of dragonscale.
+- Armor is given keywords to work consistent with the survival mode.
+- Changes from Unofficial Skyrim Special Edition Patch are applied.
+- Compatibility with Ars Metallica, if that mod is used.]]>
 							</description>
 							<conditionFlags>
 								<flag name="scoutarmortweaks">On</flag>
@@ -3392,9 +3389,9 @@ Please download and endorse the original mod, but do not install it: https://www
 							<description>
 								<![CDATA[Tweaks for consistency:
 
-* All capes are considered to be clothing instead of armor and armor rating is set to 0.
-* Both weapons are considered to be be nordic instead of steel and has their stats and recipes altered to reflect this.
-* The one handed hammer has its stats changed to match the maul from Heavy Armory.]]>
+- All capes are considered to be clothing instead of armor and armor rating is set to 0.
+- Both weapons are considered to be be nordic instead of steel and has their stats and recipes altered to reflect this.
+- The one handed hammer has its stats changed to match the maul from Heavy Armory.]]>
 							</description>
 							<conditionFlags>
 								<flag name="housecarltweaks">On</flag>
@@ -3417,44 +3414,6 @@ Please download and endorse the original mod, but do not install it: https://www
 				</group>
 			</optionalFileGroups>
 		</installStep>
-
-		<!-- Consistency Patches 2 -->
-		<installStep name="Consistency Patches continued">
-			<visible>
-				<dependencies operator="And">
-					<flagDependency flag="ussep" value="On"/>
-					<flagDependency flag="ha" value="On"/>
-					<flagDependency flag="animatedarmoury" value="On"/>
-					<flagDependency flag="hllr-tweaks" value="Off"/>
-				</dependencies>
-			</visible>
-			<optionalFileGroups order="Explicit">
-				<group name="Choose" type="SelectAny">
-					<plugins order="Explicit">
-						<plugin name="Animated Armoury - Heavy Armory Tweaks">
-							<description>
-								<![CDATA[This is a consistency tweak for Animated Armoury and Heavy Armory. It is created using a scipt by Wheredidit run: https://www.nexusmods.com/skyrimspecialedition/mods/19547
-
-The tweak includes the following changes:
-
-- Rebalancing of Animated Armoury and Heavy Armoury against both each other as well as against vanilla Skyrim. 
-- The Halbards from Heavy Armory, which are shorter than Halbards from Animated Armory, will be renamed to Pole Axes (which is a real thing). 
-- The new animations from Animated Armoury will be applied to the new weapons from Heavy Armory]]>								
-							</description>
-							<conditionFlags>
-								<flag name="aa-ha-tweaks">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Recommended"/>									
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
-					</plugins>
-				</group>
-			</optionalFileGroups>
-		</installStep>
-
 
 		<!-- BodySlides -->
 		<installStep name="BodySlides">
@@ -4582,7 +4541,7 @@ The tweak includes the following changes:
 			</pattern>
 			<!--******************************************************************************* -->
 
-			<!-- *** Luminosity patches *** -->jk-tws
+			<!-- *** Luminosity patches *** -->
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="luminosity" value="On"/>
