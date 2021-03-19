@@ -3039,6 +3039,14 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				</group>
 				<group name="ENB Tweaks" type="SelectExactlyOne">
 					<plugins order="Explicit">
+						<plugin name="None">
+							<description>
+								<![CDATA[Choose this if you do not use an ENB or do not want the tweaked ENB settings files.]]>
+							</description>
+							<typeDescriptor>
+								<type name="Recommended"/>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="A Cathedralist's ENB - Stronger light sources">
 							<description>
 								<![CDATA[Choose this if you use A Cathedralist's ENB with the default quality preset.
@@ -3048,7 +3056,7 @@ These tweaks are edits to the settings files for A Cathedralist's ENB. It tweaks
 								<flag name="enbCathPoint">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Recommended"/>
+								<type name="Optional"/>
 							</typeDescriptor>
 						</plugin>
 						<plugin name="A Cathedralist's ENB High Quality - Stronger light sources">
@@ -3060,7 +3068,7 @@ These tweaks are edits to the settings files for A Cathedralist's ENB. It tweaks
 								<flag name="enbCathHighPoint">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Recommended"/>
+								<type name="Optional"/>
 							</typeDescriptor>
 						</plugin>
 						<plugin name="A Cathedralist's ENB - Vanilla lighting">
@@ -3072,7 +3080,7 @@ These tweaks are edits to the settings files for A Cathedralist's ENB. It resets
 								<flag name="enbCathVanilla">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
-								<type name="Recommended"/>
+								<type name="Optional"/>
 							</typeDescriptor>
 						</plugin>
 						<plugin name="A Cathedralist's ENB High Quality - Vanilla lighting">
@@ -3084,13 +3092,40 @@ These tweaks are edits to the settings files for A Cathedralist's ENB. It resets
 								<flag name="enbCathHighVanilla">On</flag>
 							</conditionFlags>
 							<typeDescriptor>
+								<type name="Optional"/>
+							</typeDescriptor>
+						</plugin>						
+					</plugins>
+				</group>
+				<group name="Uncapper settings" type="SelectExactlyOne">
+					<plugins order="Explicit">
+						<plugin name="Slower skill gain">
+							<description>
+								<![CDATA[Tweaks:
+- Skills capped at 100, like in the vanilla game
+- Skills level at 50%
+- 5 carry weight gained if stamina is increased when leveling up, like in the vanilla game
+- Legendary skills are turned off]]>
+							</description>
+							<files>
+								<file source="SKSE\Plugins\SkyrimUncapper.ini" destination="SKSE\Plugins\SkyrimUncapper.ini" priority="0" />
+							</files>
+							<typeDescriptor>
 								<type name="Recommended"/>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="None">
+						<plugin name="Slower skill gain without grinding">
 							<description>
-								<![CDATA[Choose this if you do not use an ENB or do not want the tweaked ENB settings files.]]>
+								<![CDATA[This is a custom Skyrim Uncapper settings and my personal preference. It is recommended to tweak the Uncapper settings yourselves.
+Tweaks:
+- Skills capped at 100
+- Skills level at 50% speed except smithing, alchemy and pickpocket which level at 200% speed
+- 5 carry weight gained if stamina is increased when leveling up, like in vanilla
+- Legendary skills are turned off]]>
 							</description>
+							<files>
+								<file source="Uncapper ini alternatives\50% leveling + no grinding\SkyrimUncapper.ini" destination="SKSE\Plugins\SkyrimUncapper.ini" priority="0" />
+							</files>
 							<typeDescriptor>
 								<type name="Recommended"/>
 							</typeDescriptor>
