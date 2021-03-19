@@ -31,8 +31,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="crf">Off</flag>
 								<flag name="csr">Off</flag>
 								<flag name="dawnguardarsenal">Off</flag>
-								<flag name="dawnguardhoods">Off</flag>		
-								<flag name="diversity">Off</flag>
+								<flag name="dawnguardhoods">Off</flag>	
 								<flag name="factionfixes">Off</flag>
 								<flag name="forgottencity">Off</flag>	
 								<flag name="graycowl">Off</flag>
@@ -569,26 +568,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<!--
-						<plugin name="Diversity - A Character Overhaul">
-							<conditionFlags>
-								<flag name="diversity">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="Diversity - A Character Overhaul.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
-						-->
 						<plugin name="DIVERSE SKYRIM SSE">
 							<conditionFlags>
 								<flag name="diverse">On</flag>
@@ -5520,7 +5499,6 @@ Please download and endorse the original mod, but do not install it: https://www
 				<dependencies operator="And">
 					<flagDependency flag="bcs" value="On"/>
 					<flagDependency flag="crf" value="On"/>
-					<flagDependency flag="diversity" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_BookCoversSkyrim-CuttingRoomFloor.esp" destination="df_BookCoversSkyrim-CuttingRoomFloor.esp" priority="0" />
@@ -5544,188 +5522,12 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_CuttingRoomFloor-ElementalStaffs.esp" destination="df_CuttingRoomFloor-ElementalStaffs.esp" priority="0" />
 				</files>
 			</pattern>
-			<!-- ************************************** -->	
+			<!-- ************************************** -->		
 
-			<!-- Diversity -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="bcs" value="On"/>
-					<flagDependency flag="crf" value="On"/>
-					<flagDependency flag="diversity" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-BookCoversSkyrim-CuttingRoomFloor.esp" destination="df_Diversity-BookCoversSkyrim-CuttingRoomFloor.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="aio" value="Off"/>
-					<flagDependency flag="cop" value="Off"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-USSEP.esp" destination="df_Diversity-USSEP.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="aio" value="On"/>
-					<flagDependency flag="cop" value="Off"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-AIOverhaul.esp" destination="df_Diversity-AIOverhaul.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="aio" value="Off"/>
-					<flagDependency flag="cop" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-ConsistenOlderPeople.esp" destination="df_Diversity-ConsistenOlderPeople.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="aio" value="On"/>
-					<flagDependency flag="cop" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-AIOverhaul-ConsistenOlderPeople.esp" destination="df_Diversity-AIOverhaul-ConsistenOlderPeople.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="stir" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-SaveTheIcerunner.esp" destination="df_Diversity-SaveTheIcerunner.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="helgenreborn" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-HelgenReborn.esp" destination="df_Diversity-HelgenReborn.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="mysticism" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-Mysticism.esp" destination="df_Diversity-Mysticism.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="mysticism" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-Mysticism.esp" destination="df_Diversity-Mysticism.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="dawnguardarsenal" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-DawnguardArsenal.esp" destination="df_Diversity-DawnguardArsenal.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="cfto" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-CFTO.esp" destination="df_Diversity-CFTO.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="obis" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-OBIS.esp" destination="df_Diversity-OBIS.esp" priority="0" />
-				</files>
-			</pattern>
-			<!-- ************************************** -->	
-
-			<!-- Diversity - AI Overhaul - Dragonbridge -->
+			<!-- AI OVerhaul -->			
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="aio" value="On"/>
-					<flagDependency flag="diversity" value="Off"/>
-					<flagDependency flag="cop" value="Off"/>
-					<flagDependency flag="dragonbridge" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_AIOverhaul-DragonBridge.esp" destination="df_AIOverhaul-DragonBridge.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aio" value="On"/>
-					<flagDependency flag="diversity" value="Off"/>
-					<flagDependency flag="cop" value="On"/>
-					<flagDependency flag="dragonbridge" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_AIOverhaul-DragonBridge.esp" destination="df_AIOverhaul-DragonBridge.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aio" value="Off"/>
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="cop" value="Off"/>
-					<flagDependency flag="dragonbridge" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-DragonBridge.esp" destination="df_Diversity-DragonBridge.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aio" value="On"/>
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="cop" value="Off"/>
-					<flagDependency flag="dragonbridge" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-AIOverhaul-DragonBridge.esp" destination="df_Diversity-AIOverhaul-DragonBridge.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aio" value="On"/>
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="cop" value="On"/>
-					<flagDependency flag="dragonbridge" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-AIOverhaul-ConsistentOlderPeople-DragonBridge.esp" destination="df_Diversity-AIOverhaul-ConsistentOlderPeople-DragonBridge.esp" priority="0" />
-				</files>
-			</pattern>
-
-			<!-- ************************************** -->
-
-			<!-- Diversity - AI Overhaul - 3DNPC -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aio" value="On"/>
-					<flagDependency flag="diversity" value="Off"/>
 					<flagDependency flag="cop" value="Off"/>
 					<flagDependency flag="3dnpc" value="On"/>
 				</dependencies>
@@ -5736,56 +5538,6 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="aio" value="On"/>
-					<flagDependency flag="diversity" value="Off"/>
-					<flagDependency flag="cop" value="On"/>
-					<flagDependency flag="3dnpc" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_AIOverhaul-3DNPC.esp" destination="df_AIOverhaul-3DNPC.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aio" value="Off"/>
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="cop" value="Off"/>
-					<flagDependency flag="3dnpc" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-3DNPC.esp" destination="df_Diversity-3DNPC.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aio" value="On"/>
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="cop" value="Off"/>
-					<flagDependency flag="3dnpc" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-AIOverhaul-3DNPC.esp" destination="df_Diversity-AIOverhaul-3DNPC.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aio" value="On"/>
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="cop" value="On"/>
-					<flagDependency flag="3dnpc" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-AIOverhaul-ConsistentOlderPeople-3DNPC.esp" destination="df_Diversity-AIOverhaul-ConsistentOlderPeople-3DNPC.esp" priority="0" />
-				</files>
-			</pattern>
-
-			<!-- ************************************** -->
-
-			<!-- Diversity - AI Overhaul - Cloaks -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aio" value="On"/>
-					<flagDependency flag="diversity" value="Off"/>
-					<flagDependency flag="cop" value="Off"/>
 					<flagDependency flag="cloaks" value="On"/>
 				</dependencies>
 				<files>
@@ -5795,56 +5547,16 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="aio" value="On"/>
-					<flagDependency flag="diversity" value="Off"/>
-					<flagDependency flag="cop" value="On"/>
-					<flagDependency flag="cloaks" value="On"/>
+					<flagDependency flag="dragonbridge" value="On"/>
 				</dependencies>
 				<files>
-					<file source="df_AIOverhaul-Cloaks.esp" destination="df_AIOverhaul-Cloaks.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aio" value="Off"/>
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="cop" value="Off"/>
-					<flagDependency flag="cloaks" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-Cloaks.esp" destination="df_Diversity-Cloaks.esp" priority="0" />
+					<file source="df_AIOverhaul-DragonBridge.esp" destination="df_AIOverhaul-DragonBridge.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="aio" value="On"/>
-					<flagDependency flag="diversity" value="On"/>
-					<flagDependency flag="cop" value="Off"/>
-					<flagDependency flag="cloaks" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-AIOverhaul-Cloaks.esp" destination="df_Diversity-AIOverhaul-Cloaks.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aio" value="On"/>
-					<flagDependency flag="diversity" value="On"/>
 					<flagDependency flag="cop" value="On"/>
-					<flagDependency flag="cloaks" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Diversity-AIOverhaul-ConsistentOlderPeople-Cloaks.esp" destination="df_Diversity-AIOverhaul-ConsistentOlderPeople-Cloaks.esp" priority="0" />
-				</files>
-			</pattern>
-
-			<!-- ************************************** -->
-
-			<!-- AI OVerhaul -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aio" value="On"/>
-					<flagDependency flag="cop" value="On"/>
-					<flagDependency flag="diversity" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_AIOverhaul-ConsistentOlderPeople.esp" destination="df_AIOverhaul-ConsistentOlderPeople.esp" priority="0" />
