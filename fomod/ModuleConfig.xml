@@ -5563,16 +5563,6 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="aio" value="On"/>
-					<flagDependency flag="cop" value="Off"/>
-					<flagDependency flag="3dnpc" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_AIOverhaul-3DNPC.esp" destination="df_AIOverhaul-3DNPC.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aio" value="On"/>
 					<flagDependency flag="cloaks" value="On"/>
 				</dependencies>
 				<files>
