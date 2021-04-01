@@ -1,4 +1,4 @@
-﻿<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://github.com/dreadflopp/fomod-schema/blob/master/ModuleConfig.xsd">
+﻿<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://qconsulting.ca/fo3/ModConfig5.0.xsd">
 	<moduleName>Dread's modlist patches</moduleName>
 	<installSteps order="Explicit">
 
@@ -108,6 +108,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Static Mesh Improvement Mod">
+							<description></description>
 							<conditionFlags>
 								<flag name="smim">On</flag>
 							</conditionFlags>
@@ -141,6 +142,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Bent Pines II">
+							<description></description>
 							<conditionFlags>
 								<flag name="bentpines">On</flag>
 							</conditionFlags>
@@ -159,6 +161,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Better Dynamic Snow">
+							<description></description>
 							<conditionFlags>
 								<flag name="bds">On</flag>
 							</conditionFlags>
@@ -177,6 +180,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Book Covers Skyrim - Lost Library">
+							<description></description>
 							<conditionFlags>
 								<flag name="lostlibrary">On</flag>
 							</conditionFlags>
@@ -195,6 +199,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Book Covers Skyrim">
+							<description></description>
 							<conditionFlags>
 								<flag name="bcs">On</flag>
 							</conditionFlags>
@@ -213,6 +218,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Deadly Spell Impacts">
+							<description></description>
 							<conditionFlags>
 								<flag name="dsi">On</flag>
 							</conditionFlags>
@@ -231,6 +237,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Elemental Staffs">
+							<description></description>
 							<conditionFlags>
 								<flag name="elementalstaffs">On</flag>
 							</conditionFlags>
@@ -249,6 +256,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Embers HD">
+							<description></description>
 							<conditionFlags>
 								<flag name="embers">On</flag>
 							</conditionFlags>
@@ -267,6 +275,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Enhanced Blood Textures Lite">
+							<description></description>
 							<conditionFlags>
 								<flag name="enhancedblood">On</flag>
 							</conditionFlags>
@@ -285,6 +294,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Improved Closefaced Helmets">
+							<description></description>
 							<conditionFlags>
 								<flag name="imp">On</flag>
 							</conditionFlags>
@@ -303,6 +313,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Improved Weapon Impact Effects">
+							<description></description>
 							<conditionFlags>
 								<flag name="iwie">On</flag>
 							</conditionFlags>
@@ -321,6 +332,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Luminous Atronachs">
+							<description></description>
 							<conditionFlags>
 								<flag name="luminousatronarchs">On</flag>
 							</conditionFlags>
@@ -339,6 +351,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Masque of Argonian Vile SSE">
+							<description></description>
 							<conditionFlags>
 								<flag name="moav">On</flag>
 							</conditionFlags>
@@ -357,6 +370,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>						
 						<plugin name="Pilgrims Delight">
+							<description></description>
 							<conditionFlags>
 								<flag name="pilgrimsdelight">On</flag>
 							</conditionFlags>
@@ -375,6 +389,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Realistic Water Two">
+							<description></description>
 							<conditionFlags>
 								<flag name="rw2">On</flag>
 							</conditionFlags>
@@ -393,6 +408,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Rustic Soul Gems (sorted ESL version)">
+							<description></description>
 							<conditionFlags>
 								<flag name="rusticsoulgems">On</flag>
 							</conditionFlags>
@@ -411,6 +427,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Rustic Soul Gems (sorted ESL GIST version)">
+							<description></description>
 							<conditionFlags>
 								<flag name="rusticsoulgemsgist">On</flag>
 							</conditionFlags>
@@ -429,6 +446,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Skyrim SE Improved Puddles">
+							<description></description>
 							<conditionFlags>
 								<flag name="improvedpuddles">On</flag>
 							</conditionFlags>
@@ -447,6 +465,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Smooth Shores">
+							<description></description>
 							<conditionFlags>
 								<flag name="smoothshores">On</flag>
 							</conditionFlags>
@@ -480,6 +499,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Audio Overhaul Skyrim">
+							<description></description>
 							<conditionFlags>
 								<flag name="aos">On</flag>
 							</conditionFlags>
@@ -498,6 +518,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Improved Horse Step Sound">
+							<description></description>
 							<conditionFlags>
 								<flag name="ihss">On</flag>
 							</conditionFlags>
@@ -532,6 +553,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 					<plugins order="Explicit">
 					<!--
 						<plugin name="CBBE">
+							<description></description>
 							<conditionFlags>
 								<flag name="cbbe">On</flag>
 							</conditionFlags>
@@ -551,6 +573,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 						</plugin>
 						-->
 						<plugin name="Consistent Older People">
+							<description></description>
 							<conditionFlags>
 								<flag name="cop">On</flag>
 							</conditionFlags>
@@ -569,6 +592,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="DIVERSE SKYRIM SSE">
+							<description></description>
 							<conditionFlags>
 								<flag name="diverse">On</flag>
 							</conditionFlags>
@@ -587,6 +611,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Nether's Follower Framework">
+							<description></description>
 							<conditionFlags>
 								<flag name="nff">On</flag>
 							</conditionFlags>
@@ -605,6 +630,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Simple Children - FaceGen plugin">
+							<description></description>
 							<conditionFlags>
 								<flag name="simplechildren">On</flag>
 							</conditionFlags>
@@ -638,6 +664,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Butterflies Land True">
+							<description></description>
 							<conditionFlags>
 								<flag name="blt">On</flag>
 							</conditionFlags>
@@ -656,6 +683,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="NARC Remade - No Animals Report Crimes for Skyrim SE">
+							<description></description>
 							<conditionFlags>
 								<flag name="narc">On</flag>
 							</conditionFlags>
@@ -674,6 +702,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Ragdoll Paralysis">
+							<description></description>
 							<conditionFlags>
 								<flag name="paralyze">On</flag>
 							</conditionFlags>
@@ -692,6 +721,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Skyrim Landscape And Water Fixes">
+							<description></description>
 							<conditionFlags>
 								<flag name="landscapeandwaterfixes">On</flag>
 							</conditionFlags>
@@ -710,6 +740,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Unlimited Bookshelves">
+							<description></description>
 							<conditionFlags>
 								<flag name="ubs">On</flag>
 							</conditionFlags>
@@ -728,6 +759,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Wiseman303's Flora Fixes">
+							<description></description>
 							<conditionFlags>
 								<flag name="wff">On</flag>
 							</conditionFlags>
@@ -762,6 +794,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="AI Overhaul SSE">
+							<description></description>
 							<conditionFlags>
 								<flag name="aio">On</flag>
 							</conditionFlags>
@@ -780,6 +813,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Archery Gameplay Overhaul SE">
+							<description></description>
 							<conditionFlags>
 								<flag name="ago">On</flag>
 							</conditionFlags>
@@ -798,6 +832,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>						
 						<plugin name="Faction Fixes SE">
+							<description></description>
 							<conditionFlags>
 								<flag name="factionfixes">On</flag>
 							</conditionFlags>
@@ -831,6 +866,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Creation Club Survival Mode">
+							<description></description>
 							<conditionFlags>
 								<flag name="ccsurvival">On</flag>
 							</conditionFlags>
@@ -849,6 +885,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>	
 						<plugin name="The Frozen North">
+							<description></description>
 							<conditionFlags>
 								<flag name="frozennorth">On</flag>
 							</conditionFlags>
@@ -867,6 +904,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>	
 						<plugin name="Lenient Survival">
+							<description></description>
 							<conditionFlags>
 								<flag name="lenient">On</flag>
 							</conditionFlags>
@@ -900,6 +938,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">						
 						<plugin name="Aetherius - A Race and Standing Stone Overhaul">
+							<description></description>
 							<conditionFlags>
 								<flag name="aetherius">On</flag>
 							</conditionFlags>
@@ -918,6 +957,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Class Overhaul Re-Imagined (SkyRem - Cori)">
+							<description></description>
 							<conditionFlags>
 								<flag name="cori">On</flag>
 							</conditionFlags>
@@ -951,6 +991,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Ars Metallica - Smithing Enhancement">
+							<description></description>
 							<conditionFlags>
 								<flag name="arsmetallica">On</flag>
 							</conditionFlags>
@@ -969,6 +1010,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Crafting Skills Revamped">
+							<description></description>
 							<conditionFlags>
 								<flag name="csr">On</flag>
 							</conditionFlags>
@@ -987,6 +1029,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="More Craftable Equipment">
+							<description></description>
 							<conditionFlags>
 								<flag name="mce">On</flag>
 							</conditionFlags>
@@ -1020,6 +1063,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="High-Level Loot Rarified - Core">
+							<description></description>
 							<conditionFlags>
 								<flag name="hllr-core">On</flag>
 							</conditionFlags>
@@ -1038,6 +1082,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="High-Level Loot Rarified - Animated Armoury Addon">
+							<description></description>
 							<conditionFlags>
 								<flag name="hllr-aa">On</flag>
 							</conditionFlags>
@@ -1056,6 +1101,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="High-Level Loot Rarified - Heavy Armory Addon">
+							<description></description>
 							<conditionFlags>
 								<flag name="hllr-ha">On</flag>
 							</conditionFlags>
@@ -1074,6 +1120,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="High-Level Loot Rarified - Animated Armoury and Heavy Armory tweaks">
+							<description></description>
 							<conditionFlags>
 								<flag name="hllr-tweaks">On</flag>
 							</conditionFlags>
@@ -1092,6 +1139,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Trade and Barter">
+							<description></description>
 							<conditionFlags>
 								<flag name="tradebarter">On</flag>
 							</conditionFlags>
@@ -1125,6 +1173,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Carriage and Ferry Travel Overhaul">
+							<description></description>
 							<conditionFlags>
 								<flag name="cfto">On</flag>
 							</conditionFlags>
@@ -1143,6 +1192,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Daedric Voices">
+							<description></description>
 							<conditionFlags>
 								<flag name="daedricvoices">On</flag>
 							</conditionFlags>
@@ -1161,6 +1211,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Disease Descriptions for the Immersive Adventurer">
+							<description></description>
 							<conditionFlags>
 								<flag name="diseasedescriptions">On</flag>
 							</conditionFlags>
@@ -1179,6 +1230,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Guard Dialogue Overhaul">
+							<description></description>
 							<conditionFlags>
 								<flag name="gdo">On</flag>
 							</conditionFlags>
@@ -1197,6 +1249,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Immersive Horses">
+							<description></description>
 							<conditionFlags>
 								<flag name="immersivehorses">On</flag>
 							</conditionFlags>
@@ -1215,6 +1268,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>	
 						<plugin name="Lock Related Loot">
+							<description></description>
 							<conditionFlags>
 								<flag name="lockrelatedloot">On</flag>
 							</conditionFlags>
@@ -1233,6 +1287,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Ragdoll Paralysis Redux SE">
+							<description></description>
 							<conditionFlags>
 								<flag name="paralyze">On</flag>
 							</conditionFlags>
@@ -1251,6 +1306,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>					
 						<plugin name="Relationship Dialogue Overhaul">
+							<description></description>
 							<conditionFlags>
 								<flag name="rdo">On</flag>
 							</conditionFlags>
@@ -1269,6 +1325,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Spooky Philter of the Phantom">
+							<description></description>
 							<conditionFlags>
 								<flag name="spookyPOP">On</flag>
 							</conditionFlags>
@@ -1287,6 +1344,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Torches Ignite Oil - Shock Edition">
+							<description></description>
 							<conditionFlags>
 								<flag name="tio">On</flag>
 							</conditionFlags>
@@ -1306,6 +1364,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 						</plugin>	
 						<!--					
 						<plugin name="Wet And Cold">
+							<description></description>
 							<conditionFlags>
 								<flag name="wac">On</flag>
 							</conditionFlags>
@@ -1340,6 +1399,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">						
 						<plugin name="Mundus - A Standing Stone Overhaul">
+							<description></description>
 							<conditionFlags>
 								<flag name="mundus">On</flag>
 							</conditionFlags>
@@ -1358,6 +1418,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Mysticism - A Magic Overhaul">
+							<description></description>
 							<conditionFlags>
 								<flag name="mysticism">On</flag>
 							</conditionFlags>
@@ -1376,6 +1437,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Thunderchild - Epic Shout Package">
+							<description></description>
 							<conditionFlags>
 								<flag name="thunderchild">On</flag>
 							</conditionFlags>
@@ -1409,6 +1471,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="A Lovely Letter Alternate Routes">
+							<description></description>
 							<conditionFlags>
 								<flag name="lovelyletter">On</flag>
 							</conditionFlags>
@@ -1427,6 +1490,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Alternate Start - Live Another Life">
+							<description></description>
 							<conditionFlags>
 								<flag name="alternatestart">On</flag>
 							</conditionFlags>
@@ -1445,6 +1509,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Better Quest Objectives">
+							<description></description>
 							<conditionFlags>
 								<flag name="bqo">On</flag>
 							</conditionFlags>
@@ -1463,6 +1528,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="The Brotherhood of Old">
+							<description></description>
 							<conditionFlags>
 								<flag name="brotherhoodofold">On</flag>
 							</conditionFlags>
@@ -1481,6 +1547,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="The Choice is Yours">
+							<description></description>
 							<conditionFlags>
 								<flag name="tciy">On</flag>
 							</conditionFlags>
@@ -1499,6 +1566,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>	
 						<plugin name="Clockwork">
+							<description></description>
 							<conditionFlags>
 								<flag name="clockwork">On</flag>
 							</conditionFlags>
@@ -1517,6 +1585,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>					
 						<plugin name="College of Winterhold The Missing Apprentices Quest Fix">
+							<description></description>
 							<conditionFlags>
 								<flag name="cow-crffix">On</flag>
 							</conditionFlags>
@@ -1535,6 +1604,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Forgotten City">
+							<description></description>
 							<conditionFlags>
 								<flag name="forgottencity">On</flag>
 							</conditionFlags>
@@ -1553,6 +1623,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="The Gray Cowl of Nocturnal SE">
+							<description></description>
 							<conditionFlags>
 								<flag name="graycowl">On</flag>
 							</conditionFlags>
@@ -1571,6 +1642,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Helgen Reborn">
+							<description></description>
 							<conditionFlags>
 								<flag name="helgenreborn">On</flag>
 							</conditionFlags>
@@ -1589,6 +1661,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>		
 						<plugin name="Improved College Entry - Questline Tweaks">
+							<description></description>
 							<conditionFlags>
 								<flag name="ice-qt">On</flag>
 							</conditionFlags>
@@ -1607,6 +1680,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>				
 						<plugin name="Improved Companions - Questline Tweaks">
+							<description></description>
 							<conditionFlags>
 								<flag name="ic-qt">On</flag>
 							</conditionFlags>
@@ -1625,6 +1699,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Misc. College of Winterhold Tweaks - Inescapable Insights">
+							<description></description>
 							<conditionFlags>
 								<flag name="mcwt-ii">On</flag>
 							</conditionFlags>
@@ -1643,6 +1718,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Misc. College of Winterhold Tweaks - Inescapable Insights BQO version">
+							<description></description>
 							<conditionFlags>
 								<flag name="mcwt-ii-bqo">On</flag>
 							</conditionFlags>
@@ -1661,6 +1737,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>						
 						<plugin name="Moon and Star">
+							<description></description>
 							<conditionFlags>
 								<flag name="mas">On</flag>
 							</conditionFlags>
@@ -1679,6 +1756,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Moonpath to Elsweyr SSE">
+							<description></description>
 							<conditionFlags>
 								<flag name="moonpath">On</flag>
 							</conditionFlags>
@@ -1697,6 +1775,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="More Radiant Quests for the Companions">
+							<description></description>
 							<conditionFlags>
 								<flag name="moreradiantcompanions">On</flag>
 							</conditionFlags>
@@ -1715,6 +1794,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Not So Fast - Main Quest">
+							<description></description>
 							<conditionFlags>
 								<flag name="nsf-main">On</flag>
 							</conditionFlags>
@@ -1733,6 +1813,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="The Paarthurnax Dilemma">
+							<description></description>
 							<conditionFlags>
 								<flag name="paarthurnaxdilemma">On</flag>
 							</conditionFlags>
@@ -1751,6 +1832,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Save the Ice Runner">
+							<description></description>
 							<conditionFlags>
 								<flag name="stir">On</flag>
 							</conditionFlags>
@@ -1769,6 +1851,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Tactical Valtheim SSE">
+							<description></description>
 							<conditionFlags>
 								<flag name="tacticalvaltheim">On</flag>
 							</conditionFlags>
@@ -1787,6 +1870,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>	
 						<plugin name="Tactical Valtheim SSE - Radiant Blocker">
+							<description></description>
 							<conditionFlags>
 								<flag name="radiantblocker">On</flag>
 							</conditionFlags>
@@ -1805,6 +1889,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>	
 						<plugin name="Timing is Everything SE">
+							<description></description>
 							<conditionFlags>
 								<flag name="tie">On</flag>
 							</conditionFlags>
@@ -1823,6 +1908,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>					
 						<plugin name="The Tools of Kagrenac">
+							<description></description>
 							<conditionFlags>
 								<flag name="kagrenac">On</flag>
 							</conditionFlags>
@@ -1856,6 +1942,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Adamant - A Perk Overhaul">
+							<description></description>
 							<conditionFlags>
 								<flag name="adamant">On</flag>
 							</conditionFlags>
@@ -1874,6 +1961,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>	
 						<plugin name="Manbeast - A Werewolf Overhaul">
+							<description></description>
 							<conditionFlags>
 								<flag name="manbeast">On</flag>
 							</conditionFlags>
@@ -1907,6 +1995,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Bandolier - Bags and Pouches Classic">
+							<description></description>
 							<conditionFlags>
 								<flag name="bandolier">On</flag>
 							</conditionFlags>
@@ -1925,6 +2014,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Black Sacrament">
+							<description></description>
 							<conditionFlags>
 								<flag name="blacksacrament">On</flag>
 							</conditionFlags>
@@ -1966,6 +2056,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Common Clothes and Armors">
+							<description></description>
 							<conditionFlags>
 								<flag name="ccaa">On</flag>
 							</conditionFlags>
@@ -1984,6 +2075,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Dawnguard Arsenal">
+							<description></description>
 							<conditionFlags>
 								<flag name="dawnguardarsenal">On</flag>
 							</conditionFlags>
@@ -2002,6 +2094,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Dawnguard Hoods">
+							<description></description>
 							<conditionFlags>
 								<flag name="dawnguardhoods">On</flag>
 							</conditionFlags>
@@ -2021,6 +2114,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 						</plugin>
 						<!--
 						<plugin name="Immersive Armors">
+							<description></description>
 							<conditionFlags>
 								<flag name="ia">On</flag>
 							</conditionFlags>
@@ -2040,6 +2134,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 						</plugin>
 						-->	
 						<plugin name="Lustmord Vampire Armor">
+							<description></description>
 							<conditionFlags>
 								<flag name="lustmord">On</flag>
 							</conditionFlags>
@@ -2058,6 +2153,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Scout Armor">
+							<description></description>
 							<conditionFlags>
 								<flag name="scoutarmor">On</flag>
 							</conditionFlags>
@@ -2076,6 +2172,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>	
 						<plugin name="Talos Housecarl Armor Pack">
+							<description></description>
 							<conditionFlags>
 								<flag name="taloshousecarl">On</flag>
 							</conditionFlags>
@@ -2094,6 +2191,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Volkihar Knight - Vampire Armor">
+							<description></description>
 							<conditionFlags>
 								<flag name="volkiharknight">On</flag>
 							</conditionFlags>
@@ -2126,11 +2224,12 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="Animated Armoury">
-						<!--
+						<plugin name="Animated Armoury">						
 							<description>
+							<!--
 								<![CDATA[If both Heavy Armory and Animated Armoury are checked, a patch will be installed that rebalances Animated Armoury and Heavy Armoury against both each other as well as against vanilla Skyrim. The Halbards from Heavy Armory, which are shorter than Halbards from Animated Armory, will be renamed to Pole Axes (which is a real thing). The new animations from Animated Armoury will be applied to the new weapons from Heavy Armory, thus fixing some visual problems of some of Heavy Armory's new weapon types that used vanilla animations.]]>
-							</description>-->
+							-->
+							</description>
 							<conditionFlags>
 								<flag name="animatedarmoury">On</flag>
 							</conditionFlags>
@@ -2149,6 +2248,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="DX Faction Crossbows SE">
+							<description></description>
 							<conditionFlags>
 								<flag name="factioncrossbows">On</flag>
 							</conditionFlags>
@@ -2188,6 +2288,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Oblivion Artifact Pack SE">
+							<description></description>
 							<conditionFlags>
 								<flag name="oap">On</flag>
 							</conditionFlags>
@@ -2206,6 +2307,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Silver Arrows">
+							<description></description>
 							<conditionFlags>
 								<flag name="silverarrows">On</flag>
 							</conditionFlags>
@@ -2224,6 +2326,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Staff of Shegorath">
+							<description></description>
 							<conditionFlags>
 								<flag name="staffofshegorath">On</flag>
 							</conditionFlags>
@@ -2242,6 +2345,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Unique Uniques">
+							<description></description>
 							<conditionFlags>
 								<flag name="uu">On</flag>
 							</conditionFlags>
@@ -2275,6 +2379,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Bring Out Your Dead">
+							<description></description>
 							<conditionFlags>
 								<flag name="boyd">On</flag>
 							</conditionFlags>
@@ -2293,6 +2398,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Castle Volkihar Rebuilt - SSE">
+							<description></description>
 							<conditionFlags>
 								<flag name="volkiharrebuilt">On</flag>
 							</conditionFlags>
@@ -2311,6 +2417,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>	
 						<plugin name="Cutting Room Floor">
+							<description></description>
 							<conditionFlags>
 								<flag name="crf">On</flag>
 							</conditionFlags>
@@ -2329,6 +2436,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Dawnstar">
+							<description></description>
 							<conditionFlags>
 								<flag name="dawnstar">On</flag>
 							</conditionFlags>
@@ -2347,6 +2455,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Falskaar">
+							<description></description>
 							<conditionFlags>
 								<flag name="falskaar">On</flag>
 							</conditionFlags>
@@ -2365,6 +2474,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Falskaar Boat Location patch">
+							<description></description>
 							<conditionFlags>
 								<flag name="falskaarboatlocations">On</flag>
 							</conditionFlags>
@@ -2383,6 +2493,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Hearthfire Extended">
+							<description></description>
 							<conditionFlags>
 								<flag name="hearthfirextd">On</flag>
 							</conditionFlags>
@@ -2401,6 +2512,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="JK's Skyrim">
+							<description></description>
 							<conditionFlags>
 								<flag name="jks">On</flag>
 							</conditionFlags>
@@ -2419,6 +2531,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="JK's Skyrim Cutting Room Floor Patch">
+							<description></description>
 							<conditionFlags>
 								<flag name="jk-crf">On</flag>
 							</conditionFlags>
@@ -2437,6 +2550,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="JK's The Winking Skeever">
+							<description></description>
 							<conditionFlags>
 								<flag name="jk-tws">On</flag>
 							</conditionFlags>
@@ -2455,6 +2569,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Kynesgrove">
+							<description></description>
 							<conditionFlags>
 								<flag name="kynesgrove">On</flag>
 							</conditionFlags>
@@ -2473,6 +2588,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Landscape Fixes For Grass Mods">
+							<description></description>
 							<conditionFlags>
 								<flag name="lffgm">On</flag>
 							</conditionFlags>
@@ -2491,6 +2607,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Obscure's College of Winterhold">
+							<description></description>
 							<conditionFlags>
 								<flag name="ocw">On</flag>
 							</conditionFlags>
@@ -2509,6 +2626,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Midwood Isle">
+							<description></description>
 							<conditionFlags>
 								<flag name="midwoodisle">On</flag>
 							</conditionFlags>
@@ -2527,6 +2645,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Midwood Isle Alternative Ship Location">
+							<description></description>
 							<conditionFlags>
 								<flag name="midwoodislealt">On</flag>
 							</conditionFlags>
@@ -2545,6 +2664,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Immersive Dawnguard Dayspring Pass SE">
+							<description></description>
 							<conditionFlags>
 								<flag name="dgbetterentrance">On</flag>
 							</conditionFlags>
@@ -2563,6 +2683,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Windhelm Lighthouse">
+							<description></description>
 							<conditionFlags>
 								<flag name="windhelmlighthouse">On</flag>
 							</conditionFlags>
@@ -2581,6 +2702,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Wyrmstooth">
+							<description></description>
 							<conditionFlags>
 								<flag name="wyrmstooth">On</flag>
 							</conditionFlags>
@@ -2614,6 +2736,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Darkwater Crossing">
+							<description></description>
 							<conditionFlags>
 								<flag name="darkwatercrossing">On</flag>
 							</conditionFlags>
@@ -2632,6 +2755,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Dragon Bridge">
+							<description></description>
 							<conditionFlags>
 								<flag name="dragonbridge">On</flag>
 							</conditionFlags>
@@ -2650,6 +2774,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="The Fall of Granite Hill">
+							<description></description>
 							<conditionFlags>
 								<flag name="granitehill">On</flag>
 							</conditionFlags>
@@ -2668,6 +2793,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Ivarstead">
+							<description></description>
 							<conditionFlags>
 								<flag name="ivarstead">On</flag>
 							</conditionFlags>
@@ -2686,6 +2812,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Karthwasten">
+							<description></description>
 							<conditionFlags>
 								<flag name="karthwasten">On</flag>
 							</conditionFlags>
@@ -2704,6 +2831,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Keld-Nar">
+							<description></description>
 							<conditionFlags>
 								<flag name="keldnar">On</flag>
 							</conditionFlags>
@@ -2722,6 +2850,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Oakwood">
+							<description></description>
 							<conditionFlags>
 								<flag name="oakwood">On</flag>
 							</conditionFlags>
@@ -2740,6 +2869,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Shor's Stone">
+							<description></description>
 							<conditionFlags>
 								<flag name="shorsstone">On</flag>
 							</conditionFlags>
@@ -2758,6 +2888,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Soljund's Sinkhole">
+							<description></description>
 							<conditionFlags>
 								<flag name="soljundssinkhole">On</flag>
 							</conditionFlags>
@@ -2776,6 +2907,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Telengard">
+							<description></description>
 							<conditionFlags>
 								<flag name="telengard">On</flag>
 							</conditionFlags>
@@ -2809,6 +2941,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Cathedral Weathers">
+							<description></description>
 							<conditionFlags>
 								<flag name="cathedralweathers">On</flag>
 							</conditionFlags>
@@ -2827,6 +2960,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Lanterns of Skyrim II">
+							<description></description>
 							<conditionFlags>
 								<flag name="los">On</flag>
 							</conditionFlags>
@@ -2845,6 +2979,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Luminosity Lighting Overhaul - The Cathedral Concept">
+							<description></description>
 							<conditionFlags>
 								<flag name="luminosity">On</flag>
 							</conditionFlags>
@@ -2863,6 +2998,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Relighting Skyrim">
+							<description></description>
 							<conditionFlags>
 								<flag name="rls">On</flag>
 							</conditionFlags>
@@ -2896,6 +3032,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Deadly Dragons">
+							<description></description>
 							<conditionFlags>
 								<flag name="deadlydragons">On</flag>
 							</conditionFlags>
@@ -2914,6 +3051,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="OBIS SE - Organized Bandits In Skyrim">
+							<description></description>
 							<conditionFlags>
 								<flag name="obis">On</flag>
 							</conditionFlags>
@@ -2932,6 +3070,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="OBIS Patrols addon">
+							<description></description>
 							<conditionFlags>
 								<flag name="obispatrols">On</flag>
 							</conditionFlags>
@@ -2965,6 +3104,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">						
 						<plugin name="Inigo">
+							<description></description>
 							<conditionFlags>
 								<flag name="inigo">On</flag>
 							</conditionFlags>
@@ -2983,6 +3123,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 							</typeDescriptor>
 						</plugin>
 						<plugin name="Interesting NPCs">
+							<description></description>
 							<conditionFlags>
 								<flag name="3dnpc">On</flag>
 							</conditionFlags>
@@ -3486,6 +3627,7 @@ Please download and endorse the original mod, but do not install it: https://www
 							<typeDescriptor>
 								<dependencyType>
 									<defaultType name="Recommended"/>
+										<patterns><pattern><dependencies></dependencies><type name="Recommended"></type></pattern></patterns>
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>						
@@ -3514,6 +3656,7 @@ Please download and endorse the original mod, but do not install it: https://www
 							<typeDescriptor>
 								<dependencyType>
 									<defaultType name="Recommended"/>
+										<patterns><pattern><dependencies></dependencies><type name="Recommended"></type></pattern></patterns>
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>						
@@ -3542,6 +3685,7 @@ Please download and endorse the original mod, but do not install it: https://www
 							<typeDescriptor>
 								<dependencyType>
 									<defaultType name="Recommended"/>
+										<patterns><pattern><dependencies></dependencies><type name="Recommended"></type></pattern></patterns>
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>						
@@ -3570,6 +3714,7 @@ Please download and endorse the original mod, but do not install it: https://www
 							<typeDescriptor>
 								<dependencyType>
 									<defaultType name="Recommended"/>
+										<patterns><pattern><dependencies></dependencies><type name="Recommended"></type></pattern></patterns>
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>						
@@ -3598,6 +3743,7 @@ Please download and endorse the original mod, but do not install it: https://www
 							<typeDescriptor>
 								<dependencyType>
 									<defaultType name="Recommended"/>
+										<patterns><pattern><dependencies></dependencies><type name="Recommended"></type></pattern></patterns>
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>						
@@ -3626,6 +3772,7 @@ Please download and endorse the original mod, but do not install it: https://www
 							<typeDescriptor>
 								<dependencyType>
 									<defaultType name="Recommended"/>
+										<patterns><pattern><dependencies></dependencies><type name="Recommended"></type></pattern></patterns>
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>						
@@ -3654,6 +3801,7 @@ Please download and endorse the original mod, but do not install it: https://www
 							<typeDescriptor>
 								<dependencyType>
 									<defaultType name="Recommended"/>
+										<patterns><pattern><dependencies></dependencies><type name="Recommended"></type></pattern></patterns>
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>						
@@ -3682,6 +3830,7 @@ Please download and endorse the original mod, but do not install it: https://www
 							<typeDescriptor>
 								<dependencyType>
 									<defaultType name="Recommended"/>
+										<patterns><pattern><dependencies></dependencies><type name="Recommended"></type></pattern></patterns>
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>						
