@@ -6635,14 +6635,9 @@ Please download and endorse the original mod, but do not install it: https://www
 					<flagDependency flag="scoutarmorbs" value="On"/>
 				</dependencies>
 				<files>
-					<file source="Scout Armor BodySlides\df_ScoutArmor-CBBE.esp" destination="df_ScoutArmor-CBBE.esp" priority="0" />
 					<file source="Scout Armor BodySlides\meshes\armor\scout\f\scoutgauntlets_1.nif" destination="meshes\armor\scout\f\scoutgauntlets_1.nif" priority="0" />
-					<file source="Scout Armor BodySlides\CalienteTools\BodySlide\ShapeData\Scout Armor\Scout Armor - Boots.nif" destination="CalienteTools\BodySlide\ShapeData\Scout Armor\Scout Armor - Boots.nif" priority="0" />
-					<file source="Scout Armor BodySlides\CalienteTools\BodySlide\ShapeData\Scout Armor\Scout Armor - Boots.osd" destination="CalienteTools\BodySlide\ShapeData\Scout Armor\Scout Armor - Boots.osd" priority="0" />
 					<file source="Scout Armor BodySlides\CalienteTools\BodySlide\ShapeData\Scout Armor\Scout Armor - Cuirass.nif" destination="CalienteTools\BodySlide\ShapeData\Scout Armor\Scout Armor - Cuirass.nif" priority="0" />
 					<file source="Scout Armor BodySlides\CalienteTools\BodySlide\ShapeData\Scout Armor\Scout Armor - Cuirass.osd" destination="CalienteTools\BodySlide\ShapeData\Scout Armor\Scout Armor - Cuirass.osd" priority="0" />
-					<file source="Scout Armor BodySlides\CalienteTools\BodySlide\ShapeData\Scout Armor\Scout Armor - Gauntlets.nif" destination="CalienteTools\BodySlide\ShapeData\Scout Armor\Scout Armor - Gauntlets.nif" priority="0" />
-					<file source="Scout Armor BodySlides\CalienteTools\BodySlide\ShapeData\Scout Armor\Scout Armor - Gauntlets.osd" destination="CalienteTools\BodySlide\ShapeData\Scout Armor\Scout Armor - Gauntlets.osd" priority="0" />
 					<file source="Scout Armor BodySlides\CalienteTools\BodySlide\SliderGroups\Scout Armor.xml" destination="CalienteTools\BodySlide\SliderGroups\Scout Armor.xml" priority="0" />
 					<file source="Scout Armor BodySlides\CalienteTools\BodySlide\SliderSets\Scout Armor.osp" destination="CalienteTools\BodySlide\SliderSets\Scout Armor.osp" priority="0" />					
 				</files>
