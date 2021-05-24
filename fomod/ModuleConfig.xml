@@ -2682,6 +2682,25 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<plugin name="Stendarr Rising - The Hall of the Vigilant Rebuild">
+							<description></description>
+							<conditionFlags>
+								<flag name="standarrrising">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Stendarr Rising.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Windhelm Lighthouse">
 							<description></description>
 							<conditionFlags>
@@ -4254,6 +4273,15 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_ImmersiveHorses-BookCoversSkyrim.esp" destination="df_ImmersiveHorses-BookCoversSkyrim.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="bcs" value="On"/>
+					<flagDependency flag="standarrrising" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_StendarrRising-BookCoversSkyrim.esp" destination="df_StendarrRising-BookCoversSkyrim.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- ****************************************** -->
