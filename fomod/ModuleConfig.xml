@@ -41,7 +41,9 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="hllr-aa">Off</flag>		
 								<flag name="hllr-core">Off</flag>		
 								<flag name="hllr-ha">Off</flag>	
-								<flag name="hllr-tweaks">Off</flag>					
+								<!--
+								<flag name="hllr-tweaks">Off</flag>			
+								-->		
 								<flag name="ice-qt">Off</flag>
 								<flag name="imp">Off</flag>	
 								<flag name="jks">Off</flag>
@@ -1110,8 +1112,9 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									<defaultType name="Optional"/>
 									<patterns>
 										<pattern>
-											<dependencies operator="And">
+											<dependencies operator="Or">
 												<fileDependency file="High-level Loot Rarified - Heavy Armory Addon.esp" state="Active"/>
+												<fileDependency file="High-Level Loot Rarified - Heavy Armory Lite Addon.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -1119,6 +1122,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						<!--
 						<plugin name="High-Level Loot Rarified - Animated Armoury and Heavy Armory tweaks">
 							<description></description>
 							<conditionFlags>
@@ -1138,6 +1142,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
+						-->
 						<plugin name="Trade and Barter">
 							<description></description>
 							<conditionFlags>
@@ -2085,7 +2090,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									<patterns>
 										<pattern>
 											<dependencies operator="And">
-												<fileDependency file="Dawnguard Hoods.esp" state="Active"/>
+												<fileDependency file="DawnguardArsenal.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -2103,8 +2108,8 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									<defaultType name="Optional"/>
 									<patterns>
 										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="DawnguardArsenal.esp" state="Active"/>
+											<dependencies operator="And">												
+												<fileDependency file="Dawnguard Hoods.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -2225,11 +2230,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
 						<plugin name="Animated Armoury">						
-							<description>
-							<!--
-								<![CDATA[If both Heavy Armory and Animated Armoury are checked, a patch will be installed that rebalances Animated Armoury and Heavy Armoury against both each other as well as against vanilla Skyrim. The Halbards from Heavy Armory, which are shorter than Halbards from Animated Armory, will be renamed to Pole Axes (which is a real thing). The new animations from Animated Armoury will be applied to the new weapons from Heavy Armory, thus fixing some visual problems of some of Heavy Armory's new weapon types that used vanilla animations.]]>
-							-->
-							</description>
+							<description></description>
 							<conditionFlags>
 								<flag name="animatedarmoury">On</flag>
 							</conditionFlags>
@@ -2266,10 +2267,8 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="Heavy Armory - New Weapons">
-							<description>
-								<![CDATA[If both Heavy Armory and Animated Armoury are checked, a patch will be installed that rebalances Animated Armoury and Heavy Armoury against both each other as well as against vanilla Skyrim. The Halbards from Heavy Armory, which are shorter than Halbards from Animated Armory, will be renamed to Pole Axes (which is a real thing). The new animations from Animated Armoury will be applied to the new weapons from Heavy Armory, thus fixing some visual problems of some of Heavy Armory's new weapon types that used vanilla animations.]]>
-							</description>
+						<plugin name="Animated Heavy Armory">
+							<description></description>
 							<conditionFlags>
 								<flag name="ha">On</flag>
 							</conditionFlags>
@@ -3627,6 +3626,7 @@ Please download and endorse the original mod, but do not install it: https://www
 		</installStep>
 		
 		<!-- HLLR checks -->
+		<!--
 		<installStep name="High-Level Loot Rarified installation check">
 			<visible>
 				<dependencies operator="And">
@@ -3857,6 +3857,7 @@ Please download and endorse the original mod, but do not install it: https://www
 				</group>
 			</optionalFileGroups>
 		</installStep>
+		-->
 	</installSteps>
 	
 	<!-- ****************************** -->
@@ -3921,18 +3922,6 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_JKsCuttingRoomFloorPatch-USSEP.esp" destination="df_JKsCuttingRoomFloorPatch-USSEP.esp" priority="0" />
-				</files>
-			</pattern>
-
-			<!-- ************************* -->
-
-			<!-- The Brotherhood of Old -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="brotherhoodofold" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_TheBrotherhoodOfOld-USSEP.esp" destination="df_TheBrotherhoodOfOld-USSEP.esp" priority="0" />
 				</files>
 			</pattern>
 
@@ -4884,17 +4873,7 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_ArsMetallic-FloraFixes.esp" destination="df_ArsMetallic-FloraFixes.esp" priority="0" />
 				</files>
 			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="arsmetallica" value="On"/>
-					<flagDependency flag="animatedarmoury" value="Off"/>
-					<flagDependency flag="ha" value="On"/>
-					<flagDependency flag="hllr-ha" value="Off"/>
-				</dependencies>
-				<files>
-					<file source="df_HeavyArmory-ArsMetallica.esp" destination="df_HeavyArmory-ArsMetallica.esp" priority="0" />
-				</files>
-			</pattern>
+			<!--
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="animatedarmoury" value="On"/>
@@ -4906,18 +4885,7 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_AnimatedArmoury-ArsMetallica.esp" destination="df_AnimatedArmoury-ArsMetallica.esp" priority="0" />
 				</files>
 			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="animatedarmoury" value="On"/>
-					<flagDependency flag="arsmetallica" value="On"/>	
-					<flagDependency flag="ha" value="On"/>	
-					<flagDependency flag="hllr-aa" value="Off"/>	
-					<flagDependency flag="hllr-ha" value="Off"/>
-				</dependencies>
-				<files>
-					<file source="df_HeavyArmory-AnimatedAmoury-ArsMetallica.esp" destination="df_HeavyArmory-AnimatedAmoury-ArsMetallica.esp" priority="0" />
-				</files>
-			</pattern>
+			-->
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="arsmetallica" value="On"/>
@@ -5423,20 +5391,7 @@ Please download and endorse the original mod, but do not install it: https://www
 				</files>
 			</pattern>
 			<!-- *************************** -->	
-
-			<!--Heavy Armory, Animated Armoury, Dawnguard Arsenal -->
-			<!--	
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="ha" value="On"/>
-					<flagDependency flag="animatedarmoury" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_AnimatedArmory-HeavyArmory.esp" destination="df_AnimatedArmory-HeavyArmory.esp" priority="0" />
-				</files>
-			</pattern>
-			
-			-->	
+			<!--
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="dgbetterentrance" value="On"/>
@@ -5449,32 +5404,8 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="animatedarmoury" value="On"/>
-					<flagDependency flag="ha" value="On"/>	
-					<flagDependency flag="hllr-aa" value="Off"/>	
-					<flagDependency flag="hllr-ha" value="Off"/>
-				</dependencies>
-				<files>
-					<file source="df_HeavyArmory-AnimatedArmoury.esp" destination="df_HeavyArmory-AnimatedArmoury.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="animatedarmoury" value="On"/>
-					<flagDependency flag="ha" value="On"/>	
-					<flagDependency flag="dawnguardarsenal" value="On"/>	
-					<flagDependency flag="hllr-aa" value="Off"/>	
-					<flagDependency flag="hllr-ha" value="Off"/>	
-				</dependencies>
-				<files>
-					<file source="df_DawnguardArsenal-HeavyArmory-AnimatedArmoury.esp" destination="df_DawnguardArsenal-HeavyArmory-AnimatedArmoury.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="animatedarmoury" value="On"/>
 					<flagDependency flag="ha" value="Off"/>	
-					<flagDependency flag="dawnguardarsenal" value="On"/>	
-					<flagDependency flag="hllr-aa" value="Off"/>	
+					<flagDependency flag="dawnguardarsenal" value="On"/>
 				</dependencies>
 				<files>
 					<file source="df_DawnguardArsenal-AnimatedArmoury.esp" destination="df_DawnguardArsenal-AnimatedArmoury.esp" priority="0" />
@@ -5506,6 +5437,7 @@ Please download and endorse the original mod, but do not install it: https://www
 					<file source="df_HeavyArmory.esp" destination="df_HeavyArmory.esp" priority="0" />
 				</files>
 			</pattern>
+			-->
 			<!-- *************************** -->	
 
 			<!-- Midwood Isle -->
@@ -5938,16 +5870,6 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_TradeAndBarter-DawnguardArsenal.esp" destination="df_TradeAndBarter-DawnguardArsenal.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="dawnguardarsenal" value="On"/>
-					<flagDependency flag="ha" value="On"/>
-					<flagDependency flag="hllr-ha" value="Off"/>	
-				</dependencies>
-				<files>
-					<file source="df_DawnguardArsenal-HeavyArmory.esp" destination="df_DawnguardArsenal-HeavyArmory.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
