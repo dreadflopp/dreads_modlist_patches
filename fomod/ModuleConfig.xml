@@ -5895,15 +5895,6 @@ Please download and endorse the original mod, but do not install it: https://www
 			</pattern>
 			<pattern>
 				<dependencies operator="And">
-					<flagDependency flag="aetherius" value="On"/>	
-					<flagDependency flag="ccsurvival" value="On"/>				
-				</dependencies>
-				<files>
-					<file source="df_Aetherius-SurvivalModeCC.esp" destination="df_Aetherius-SurvivalModeCC.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
 					<flagDependency flag="nocarryweightpenalty" value="On"/>	
 					<flagDependency flag="mundus" value="Off"/>				
 				</dependencies>
