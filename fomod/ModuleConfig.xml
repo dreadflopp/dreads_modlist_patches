@@ -5886,15 +5886,6 @@ Please download and endorse the original mod, but do not install it: https://www
 			<!-- Survival mode -->
 			<pattern>
 				<dependencies operator="And">
-					<flagDependency flag="adamant" value="On"/>
-					<flagDependency flag="ccsurvival" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Adamant-SurvivalModeCC.esp" destination="df_Adamant-SurvivalModeCC.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
 					<flagDependency flag="nocarryweightpenalty" value="On"/>	
 					<flagDependency flag="mundus" value="Off"/>				
 				</dependencies>
