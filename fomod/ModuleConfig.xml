@@ -19,6 +19,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="aio">Off</flag>
 								<flag name="animatedarmoury">Off</flag>
 								<flag name="aos">Off</flag>
+								<flag name="apothecary">Off</flag>								
 								<flag name="arsmetallica">Off</flag>		
 								<flag name="bandolier">Off</flag>	
 								<flag name="blacksacramenttweaks">Off</flag>	 
@@ -29,7 +30,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="cloaks">Off</flag>	
 								<flag name="cop">Off</flag>
 								<flag name="crf">Off</flag>
-								<flag name="csr">Off</flag>
 								<flag name="dawnguardarsenal">Off</flag>
 								<flag name="dawnguardhoods">Off</flag>	
 								<flag name="factionfixes">Off</flag>
@@ -991,7 +991,26 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			</visible>
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
-					<plugins order="Explicit">
+					<plugins order="Explicit">						
+						<plugin name="Apothecary - An Alchemy Overhaul">
+							<description></description>
+							<conditionFlags>
+								<flag name="apothecary">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Apothecary.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Ars Metallica - Smithing Enhancement">
 							<description></description>
 							<conditionFlags>
@@ -1004,25 +1023,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="Ars Metallica.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="Crafting Skills Revamped">
-							<description></description>
-							<conditionFlags>
-								<flag name="csr">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="CraftingRevamped.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -4404,19 +4404,9 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="daedricvoices" value="On"/>
-					<flagDependency flag="csr" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_DaedricVoices-USSEP.esp" destination="df_DaedricVoices-USSEP.esp" priority="0" />
-				</files>
-			</pattern>			
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="csr" value="On"/>
-					<flagDependency flag="daedricvoices" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_CraftingRevamped-DaedricVoices.esp" destination="df_CraftingRevamped-DaedricVoices.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
@@ -4490,15 +4480,6 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_AudioOverhaulSkyrim-LuminousAtronachs.esp" destination="df_AudioOverhaulSkyrim-LuminousAtronachs.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aos" value="On"/>
-					<flagDependency flag="csr" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_AudioOverhaulSkyrim-CraftingRevamped.esp" destination="df_AudioOverhaulSkyrim-CraftingRevamped.esp" priority="0" />
 				</files>
 			</pattern>
 			<!--
@@ -5543,41 +5524,14 @@ Please download and endorse the original mod, but do not install it: https://www
 			</pattern>
 			<!-- *********************************** -->
 
-			<!-- Crafting Skills Revamped -->
+			<!-- Apothecary -->
 			<pattern>
 				<dependencies operator="And">
-					<flagDependency flag="csr" value="On"/>
-					<flagDependency flag="rusticsoulgemsgist" value="On"/>
+					<flagDependency flag="wff" value="On"/>
+					<flagDependency flag="apothecary" value="On"/>
 				</dependencies>
 				<files>
-					<file source="df_CraftingRevamped-RusticSoulGems-Gist.esp" destination="df_CraftingRevamped-RusticSoulGems-Gist.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="csr" value="On"/>
-					<flagDependency flag="rusticsoulgems" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_CraftingRevamped-RusticSoulGems.esp" destination="df_CraftingRevamped-RusticSoulGems.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="csr" value="On"/>
-					<flagDependency flag="adamant" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_CraftingRevamped-Adamant.esp" destination="df_CraftingRevamped-Adamant.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="csr" value="On"/>
-					<flagDependency flag="paralyze" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_CraftingRevamped-RagdollParalysis.esp" destination="df_CraftingRevamped-RagdollParalysis.esp" priority="0" />
+					<file source="df_Apothecary-WMFloraFixes.esp" destination="df_Apothecary-WMFloraFixes.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- ************************************ -->
