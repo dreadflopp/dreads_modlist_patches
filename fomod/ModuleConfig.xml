@@ -1440,26 +1440,7 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 									</patterns>
 								</dependencyType>
 							</typeDescriptor>
-						</plugin>
-						<plugin name="Thunderchild - Epic Shout Package">
-							<description></description>
-							<conditionFlags>
-								<flag name="thunderchild">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="Thunderchild - Epic Shout Package.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
+						</plugin>						
 					</plugins>
 				</group>
 			</optionalFileGroups>
@@ -3049,25 +3030,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 			<optionalFileGroups order="Explicit">
 				<group name="Choose" type="SelectAny">
 					<plugins order="Explicit">
-						<plugin name="Deadly Dragons">
-							<description></description>
-							<conditionFlags>
-								<flag name="deadlydragons">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="DeadlyDragons.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
 						<plugin name="OBIS SE - Organized Bandits In Skyrim">
 							<description></description>
 							<conditionFlags>
@@ -3927,53 +3889,6 @@ Please download and endorse the original mod, but do not install it: https://www
 
 			<!-- ************************* -->
 
-			<!-- Dragons --> 
-			<pattern>		
-				<dependencies operator="And">
-					<flagDependency flag="deadlydragons" value="On"/>
-					<flagDependency flag="brotherhoodofold" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_DeadlyDragons-BrotherhoodOfOld.esp" destination="df_DeadlyDragons-BrotherhoodOfOld.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="deadlydragons" value="On"/>
-					<flagDependency flag="volkiharrebuilt" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_DeadlyDragons-CastleVolkihar.esp" destination="df_DeadlyDragons-CastleVolkihar.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="deadlydragons" value="On"/>
-					<flagDependency flag="nff" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_DeadlyDragons-NethersFollowerFramework.esp" destination="df_DeadlyDragons-NethersFollowerFramework.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="deadlydragons" value="On"/>
-					<flagDependency flag="shorsstone" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_DeadlyDragons-ShorsStone.esp" destination="df_DeadlyDragons-ShorsStone.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="deadlydragons" value="On"/>
-					<flagDependency flag="wyrmstooth" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_DeadlyDragons-Wyrmstooth.esp" destination="df_DeadlyDragons-Wyrmstooth.esp" priority="0" />
-				</files>
-			</pattern>
-
 			<!-- ************************************ -->
 
 			<!-- Falskaar -->
@@ -4514,28 +4429,10 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="aos" value="On"/>
-					<flagDependency flag="deadlydragons" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_AudioOverhaulSkyrim-DeadlyDragons.esp" destination="df_AudioOverhaulSkyrim-DeadlyDragons.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aos" value="On"/>
 					<flagDependency flag="staffofshegorath" value="On"/>
 				</dependencies>
 				<files>
 					<file source="df_AudioOverhaulSkyrim-StaffOfShegorath.esp" destination="df_AudioOverhaulSkyrim-StaffOfShegorath.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="aos" value="On"/>
-					<flagDependency flag="thunderchild" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_AudioOverhaulSkyrim-Thunderchild.esp" destination="df_AudioOverhaulSkyrim-Thunderchild.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
@@ -4655,15 +4552,6 @@ Please download and endorse the original mod, but do not install it: https://www
 			<!-- ************************************************************* -->
 
 			<!--  Alternate Start -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="deadlydragons" value="On"/>
-					<flagDependency flag="alternatestart" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_DeadlyDragons-AlternateStart.esp" destination="df_DeadlyDragons-AlternateStart.esp" priority="0" />
-				</files>
-			</pattern>
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="gdo" value="On"/>
@@ -4978,18 +4866,6 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_Mysticism-RagdollParlysis.esp" destination="df_Mysticism-RagdollParlysis.esp" priority="0" />
-				</files>
-			</pattern>
-			<!-- *************************** -->
-
-			<!-- Wyrmstooth-->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="wyrmstooth" value="On"/>
-					<flagDependency flag="thunderchild" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Wyrmstooth-Thunderchild.esp" destination="df_Wyrmstooth-Thunderchild.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- *************************** -->
@@ -5916,15 +5792,6 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_FactionFixes-USSEP.esp" destination="df_FactionFixes-USSEP.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="narc" value="On"/>	
-					<flagDependency flag="deadlydragons" value="On"/>	
-				</dependencies>
-				<files>
-					<file source="df_NARC-DeadlyDragons.esp" destination="df_NARC-DeadlyDragons.esp" priority="0" />
 				</files>
 			</pattern>
 			<pattern>
