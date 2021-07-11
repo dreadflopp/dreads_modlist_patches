@@ -3218,7 +3218,7 @@ These tweaks are edits to the settings files for A Cathedralist's ENB. It resets
 						</plugin>						
 					</plugins>
 				</group>
-				<group name="Uncapper settings" type="SelectExactlyOne">
+				<group name="Uncapper settings" type="SelectAtMostOne">
 					<plugins order="Explicit">
 						<plugin name="Slower skill gain">
 							<description>
