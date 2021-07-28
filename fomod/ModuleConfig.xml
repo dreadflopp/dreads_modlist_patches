@@ -1114,7 +1114,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="Or">
 												<fileDependency file="High-level Loot Rarified - Heavy Armory Addon.esp" state="Active"/>
-												<fileDependency file="High-Level Loot Rarified - Heavy Armory Lite Addon.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
