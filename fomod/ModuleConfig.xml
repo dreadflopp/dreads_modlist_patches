@@ -45,7 +45,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="hllr-tweaks">Off</flag>			
 								-->		
 								<flag name="ice-qt">Off</flag>
-								<flag name="imp">Off</flag>	
 								<flag name="jks">Off</flag>
 								<flag name="kagrenac">Off</flag>	
 								<flag name="landscapeandwaterfixes">Off</flag>
@@ -57,15 +56,19 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								<flag name="mundus">Off</flag>		
 								<flag name="mysticism">Off</flag>
 								<flag name="oap">Off</flag>	
+								<flag name="ofh">Off</flag>	
 								<flag name="obis">Off</flag>
 								<flag name="radiantblocker">Off</flag>	
 								<flag name="raid">Off</flag>
 								<flag name="rls">Off</flag>
+								<flag name="rom">Off</flag>
 								<flag name="rw2">Off</flag>
+								<flag name="scion">Off</flag>	
 								<flag name="scoutarmor">Off</flag>	
 								<flag name="scoutarmortweaks">Off</flag>
 								<flag name="silverarrows">Off</flag>
 								<flag name="smoothshores">Off</flag>
+								<flag name="sunhelm">Off</flag>
 								<flag name="tradebarter">Off</flag>
 								<flag name="ussep">On</flag>
 								<flag name="uu">Off</flag>
@@ -257,25 +260,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>
-						<plugin name="Embers HD">
-							<description></description>
-							<conditionFlags>
-								<flag name="embers">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="EmbersHD.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
 						<plugin name="Enhanced Blood Textures Lite">
 							<description></description>
 							<conditionFlags>
@@ -288,25 +272,6 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="dD - Enhanced Blood Main LITE.esp" state="Active"/>
-											</dependencies>
-											<type name="Recommended"/>
-										</pattern>
-									</patterns>
-								</dependencyType>
-							</typeDescriptor>
-						</plugin>
-						<plugin name="Improved Closefaced Helmets">
-							<description></description>
-							<conditionFlags>
-								<flag name="imp">On</flag>
-							</conditionFlags>
-							<typeDescriptor>
-								<dependencyType>
-									<defaultType name="Optional"/>
-									<patterns>
-										<pattern>
-											<dependencies operator="And">
-												<fileDependency file="imp_helm_legend.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -364,6 +329,25 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="ClavicusArgonianMasque.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Open Face Guard Helmets">
+							<description></description>
+							<conditionFlags>
+								<flag name="ofh">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Open Face Guard Helmets.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -905,6 +889,25 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 								</dependencyType>
 							</typeDescriptor>
 						</plugin>	
+						<plugin name="SunHelm Survival">
+							<description></description>
+							<conditionFlags>
+								<flag name="sunhelm">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="SunHelmSurvival.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
 						<plugin name="Lenient Survival">
 							<description></description>
 							<conditionFlags>
@@ -970,6 +973,25 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="SkyRem - Cori.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Scion - A Vampire Overhaul">
+							<description></description>
+							<conditionFlags>
+								<flag name="scion">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Scion.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -2278,6 +2300,25 @@ IMPORTANT! The Unofficial Skyrim Special Edition Patch is required to use these 
 										<pattern>
 											<dependencies operator="And">
 												<fileDependency file="WZOblivionArtifacts.esp" state="Active"/>
+											</dependencies>
+											<type name="Recommended"/>
+										</pattern>
+									</patterns>
+								</dependencyType>
+							</typeDescriptor>
+						</plugin>
+						<plugin name="Reliquary of Myth - Artifact Overhaul">
+							<description></description>
+							<conditionFlags>
+								<flag name="rom">On</flag>
+							</conditionFlags>
+							<typeDescriptor>
+								<dependencyType>
+									<defaultType name="Optional"/>
+									<patterns>
+										<pattern>
+											<dependencies operator="And">
+												<fileDependency file="Reliquary of Myth.esp" state="Active"/>
 											</dependencies>
 											<type name="Recommended"/>
 										</pattern>
@@ -3826,6 +3867,16 @@ Please download and endorse the original mod, but do not install it: https://www
 	<!-- ****************************** -->
 	<conditionalFileInstalls>
 		<patterns>
+			<!-- Open Face Guard Helmets -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="ofh" value="On"/>
+					<flagDependency flag="cloaks" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_OpenFaceGuardHelmets-Cloaks.esp" destination="df_OpenFaceGuardHelmets-Cloaks.esp" priority="0" />
+				</files>
+			</pattern>
 			<!-- Interesting NPCs 3DNPC -->
 			<pattern>
 				<dependencies operator="And">
@@ -3872,6 +3923,15 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_BetterQuestObjectives-SpookyPhilterOfThePhantom.esp" destination="df_BetterQuestObjectives-SpookyPhilterOfThePhantom.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="bqo" value="On"/>
+					<flagDependency flag="scion" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_Scion-BetterQuestObjectives.esp" destination="df_Scion-BetterQuestObjectives.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- ****************************************** -->
@@ -4050,19 +4110,6 @@ Please download and endorse the original mod, but do not install it: https://www
 				</dependencies>
 				<files>
 					<file source="df_RealisticWaterTwo-Telengard.esp" destination="df_RealisticWaterTwo-Telengard.esp" priority="0" />
-				</files>
-			</pattern>
-			<!-- ************************************* -->
-
-			<!-- Embers HD -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="rw2" value="Off"/>
-					<flagDependency flag="oakwood" value="On"/>
-					<flagDependency flag="embers" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_Oakwood-EmbersHD.esp" destination="df_Oakwood-EmbersHD.esp" priority="0" />
 				</files>
 			</pattern>
 			<!-- ************************************* -->
@@ -4318,6 +4365,8 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="daedricvoices" value="On"/>
+					<flagDependency flag="rom" value="Off"/>
+					<flagDependency flag="sunhelm" value="Off"/>
 				</dependencies>
 				<files>
 					<file source="df_DaedricVoices-USSEP.esp" destination="df_DaedricVoices-USSEP.esp" priority="0" />
@@ -4333,6 +4382,87 @@ Please download and endorse the original mod, but do not install it: https://www
 				</files>
 			</pattern>
 			<!-- ***************************************************-->
+
+			<!-- Sunhelm -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="daedricvoices" value="On"/>
+					<flagDependency flag="sunhelm" value="On"/>
+					<flagDependency flag="rom" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_SunHelm-DaedricVoices.esp" destination="df_SunHelm-DaedricVoices.esp" priority="0" />
+				</files>
+			</pattern>
+			<!-- Sunhelm -->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="daedricvoices" value="On"/>
+					<flagDependency flag="falskaar" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_SunHelm-Falskaar.esp" destination="df_SunHelm-Falskaar.esp" priority="0" />
+				</files>
+			</pattern>
+
+			<!-- Reliquary Of Myth-->
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="rom" value="On"/>
+					<flagDependency flag="aos" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ReliquaryOfMyth-AudioOverhaulSkyrim.esp" destination="df_ReliquaryOfMyth-AudioOverhaulSkyrim.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="rom" value="On"/>
+					<flagDependency flag="moav" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ReliquaryOfMyth-MasqueOfArgonianVile.esp" destination="df_ReliquaryOfMyth-MasqueOfArgonianVile.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="rom" value="On"/>
+					<flagDependency flag="sunhelm" value="On"/>
+					<flagDependency flag="daedricvoices" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ReliquaryOfMyth-Sunhelm-DaedricVoices.esp" destination="df_ReliquaryOfMyth-Sunhelm-DaedricVoices.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="rom" value="On"/>
+					<flagDependency flag="sunhelm" value="On"/>
+					<flagDependency flag="daedricvoices" value="Off"/>
+				</dependencies>
+				<files>
+					<file source="df_ReliquaryOfMyth-Sunhelm.esp" destination="df_ReliquaryOfMyth-Sunhelm.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="rom" value="On"/>
+					<flagDependency flag="sunhelm" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ReliquaryOfMyth-SurvivalWarmthRatings.esp" destination="df_ReliquaryOfMyth-SurvivalWarmthRatings.esp" priority="0" />
+				</files>
+			</pattern>
+			<pattern>
+				<dependencies operator="And">
+					<flagDependency flag="rom" value="On"/>
+					<flagDependency flag="frozennorth" value="On"/>
+				</dependencies>
+				<files>
+					<file source="df_ReliquaryOfMyth-SurvivalWarmthRatings.esp" destination="df_ReliquaryOfMyth-SurvivalWarmthRatings.esp" priority="0" />
+				</files>
+			</pattern>
+
 
 			<!-- Relationship Dialogue Overhaul -->
 			<pattern>
@@ -4792,21 +4922,10 @@ Please download and endorse the original mod, but do not install it: https://www
 			</pattern>
 			<!-- *************************** -->
 			
-			<!-- Unlimited Bookshelves, Improved Closefaced Helmets -->
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="ubs" value="Off"/>
-					<flagDependency flag="imp" value="On"/>
-					<flagDependency flag="ccsurvival" value="Off"/>
-				</dependencies>
-				<files>
-					<file source="df_ImprovedClosefacedHelmets-USSEP.esp" destination="df_ImprovedClosefacedHelmets-USSEP.esp" priority="0" />
-				</files>
-			</pattern>
+			<!-- Unlimited Bookshelves -->
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="ubs" value="On"/>
-					<flagDependency flag="imp" value="Off"/>
 					<flagDependency flag="ccsurvival" value="Off"/>
 				</dependencies>
 				<files>
@@ -4816,42 +4935,10 @@ Please download and endorse the original mod, but do not install it: https://www
 			<pattern>
 				<dependencies operator="And">
 					<flagDependency flag="ubs" value="On"/>
-					<flagDependency flag="imp" value="On"/>
-					<flagDependency flag="ccsurvival" value="Off"/>
-				</dependencies>
-				<files>
-					<file source="df_UnlimitedBookshelves-ImprovedClosefacedHelmets.esp" destination="df_UnlimitedBookshelves-ImprovedClosefacedHelmets.esp" priority="0" />
-				</files>
-			</pattern>
-
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="ubs" value="Off"/>
-					<flagDependency flag="imp" value="On"/>
-					<flagDependency flag="ccsurvival" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_ImprovedClosefacedHelmets-SurvivalModeCC.esp" destination="df_ImprovedClosefacedHelmets-SurvivalModeCC.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="ubs" value="On"/>
-					<flagDependency flag="imp" value="Off"/>
 					<flagDependency flag="ccsurvival" value="On"/>
 				</dependencies>
 				<files>
 					<file source="df_UnlimitedBookshelves-SurvivalModeCC.esp" destination="df_UnlimitedBookshelves-SurvivalModeCC.esp" priority="0" />
-				</files>
-			</pattern>
-			<pattern>
-				<dependencies operator="And">
-					<flagDependency flag="ubs" value="On"/>
-					<flagDependency flag="imp" value="On"/>
-					<flagDependency flag="ccsurvival" value="On"/>
-				</dependencies>
-				<files>
-					<file source="df_UnlimitedBookshelves-SurvivalModeCC-ImprovedClosefacedHelmets.esp" destination="df_UnlimitedBookshelves-SurvivalModeCC-ImprovedClosefacedHelmets.esp" priority="0" />
 				</files>
 			</pattern>
 
@@ -5764,8 +5851,9 @@ Please download and endorse the original mod, but do not install it: https://www
 
 			<!-- Frozen North -->
 			<pattern>
-				<dependencies operator="And">
+				<dependencies operator="Or">
 					<flagDependency flag="frozennorth" value="On"/>	
+					<flagDependency flag="sunhelm" value="On"/>	
 				</dependencies>
 				<files>
 					<file source="df_USSEP-SurvivalWarmthRatings.esl" destination="df_USSEP-SurvivalWarmthRatings.esl" priority="0" />
